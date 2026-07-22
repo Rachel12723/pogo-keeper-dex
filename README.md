@@ -92,7 +92,7 @@ Notes:
 ## Quick in-game search strings
 
 Pokémon GO per-stat IV search uses a **0–4 bucket scale**: `0`=0IV · `1`=1–5 · `2`=6–10 ·
-`3`=11–14 · `4`=15. Star tiers: `4*`=100%, `3*`=82–99% (so use **`3-4*`** for "high IV" incl.
+`3`=11–14 · `4`=15. Star tiers: `4*`=100%, `3*`=82–99% (so use **`3*,4*`** for "high IV" incl.
 hundos). `+name`=**whole evolution line** (`+bulbasaur` → Bulbasaur/Ivysaur/Venusaur). `,`=OR
 (binds tighter), `&`=AND, `!`=NOT — a trailing `&filter` applies to the whole comma list.
 (If your client parses it per-name instead, repeat the filter after each name.)
@@ -100,7 +100,7 @@ hundos). `+name`=**whole evolution line** (`+bulbasaur` → Bulbasaur/Ivysaur/Ve
 **String 1 — KEEP (high IV): Mega / Raid / Master / Max-Battle + collection.** Collection wants a
 high-IV of each species too, so it lives here. Grab the best of each:
 ```
-+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3-4*
++bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3*,4*
 ```
 For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = perfect attack).
 
@@ -112,11 +112,11 @@ For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = 
 **Transfer — junk copies.** Same species as String 1 **minus Mudkip**, opposite IV filter — dumps the
 low-IV, non-shiny copies while keeping hundos + shinies:
 ```
-+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0-2*&!shiny
++bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0*,1*,2*&!shiny
 ```
 
 - The **6 PvP species** (squirtle/chikorita/totodile/mudkip/piplup/tepig) are **excluded from Transfer**
-  — their low-ATK gems read as low-star, so a `0-2*` filter would wrongly dump them.
+  — their low-ATK gems read as low-star, so a `0*,1*,2*` filter would wrongly dump them.
 - **Mudkip is in String 1 & String 2** — keep a hundo for Mega Swampert/ML *and* a low-ATK one for GL/UL.
 - **Review rares before transferring** — even low-IV **Beldum / Gible / Dreepy** are worth the candy.
 - **Galar starters (Grookey/Scorbunny/Sobble)** have Gigantamax Max-Battle value (G-Max Inteleon is

@@ -245,14 +245,14 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 """]
 S1 = ("+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,"
       "+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,"
-      "+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3-4*")
+      "+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3*,4*")
 S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp"
 ST = ("+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,"
       "+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,"
-      "+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0-2*&!shiny")
+      "+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0*,1*,2*&!shiny")
 h.append("<h2>Quick in-game search strings</h2>")
 h.append("<p class=note>Paste into the Pokémon GO search bar. <code>+name</code> = whole evolution "
-         "line, <code>3-4*</code> = high IV (incl. hundos); IV stats use a 0–4 scale (3–4 = 11–15 IV). "
+         "line, <code>3*,4*</code> = high IV (incl. hundos); IV stats use a 0–4 scale (3–4 = 11–15 IV). "
          "The 6 PvP species are excluded from Transfer so their low-star PvP gems aren't dumped.</p>")
 for label, s in [("KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)", S1),
                  ("PvP shape → then run Poke Genie (keep Rank % ≥ 95)", S2),
