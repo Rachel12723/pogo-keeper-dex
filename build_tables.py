@@ -127,6 +127,15 @@ FAMILIES = [
   ("Party Hat Wobbuffet (3★)", [("Collection", "Wobbuffet — not meta", COLL, "—", 1)],
      "Costume/shiny keep. (Wynaut is Little Cup #2, but the raid yields Wobbuffet, not Wynaut — no Little Cup use here.)"),
  ]),
+ ("Current Raid Bosses (leekduck.com/raid-bosses)", [
+  ("Solgaleo (5★)", [
+     ("Master", "Solgaleo #37", HI, "Fire Spin / Psychic Fangs / Iron Head", 1),
+     ("Raid / Fusion", "Steel/Psychic; fuse → Dusk Mane Necrozma (ML #31, top Steel raider)", HI, "Metal Claw / Sunsteel Strike", 1)],
+     "Legendary raid = 10/10/10 IV floor (no truly-bad ones). Keep a high-ATK / near-hundo for ML + the Dusk Mane fusion."),
+  ("Mega Salamence", [
+     ("Raid / Mega", "Mega Salamence (top Dragon/Flying raider); Salamence itself a strong Dragon attacker", HI, "Dragon Tail / Draco Meteor", 1)],
+     "PvP-fringe (ML #108, UL #321). Value is the Mega + as a Dragon raid attacker — keep a high-ATK one."),
+ ]),
 ]
 
 # ---- emit CSV ----
@@ -177,6 +186,7 @@ DEX = {
  "Fuecoco": 909, "Quaxly": 912, "Beldum": 374, "Gible": 443, "Dreepy": 885,
  "Party Hat Grimer (1★)": 88, "Party Hat Raticate (3★)": 20, "Party Hat Nidorino (3★)": 33,
  "Party Hat Gengar (3★)": 94, "Party Hat Wobbuffet (3★)": 202,
+ "Solgaleo (5★)": 791, "Mega Salamence": 373,
 }
 ART = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{}.png"
 
