@@ -12,17 +12,40 @@ are worth keeping, and with which IVs.
 
 Two opposite goals, so a species can want **two different IV builds**:
 
-| Purpose | You want | Poke Genie bar |
+| Purpose | You want | Bar |
 |---|---|---|
-| **Capped PvP** — Little (500) / Great (1500) / Ultra (2500) | **LOW Attack**, high DEF + HP | **PvP rank ≤ 100** (≈ stat-product **≥ 99.0%**) |
+| **Capped PvP** — Little (500) / Great (1500) / Ultra (2500) | **LOW Attack**, high DEF + HP | Poke Genie **Rank ≤ #100** (Rank% ≥ 97.6) |
 | **Master League + Raids + Mega** (no CP cap) | **HIGH Attack / overall** | appraisal **IV% ≥ 96%** (14/15/15) or **15 ATK**; hundo ideal |
 
+### Poke Genie shows THREE numbers — don't confuse them
+
+For each league Poke Genie's PvP tab shows e.g. `Rank 85.64% (#589)` and `Stat Prod 97.63%`,
+and the other screen shows the plain appraisal `%`:
+
+- **Ordinal `#N`** — the N-th best IV of 4096. *Use this — it's unambiguous.*
+- **Rank %** = a **percentile** = `(4096 − N) / 4096`. This is the big % most people read.
+- **Stat Prod %** — closeness of stat product to the #1 IV (very compressed; poor discriminator).
+- **Appraisal %** = `(ATK+DEF+HP)/45` — the in-game star rating. **Ignore this for capped PvP**
+  (a *high* appraisal % usually means high Attack = a *worse* GL/UL IV).
+
+Mapping so every threshold lines up:
+
+| Ordinal | Rank % (percentile) | Stat Prod % |
+|---|---|---|
+| ≤ #41  | 99.0 | ~99.8 |
+| ≤ #100 | **97.6** | ~99.0 |
+| ≤ #205 | **95.0** | ~98.7 |
+| ≤ #500 | 87.8 | ~98.0 |
+| ≤ #1000| 75.6 | ~97.0 |
+
+**Practical keeper bar (in the Rank % you read):** ≥ **95** (≤ #205) to keep & main;
+≥ 97.6 (≤ #100) for tournaments; ≥ ~88 (≤ #500) if it's your only copy — **but only for a
+top-~50 species that also reaches the CP cap.** There's no % where a *meta* species becomes
+worthless; it just gets outclassed. Species viability is the gate; this % is the tiebreaker.
+
 Notes:
-- The percentage Poke Genie shows on the card is the **stat-product %** (100.0% = that
-  species' rank-1 PvP IV). Tap in to see the ordinal **rank / 4096**. Mapping:
-  rank ≤100 ≈ **99%**, ≤500 ≈ 98%, ≤1000 ≈ 97%. Keep at **≥99%** to match "rank ≤100".
-- 0-attack spreads (0/15/15, 0/14/15, 1/15/15…) are usually **rank single digits** for
-  most species, so they clear the capped-PvP bar easily.
+- 0-attack spreads (0/15/15, 0/14/15, 1/15/15…) are usually **ordinal single digits** for
+  most species, so they clear the capped-PvP bar easily — even though their *appraisal* % looks low.
 - **Reaching the CP cap matters as much as rank** — a rank-10 IV that only hits 1,420 in
   GL is worse than a rank-60 one that hits 1,498. Poke Genie shows the max CP; check it.
 - **Species viability is a gate; IV quality is only a tiebreaker.** A perfect 0/15/15 of a

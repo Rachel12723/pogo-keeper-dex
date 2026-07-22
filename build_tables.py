@@ -28,7 +28,7 @@ def rk(sid, lg):
 
 
 # IV target shorthands
-PVP = "PvP rank ≤100  (≈ stat-prod ≥99% / low ATK)"
+PVP = "Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK)"
 HI = "IV% ≥96% or 15 ATK  (high ATK)"
 COLL = "1× best IV or shiny"
 
