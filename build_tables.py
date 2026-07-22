@@ -166,3 +166,75 @@ for section, fams in FAMILIES:
 md_path = os.path.join(HERE, "KEEPERS.md")
 open(md_path, "w").write("\n".join(md) + "\n")
 print("wrote", md_path)
+
+# ---- emit HTML (with sprites) ----
+DEX = {
+ "Bulbasaur": 1, "Charmander": 4, "Squirtle": 7, "Chikorita": 152, "Cyndaquil": 155,
+ "Totodile": 158, "Treecko": 252, "Torchic": 255, "Mudkip": 258, "Turtwig": 387,
+ "Chimchar": 390, "Piplup": 393, "Snivy": 495, "Tepig": 498, "Oshawott": 501,
+ "Chespin": 650, "Fennekin": 653, "Froakie": 656, "Rowlet": 722, "Litten": 725,
+ "Popplio": 728, "Grookey": 810, "Scorbunny": 813, "Sobble": 816, "Sprigatito": 906,
+ "Fuecoco": 909, "Quaxly": 912, "Beldum": 374, "Gible": 443, "Dreepy": 885,
+ "Party Hat Grimer (1★)": 88, "Party Hat Raticate (3★)": 20, "Party Hat Nidorino (3★)": 33,
+ "Party Hat Gengar (3★)": 94, "Party Hat Wobbuffet (3★)": 202,
+}
+ART = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{}.png"
+
+
+def cls(lg):
+    l = lg.lower()
+    if "collection" in l:
+        return "coll"
+    if "raid" in l or "master" in l:
+        return "hi"
+    return "pvp"
+
+
+h = ["""<!doctype html><html lang=en><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Ultra Unlock 10th Anniversary — IV Keepers</title>
+<style>
+:root{color-scheme:light dark}
+body{font:15px/1.45 -apple-system,Segoe UI,Roboto,sans-serif;margin:0;padding:24px;
+ background:#0f1216;color:#e7edf3}
+h1{font-size:24px;margin:0 0 4px} .sub{color:#9aa7b4;margin:0 0 20px;max-width:70ch}
+h2{font-size:16px;margin:28px 0 8px;color:#cdd8e3;border-bottom:1px solid #2a3340;padding-bottom:6px}
+table{border-collapse:collapse;width:100%;margin-bottom:8px}
+td,th{padding:7px 9px;border-bottom:1px solid #222b35;vertical-align:middle;text-align:left}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#8ea0b2}
+img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
+.mon{font-weight:600;white-space:nowrap}
+.tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:12px;font-weight:600}
+.pvp{background:#12351f;color:#7ee2a3} .hi{background:#3a1f12;color:#ffb27a}
+.coll{background:#23282e;color:#9aa7b4}
+.rank{font-variant-numeric:tabular-nums} .note{color:#8ea0b2;font-size:13px}
+.keep{text-align:center;font-weight:700} .tot{text-align:center;font-weight:700;color:#ffd166}
+.legend span{margin-right:14px}
+</style>
+<h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
+<p class=sub>PvP ranks from pvpoke (pulled 2026-07-21). <b class=tag style="background:none;color:#7ee2a3">green = capped PvP</b> keep low ATK / high DEF+HP (rank &le;100).
+<b class=tag style="background:none;color:#ffb27a">orange = Master/Raid/Mega</b> keep high ATK (IV% &ge;96 / 15 ATK).
+<b class=tag style="background:none;color:#9aa7b4">grey = collection</b> keep 1 best/shiny.</p>
+"""]
+for section, fams in FAMILIES:
+    h.append(f"<h2>{section}</h2>")
+    h.append("<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>"
+             "<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>")
+    for spawn, rows, note in fams:
+        total = sum(r[4] for r in rows)
+        n = len(rows)
+        dex = DEX.get(spawn)
+        img = f'<img loading=lazy src="{ART.format(dex)}" alt="">' if dex else ""
+        for i, (lg, form, iv, mv, keep) in enumerate(rows):
+            c1 = f'<td rowspan={n} style="text-align:center">{img}</td>' if i == 0 else ""
+            c2 = f'<td rowspan={n} class=mon>{spawn}</td>' if i == 0 else ""
+            ct = f'<td rowspan={n} class=tot>{total}</td>' if i == 0 else ""
+            h.append(f"<tr>{c1}{c2}<td><span class='tag {cls(lg)}'>{lg}</span></td>"
+                     f"<td class=rank>{form}</td><td class=note>{iv}</td>"
+                     f"<td>{mv}</td><td class=keep>{keep}</td>{ct}</tr>")
+        h.append(f"<tr><td></td><td></td><td colspan=6 class=note>{note}</td></tr>")
+    h.append("</table>")
+h.append("</html>")
+html_path = os.path.join(HERE, "index.html")
+open(html_path, "w").write("\n".join(h))
+print("wrote", html_path)
