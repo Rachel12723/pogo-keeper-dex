@@ -11,21 +11,21 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No league top-50 (Venusaur best UL #224). Bulbasaur Little #275 — not viable.* | | | | |
 | Charmander | Raid / Mega | Mega Charizard X & Y (Y = top Fire raider) | IV% ≥96% or 15 ATK  (high ATK) | Fire Spin / Blast Burn | 2 | 2 |
 | | | *† One Charizard Mega-evolves into EITHER X or Y — 1 hundo mechanically covers both. No PvP top-50.* | | | | |
-| Squirtle | Ultra | Blastoise #22 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Rollout / Hydro Cannon / Skull Bash | 1 | 2 |
+| Squirtle | Ultra | Blastoise #22 | Rank % ≥ 97.6  (≤ #100; low ATK) | Rollout / Hydro Cannon / Skull Bash | 1 | 2 |
 |  | Raid / Mega | Mega Blastoise (weak raider — optional) | IV% ≥96% or 15 ATK  (high ATK) | Water Gun / Hydro Cannon | 1 |  |
 | | | *Blastoise GL #51 (near-miss — a low-ATK one is usable in GL too). Mega is outclassed; hundo optional.* | | | | |
-| Chikorita | Little Cup | Chikorita #41 (base) | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Vine Whip / Body Slam / Grass Knot | 1 | 1 |
+| Chikorita | Little Cup | Chikorita #41 (base) | Rank % ≥ 97.6  (≤ #100; low ATK) | Vine Whip / Body Slam / Grass Knot | 1 | 1 |
 | | | *Only Little Cup. Meganium not a raider; no mega.* | | | | |
 | Cyndaquil | Collection | Typhlosion — budget Fire attacker, outclassed | 1× best IV or shiny | Ember / Blast Burn | 1 | 1 |
 | | | *No PvP top-50, no mega. (Hisuian Typhlosion is the good one — different mon.)* | | | | |
-| Totodile | Great | Feraligatr #14 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Shadow Claw / Hydro Cannon / Ice Beam | 1 | 2 |
-|  | Ultra | Feraligatr #46 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Shadow Claw / Hydro Cannon / Ice Beam | 1 |  |
+| Totodile | Great | Feraligatr #14 | Rank % ≥ 97.6  (≤ #100; low ATK) | Shadow Claw / Hydro Cannon / Ice Beam | 1 | 2 |
+|  | Ultra | Feraligatr #46 | Rank % ≥ 97.6  (≤ #100; low ATK) | Shadow Claw / Hydro Cannon / Ice Beam | 1 |  |
 | | | *Strong in both capped leagues. No mega.* | | | | |
 | Treecko | Raid / Mega | Mega Sceptile (top Grass raider) | IV% ≥96% or 15 ATK  (high ATK) | Fury Cutter / Frenzy Plant | 1 | 1 |
 | | | *No PvP top-50 (Sceptile best GL #446). Value is the Mega.* | | | | |
 | Torchic | Raid / Mega | Mega Blaziken (strong Fire/Fighting) | IV% ≥96% or 15 ATK  (high ATK) | Counter / Blast Burn | 1 | 1 |
 | | | *No PvP top-50. Value is the Mega.* | | | | |
-| Mudkip | Ultra | Swampert #45 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Mud Shot / Hydro Cannon / Earthquake | 1 | 2 |
+| Mudkip | Ultra | Swampert #45 | Rank % ≥ 97.6  (≤ #100; low ATK) | Mud Shot / Hydro Cannon / Earthquake | 1 | 2 |
 |  | Raid / Mega | Mega Swampert (top Water raider) | IV% ≥96% or 15 ATK  (high ATK) | Water Gun / Hydro Cannon | 1 |  |
 | | | *Swampert GL #64 & ML #105 = near-misses/budget — the UL low-ATK one also plays GL. Mega + ML both want a hundo.* | | | | |
 
@@ -37,12 +37,12 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No PvP top-50.* | | | | |
 | Chimchar | Collection | Infernape — glass attacker, outclassed | 1× best IV or shiny | Fire Spin / Blast Burn | 1 | 1 |
 | | | *No PvP top-50, no mega.* | | | | |
-| Piplup | Great | Empoleon #5 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Metal Sound / Hydro Cannon / Drill Peck | 1 | 2 |
-|  | Ultra | Empoleon #9 | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Metal Sound / Hydro Cannon / Drill Peck | 1 |  |
+| Piplup | Great | Empoleon #5 | Rank % ≥ 97.6  (≤ #100; low ATK) | Metal Sound / Hydro Cannon / Drill Peck | 1 | 2 |
+|  | Ultra | Empoleon #9 | Rank % ≥ 97.6  (≤ #100; low ATK) | Metal Sound / Hydro Cannon / Drill Peck | 1 |  |
 | | | *Top-tier in both capped leagues. No mega.* | | | | |
 | Snivy | Collection | Serperior — fringe | 1× best IV or shiny | — | 1 | 1 |
 | | | *No PvP top-50, no mega.* | | | | |
-| Tepig | Little Cup | Tepig #48 (base) | Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK) | Ember / Body Slam / Flame Charge | 1 | 1 |
+| Tepig | Little Cup | Tepig #48 (base) | Rank % ≥ 97.6  (≤ #100; low ATK) | Ember / Body Slam / Flame Charge | 1 | 1 |
 | | | *Only Little Cup. Emboar not meta.* | | | | |
 | Oshawott | Collection | Samurott — regular form meh | 1× best IV or shiny | — | 1 | 1 |
 | | | *Hisuian Samurott is the PvP one (needs Hisuian Oshawott, a different mon).* | | | | |

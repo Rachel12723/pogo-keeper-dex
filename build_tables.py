@@ -28,7 +28,7 @@ def rk(sid, lg):
 
 
 # IV target shorthands
-PVP = "Poke Genie rank ≤ #100  (Rank% ≥97.6; low ATK)"
+PVP = "Rank % ≥ 97.6  (≤ #100; low ATK)"
 HI = "IV% ≥96% or 15 ATK  (high ATK)"
 COLL = "1× best IV or shiny"
 
@@ -210,11 +210,24 @@ img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
 .rank{font-variant-numeric:tabular-nums} .note{color:#8ea0b2;font-size:13px}
 .keep{text-align:center;font-weight:700} .tot{text-align:center;font-weight:700;color:#ffd166}
 .legend span{margin-right:14px}
+.tiers{background:#141a21;border:1px solid #2a3340;border-radius:10px;padding:12px 16px;
+ margin:0 0 18px;max-width:80ch}
+.tiers b{color:#e7edf3} .tiers ul{margin:8px 0 6px;padding-left:20px} .tiers li{margin:2px 0}
+.tiers .pct{color:#7ee2a3;font-weight:700;font-variant-numeric:tabular-nums}
 </style>
 <h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
-<p class=sub>PvP ranks from pvpoke (pulled 2026-07-21). <b class=tag style="background:none;color:#7ee2a3">green = capped PvP</b> keep low ATK / high DEF+HP (rank &le;100).
+<p class=sub>PvP ranks from pvpoke (pulled 2026-07-21). <b class=tag style="background:none;color:#7ee2a3">green = capped PvP</b> keep low ATK / high DEF+HP.
 <b class=tag style="background:none;color:#ffb27a">orange = Master/Raid/Mega</b> keep high ATK (IV% &ge;96 / 15 ATK).
 <b class=tag style="background:none;color:#9aa7b4">grey = collection</b> keep 1 best/shiny.</p>
+<div class=tiers>
+<b>Capped-PvP keeper bar</b> — read Poke Genie's <b>Rank %</b> (the percentile, e.g. &ldquo;Rank 85.64%&rdquo;) — <b>not</b> the appraisal star %:
+<ul>
+<li>&#127942; Tournament / perfect &mdash; <span class=pct>Rank % &ge; 97.6</span> &nbsp;(&le; #100)</li>
+<li>&#9989; Keep &amp; main it (recommended) &mdash; <span class=pct>Rank % &ge; 95</span> &nbsp;(&le; #205)</li>
+<li>&#128076; Fine if it&rsquo;s your only copy &mdash; <span class=pct>Rank % &ge; 88</span> &nbsp;(&le; #500)</li>
+</ul>
+&hellip;only for a <b>top-~50 species</b> that also <b>reaches the CP cap</b>. Master / Raid / Mega ignore this &mdash; use appraisal <b>IV% &ge; 96</b> / 15 ATK.
+</div>
 """]
 for section, fams in FAMILIES:
     h.append(f"<h2>{section}</h2>")
