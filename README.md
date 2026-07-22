@@ -97,23 +97,30 @@ hundos). `+name`=**whole evolution line** (`+bulbasaur` → Bulbasaur/Ivysaur/Ve
 (binds tighter), `&`=AND, `!`=NOT — a trailing `&filter` applies to the whole comma list.
 (If your client parses it per-name instead, repeat the filter after each name.)
 
-**Keep high-IV (Mega / Raid / Master families):**
+**String 1 — KEEP (high IV): Mega / Raid / Master / Max-Battle + collection.** Collection wants a
+high-IV of each species too, so it lives here. Grab the best of each:
 ```
-+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy&3-4*
++bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3-4*
 ```
-For raid/Mega attack focus, append `&3-4attack` (or `&4attack` = perfect attack).
+For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = perfect attack).
 
-**PvP candidates → low-ATK / high-bulk, then run Poke Genie (keep Rank % ≥ 95):**
+**String 2 — PvP shape** (capped-league species) → low-ATK / high-bulk, then Poke Genie (keep Rank % ≥ 95):
 ```
 +squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp
 ```
 
-**Safe transfer pile (collection-only species; protects shinies + hundos):**
+**Transfer — junk copies.** Same species as String 1 **minus Mudkip**, opposite IV filter — dumps the
+low-IV, non-shiny copies while keeping hundos + shinies:
 ```
-+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&!shiny&!4*
++bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0-2*&!shiny
 ```
 
-- **Mudkip is in both** keeper strings — keep a low-ATK one for GL/UL *and* a hundo for Mega/ML.
+- The **6 PvP species** (squirtle/chikorita/totodile/mudkip/piplup/tepig) are **excluded from Transfer**
+  — their low-ATK gems read as low-star, so a `0-2*` filter would wrongly dump them.
+- **Mudkip is in String 1 & String 2** — keep a hundo for Mega Swampert/ML *and* a low-ATK one for GL/UL.
+- **Review rares before transferring** — even low-IV **Beldum / Gible / Dreepy** are worth the candy.
+- **Galar starters (Grookey/Scorbunny/Sobble)** have Gigantamax Max-Battle value (G-Max Inteleon is
+  the top Water Max attacker) — keep high-ATK ones.
 - **Raids** (few catches, judge individually): high-IV **Party Hat Gengar** (Mega Gengar) &
   **Solgaleo** (ML #37) + a junk Solgaleo to fuse; high-ATK **Mega Salamence**. Other Party Hats
   = shiny/costume only.

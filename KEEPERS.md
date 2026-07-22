@@ -67,8 +67,8 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No PvP top-50, no mega.* | | | | |
 | Scorbunny | Collection | Cinderace — glass, niche | 1× best IV or shiny | — | 1 | 1 |
 | | | *No mega.* | | | | |
-| Sobble | Collection | Inteleon — not meta | 1× best IV or shiny | — | 1 | 1 |
-| | | *No mega.* | | | | |
+| Sobble | Raid / Max | Inteleon #16 Water attacker (w/ Hydro Cannon or Snipe Shot); G-Max = TOP Water in Max Battles | IV% ≥96% or 15 ATK  (high ATK) | Water Gun / Snipe Shot (or Hydro Cannon) | 1 | 1 |
+| | | *Sobble CD was 4 Jul 2026 — evolve for the CD move. Keep a high-ATK one for Water raids + Max Battles. Not top-50 PvP.* | | | | |
 | Sprigatito | Collection | Meowscarada — glass, niche | 1× best IV or shiny | — | 1 | 1 |
 | | | *No mega.* | | | | |
 | Fuecoco | Collection / watch | Skeledirge — UL #94, ML #109 (just outside) | 1× best IV or shiny | Incinerate / Torch Song / Shadow Ball | 1 | 1 |
