@@ -225,6 +225,9 @@ img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
  margin:0 0 18px;max-width:80ch}
 .tiers b{color:#1b2733} .tiers ul{margin:8px 0 6px;padding-left:20px} .tiers li{margin:2px 0}
 .tiers .pct{color:#14713a;font-weight:700;font-variant-numeric:tabular-nums}
+.ss b{font-size:13px} .ss code{background:#eef1f4;padding:1px 4px;border-radius:4px}
+pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
+ border-radius:8px;padding:10px 12px;font-size:13px;margin:4px 0 14px;max-width:90ch}
 </style>
 <h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
 <p class=sub>PvP ranks from pvpoke (pulled 2026-07-21). <b class=tag style="background:none;color:#14713a">green = capped PvP</b> keep low ATK / high DEF+HP.
@@ -240,6 +243,21 @@ img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
 &hellip;only for a <b>top-~50 species</b> that also <b>reaches the CP cap</b>. Master / Raid / Mega ignore this &mdash; use appraisal <b>IV% &ge; 96</b> / 15 ATK.
 </div>
 """]
+S1 = ("+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,"
+      "+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,"
+      "+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3-4*")
+S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp"
+ST = ("+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,"
+      "+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,"
+      "+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0-2*&!shiny")
+h.append("<h2>Quick in-game search strings</h2>")
+h.append("<p class=note>Paste into the Pokémon GO search bar. <code>+name</code> = whole evolution "
+         "line, <code>3-4*</code> = high IV (incl. hundos); IV stats use a 0–4 scale (3–4 = 11–15 IV). "
+         "The 6 PvP species are excluded from Transfer so their low-star PvP gems aren't dumped.</p>")
+for label, s in [("KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)", S1),
+                 ("PvP shape → then run Poke Genie (keep Rank % ≥ 95)", S2),
+                 ("TRANSFER — junk copies (low IV, non-shiny)", ST)]:
+    h.append(f"<div class=ss><b>{label}</b><pre>{s}</pre></div>")
 for section, fams in FAMILIES:
     h.append(f"<h2>{section}</h2>")
     h.append("<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>"
