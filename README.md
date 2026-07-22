@@ -93,23 +93,24 @@ Notes:
 
 Pokémon GO per-stat IV search uses a **0–4 bucket scale**: `0`=0IV · `1`=1–5 · `2`=6–10 ·
 `3`=11–14 · `4`=15. Star tiers: `4*`=100%, `3*`=82–99% (so use **`3-4*`** for "high IV" incl.
-hundos). `,`=OR (binds tighter), `&`=AND, `!`=NOT — a trailing `&filter` applies to the whole
-comma list. (If your client parses it per-name instead, repeat the filter after each name.)
+hundos). `+name`=**whole evolution line** (`+bulbasaur` → Bulbasaur/Ivysaur/Venusaur). `,`=OR
+(binds tighter), `&`=AND, `!`=NOT — a trailing `&filter` applies to the whole comma list.
+(If your client parses it per-name instead, repeat the filter after each name.)
 
 **Keep high-IV (Mega / Raid / Master families):**
 ```
-bulbasaur,charmander,treecko,torchic,mudkip,popplio,beldum,gible,dreepy&3-4*
++bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy&3-4*
 ```
 For raid/Mega attack focus, append `&3-4attack` (or `&4attack` = perfect attack).
 
 **PvP candidates → low-ATK / high-bulk, then run Poke Genie (keep Rank % ≥ 95):**
 ```
-squirtle,chikorita,totodile,mudkip,piplup,tepig&0-1attack&3-4defense&3-4hp
++squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp
 ```
 
 **Safe transfer pile (collection-only species; protects shinies + hundos):**
 ```
-cyndaquil,turtwig,chimchar,snivy,oshawott,chespin,fennekin,froakie,rowlet,litten,grookey,scorbunny,sobble,sprigatito,fuecoco,quaxly&!shiny&!4*
++cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&!shiny&!4*
 ```
 
 - **Mudkip is in both** keeper strings — keep a low-ATK one for GL/UL *and* a hundo for Mega/ML.
