@@ -108,8 +108,8 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 
 | Spawn | League / Purpose | Best form & rank | IV target | Moveset | Keep | Total |
 |---|---|---|---|---|:--:|:--:|
-| Solgaleo (5★) | Master | Solgaleo #37 | IV% ≥96% or 15 ATK  (high ATK) | Fire Spin / Psychic Fangs / Iron Head | 1 | 2 |
-|  | Raid / Fusion | Steel/Psychic; fuse → Dusk Mane Necrozma (ML #31, top Steel raider) | IV% ≥96% or 15 ATK  (high ATK) | Metal Claw / Sunsteel Strike | 1 |  |
-| | | *Legendary raid = 10/10/10 IV floor (no truly-bad ones). Keep a high-ATK / near-hundo for ML + the Dusk Mane fusion.* | | | | |
+| Solgaleo (5★) | Master | Solgaleo #37 (to run Solgaleo itself) | IV% ≥96% or 15 ATK  (high ATK) | Fire Spin / Psychic Fangs / Iron Head | 1 | 2 |
+|  | Raid / Fusion | Fuse → Dusk Mane Necrozma (ML #31, top Steel raider) — inherits NECROZMA's IVs | Any IV (fusion uses Necrozma's, not Solgaleo's) | Metal Claw / Sunsteel Strike | 1 |  |
+| | | *Fusion takes Necrozma's stats, NOT Solgaleo's — fuse with a JUNK Solgaleo, save your hundo Necrozma. A high-ATK Solgaleo is only worth it to run Solgaleo itself in ML (#37). Legendary raid = 10/10/10 IV floor.* | | | | |
 | Mega Salamence | Raid / Mega | Mega Salamence (top Dragon/Flying raider); Salamence itself a strong Dragon attacker | IV% ≥96% or 15 ATK  (high ATK) | Dragon Tail / Draco Meteor | 1 | 1 |
 | | | *PvP-fringe (ML #108, UL #321). Value is the Mega + as a Dragon raid attacker — keep a high-ATK one.* | | | | |
