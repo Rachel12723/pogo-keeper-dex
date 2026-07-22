@@ -133,8 +133,8 @@ FAMILIES = [
      ("Raid / Fusion", "Fuse → Dusk Mane Necrozma (ML #31, top Steel raider) — inherits NECROZMA's IVs", "Any IV (fusion uses Necrozma's, not Solgaleo's)", "Metal Claw / Sunsteel Strike", 1)],
      "Fusion takes Necrozma's stats, NOT Solgaleo's — fuse with a JUNK Solgaleo, save your hundo Necrozma. A high-ATK Solgaleo is only worth it to run Solgaleo itself in ML (#37). Legendary raid = 10/10/10 IV floor."),
   ("Mega Salamence", [
-     ("Raid / Mega", "Mega Salamence (top Dragon/Flying raider); Salamence itself a strong Dragon attacker", HI, "Dragon Tail / Draco Meteor", 1)],
-     "PvP-fringe (ML #108, UL #321). Value is the Mega + as a Dragon raid attacker — keep a high-ATK one."),
+     ("Raid / Mega", "Mega Salamence — top-tier mega Dragon/Flying raider (behind Mega Rayquaza, ≈ Mega Latios)", HI, "Dragon Tail / Draco Meteor", 1)],
+     "PvP-fringe (ML #108, UL #321). Not #1 dragon — Mega Rayquaza leads — but far more accessible, and you can bring your own mega for the party damage boost. Keep a high-ATK one."),
  ]),
 ]
 
