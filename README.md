@@ -97,11 +97,12 @@ hundos). `+name`=**whole evolution line** (`+bulbasaur` → Bulbasaur/Ivysaur/Ve
 (binds tighter), `&`=AND, `!`=NOT — a trailing `&filter` applies to the whole comma list.
 (If your client parses it per-name instead, repeat the filter after each name.)
 
-**String 1 — KEEP (high IV): Mega / Raid / Master / Max-Battle + collection.** Collection wants a
-high-IV of each species too, so it lives here. Grab the best of each:
+**String 1 — KEEP (high IV): a good copy of EVERY species** (all 30 wild + lure — Mega / Raid /
+Master / Max-Battle / PvP / collection). Grab the best of each:
 ```
-+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3*,4*
++bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&3*,4*
 ```
+(Raid bosses — Party Hats / Solgaleo / Salamence — aren't here; you catch few, judge by hand.)
 For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = perfect attack).
 
 **String 2 — PvP shape** (capped-league species) → low-ATK / high-bulk, then Poke Genie (keep Rank % ≥ 95):

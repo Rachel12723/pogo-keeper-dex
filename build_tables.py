@@ -243,9 +243,10 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 &hellip;only for a <b>top-~50 species</b> that also <b>reaches the CP cap</b>. Master / Raid / Mega ignore this &mdash; use appraisal <b>IV% &ge; 96</b> / 15 ATK.
 </div>
 """]
-S1 = ("+bulbasaur,+charmander,+treecko,+torchic,+mudkip,+popplio,+beldum,+gible,+dreepy,"
-      "+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,"
-      "+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&3*,4*")
+S1 = ("+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,"
+      "+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,"
+      "+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,"
+      "+beldum,+gible,+dreepy&3*,4*")
 S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp"
 ST = ("+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,"
       "+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,"
