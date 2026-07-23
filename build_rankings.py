@@ -34,6 +34,22 @@ def dex_of(sid):
     return DEX.get(sid) or DEX.get(sid.replace("_shadow", ""))
 
 
+BY = {p["speciesId"]: p for p in poke}
+
+
+def base_of(sid):
+    """Walk family.parent up to the base form (shadow stripped for lookup)."""
+    cur = sid if sid in BY else sid.replace("_shadow", "")
+    seen = set()
+    while cur in BY and cur not in seen:
+        seen.add(cur)
+        parent = (BY[cur].get("family") or {}).get("parent")
+        if not parent:
+            break
+        cur = parent
+    return cur
+
+
 # full ranked lists + rank lookup
 full = {}
 rankpos = {}
@@ -67,11 +83,13 @@ for key, disp, short, cut in LEAGUES:
     rows = []
     for i, e in enumerate(full[key][:cut]):
         sid = e["speciesId"]
+        base = base_of(sid)
         others = [(k2, r2) for (k2, r2, _sc) in quals[sid] if k2 != key]
         rows.append({
             "sid": sid,
-            "name": e["speciesName"],
-            "dex": dex_of(sid),
+            "base_name": BY.get(base, {}).get("speciesName", e["speciesName"]),
+            "base_dex": DEX.get(base) or dex_of(sid),
+            "best": e["speciesName"],
             "others": others,
             "rank": i + 1,
             "score": round(e["score"], 1),
@@ -89,7 +107,7 @@ with open(os.path.join(HERE, "rankings.csv"), "w", newline="") as fh:
     for title, key, rows in sections:
         for r in rows:
             other = " · ".join(f"{SHORT[k2]} #{r2}" for k2, r2 in r["others"]) or "—"
-            w.writerow([title, r["name"], other, f"#{r['rank']} (score {r['score']})",
+            w.writerow([title, r["base_name"], other, f"{r['best']} #{r['rank']} (score {r['score']})",
                         r["iv"], r["moves"], 1, r["total"]])
 print("wrote rankings.csv")
 
@@ -117,6 +135,7 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 <h1>Pokémon GO PvP Rankings — by League</h1>
 <p style="margin:0 0 10px"><a href="index.html">→ Ultra Unlock event keeper guide</a></p>
 <p class=sub>pvpoke overall rankings (pulled 2026-07-21). Sections are leagues, ordered by rank.
+The <b>Spawn</b> sprite/name is the <i>base</i> form (what you catch); <b>Best form &amp; rank</b> is the ideal evolved form.
 <b>League / Purpose</b> = the mon's <i>other</i> leagues within these cutoffs.
 <b>Keep</b> = 1 per league row; <b>Total</b> = how many of the 4 leagues it ranks in (copies worth keeping).
 Capped leagues want <b>low ATK / high bulk</b>; Master wants <b>high ATK</b>. Shadow forms included.</p>
@@ -126,10 +145,10 @@ for title, key, rows in sections:
     h.append("<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>"
              "<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>")
     for r in rows:
-        img = f'<img loading=lazy src="{ART.format(r["dex"])}" alt="">' if r["dex"] else ""
+        img = f'<img loading=lazy src="{ART.format(r["base_dex"])}" alt="">' if r["base_dex"] else ""
         other = " ".join(f'<span class="lg {SHORT[k2]}">{SHORT[k2]} #{r2}</span>' for k2, r2 in r["others"]) or '<span class=note>—</span>'
-        h.append(f'<tr><td style="text-align:center">{img}</td><td class=mon>{r["name"]}</td>'
-                 f'<td>{other}</td><td class=rank>#{r["rank"]} <span class=note>· {r["score"]}</span></td>'
+        h.append(f'<tr><td style="text-align:center">{img}</td><td class=mon>{r["base_name"]}</td>'
+                 f'<td>{other}</td><td class=rank><b>{r["best"]}</b> #{r["rank"]} <span class=note>· {r["score"]}</span></td>'
                  f'<td class=note>{r["iv"]}</td><td>{r["moves"]}</td>'
                  f'<td class=keep>1</td><td class=tot>{r["total"]}</td></tr>')
     h.append("</table>")
