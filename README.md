@@ -110,14 +110,15 @@ For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = 
 +squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp
 ```
 
-**Transfer — junk copies.** Same species as String 1 **minus Mudkip**, opposite IV filter — dumps the
-low-IV, non-shiny copies while keeping hundos + shinies:
+**Transfer — junk copies.** All 30 species (same as String 1), opposite IV filter — dumps low-IV,
+non-shiny, **non-tagged** copies while keeping hundos, shinies, and your tagged PvP gems:
 ```
-+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0*,1*,2*&!shiny
++bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&0*,1*,2*&!shiny&!pvp
 ```
 
-- The **6 PvP species** (squirtle/chikorita/totodile/mudkip/piplup/tepig) are **excluded from Transfer**
-  — their low-ATK gems read as low-star, so a `0*,1*,2*` filter would wrongly dump them.
+- **Order matters:** run String 2 → nickname each PvP keeper so its name contains **`pvp`** →
+  *then* run Transfer. `!pvp` protects the tagged low-star PvP gems that `0*,1*,2*` would otherwise dump.
+  (Change `pvp` to whatever tag you use.)
 - **Mudkip is in String 1 & String 2** — keep a hundo for Mega Swampert/ML *and* a low-ATK one for GL/UL.
 - **Review rares before transferring** — even low-IV **Beldum / Gible / Dreepy** are worth the candy.
 - **Galar starters (Grookey/Scorbunny/Sobble)** have Gigantamax Max-Battle value (G-Max Inteleon is

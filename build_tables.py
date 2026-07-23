@@ -248,13 +248,16 @@ S1 = ("+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko
       "+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,"
       "+beldum,+gible,+dreepy&3*,4*")
 S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp"
-ST = ("+bulbasaur,+charmander,+treecko,+torchic,+popplio,+beldum,+gible,+dreepy,+cyndaquil,"
-      "+turtwig,+chimchar,+snivy,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,"
-      "+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly&0*,1*,2*&!shiny")
+ST = ("+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,"
+      "+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,"
+      "+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,"
+      "+beldum,+gible,+dreepy&0*,1*,2*&!shiny&!pvp")
 h.append("<h2>Quick in-game search strings</h2>")
 h.append("<p class=note>Paste into the Pokémon GO search bar. <code>+name</code> = whole evolution "
          "line, <code>3*,4*</code> = high IV (incl. hundos); IV stats use a 0–4 scale (3–4 = 11–15 IV). "
-         "The 6 PvP species are excluded from Transfer so their low-star PvP gems aren't dumped.</p>")
+         "<b>Order:</b> run String 2 first, nickname each PvP keeper so its name contains "
+         "<code>pvp</code>, THEN run Transfer — <code>!pvp</code> + <code>!shiny</code> + the "
+         "<code>0*,1*,2*</code> filter keep your tagged gems, shinies, and hundos safe.</p>")
 for label, s in [("KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)", S1),
                  ("PvP shape → then run Poke Genie (keep Rank % ≥ 95)", S2),
                  ("TRANSFER — junk copies (low IV, non-shiny)", ST)]:
