@@ -35,15 +35,20 @@ def dex_of(sid):
 
 
 BY = {p["speciesId"]: p for p in poke}
+# reverse map: some entries lack family.parent but a pre-evo lists them in evolutions
+PARENT = {}
+for _p in poke:
+    for _evo in ((_p.get("family") or {}).get("evolutions") or []):
+        PARENT.setdefault(_evo, _p["speciesId"])
 
 
 def base_of(sid):
-    """Walk family.parent up to the base form (shadow stripped for lookup)."""
+    """Climb to the base form via family.parent, falling back to reverse-evolution map."""
     cur = sid if sid in BY else sid.replace("_shadow", "")
     seen = set()
-    while cur in BY and cur not in seen:
+    while cur not in seen:
         seen.add(cur)
-        parent = (BY[cur].get("family") or {}).get("parent")
+        parent = (BY.get(cur, {}).get("family") or {}).get("parent") or PARENT.get(cur)
         if not parent:
             break
         cur = parent
