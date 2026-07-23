@@ -116,6 +116,9 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 .lg{display:inline-block;padding:1px 6px;border-radius:9px;font-size:12px;font-weight:700}
 .LC{background:#efe7f7;color:#6b3fa0} .GL{background:#e3f6ea;color:#14713a}
 .UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8}
+.ss b{font-size:13px} .ss code{background:#eef1f4;padding:1px 4px;border-radius:4px}
+pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
+ border-radius:8px;padding:10px 12px;font-size:12px;margin:4px 0 14px}
 </style>
 <h1>Pokémon GO PvP Rankings — by Pokédex #</h1>
 <p style="margin:0 0 10px"><a href="rankings.html">→ by League view</a> &nbsp;·&nbsp; <a href="index.html">→ Ultra Unlock event guide</a></p>
@@ -123,8 +126,19 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 ordered by Pokédex #. One row per <b>base-species line</b> — normal / shadow / Galarian (etc.) forms are
 grouped (search the family with <code>+name</code>); each form×league is a detail line. Sprite = base form.
 <span class=lg style="background:none;color:#14713a">Capped</span> want low ATK; <span class=lg style="background:none;color:#1e5fa8">Master</span> wants high ATK.</p>
-<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>
-<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>"""]
+"""]
+NAMES = [g["name"] for g in ordered]
+_names = ",".join("+" + n for n in NAMES)
+h.append("<h2>Quick search strings</h2>")
+h.append(f"<p class=note>Every base species in this list ({len(NAMES)} — grouped, so <code>+name</code> "
+         "covers each family incl. shadow / regional forms). If the game truncates such a long string, "
+         "split the name list in half.</p>")
+h.append("<div class=ss><b>PvP shape — low ATK / high bulk</b> (for the Little / Great / Ultra mons):"
+         f"<pre>{_names}&0-1attack&3-4defense&3-4hp</pre></div>")
+h.append("<div class=ss><b>High IV — high ATK / hundo</b> (for the Master-league &amp; raid mons):"
+         f"<pre>{_names}&3*,4*</pre></div>")
+h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
+         '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for g in ordered:
     n = len(g["details"])
     img = f'<img loading=lazy src="{ART.format(g["dex"])}" alt="">' if g["dex"] and g["dex"] != 9999 else ""
