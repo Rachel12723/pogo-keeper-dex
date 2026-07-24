@@ -126,9 +126,13 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
  border-radius:8px;padding:10px 12px;font-size:12px;margin:4px 0 14px}
 
-.sshead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}
-.copy{font:600 12px/1 -apple-system,Segoe UI,sans-serif;padding:4px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#334155;cursor:pointer;white-space:nowrap}
-.copy:hover{background:#f1f5f9} .copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
+.ss{margin-top:12px} .ss>b{font-size:13px}
+.codewrap{position:relative;margin:4px 0 14px}
+.codewrap pre{margin:0;padding-right:44px}
+.copy{position:absolute;top:6px;right:6px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#475569;cursor:pointer}
+.copy:hover{background:#eef2f6;color:#0f172a} .copy svg{width:15px;height:15px}
+.copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
+.copy.ok svg{display:none} .copy.ok::after{content:'✓';font-size:16px;font-weight:700;line-height:1}
 </style>
 <h1>Pokémon GO PvP Rankings — by Pokédex #</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
@@ -141,14 +145,15 @@ capped = [g["name"] for g in ordered if any(d["league"] in ("little", "great", "
 master = [g["name"] for g in ordered if any(d["league"] == "master" for d in g["details"])]
 cap_s = ",".join("+" + n for n in capped)
 mas_s = ",".join("+" + n for n in master)
+COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
 h.append("<h2>Quick search strings</h2>")
 h.append("<p class=note>Split by IV shape (a mon good in both a capped league and Master appears in both). "
          f"Capped-league species ({len(capped)}) want <b>low ATK</b>; Master-league species ({len(master)}) want "
          "<b>high ATK</b>. <code>+name</code> covers each family. If the game truncates a long string, split it.</p>")
-h.append("<div class=ss><div class=sshead><b>PvP shape — low ATK / high bulk (Little / Great / Ultra)</b><button class=copy>Copy</button></div>"
-         f"<pre>{cap_s}&0-1attack&3-4defense&3-4hp</pre></div>")
-h.append("<div class=ss><div class=sshead><b>High IV — high ATK / hundo (Master-league)</b><button class=copy>Copy</button></div>"
-         f"<pre>{mas_s}&3*,4*</pre></div>")
+h.append("<div class=ss><b>PvP shape — low ATK / high bulk (Little / Great / Ultra)</b>"
+         f"<div class=codewrap>{COPYBTN}<pre>{cap_s}&0-1attack&3-4defense&3-4hp</pre></div></div>")
+h.append("<div class=ss><b>High IV — high ATK / hundo (Master-league)</b>"
+         f"<div class=codewrap>{COPYBTN}<pre>{mas_s}&3*,4*</pre></div></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for g in ordered:
@@ -164,7 +169,7 @@ for g in ordered:
                  f'<td class=rank><b>{d["form"]}</b> #{d["rank"]} <span class=note>· {d["score"]}</span></td>'
                  f'<td class=note>{d["iv"]}</td><td>{d["moves"]}</td><td class=keep>1</td>{ct}</tr>')
 h.append("</table>")
-h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.textContent='Copied!';b.classList.add('ok');setTimeout(function(){b.textContent='Copy';b.classList.remove('ok');},1500);});});});</script>")
+h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.classList.add('ok');setTimeout(function(){b.classList.remove('ok');},1500);});});});</script>")
 h.append("</html>")
 open(os.path.join(HERE, "pokedex.html"), "w").write("\n".join(h))
 print("wrote pokedex.html")
