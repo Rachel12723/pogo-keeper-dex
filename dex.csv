@@ -1,0 +1,536 @@
+Dex,Spawn,League / Purpose,Best form & rank (folded forms),IV target,Moveset,Keep,Total
+1,Bulbasaur,—,Bulbasaur #1 · Ivysaur #2 · Venusaur #3,—,—,,
+4,Charmander,—,Charmander #4 · Charmeleon #5 · Charizard #6,—,—,,
+7,Squirtle,GL UL,"Squirtle #7 · Wartortle #8 · Blastoise #9 — GL #51, UL #22",low ATK / high bulk,Rollout / Hydro Cannon / Skull Bash,1,2
+10,Caterpie,—,Caterpie #10 · Metapod #11 · Butterfree #12,—,—,,
+13,Weedle,—,Weedle #13 · Kakuna #14 · Beedrill #15,—,—,,
+16,Pidgey,—,Pidgey #16 · Pidgeotto #17 · Pidgeot #18,—,—,,
+19,Rattata,LC,Rattata #19 — Shadow LC #39 · Rattata (Alolan) #19 · Raticate #20 · Raticate (Alolan) #20,low ATK / high bulk,Quick Attack / Body Slam / Dig,1,1
+21,Spearow,GL,Spearow #21 · Fearow #22 — GL #20,low ATK / high bulk,Peck / Drill Peck / Drill Run,1,1
+23,Ekans,—,Ekans #23 · Arbok #24,—,—,,
+25,Pikachu,—,Pikachu #25 · Pikachu (Shaymin Scarf) #25 · Pikachu (Horizons) #25 · Pikachu (Pop Star) #25 · Pikachu (Kariyushi) #25 · Pikachu (Rock Star) #25 · Raichu #26 · Raichu (Alolan) #26 · Pichu #172,—,—,,
+25,Pikachu,—,Pikachu (5th Anniversary) #25,—,—,,
+25,Pikachu,—,Pikachu (Flying) #25,—,—,,
+25,Pikachu,—,Pikachu (Libre) #25,—,—,,
+27,Sandshrew,—,Sandshrew #27 · Sandshrew (Alolan) #27 · Sandslash #28 · Sandslash (Alolan) #28,—,—,,
+29,Nidoran Female,—,Nidoran Female #29 · Nidorina #30 · Nidoqueen #31,—,—,,
+32,Nidoran Male,—,Nidoran Male #32 · Nidorino #33 · Nidoking #34,—,—,,
+35,Clefairy,GL UL,"Clefairy #35 · Clefable #36 — GL #52, UL #54 · Cleffa #173",low ATK / high bulk,Fairy Wind / Moonblast / Meteor Mash,1,2
+37,Vulpix,LC GL UL,"Vulpix #37 — LC #49 · Shadow LC #38 · Vulpix (Alolan) #37 — LC #14 · Shadow LC #22 · Ninetales #38 — GL #12, UL #38 · Shadow GL #13, UL #52 · Ninetales (Alolan) #38 — UL #15 · Shadow UL #18",low ATK / high bulk,Ember / Weather Ball Fire / Energy Ball,1,10
+39,Jigglypuff,LC GL,Jigglypuff #39 · Wigglytuff #40 — GL #48 · Igglybuff #174 — LC #32,low ATK / high bulk,Feint Attack / Body Slam / Shadow Ball,1,2
+41,Zubat,—,Zubat #41 · Golbat #42 · Crobat #169,—,—,,
+43,Oddish,—,Oddish #43 · Gloom #44 · Vileplume #45 · Bellossom #182,—,—,,
+46,Paras,—,Paras #46 · Parasect #47,—,—,,
+48,Venonat,—,Venonat #48 · Venomoth #49,—,—,,
+50,Diglett,—,Diglett #50 · Diglett (Alolan) #50 · Dugtrio #51 · Dugtrio (Alolan) #51,—,—,,
+52,Meowth,—,Meowth #52 · Meowth (Alolan) #52 · Meowth (Galarian) #52 · Persian #53 · Persian (Alolan) #53 · Perrserker #863,—,—,,
+54,Psyduck,—,Psyduck #54 · Golduck #55,—,—,,
+56,Mankey,UL ML,"Mankey #56 · Primeape #57 · Annihilape #979 — UL #34, ML #59 · Shadow UL #36, ML #47",low ATK / high bulk · high ATK,Low Kick / Rage Fist / Close Combat,1,4
+58,Growlithe,—,Growlithe #58 · Growlithe (Hisuian) #58 · Arcanine #59 · Arcanine (Hisuian) #59,—,—,,
+60,Poliwag,—,Poliwag #60 · Poliwhirl #61 · Poliwrath #62 · Politoed #186,—,—,,
+63,Abra,—,Abra #63 · Kadabra #64 · Alakazam #65,—,—,,
+66,Machop,—,Machop #66 · Machoke #67 · Machamp #68,—,—,,
+69,Bellsprout,—,Bellsprout #69 · Weepinbell #70 · Victreebel #71,—,—,,
+72,Tentacool,—,Tentacool #72 · Tentacruel #73,—,—,,
+74,Geodude,—,Geodude #74 · Geodude (Alolan) #74 · Graveler #75 · Graveler (Alolan) #75 · Golem #76 · Golem (Alolan) #76,—,—,,
+77,Ponyta,—,Ponyta #77 · Ponyta (Galarian) #77 · Rapidash #78 · Rapidash (Galarian) #78,—,—,,
+79,Slowpoke,—,Slowpoke #79 · Slowpoke (Galarian) #79 · Slowbro #80 · Slowbro (Galarian) #80 · Slowking #199 · Slowking (Galarian) #199,—,—,,
+81,Magnemite,—,Magnemite #81 · Magneton #82 · Magnezone #462,—,—,,
+83,Farfetch'd,—,Farfetch'd #83,—,—,,
+83,Farfetch'd,—,Farfetch'd (Galarian) #83 · Sirfetch'd #865,—,—,,
+84,Doduo,—,Doduo #84 · Dodrio #85,—,—,,
+86,Seel,LC GL,Seel #86 — LC #3 · Dewgong #87 — GL #56,low ATK / high bulk,Lick / Aqua Tail / Icy Wind,1,2
+88,Grimer,—,Grimer #88 · Grimer (Alolan) #88 · Muk #89 · Muk (Alolan) #89,—,—,,
+90,Shellder,—,Shellder #90 · Cloyster #91,—,—,,
+92,Gastly,—,Gastly #92 · Haunter #93 · Gengar #94,—,—,,
+95,Onix,LC GL UL,"Onix #95 — LC #47 · Shadow LC #40 · Steelix #208 — UL #41 · Shadow GL #59, UL #49",low ATK / high bulk,Rock Throw / Rock Slide / Breaking Swipe,1,5
+96,Drowzee,—,Drowzee #96 · Hypno #97,—,—,,
+98,Krabby,—,Krabby #98 · Kingler #99,—,—,,
+100,Voltorb,—,Voltorb #100 · Voltorb (Hisuian) #100 · Electrode #101 · Electrode (Hisuian) #101,—,—,,
+102,Exeggcute,—,Exeggcute #102 · Exeggutor #103 · Exeggutor (Alolan) #103,—,—,,
+104,Cubone,LC,Cubone #104 — LC #23 · Shadow LC #15 · Marowak #105 · Marowak (Alolan) #105,low ATK / high bulk,Mud Slap / Bone Club / Dig,1,2
+106,Hitmonlee,—,Hitmonlee #106 · Hitmonchan #107 · Tyrogue #236 · Hitmontop #237,—,—,,
+108,Lickitung,LC GL UL,"Lickitung #108 — LC #8 · Lickilicky #463 — GL #2, UL #2",low ATK / high bulk,Rollout / Body Slam / Shadow Ball,1,3
+109,Koffing,—,Koffing #109 · Weezing #110 · Weezing (Galarian) #110,—,—,,
+111,Rhyhorn,LC,Rhyhorn #111 — Shadow LC #45 · Rhydon #112 · Rhyperior #464,low ATK / high bulk,Mud Slap / Horn Attack / Bulldoze,1,1
+113,Chansey,—,Chansey #113 · Blissey #242 · Happiny #440,—,—,,
+114,Tangela,—,Tangela #114 · Tangrowth #465,—,—,,
+115,Kangaskhan,—,Kangaskhan #115,—,—,,
+116,Horsea,GL UL,"Horsea #116 · Seadra #117 · Kingdra #230 — GL #23, UL #17 · Shadow GL #28, UL #37",low ATK / high bulk,Dragon Breath / Surf / Swift,1,4
+118,Goldeen,UL,Goldeen #118 · Seaking #119 — UL #44,low ATK / high bulk,Peck / Drill Run / Icy Wind,1,1
+120,Staryu,—,Staryu #120 · Starmie #121,—,—,,
+122,Mr. Mime,—,Mr. Mime #122 · Mr. Mime (Galarian) #122 · Mime (Jr) #439 · Mr. Rime #866,—,—,,
+123,Scyther,—,Scyther #123 · Scizor #212 · Kleavor #900,—,—,,
+124,Jynx,—,Jynx #124 · Smoochum #238,—,—,,
+125,Electabuzz,—,Electabuzz #125 · Elekid #239 · Electivire #466,—,—,,
+126,Magmar,—,Magmar #126 · Magby #240 · Magmortar #467,—,—,,
+127,Pinsir,—,Pinsir #127,—,—,,
+128,Tauros,—,Tauros #128,—,—,,
+128,Tauros,—,Tauros (Aqua) #128,—,—,,
+128,Tauros,—,Tauros (Blaze) #128,—,—,,
+128,Tauros,—,Tauros (Combat) #128,—,—,,
+129,Magikarp,ML,Magikarp #129 · Gyarados #130 — ML #58 · Shadow ML #32,high ATK,Dragon Breath / Aqua Tail / Twister,1,2
+131,Lapras,GL UL,"Lapras #131 — GL #25, UL #21 · Shadow GL #46, UL #25",low ATK / high bulk,Psywave / Sparkling Aria / Ice Beam,1,4
+133,Eevee,LC GL ML,Eevee #133 — LC #17 · Vaporeon #134 · Jolteon #135 · Flareon #136 · Espeon #196 · Umbreon #197 — GL #32 · Leafeon #470 · Glaceon #471 · Sylveon #700 — ML #56,low ATK / high bulk · high ATK,Quick Attack / Body Slam / Dig,1,3
+137,Porygon,—,Porygon #137 · Porygon2 #233 · Porygon-Z #474,—,—,,
+138,Omanyte,—,Omanyte #138 · Omastar #139,—,—,,
+140,Kabuto,—,Kabuto #140 · Kabutops #141,—,—,,
+142,Aerodactyl,—,Aerodactyl #142,—,—,,
+143,Snorlax,—,Snorlax #143 · Munchlax #446,—,—,,
+144,Articuno,—,Articuno #144,—,—,,
+144,Articuno,—,Articuno (Galarian) #144,—,—,,
+145,Zapdos,—,Zapdos #145,—,—,,
+145,Zapdos,—,Zapdos (Galarian) #145,—,—,,
+146,Moltres,—,Moltres #146,—,—,,
+146,Moltres,GL UL,"Moltres (Galarian) #146 — GL #50, UL #10",low ATK / high bulk,Sucker Punch / Fly / Brave Bird,1,2
+147,Dratini,LC GL ML,Dratini #147 — LC #42 · Shadow LC #24 · Dragonair #148 — GL #35 · Shadow GL #29 · Dragonite #149 — Shadow ML #52,low ATK / high bulk · high ATK,Dragon Breath / Aqua Tail / Wrap,1,5
+150,Mewtwo,ML,Mewtwo #150 — ML #45 · Shadow ML #35,high ATK,Psycho Cut / Psystrike / Shadow Ball,1,2
+150,Mewtwo,—,Mewtwo (Armored) #150,—,—,,
+151,Mew,—,Mew #151,—,—,,
+152,Chikorita,LC,Chikorita #152 — LC #41 · Bayleef #153 · Meganium #154,low ATK / high bulk,Vine Whip / Body Slam / Grass Knot,1,1
+155,Cyndaquil,—,Cyndaquil #155 · Quilava #156 · Typhlosion #157 · Typhlosion (Hisuian) #157,—,—,,
+158,Totodile,GL UL,"Totodile #158 · Croconaw #159 · Feraligatr #160 — GL #14, UL #46 · Shadow GL #22, UL #14",low ATK / high bulk,Shadow Claw / Hydro Cannon / Ice Beam,1,4
+161,Sentret,GL,Sentret #161 · Furret #162 — GL #27,low ATK / high bulk,Sucker Punch / Swift / Trailblaze,1,1
+163,Hoothoot,—,Hoothoot #163 · Noctowl #164,—,—,,
+165,Ledyba,LC,Ledyba #165 — Shadow LC #19 · Ledian #166,low ATK / high bulk,Bug Bite / Aerial Ace / Silver Wind,1,1
+167,Spinarak,—,Spinarak #167 · Ariados #168,—,—,,
+170,Chinchou,—,Chinchou #170 · Lanturn #171,—,—,,
+175,Togepi,UL ML,"Togepi #175 · Togetic #176 · Togekiss #468 — UL #59, ML #46",low ATK / high bulk · high ATK,Peck / Dazzling Gleam / Aura Sphere,1,2
+177,Natu,—,Natu #177 · Xatu #178,—,—,,
+179,Mareep,LC UL,Mareep #179 — LC #50 · Shadow LC #44 · Flaaffy #180 · Ampharos #181 — UL #57 · Shadow UL #53,low ATK / high bulk,Thunder Shock / Body Slam / Discharge,1,4
+183,Marill,GL,Marill #183 · Azumarill #184 — GL #21 · Azurill #298,low ATK / high bulk,Bubble / Ice Beam / Play Rough,1,1
+185,Sudowoodo,—,Sudowoodo #185 · Bonsly #438,—,—,,
+187,Hoppip,GL,Hoppip #187 · Skiploom #188 · Jumpluff #189 — GL #17,low ATK / high bulk,Fairy Wind / Energy Ball / Acrobatics,1,1
+190,Aipom,—,Aipom #190 · Ambipom #424,—,—,,
+191,Sunkern,—,Sunkern #191 · Sunflora #192,—,—,,
+193,Yanma,—,Yanma #193 · Yanmega #469,—,—,,
+194,Wooper,LC GL,Wooper #194 — LC #11 · Shadow LC #10 · Quagsire #195 — GL #9 · Shadow GL #8,low ATK / high bulk,Mud Shot / Aqua Tail / Mud Bomb,1,4
+194,Wooper,LC GL,Wooper (Paldean) #194 — LC #18 · Clodsire #980 — GL #18,low ATK / high bulk,Poison Jab / Body Slam / Dig,1,2
+198,Murkrow,—,Murkrow #198 · Honchkrow #430,—,—,,
+200,Misdreavus,—,Misdreavus #200 · Mismagius #429,—,—,,
+201,Unown,—,Unown #201,—,—,,
+202,Wobbuffet,LC,Wobbuffet #202 · Wynaut #360 — LC #2,low ATK / high bulk,Counter / Mirror Coat,1,1
+203,Girafarig,—,Girafarig #203,—,—,,
+204,Pineco,GL UL,"Pineco #204 · Forretress #205 — GL #11, UL #12 · Shadow GL #15, UL #16",low ATK / high bulk,Volt Switch / Sand Tomb / Rock Tomb,1,4
+206,Dunsparce,—,Dunsparce #206 · Dudunsparce #982,—,—,,
+207,Gligar,LC,Gligar #207 — LC #7 · Shadow LC #30 · Gliscor #472,low ATK / high bulk,Wing Attack / Aerial Ace / Dig,1,2
+209,Snubbull,—,Snubbull #209 · Granbull #210,—,—,,
+211,Qwilfish,—,Qwilfish #211,—,—,,
+211,Qwilfish,—,Qwilfish (Hisuian) #211 · Overqwil #904,—,—,,
+213,Shuckle,—,Shuckle #213,—,—,,
+214,Heracross,—,Heracross #214,—,—,,
+215,Sneasel,—,Sneasel #215 · Sneasel (Hisuian) #215 · Weavile #461 · Sneasler #903,—,—,,
+216,Teddiursa,—,Teddiursa #216 · Ursaring #217 · Ursaluna #901,—,—,,
+218,Slugma,—,Slugma #218 · Magcargo #219,—,—,,
+220,Swinub,—,Swinub #220 · Piloswine #221 · Mamoswine #473,—,—,,
+222,Corsola,—,Corsola #222,—,—,,
+222,Corsola,GL,Corsola (Galarian) #222 — GL #16,low ATK / high bulk,Astonish / Night Shade / Power Gem,1,1
+223,Remoraid,—,Remoraid #223 · Octillery #224,—,—,,
+225,Delibird,—,Delibird #225,—,—,,
+226,Mantine,GL,Mantine #226 — GL #53 · Mantyke #458,low ATK / high bulk,Wing Attack / Twister / Water Pulse,1,1
+227,Skarmory,—,Skarmory #227,—,—,,
+228,Houndour,—,Houndour #228 · Houndoom #229,—,—,,
+231,Phanpy,—,Phanpy #231 · Donphan #232,—,—,,
+234,Stantler,—,Stantler #234 · Wyrdeer #899,—,—,,
+235,Smeargle,—,Smeargle #235,—,—,,
+241,Miltank,—,Miltank #241,—,—,,
+243,Raikou,UL,Raikou #243 — Shadow UL #58,low ATK / high bulk,Thunder Shock / Wild Charge / Aura Sphere,1,1
+244,Entei,—,Entei #244,—,—,,
+245,Suicune,—,Suicune #245,—,—,,
+246,Larvitar,ML,Larvitar #246 · Pupitar #247 · Tyranitar #248 — Shadow ML #55,high ATK,Dragon Breath / Brutal Swing / Stone Edge,1,1
+249,Lugia,ML,Lugia #249 — ML #17 · Shadow ML #19,high ATK,Dragon Tail / Aeroblast / Fly,1,2
+250,Ho-Oh,ML,Ho-Oh #250 — ML #24,high ATK,Incinerate / Brave Bird / Sacred Fire,1,1
+251,Celebi,—,Celebi #251,—,—,,
+252,Treecko,—,Treecko #252 · Grovyle #253 · Sceptile #254,—,—,,
+255,Torchic,—,Torchic #255 · Combusken #256 · Blaziken #257,—,—,,
+258,Mudkip,UL,Mudkip #258 · Marshtomp #259 · Swampert #260 — UL #45,low ATK / high bulk,Mud Shot / Hydro Cannon / Earthquake,1,1
+261,Poochyena,—,Poochyena #261 · Mightyena #262,—,—,,
+263,Zigzagoon,LC,Zigzagoon #263 · Zigzagoon (Galarian) #263 — LC #4 · Linoone #264 · Linoone (Galarian) #264 · Obstagoon #862,low ATK / high bulk,Tackle / Body Slam / Dig,1,1
+265,Wurmple,—,Wurmple #265 · Silcoon #266 · Beautifly #267 · Cascoon #268 · Dustox #269,—,—,,
+270,Lotad,—,Lotad #270 · Lombre #271 · Ludicolo #272,—,—,,
+273,Seedot,—,Seedot #273 · Nuzleaf #274 · Shiftry #275,—,—,,
+276,Taillow,—,Taillow #276 · Swellow #277,—,—,,
+278,Wingull,—,Wingull #278 · Pelipper #279,—,—,,
+280,Ralts,—,Ralts #280 · Kirlia #281 · Gardevoir #282 · Gallade #475,—,—,,
+283,Surskit,—,Surskit #283 · Masquerain #284,—,—,,
+285,Shroomish,—,Shroomish #285 · Breloom #286,—,—,,
+287,Slakoth,—,Slakoth #287 · Vigoroth #288 · Slaking #289,—,—,,
+290,Nincada,—,Nincada #290 · Ninjask #291,—,—,,
+293,Whismur,—,Whismur #293 · Loudred #294 · Exploud #295,—,—,,
+296,Makuhita,—,Makuhita #296 · Hariyama #297,—,—,,
+299,Nosepass,—,Nosepass #299 · Probopass #476,—,—,,
+300,Skitty,—,Skitty #300 · Delcatty #301,—,—,,
+302,Sableye,GL,Sableye #302 — GL #47 · Shadow GL #30,low ATK / high bulk,Shadow Claw / Foul Play / Drain Punch,1,2
+303,Mawile,—,Mawile #303,—,—,,
+304,Aron,—,Aron #304 · Lairon #305 · Aggron #306,—,—,,
+307,Meditite,GL,Meditite #307 · Medicham #308 — GL #33,low ATK / high bulk,Psycho Cut / Ice Punch / Dynamic Punch,1,1
+309,Electrike,—,Electrike #309 · Manectric #310,—,—,,
+311,Plusle,—,Plusle #311,—,—,,
+312,Minun,—,Minun #312,—,—,,
+313,Volbeat,—,Volbeat #313,—,—,,
+314,Illumise,—,Illumise #314,—,—,,
+315,Roselia,—,Roselia #315 · Budew #406 · Roserade #407,—,—,,
+316,Gulpin,—,Gulpin #316 · Swalot #317,—,—,,
+318,Carvanha,—,Carvanha #318 · Sharpedo #319,—,—,,
+320,Wailmer,LC,Wailmer #320 — LC #20 · Wailord #321,low ATK / high bulk,Water Gun / Body Slam / Scald,1,1
+322,Numel,—,Numel #322 · Camerupt #323,—,—,,
+324,Torkoal,—,Torkoal #324,—,—,,
+325,Spoink,GL,Spoink #325 · Grumpig #326 — GL #43,low ATK / high bulk,Psywave / Dynamic Punch / Shadow Ball,1,1
+327,Spinda,—,Spinda #327,—,—,,
+328,Trapinch,—,Trapinch #328 · Vibrava #329 · Flygon #330,—,—,,
+331,Cacnea,—,Cacnea #331 · Cacturne #332,—,—,,
+333,Swablu,GL,Swablu #333 · Altaria #334 — GL #4 · Shadow GL #6,low ATK / high bulk,Dragon Breath / Sky Attack / Flamethrower,1,2
+335,Zangoose,—,Zangoose #335,—,—,,
+336,Seviper,—,Seviper #336,—,—,,
+337,Lunatone,—,Lunatone #337,—,—,,
+338,Solrock,—,Solrock #338,—,—,,
+339,Barboach,LC,Barboach #339 — LC #35 · Shadow LC #12 · Whiscash #340,low ATK / high bulk,Mud Shot / Mud Bomb / Aqua Tail,1,2
+341,Corphish,—,Corphish #341 · Crawdaunt #342,—,—,,
+343,Baltoy,—,Baltoy #343 · Claydol #344,—,—,,
+345,Lileep,GL UL,"Lileep #345 · Cradily #346 — GL #44, UL #42 · Shadow UL #50 · Cradily #346",low ATK / high bulk,Acid / Rock Tomb / Grass Knot,1,3
+347,Anorith,—,Anorith #347 · Armaldo #348,—,—,,
+349,Feebas,UL,Feebas #349 · Milotic #350 — UL #40 · Shadow UL #55,low ATK / high bulk,Waterfall / Aqua Tail / Wrap,1,2
+351,Castform,—,Castform #351,—,—,,
+351,Castform,—,Castform (Rainy) #351,—,—,,
+351,Castform,—,Castform (Snowy) #351,—,—,,
+351,Castform,—,Castform (Sunny) #351,—,—,,
+352,Kecleon,—,Kecleon #352,—,—,,
+353,Shuppet,—,Shuppet #353 · Banette #354,—,—,,
+355,Duskull,GL UL,Duskull #355 · Dusclops #356 — GL #42 · Shadow GL #49 · Dusknoir #477 — UL #20 · Shadow UL #23,low ATK / high bulk,Astonish / Dynamic Punch / Shadow Punch,1,4
+357,Tropius,—,Tropius #357,—,—,,
+358,Chimecho,—,Chimecho #358 · Chingling #433,—,—,,
+359,Absol,—,Absol #359,—,—,,
+361,Snorunt,—,Snorunt #361 · Glalie #362 · Froslass #478,—,—,,
+363,Spheal,GL UL,Spheal #363 · Sealeo #364 — GL #38 · Shadow GL #40 · Walrein #365 — UL #31 · Shadow UL #27,low ATK / high bulk,Powder Snow / Icicle Spear / Earthquake,1,4
+366,Clamperl,—,Clamperl #366 · Huntail #367 · Gorebyss #368,—,—,,
+369,Relicanth,—,Relicanth #369,—,—,,
+370,Luvdisc,—,Luvdisc #370,—,—,,
+371,Bagon,—,Bagon #371 · Shelgon #372 · Salamence #373,—,—,,
+374,Beldum,ML,Beldum #374 · Metang #375 · Metagross #376 — ML #3 · Shadow ML #18,high ATK,Shadow Claw / Meteor Mash / Earthquake,1,2
+377,Regirock,—,Regirock #377,—,—,,
+378,Regice,—,Regice #378,—,—,,
+379,Registeel,UL,Registeel #379 — UL #19,low ATK / high bulk,Lock On / Flash Cannon / Focus Blast,1,1
+380,Latias,ML,Latias #380 — ML #50 · Shadow ML #40,high ATK,Dragon Breath / Aura Sphere / Mist Ball,1,2
+381,Latios,ML,Latios #381 — ML #28 · Shadow ML #29,high ATK,Dragon Breath / Aura Sphere / Luster Purge,1,2
+382,Kyogre,ML,Kyogre #382 — ML #11 · Shadow ML #30,high ATK,Waterfall / Avalanche / Origin Pulse,1,2
+383,Groudon,ML,Groudon #383 — ML #33 · Shadow ML #60,high ATK,Dragon Tail / Fire Punch / Precipice Blades,1,2
+384,Rayquaza,—,Rayquaza #384,—,—,,
+385,Jirachi,ML,Jirachi #385 — ML #44,high ATK,Confusion / Doom Desire / Aura Sphere,1,1
+386,Deoxys,—,Deoxys #386,—,—,,
+386,Deoxys,—,Deoxys (Attack) #386,—,—,,
+386,Deoxys,—,Deoxys (Defense) #386,—,—,,
+386,Deoxys,—,Deoxys (Speed) #386,—,—,,
+387,Turtwig,—,Turtwig #387 · Grotle #388 · Torterra #389,—,—,,
+390,Chimchar,—,Chimchar #390 · Monferno #391 · Infernape #392,—,—,,
+393,Piplup,GL UL,"Piplup #393 · Prinplup #394 · Empoleon #395 — GL #5, UL #9 · Shadow GL #7, UL #7",low ATK / high bulk,Metal Sound / Hydro Cannon / Drill Peck,1,4
+396,Starly,—,Starly #396 · Staravia #397 · Staraptor #398,—,—,,
+399,Bidoof,—,Bidoof #399 · Bibarel #400,—,—,,
+401,Kricketot,—,Kricketot #401 · Kricketune #402,—,—,,
+403,Shinx,—,Shinx #403 · Luxio #404 · Luxray #405,—,—,,
+408,Cranidos,—,Cranidos #408 · Rampardos #409,—,—,,
+410,Shieldon,—,Shieldon #410 · Bastiodon #411,—,—,,
+412,Burmy,—,Burmy (Plant) #412 · Burmy (Sandy) #412 · Burmy (Trash) #412 · Wormadam (Plant) #413 · Wormadam (Sandy) #413 · Wormadam (Trash) #413 · Mothim #414,—,—,,
+415,Combee,—,Combee #415 · Vespiquen #416,—,—,,
+417,Pachirisu,—,Pachirisu #417,—,—,,
+418,Buizel,—,Buizel #418 · Floatzel #419,—,—,,
+420,Cherubi,—,Cherubi #420 · Cherrim (Sunshine) #421 · Cherrim (Overcast) #421,—,—,,
+422,Shellos,—,Shellos #422,—,—,,
+423,Gastrodon,GL,Gastrodon #423 — GL #57,low ATK / high bulk,Mud Slap / Body Slam / Earth Power,1,1
+425,Drifloon,LC,Drifloon #425 — LC #34 · Shadow LC #27 · Drifblim #426,low ATK / high bulk,Hex / Icy Wind / Shadow Ball,1,2
+427,Buneary,—,Buneary #427 · Lopunny #428,—,—,,
+431,Glameow,—,Glameow #431 · Purugly #432,—,—,,
+434,Stunky,LC,Stunky #434 — Shadow LC #13 · Skuntank #435,low ATK / high bulk,Bite / Crunch / Sludge Bomb,1,1
+436,Bronzor,LC,Bronzor #436 — LC #1 · Bronzong #437,low ATK / high bulk,Tackle / Heavy Slam / Payback,1,1
+441,Chatot,—,Chatot #441,—,—,,
+442,Spiritomb,—,Spiritomb #442,—,—,,
+443,Gible,ML,Gible #443 · Gabite #444 · Garchomp #445 — ML #23 · Shadow ML #20,high ATK,Dragon Tail / Twister / Earth Power,1,2
+447,Riolu,LC,Riolu #447 — LC #28 · Lucario #448,low ATK / high bulk,Counter / Cross Chop / Blaze Kick,1,1
+449,Hippopotas,UL,Hippopotas #449 · Hippowdon #450 — UL #60,low ATK / high bulk,Sand Attack / Weather Ball Rock / Earth Power,1,1
+451,Skorupi,GL,Skorupi #451 · Drapion #452 — Shadow GL #60,low ATK / high bulk,Poison Sting / Crunch / Aqua Tail,1,1
+453,Croagunk,—,Croagunk #453 · Toxicroak #454,—,—,,
+455,Carnivine,—,Carnivine #455,—,—,,
+456,Finneon,—,Finneon #456 · Lumineon #457,—,—,,
+459,Snover,—,Snover #459 · Abomasnow #460,—,—,,
+479,Rotom,—,Rotom #479,—,—,,
+479,Rotom,—,Rotom (Fan) #479,—,—,,
+479,Rotom,—,Rotom (Frost) #479,—,—,,
+479,Rotom,—,Rotom (Heat) #479,—,—,,
+479,Rotom,—,Rotom (Mow) #479,—,—,,
+479,Rotom,—,Rotom (Wash) #479,—,—,,
+480,Uxie,—,Uxie #480,—,—,,
+481,Mesprit,—,Mesprit #481,—,—,,
+482,Azelf,—,Azelf #482,—,—,,
+483,Dialga,ML,Dialga #483 — ML #41 · Shadow ML #42,high ATK,Dragon Breath / Iron Head / Draco Meteor,1,2
+483,Dialga,ML,Dialga (Origin) #483 — ML #7,high ATK,Dragon Breath / Roar Of Time / Iron Head,1,1
+484,Palkia,ML,Palkia #484 — ML #27 · Shadow ML #16,high ATK,Dragon Breath / Aqua Tail / Draco Meteor,1,2
+484,Palkia,ML,Palkia (Origin) #484 — ML #2,high ATK,Dragon Breath / Aqua Tail / Spacial Rend,1,1
+485,Heatran,—,Heatran #485,—,—,,
+486,Regigigas,—,Regigigas #486,—,—,,
+487,Giratina,UL,Giratina (Altered) #487 — UL #32 · Shadow UL #43,low ATK / high bulk,Dragon Breath / Dragon Claw / Shadow Sneak,1,2
+487,Giratina,—,Giratina (Origin) #487,—,—,,
+488,Cresselia,UL,Cresselia #488 — UL #39 · Shadow UL #51,low ATK / high bulk,Psycho Cut / Grass Knot / Moonblast,1,2
+491,Darkrai,—,Darkrai #491,—,—,,
+492,Shaymin,—,Shaymin (Land) #492,—,—,,
+492,Shaymin,—,Shaymin (Sky) #492,—,—,,
+494,Victini,—,Victini #494,—,—,,
+495,Snivy,—,Snivy #495 · Servine #496 · Serperior #497,—,—,,
+498,Tepig,LC,Tepig #498 — LC #48 · Pignite #499 · Emboar #500,low ATK / high bulk,Ember / Body Slam / Flame Charge,1,1
+501,Oshawott,—,Oshawott #501 · Dewott #502 · Samurott #503 · Samurott (Hisuian) #503,—,—,,
+504,Patrat,—,Patrat #504 · Watchog #505,—,—,,
+506,Lillipup,—,Lillipup #506 · Herdier #507 · Stoutland #508,—,—,,
+509,Purrloin,LC,Purrloin #509 — Shadow LC #21 · Liepard #510,low ATK / high bulk,Sucker Punch / Night Slash / Dark Pulse,1,1
+511,Pansage,—,Pansage #511 · Simisage #512,—,—,,
+513,Pansear,—,Pansear #513 · Simisear #514,—,—,,
+515,Panpour,—,Panpour #515 · Simipour #516,—,—,,
+517,Munna,—,Munna #517 · Musharna #518,—,—,,
+519,Pidove,—,Pidove #519 · Tranquill #520 · Unfezant #521,—,—,,
+522,Blitzle,—,Blitzle #522 · Zebstrika #523,—,—,,
+524,Roggenrola,—,Roggenrola #524 · Boldore #525 · Gigalith #526,—,—,,
+527,Woobat,—,Woobat #527 · Swoobat #528,—,—,,
+529,Drilbur,—,Drilbur #529 · Excadrill #530,—,—,,
+531,Audino,—,Audino #531,—,—,,
+532,Timburr,—,Timburr #532 · Gurdurr #533 · Conkeldurr #534,—,—,,
+535,Tympole,GL,Tympole #535 · Palpitoad #536 · Seismitoad #537 — GL #31,low ATK / high bulk,Mud Shot / Earth Power / Icy Wind,1,1
+538,Throh,—,Throh #538,—,—,,
+539,Sawk,—,Sawk #539,—,—,,
+540,Sewaddle,—,Sewaddle #540 · Swadloon #541 · Leavanny #542,—,—,,
+543,Venipede,—,Venipede #543 · Whirlipede #544 · Scolipede #545,—,—,,
+546,Cottonee,—,Cottonee #546 · Whimsicott #547,—,—,,
+548,Petilil,—,Petilil #548 · Lilligant #549 · Lilligant (Hisuian) #549,—,—,,
+550,Basculin,—,Basculin #550,—,—,,
+551,Sandile,—,Sandile #551 · Krokorok #552 · Krookodile #553,—,—,,
+554,Darumaka,—,Darumaka #554 · Darumaka (Galarian) #554 · Darmanitan (Standard) #555 · Darmanitan (Galarian) #555,—,—,,
+556,Maractus,—,Maractus #556,—,—,,
+557,Dwebble,—,Dwebble #557 · Crustle #558,—,—,,
+559,Scraggy,—,Scraggy #559 · Scrafty #560,—,—,,
+561,Sigilyph,—,Sigilyph #561,—,—,,
+562,Yamask,UL,Yamask #562 · Yamask (Galarian) #562 · Cofagrigus #563 · Runerigus #867 — UL #48,low ATK / high bulk,Shadow Claw / Rock Tomb / Shadow Ball,1,1
+564,Tirtouga,LC,Tirtouga #564 — LC #46 · Carracosta #565,low ATK / high bulk,Water Gun / Surf / Body Slam,1,1
+566,Archen,—,Archen #566 · Archeops #567,—,—,,
+568,Trubbish,—,Trubbish #568 · Garbodor #569,—,—,,
+570,Zorua,—,Zorua #570 · Zorua (Hisuian) #570 · Zoroark #571 · Zoroark (Hisuian) #571,—,—,,
+572,Minccino,—,Minccino #572 · Cinccino #573,—,—,,
+574,Gothita,—,Gothita #574 · Gothorita #575 · Gothitelle #576,—,—,,
+577,Solosis,—,Solosis #577 · Duosion #578 · Reuniclus #579,—,—,,
+580,Ducklett,LC,Ducklett #580 — LC #6 · Shadow LC #31 · Swanna #581,low ATK / high bulk,Wing Attack / Bubble Beam / Brave Bird,1,2
+582,Vanillite,—,Vanillite #582 · Vanillish #583 · Vanilluxe #584,—,—,,
+585,Deerling,—,Deerling #585 · Sawsbuck #586,—,—,,
+587,Emolga,—,Emolga #587,—,—,,
+588,Karrablast,—,Karrablast #588 · Escavalier #589,—,—,,
+590,Foongus,—,Foongus #590 · Amoonguss #591,—,—,,
+592,Frillish,GL UL,"Frillish #592 · Jellicent #593 — GL #10, UL #11",low ATK / high bulk,Hex / Surf / Shadow Ball,1,2
+594,Alomomola,—,Alomomola #594,—,—,,
+595,Joltik,—,Joltik #595 · Galvantula #596,—,—,,
+597,Ferroseed,—,Ferroseed #597 · Ferrothorn #598,—,—,,
+599,Klink,—,Klink #599 · Klang #600 · Klinklang #601,—,—,,
+602,Tynamo,—,Tynamo #602 · Eelektrik #603 · Eelektross #604,—,—,,
+605,Elgyem,—,Elgyem #605 · Beheeyem #606,—,—,,
+607,Litwick,—,Litwick #607 · Lampent #608 · Chandelure #609,—,—,,
+610,Axew,—,Axew #610 · Fraxure #611 · Haxorus #612,—,—,,
+613,Cubchoo,—,Cubchoo #613 · Beartic #614,—,—,,
+615,Cryogonal,—,Cryogonal #615,—,—,,
+616,Shelmet,LC,Shelmet #616 — LC #29 · Accelgor #617,low ATK / high bulk,Infestation / Body Slam / Bug Buzz,1,1
+618,Stunfisk,—,Stunfisk #618,—,—,,
+618,Stunfisk,—,Stunfisk (Galarian) #618,—,—,,
+619,Mienfoo,—,Mienfoo #619 · Mienshao #620,—,—,,
+621,Druddigon,—,Druddigon #621,—,—,,
+622,Golett,LC,Golett #622 — Shadow LC #25 · Golurk #623,low ATK / high bulk,Mud Slap / Shadow Punch / Brick Break,1,1
+624,Pawniard,LC,Pawniard #624 — LC #16 · Bisharp #625 · Kingambit #983,low ATK / high bulk,Fury Cutter / Night Slash / Iron Head,1,1
+626,Bouffalant,—,Bouffalant #626,—,—,,
+627,Rufflet,—,Rufflet #627 · Braviary #628 · Braviary (Hisuian) #628,—,—,,
+629,Vullaby,LC GL,Vullaby #629 — LC #5 · Mandibuzz #630 — GL #55,low ATK / high bulk,Feint Attack / Brave Bird / Foul Play,1,2
+631,Heatmor,—,Heatmor #631,—,—,,
+632,Durant,—,Durant #632,—,—,,
+633,Deino,LC ML,Deino #633 — LC #9 · Zweilous #634 · Hydreigon #635 — Shadow ML #43,low ATK / high bulk · high ATK,Dragon Breath / Body Slam / Crunch,1,2
+636,Larvesta,—,Larvesta #636 · Volcarona #637,—,—,,
+638,Cobalion,—,Cobalion #638,—,—,,
+639,Terrakion,—,Terrakion #639,—,—,,
+640,Virizion,UL,Virizion #640 — UL #8,low ATK / high bulk,Double Kick / Leaf Blade / Sacred Sword,1,1
+641,Tornadus,—,Tornadus (Incarnate) #641,—,—,,
+641,Tornadus,—,Tornadus (Therian) #641,—,—,,
+642,Thundurus,—,Thundurus (Incarnate) #642,—,—,,
+642,Thundurus,—,Thundurus (Therian) #642,—,—,,
+643,Reshiram,ML,Reshiram #643 — ML #8 · Shadow ML #14,high ATK,Dragon Breath / Fusion Flare / Draco Meteor,1,2
+644,Zekrom,ML,Zekrom #644 — ML #12,high ATK,Dragon Breath / Outrage / Fusion Bolt,1,1
+645,Landorus,—,Landorus (Incarnate) #645,—,—,,
+645,Landorus,ML,Landorus (Therian) #645 — ML #57,high ATK,Mud Shot / Sandsear Storm / Stone Edge,1,1
+646,Kyurem,ML,Kyurem #646 — ML #48,high ATK,Dragon Breath / Glaciate / Dragon Claw,1,1
+646,Kyurem,ML,Kyurem (Black) #646 — ML #10,high ATK,Dragon Tail / Freeze Shock / Fusion Bolt,1,1
+646,Kyurem,ML,Kyurem (White) #646 — ML #4,high ATK,Dragon Breath / Fusion Flare / Ice Burn,1,1
+647,Keldeo,ML,Keldeo (Ordinary) #647 — ML #54,high ATK,Low Kick / Aqua Jet / Sacred Sword,1,1
+647,Keldeo,ML,Keldeo (Resolute) #647 — ML #39,high ATK,Low Kick / Secret Sword / Aqua Jet,1,1
+648,Meloetta,ML,Meloetta (Aria) #648 — ML #26,high ATK,Confusion / Psyshock / Dazzling Gleam,1,1
+649,Genesect,—,Genesect #649,—,—,,
+649,Genesect,—,Genesect (Burn) #649,—,—,,
+649,Genesect,—,Genesect (Chill) #649,—,—,,
+649,Genesect,—,Genesect (Douse) #649,—,—,,
+649,Genesect,—,Genesect (Shock) #649,—,—,,
+650,Chespin,—,Chespin #650 · Quilladin #651 · Chesnaught #652,—,—,,
+653,Fennekin,—,Fennekin #653 · Braixen #654 · Delphox #655,—,—,,
+656,Froakie,—,Froakie #656 · Frogadier #657 · Greninja #658,—,—,,
+659,Bunnelby,GL,Bunnelby #659 · Diggersby #660 — GL #41,low ATK / high bulk,Mud Shot / Fire Punch / Scorching Sands,1,1
+661,Fletchling,LC GL UL,"Fletchling #661 — LC #37 · Fletchinder #662 · Talonflame #663 — GL #34, UL #24 · Shadow GL #54, UL #35",low ATK / high bulk,Incinerate / Fly / Brave Bird,1,5
+664,Scatterbug,—,Scatterbug #664 · Vivillon #666,—,—,,
+667,Litleo,—,Litleo #667 · Pyroar #668,—,—,,
+669,Flabebe,GL UL ML,"Flabebe #669 · Floette #670 · Florges #671 — GL #45, UL #6, ML #36",low ATK / high bulk · high ATK,Fairy Wind / Chilling Water / Disarming Voice,1,3
+672,Skiddo,—,Skiddo #672 · Gogoat #673,—,—,,
+674,Pancham,—,Pancham #674 · Pangoro #675,—,—,,
+676,Furfrou,—,Furfrou #676,—,—,,
+677,Espurr,—,Espurr #677 · Meowstic (Male) #678 · Meowstic (Female) #678,—,—,,
+679,Honedge,—,Honedge #679 · Doublade #680 · Aegislash (Shield) #681,—,—,,
+682,Spritzee,—,Spritzee #682 · Aromatisse #683,—,—,,
+684,Swirlix,—,Swirlix #684 · Slurpuff #685,—,—,,
+686,Inkay,GL UL,"Inkay #686 · Malamar #687 — GL #58, UL #29 · Shadow UL #26",low ATK / high bulk,Psywave / Foul Play / Super Power,1,3
+688,Binacle,—,Binacle #688 · Barbaracle #689,—,—,,
+690,Skrelp,—,Skrelp #690 · Dragalge #691,—,—,,
+692,Clauncher,—,Clauncher #692 · Clawitzer #693,—,—,,
+694,Helioptile,—,Helioptile #694 · Heliolisk #695,—,—,,
+696,Tyrunt,—,Tyrunt #696 · Tyrantrum #697,—,—,,
+698,Amaura,LC,Amaura #698 — LC #33 · Aurorus #699,low ATK / high bulk,Powder Snow / Weather Ball Ice / Ancient Power,1,1
+701,Hawlucha,—,Hawlucha #701,—,—,,
+702,Dedenne,—,Dedenne #702,—,—,,
+703,Carbink,—,Carbink #703,—,—,,
+704,Goomy,GL ML,Goomy #704 · Sliggoo #705 — GL #37 · Goodra #706 — ML #53,low ATK / high bulk · high ATK,Dragon Breath / Body Slam / Dragon Pulse,1,2
+707,Klefki,—,Klefki #707,—,—,,
+708,Phantump,—,Phantump #708 · Trevenant #709,—,—,,
+710,Pumpkaboo,—,Pumpkaboo (Large) #710 · Pumpkaboo (Small) #710 · Pumpkaboo (Super) #710 · Pumpkaboo (Average) #710 · Gourgeist (Large) #711 · Gourgeist (Small) #711 · Gourgeist (Super) #711 · Gourgeist (Average) #711,—,—,,
+712,Bergmite,—,Bergmite #712 · Avalugg #713 · Avalugg (Hisuian) #713,—,—,,
+714,Noibat,—,Noibat #714 · Noivern #715,—,—,,
+716,Xerneas,ML,Xerneas #716 — ML #6,high ATK,Geomancy / Close Combat / Moonblast,1,1
+717,Yveltal,ML,Yveltal #717 — ML #22,high ATK,Sucker Punch / Dark Pulse / Oblivion Wing,1,1
+718,Zygarde,—,Zygarde (10% Forme) #718,—,—,,
+718,Zygarde,—,Zygarde (50% Forme) #718,—,—,,
+718,Zygarde,UL ML,"Zygarde (Complete Forme) #718 — UL #13, ML #25",low ATK / high bulk · high ATK,Dragon Tail / Crunch / Earthquake,1,2
+719,Diancie,—,Diancie #719,—,—,,
+720,Hoopa,—,Hoopa #720,—,—,,
+720,Hoopa,—,Hoopa (Unbound) #720,—,—,,
+721,Volcanion,—,Volcanion #721,—,—,,
+722,Rowlet,—,Rowlet #722 · Dartrix #723 · Decidueye #724 · Decidueye (Hisuian) #724,—,—,,
+725,Litten,—,Litten #725 · Torracat #726 · Incineroar #727,—,—,,
+728,Popplio,ML,Popplio #728 · Brionne #729 · Primarina #730 — ML #49,high ATK,Waterfall / Disarming Voice / Hydro Cannon,1,1
+731,Pikipek,—,Pikipek #731 · Trumbeak #732 · Toucannon #733,—,—,,
+734,Yungoos,—,Yungoos #734 · Gumshoos #735,—,—,,
+736,Grubbin,—,Grubbin #736 · Charjabug #737 · Vikavolt #738,—,—,,
+739,Crabrawler,—,Crabrawler #739 · Crabominable #740,—,—,,
+741,Oricorio,—,Oricorio (Baile) #741,—,—,,
+741,Oricorio,—,Oricorio (Pa'u) #741,—,—,,
+741,Oricorio,—,Oricorio (Pom-Pom) #741,—,—,,
+741,Oricorio,—,Oricorio (Sensu) #741,—,—,,
+742,Cutiefly,—,Cutiefly #742 · Ribombee #743,—,—,,
+744,Rockruff,—,Rockruff #744 · Lycanroc (Dusk) #745 · Lycanroc (Midday) #745 · Lycanroc (Midnight) #745,—,—,,
+747,Mareanie,—,Mareanie #747 · Toxapex #748,—,—,,
+749,Mudbray,—,Mudbray #749 · Mudsdale #750,—,—,,
+751,Dewpider,—,Dewpider #751 · Araquanid #752,—,—,,
+753,Fomantis,—,Fomantis #753 · Lurantis #754,—,—,,
+755,Morelull,—,Morelull #755 · Shiinotic #756,—,—,,
+757,Salandit,—,Salandit #757 · Salazzle #758,—,—,,
+759,Stufful,—,Stufful #759 · Bewear #760,—,—,,
+761,Bounsweet,—,Bounsweet #761 · Steenee #762 · Tsareena #763,—,—,,
+764,Comfey,—,Comfey #764,—,—,,
+765,Oranguru,UL,Oranguru #765 — UL #47,low ATK / high bulk,Confusion / Brutal Swing / Trailblaze,1,1
+766,Passimian,—,Passimian #766,—,—,,
+767,Wimpod,—,Wimpod #767 · Golisopod #768 · Golisopod #768,—,—,,
+769,Sandygast,—,Sandygast #769 · Palossand #770,—,—,,
+775,Komala,—,Komala #775,—,—,,
+776,Turtonator,UL,Turtonator #776 — UL #56,low ATK / high bulk,Incinerate / Brutal Swing / Dragon Claw,1,1
+777,Togedemaru,—,Togedemaru #777,—,—,,
+778,Mimikyu,GL UL,"Mimikyu #778 — GL #1, UL #1",low ATK / high bulk,Shadow Claw / Shadow Sneak / Play Rough,1,2
+779,Bruxish,—,Bruxish #779,—,—,,
+780,Drampa,—,Drampa #780,—,—,,
+781,Dhelmise,—,Dhelmise #781,—,—,,
+782,Jangmo-o,—,Jangmo-o #782 · Hakamo-o #783 · Kommo-o #784,—,—,,
+785,Tapu Koko,—,Tapu Koko #785,—,—,,
+786,Tapu Lele,ML,Tapu Lele #786 — ML #51,high ATK,Astonish / Psyshock / Natures Madness,1,1
+787,Tapu Bulu,—,Tapu Bulu #787,—,—,,
+788,Tapu Fini,—,Tapu Fini #788,—,—,,
+791,Solgaleo,ML,Solgaleo #791 — ML #37 · Lunala #792 — ML #5,high ATK,Shadow Claw / Shadow Ball / Moonblast,1,2
+793,Nihilego,—,Nihilego #793,—,—,,
+794,Buzzwole,—,Buzzwole #794,—,—,,
+795,Pheromosa,—,Pheromosa #795,—,—,,
+796,Xurkitree,—,Xurkitree #796,—,—,,
+797,Celesteela,—,Celesteela #797,—,—,,
+798,Kartana,—,Kartana #798,—,—,,
+799,Guzzlord,GL,Guzzlord #799 — GL #24,low ATK / high bulk,Dragon Tail / Brutal Swing / Sludge Bomb,1,1
+800,Necrozma,—,Necrozma #800,—,—,,
+800,Necrozma,ML,Necrozma (Dawn Wings) #800 — ML #21,high ATK,Shadow Claw / Dark Pulse / Moongeist Beam,1,1
+800,Necrozma,ML,Necrozma (Dusk Mane) #800 — ML #31,high ATK,Shadow Claw / Dark Pulse / Sunsteel Strike,1,1
+802,Marshadow,ML,Marshadow #802 — ML #13,high ATK,Shadow Claw / Close Combat / Ice Punch,1,1
+803,Poipole,—,Poipole #803 · Naganadel #804,—,—,,
+805,Stakataka,—,Stakataka #805,—,—,,
+806,Blacephalon,—,Blacephalon #806,—,—,,
+807,Zeraora,—,Zeraora #807,—,—,,
+808,Meltan,ML,Meltan #808 · Melmetal #809 — ML #38,high ATK,Thunder Shock / Double Iron Bash / Dynamic Punch,1,1
+810,Grookey,—,Grookey #810 · Thwackey #811 · Rillaboom #812,—,—,,
+813,Scorbunny,—,Scorbunny #813 · Raboot #814 · Cinderace #815,—,—,,
+816,Sobble,—,Sobble #816 · Drizzile #817 · Inteleon #818,—,—,,
+819,Skwovet,GL,Skwovet #819 · Greedent #820 — GL #39,low ATK / high bulk,Mud Shot / Body Slam / Trailblaze,1,1
+821,Rookidee,GL UL,"Rookidee #821 · Corvisquire #822 · Corviknight #823 — GL #19, UL #3 · Shadow GL #26, UL #5",low ATK / high bulk,Sand Attack / Air Cutter / Payback,1,4
+824,Blipbug,—,Blipbug #824 · Dottler #825 · Orbeetle #826,—,—,,
+827,Nickit,—,Nickit #827 · Thievul #828,—,—,,
+829,Gossifleur,—,Gossifleur #829 · Eldegoss #830,—,—,,
+831,Wooloo,—,Wooloo #831 · Dubwool #832,—,—,,
+835,Yamper,—,Yamper #835 · Boltund #836,—,—,,
+837,Rolycoly,—,Rolycoly #837 · Carkol #838 · Coalossal #839,—,—,,
+840,Applin,—,Applin #840 · Flapple #841 · Appletun #842 · Dipplin #1011 · Hydrapple #1019,—,—,,
+843,Silicobra,—,Silicobra #843 · Sandaconda #844,—,—,,
+848,Toxel,—,Toxel #848 · Toxtricity #849,—,—,,
+850,Sizzlipede,—,Sizzlipede #850 · Centiskorch #851,—,—,,
+852,Clobbopus,—,Clobbopus #852 · Grapploct #853,—,—,,
+854,Sinistea,—,Sinistea #854 · Polteageist #855,—,—,,
+856,Hatenna,—,Hatenna #856 · Hattrem #857 · Hatterene #858,—,—,,
+859,Impidimp,—,Impidimp #859 · Morgrem #860 · Grimmsnarl #861,—,—,,
+864,Cursola,—,Cursola #864,—,—,,
+870,Falinks,—,Falinks #870,—,—,,
+872,Snom,—,Snom #872 · Frosmoth #873,—,—,,
+874,Stonjourner,—,Stonjourner #874,—,—,,
+876,Indeedee,—,Indeedee (Female) #876,—,—,,
+876,Indeedee,—,Indeedee (Male) #876,—,—,,
+877,Morpeko,—,Morpeko (Full Belly) #877,—,—,,
+884,Duraludon,—,Duraludon #884,—,—,,
+885,Dreepy,—,Dreepy #885 · Drakloak #886 · Dragapult #887,—,—,,
+888,Zacian,ML,Zacian (Crowned Sword) #888 — ML #1,high ATK,Metal Claw / Close Combat / Behemoth Blade,1,1
+888,Zacian,—,Zacian (Hero) #888,—,—,,
+889,Zamazenta,ML,Zamazenta (Crowned Shield) #889 — ML #9,high ATK,Ice Fang / Close Combat / Behemoth Bash,1,1
+889,Zamazenta,—,Zamazenta (Hero) #889,—,—,,
+890,Eternatus,ML,Eternatus #890 — ML #15,high ATK,Dragon Tail / Dynamax Cannon / Flamethrower,1,1
+891,Kubfu,—,Kubfu #891 · Urshifu (Rapid Strike) #892 · Urshifu (Single Strike) #892,—,—,,
+893,Zarude,—,Zarude #893,—,—,,
+894,Regieleki,—,Regieleki #894,—,—,,
+895,Regidrago,UL,Regidrago #895 — UL #30,low ATK / high bulk,Dragon Breath / Dragon Energy / Vice Grip,1,1
+905,Enamorus,—,Enamorus (Incarnate) #905,—,—,,
+905,Enamorus,—,Enamorus (Therian) #905,—,—,,
+906,Sprigatito,—,Sprigatito #906 · Floragato #907 · Meowscarada #908,—,—,,
+909,Fuecoco,—,Fuecoco #909 · Crocalor #910 · Skeledirge #911,—,—,,
+912,Quaxly,—,Quaxly #912 · Quaxwell #913 · Quaquaval #914,—,—,,
+915,Lechonk,LC GL,Lechonk #915 — LC #43 · Oinkologne #916 · Oinkologne (Female) #916 — GL #36,low ATK / high bulk,Mud Slap / Body Slam / Trailblaze,1,2
+917,Tarountula,—,Tarountula #917 · Spidops #918,—,—,,
+919,Nymble,—,Nymble #919 · Lokix #920,—,—,,
+921,Pawmi,—,Pawmi #921 · Pawmo #922 · Pawmot #923,—,—,,
+924,Tandemaus,—,Tandemaus #924 · Maushold #925,—,—,,
+926,Fidough,—,Fidough #926 · Dachsbun #927,—,—,,
+928,Smoliv,—,Smoliv #928 · Dolliv #929 · Arboliva #930,—,—,,
+931,Squawkabilly,—,Squawkabilly #931,—,—,,
+932,Nacli,—,Nacli #932 · Naclstack #933 · Garganacl #934,—,—,,
+935,Charcadet,—,Charcadet #935 · Armarouge #936 · Ceruledge #937,—,—,,
+938,Tadbulb,UL,Tadbulb #938 · Bellibolt #939 — UL #33,low ATK / high bulk,Sucker Punch / Parabolic Charge / Zap Cannon,1,1
+940,Wattrel,—,Wattrel #940 · Kilowattrel #941,—,—,,
+944,Shroodle,—,Shroodle #944 · Grafaiai #945,—,—,,
+948,Toedscool,—,Toedscool #948 · Toedscruel #949,—,—,,
+950,Klawf,—,Klawf #950,—,—,,
+955,Flittle,—,Flittle #955 · Espathra #956,—,—,,
+957,Tinkatink,GL UL,"Tinkatink #957 · Tinkatuff #958 · Tinkaton #959 — GL #3, UL #4",low ATK / high bulk,Fairy Wind / Gigaton Hammer / Bulldoze,1,2
+960,Wiglett,—,Wiglett #960 · Wugtrio #961,—,—,,
+962,Bombirdier,—,Bombirdier #962,—,—,,
+965,Varoom,—,Varoom #965 · Revavroom #966,—,—,,
+968,Orthworm,—,Orthworm #968,—,—,,
+969,Glimmet,—,Glimmet #969 · Glimmora #970,—,—,,
+971,Greavard,LC,Greavard #971 — LC #26 · Houndstone #972,low ATK / high bulk,Lick / Psychic Fangs / Shadow Ball,1,1
+973,Flamigo,—,Flamigo #973,—,—,,
+974,Cetoddle,—,Cetoddle #974 · Cetitan #975,—,—,,
+977,Dondozo,UL,Dondozo #977 — UL #28,low ATK / high bulk,Waterfall / Surf / Outrage,1,1
+978,Tatsugiri,—,Tatsugiri (Curly) #978,—,—,,
+978,Tatsugiri,—,Tatsugiri (Droopy) #978,—,—,,
+978,Tatsugiri,—,Tatsugiri (Stretchy) #978,—,—,,
+996,Frigibax,LC,Frigibax #996 — LC #36 · Arctibax #997 · Baxcalibur #998,low ATK / high bulk,Dragon Breath / Avalanche / Dragon Claw,1,1
+999,Gimmighoul,ML,Gimmighoul #999 · Gholdengo #1000 — ML #34,high ATK,Hex / Shadow Ball / Focus Blast,1,1
+1012,Poltchageist,—,Poltchageist #1012 · Sinistcha #1013,—,—,,
