@@ -133,16 +133,18 @@ ordered by Pokédex #. One row per <b>base-species line</b> — normal / shadow 
 grouped (search the family with <code>+name</code>); each form×league is a detail line. Sprite = base form.
 <span class=lg style="background:none;color:#14713a">Capped</span> want low ATK; <span class=lg style="background:none;color:#1e5fa8">Master</span> wants high ATK.</p>
 """]
-NAMES = [g["name"] for g in ordered]
-_names = ",".join("+" + n for n in NAMES)
+capped = [g["name"] for g in ordered if any(d["league"] in ("little", "great", "ultra") for d in g["details"])]
+master = [g["name"] for g in ordered if any(d["league"] == "master" for d in g["details"])]
+cap_s = ",".join("+" + n for n in capped)
+mas_s = ",".join("+" + n for n in master)
 h.append("<h2>Quick search strings</h2>")
-h.append(f"<p class=note>Every base species in this list ({len(NAMES)} — grouped, so <code>+name</code> "
-         "covers each family incl. shadow / regional forms). If the game truncates such a long string, "
-         "split the name list in half.</p>")
-h.append("<div class=ss><b>PvP shape — low ATK / high bulk</b> (for the Little / Great / Ultra mons):"
-         f"<pre>{_names}&0-1attack&3-4defense&3-4hp</pre></div>")
-h.append("<div class=ss><b>High IV — high ATK / hundo</b> (for the Master-league &amp; raid mons):"
-         f"<pre>{_names}&3*,4*</pre></div>")
+h.append("<p class=note>Split by IV shape (a mon good in both a capped league and Master appears in both). "
+         f"Capped-league species ({len(capped)}) want <b>low ATK</b>; Master-league species ({len(master)}) want "
+         "<b>high ATK</b>. <code>+name</code> covers each family. If the game truncates a long string, split it.</p>")
+h.append("<div class=ss><b>PvP shape — low ATK / high bulk</b> (Little / Great / Ultra species):"
+         f"<pre>{cap_s}&0-1attack&3-4defense&3-4hp</pre></div>")
+h.append("<div class=ss><b>High IV — high ATK / hundo</b> (Master-league species):"
+         f"<pre>{mas_s}&3*,4*</pre></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for g in ordered:
