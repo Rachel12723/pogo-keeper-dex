@@ -11,9 +11,10 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No league top-50 (Venusaur best UL #224). Bulbasaur Little #275 — not viable.* | | | | |
 | Charmander | Raid / Mega | Mega Charizard X & Y (Y = top Fire raider) | IV% ≥96% or 15 ATK  (high ATK) | Fire Spin / Blast Burn | 2 | 2 |
 | | | *† One Charizard Mega-evolves into EITHER X or Y — 1 hundo mechanically covers both. No PvP top-50.* | | | | |
-| Squirtle | Ultra | Blastoise #22 | Rank % ≥ 97.6  (≤ #100; low ATK) | Rollout / Hydro Cannon / Skull Bash | 1 | 2 |
+| Squirtle | Great | Blastoise #51 | Rank % ≥ 97.6  (≤ #100; low ATK) | Rollout / Hydro Cannon / Skull Bash | 1 | 3 |
+|  | Ultra | Blastoise #22 | Rank % ≥ 97.6  (≤ #100; low ATK) | Rollout / Hydro Cannon / Skull Bash | 1 |  |
 |  | Raid / Mega | Mega Blastoise (weak raider — optional) | IV% ≥96% or 15 ATK  (high ATK) | Water Gun / Hydro Cannon | 1 |  |
-| | | *Blastoise GL #51 (near-miss — a low-ATK one is usable in GL too). Mega is outclassed; hundo optional.* | | | | |
+| | | *Solid in both capped leagues (best in UL). Mega is outclassed; hundo optional.* | | | | |
 | Chikorita | Little Cup | Chikorita #41 (base) | Rank % ≥ 97.6  (≤ #100; low ATK) | Vine Whip / Body Slam / Grass Knot | 1 | 1 |
 | | | *Only Little Cup. Meganium not a raider; no mega.* | | | | |
 | Cyndaquil | Collection | Typhlosion — budget Fire attacker, outclassed | 1× best IV or shiny | Ember / Blast Burn | 1 | 1 |
@@ -25,9 +26,10 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No PvP top-50 (Sceptile best GL #446). Value is the Mega.* | | | | |
 | Torchic | Raid / Mega | Mega Blaziken (strong Fire/Fighting) | IV% ≥96% or 15 ATK  (high ATK) | Counter / Blast Burn | 1 | 1 |
 | | | *No PvP top-50. Value is the Mega.* | | | | |
-| Mudkip | Ultra | Swampert #45 | Rank % ≥ 97.6  (≤ #100; low ATK) | Mud Shot / Hydro Cannon / Earthquake | 1 | 2 |
+| Mudkip | Great | Swampert #64 | Rank % ≥ 97.6  (≤ #100; low ATK) | Mud Shot / Hydro Cannon / Earthquake | 1 | 3 |
+|  | Ultra | Swampert #45 | Rank % ≥ 97.6  (≤ #100; low ATK) | Mud Shot / Hydro Cannon / Earthquake | 1 |  |
 |  | Raid / Mega | Mega Swampert (top Water raider) | IV% ≥96% or 15 ATK  (high ATK) | Water Gun / Hydro Cannon | 1 |  |
-| | | *Swampert GL #64 & ML #105 = near-misses/budget — the UL low-ATK one also plays GL. Mega + ML both want a hundo.* | | | | |
+| | | *Great in GL & UL (ML #105 just outside). Mega + ML both want a hundo — separate from the low-ATK PvP copies.* | | | | |
 
 ## Wild Spawns — Jul 23–25 (Sinnoh/Unova/Kalos)
 
@@ -44,8 +46,9 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No PvP top-50, no mega.* | | | | |
 | Tepig | Little Cup | Tepig #48 (base) | Rank % ≥ 97.6  (≤ #100; low ATK) | Ember / Body Slam / Flame Charge | 1 | 1 |
 | | | *Only Little Cup. Emboar not meta.* | | | | |
-| Oshawott | Collection | Samurott — regular form meh | 1× best IV or shiny | — | 1 | 1 |
-| | | *Hisuian Samurott is the PvP one (needs Hisuian Oshawott, a different mon).* | | | | |
+| Oshawott | Great | Samurott #90 | Rank % ≥ 97.6  (≤ #100; low ATK) | Fury Cutter / Hydro Cannon / Megahorn | 1 | 2 |
+|  | Ultra | Samurott #74 | Rank % ≥ 97.6  (≤ #100; low ATK) | Fury Cutter / Hydro Cannon / Megahorn | 1 |  |
+| | | *Niche in both capped leagues. Hisuian Samurott is stronger (needs Hisuian Oshawott, a different mon).* | | | | |
 | Chespin | Collection | Chesnaught — best ML #208, not top-50 | 1× best IV or shiny | — | 1 | 1 |
 | | | *Fell out of the meta; no mega.* | | | | |
 | Fennekin | Collection | Delphox — not meta | 1× best IV or shiny | — | 1 | 1 |
@@ -61,8 +64,9 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *No mega.* | | | | |
 | Litten | Collection | Incineroar — fringe | 1× best IV or shiny | — | 1 | 1 |
 | | | *No PvP top-50, no mega.* | | | | |
-| Popplio | Master | Primarina #49 | IV% ≥96% or 15 ATK  (high ATK) | Waterfall / Disarming Voice / Hydro Cannon | 1 | 1 |
-| | | *Also UL #71 (near-miss — a strong UL closer; a low-ATK one is worth it too). No mega.* | | | | |
+| Popplio | Ultra | Primarina #71 | Rank % ≥ 97.6  (≤ #100; low ATK) | Waterfall / Disarming Voice / Hydro Cannon | 1 | 2 |
+|  | Master | Primarina #49 | IV% ≥96% or 15 ATK  (high ATK) | Waterfall / Disarming Voice / Hydro Cannon | 1 |  |
+| | | *UL closer (keep low-ATK) AND ML pick (keep high-ATK) — two different IV builds. No mega.* | | | | |
 | Grookey | Collection | Rillaboom — fringe | 1× best IV or shiny | — | 1 | 1 |
 | | | *No PvP top-50, no mega.* | | | | |
 | Scorbunny | Collection | Cinderace — glass, niche | 1× best IV or shiny | — | 1 | 1 |
@@ -71,8 +75,8 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 | | | *Sobble CD was 4 Jul 2026 — evolve for the CD move. Keep a high-ATK one for Water raids + Max Battles. Not top-50 PvP.* | | | | |
 | Sprigatito | Collection | Meowscarada — glass, niche | 1× best IV or shiny | — | 1 | 1 |
 | | | *No mega.* | | | | |
-| Fuecoco | Collection / watch | Skeledirge — UL #94, ML #109 (just outside) | 1× best IV or shiny | Incinerate / Torch Song / Shadow Ball | 1 | 1 |
-| | | *Emerging — Fuecoco Little #52 & Skeledirge UL #94 all near-miss top-50. Keep a low-ATK one if you want to gamble. No mega.* | | | | |
+| Fuecoco | Ultra | Skeledirge #94 | Rank % ≥ 97.6  (≤ #100; low ATK) | Incinerate / Torch Song / Shadow Ball | 1 | 1 |
+| | | *Skeledirge is a UL pick (ML #109 just outside; Fuecoco Little #52 just missed). No mega.* | | | | |
 | Quaxly | Collection | Quaquaval — fringe | 1× best IV or shiny | — | 1 | 1 |
 | | | *No PvP top-50, no mega.* | | | | |
 

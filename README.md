@@ -107,7 +107,7 @@ For raid / Mega / Max-Battle attack focus, append `&3-4attack` (or `&4attack` = 
 
 **String 2 — PvP shape** (capped-league species) → low-ATK / high-bulk, then Poke Genie (keep Rank % ≥ 95):
 ```
-+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp
++squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig,+oshawott,+popplio,+fuecoco&0-1attack&3-4defense&3-4hp
 ```
 
 **Transfer — junk copies.** All 30 species (same as String 1), opposite IV filter — dumps low-IV,

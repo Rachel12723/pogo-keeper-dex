@@ -43,9 +43,10 @@ FAMILIES = [
      ("Raid / Mega", "Mega Charizard X & Y (Y = top Fire raider)", HI, "Fire Spin / Blast Burn", 2)],
      "† One Charizard Mega-evolves into EITHER X or Y — 1 hundo mechanically covers both. No PvP top-50."),
   ("Squirtle", [
+     ("Great", "Blastoise #51", PVP, "Rollout / Hydro Cannon / Skull Bash", 1),
      ("Ultra", "Blastoise #22", PVP, "Rollout / Hydro Cannon / Skull Bash", 1),
      ("Raid / Mega", "Mega Blastoise (weak raider — optional)", HI, "Water Gun / Hydro Cannon", 1)],
-     "Blastoise GL #51 (near-miss — a low-ATK one is usable in GL too). Mega is outclassed; hundo optional."),
+     "Solid in both capped leagues (best in UL). Mega is outclassed; hundo optional."),
   ("Chikorita", [
      ("Little Cup", "Chikorita #41 (base)", PVP, "Vine Whip / Body Slam / Grass Knot", 1)],
      "Only Little Cup. Meganium not a raider; no mega."),
@@ -63,9 +64,10 @@ FAMILIES = [
      ("Raid / Mega", "Mega Blaziken (strong Fire/Fighting)", HI, "Counter / Blast Burn", 1)],
      "No PvP top-50. Value is the Mega."),
   ("Mudkip", [
+     ("Great", "Swampert #64", PVP, "Mud Shot / Hydro Cannon / Earthquake", 1),
      ("Ultra", "Swampert #45", PVP, "Mud Shot / Hydro Cannon / Earthquake", 1),
      ("Raid / Mega", "Mega Swampert (top Water raider)", HI, "Water Gun / Hydro Cannon", 1)],
-     "Swampert GL #64 & ML #105 = near-misses/budget — the UL low-ATK one also plays GL. Mega + ML both want a hundo."),
+     "Great in GL & UL (ML #105 just outside). Mega + ML both want a hundo — separate from the low-ATK PvP copies."),
  ]),
  ("Wild Spawns — Jul 23–25 (Sinnoh/Unova/Kalos)", [
   ("Turtwig", [("Collection", "Torterra — fringe, no mega", COLL, "—", 1)],
@@ -80,8 +82,10 @@ FAMILIES = [
   ("Tepig", [
      ("Little Cup", "Tepig #48 (base)", PVP, "Ember / Body Slam / Flame Charge", 1)],
      "Only Little Cup. Emboar not meta."),
-  ("Oshawott", [("Collection", "Samurott — regular form meh", COLL, "—", 1)],
-     "Hisuian Samurott is the PvP one (needs Hisuian Oshawott, a different mon)."),
+  ("Oshawott", [
+     ("Great", "Samurott #90", PVP, "Fury Cutter / Hydro Cannon / Megahorn", 1),
+     ("Ultra", "Samurott #74", PVP, "Fury Cutter / Hydro Cannon / Megahorn", 1)],
+     "Niche in both capped leagues. Hisuian Samurott is stronger (needs Hisuian Oshawott, a different mon)."),
   ("Chespin", [("Collection", "Chesnaught — best ML #208, not top-50", COLL, "—", 1)],
      "Fell out of the meta; no mega."),
   ("Fennekin", [("Collection", "Delphox — not meta", COLL, "—", 1)], "No PvP top-50, no mega."),
@@ -91,15 +95,17 @@ FAMILIES = [
   ("Rowlet", [("Collection", "Decidueye — not top-50", COLL, "—", 1)], "No mega."),
   ("Litten", [("Collection", "Incineroar — fringe", COLL, "—", 1)], "No PvP top-50, no mega."),
   ("Popplio", [
+     ("Ultra", "Primarina #71", PVP, "Waterfall / Disarming Voice / Hydro Cannon", 1),
      ("Master", "Primarina #49", HI, "Waterfall / Disarming Voice / Hydro Cannon", 1)],
-     "Also UL #71 (near-miss — a strong UL closer; a low-ATK one is worth it too). No mega."),
+     "UL closer (keep low-ATK) AND ML pick (keep high-ATK) — two different IV builds. No mega."),
   ("Grookey", [("Collection", "Rillaboom — fringe", COLL, "—", 1)], "No PvP top-50, no mega."),
   ("Scorbunny", [("Collection", "Cinderace — glass, niche", COLL, "—", 1)], "No mega."),
   ("Sobble", [("Raid / Max", "Inteleon #16 Water attacker (w/ Hydro Cannon or Snipe Shot); G-Max = TOP Water in Max Battles", HI, "Water Gun / Snipe Shot (or Hydro Cannon)", 1)],
      "Sobble CD was 4 Jul 2026 — evolve for the CD move. Keep a high-ATK one for Water raids + Max Battles. Not top-50 PvP."),
   ("Sprigatito", [("Collection", "Meowscarada — glass, niche", COLL, "—", 1)], "No mega."),
-  ("Fuecoco", [("Collection / watch", "Skeledirge — UL #94, ML #109 (just outside)", COLL, "Incinerate / Torch Song / Shadow Ball", 1)],
-     "Emerging — Fuecoco Little #52 & Skeledirge UL #94 all near-miss top-50. Keep a low-ATK one if you want to gamble. No mega."),
+  ("Fuecoco", [
+     ("Ultra", "Skeledirge #94", PVP, "Incinerate / Torch Song / Shadow Ball", 1)],
+     "Skeledirge is a UL pick (ML #109 just outside; Fuecoco Little #52 just missed). No mega."),
   ("Quaxly", [("Collection", "Quaquaval — fringe", COLL, "—", 1)], "No PvP top-50, no mega."),
  ]),
  ("Lure Module Encounters (normal Lure) — the standouts", [
@@ -248,7 +254,7 @@ S1 = ("+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko
       "+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,"
       "+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,"
       "+beldum,+gible,+dreepy&3*,4*")
-S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig&0-1attack&3-4defense&3-4hp"
+S2 = "+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig,+oshawott,+popplio,+fuecoco&0-1attack&3-4defense&3-4hp"
 ST = ("+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,"
       "+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,"
       "+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,"
