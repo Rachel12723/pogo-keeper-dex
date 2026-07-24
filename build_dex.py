@@ -115,14 +115,12 @@ items.sort(key=lambda x: (x[1], 0 if x[0] == "fam" else 1))
 # ---- CSV (one row per family) ----
 with open(os.path.join(HERE, "dex.csv"), "w", newline="") as fh:
     w = csv.writer(fh)
-    w.writerow(["Dex", "Spawn", "League / Purpose", "Best form & rank / forms", "Total"])
+    w.writerow(["Dex", "Spawn", "League / Purpose", "Best form & rank", "Folded forms", "Total"])
     for r in rows:
-        if r["usages"]:
-            lp = " ".join(sorted({u["lp"] for u in r["usages"]}))
-            best = " | ".join(f'{u["lp"]}: {re.sub("<.*?>","",u["best"])}' for u in r["usages"])
-        else:
-            lp, best = "Collection only", re.sub("<.*?>", "", r["chain"])
-        w.writerow([r["dex"], r["name"], lp, best, r["total"] or ""])
+        lp = " ".join(sorted({u["lp"] for u in r["usages"]})) or "Collection only"
+        best = " | ".join(f'{u["lp"]}: {re.sub("<.*?>","",u["best"])}' for u in r["usages"])
+        forms = re.sub("<.*?>", "", r["chain"])
+        w.writerow([r["dex"], r["name"], lp, best, forms, r["total"] or ""])
 print(f"wrote dex.csv  (families: {len(rows)}, pointers: {len(pointers)})")
 
 # ---- HTML ----
@@ -163,19 +161,24 @@ for kind, _d, payload in items:
         continue
     r = payload
     img = f'<img loading=lazy src="{ART.format(r["dex"])}" alt="">'
-    spawn = f'<td class=mon>{r["name"]}<br><span class=dex>#{r["dex"]}</span></td>'
-    if not r["usages"]:
-        h.append(f'<tr><td style="text-align:center">{img}</td>{spawn}'
-                 f'<td class=coll>Collection only</td><td class=note>{r["chain"]}</td>'
-                 f'<td class=note>—</td><td class=note>—</td><td class=keep></td><td class=tot></td></tr>')
-        continue
-    n = len(r["usages"])
-    for j, u in enumerate(r["usages"]):
-        c0 = f'<td rowspan={n} style="text-align:center">{img}</td>{spawn.replace("<td ", f"<td rowspan={n} ",1)}' if j == 0 else ""
-        ct = f'<td rowspan={n} class=tot>{n}</td>' if j == 0 else ""
-        h.append(f'<tr>{c0}<td><span class="lg {u["lp"]}">{u["lp"]}</span></td>'
-                 f'<td class=rank><b>{u["best"]}</b></td><td class=note>{u["iv"]}</td>'
-                 f'<td class=note>{u["moves"]}</td><td class=keep>1</td>{ct}</tr>')
+    lines = [dict(u, keep="1") for u in r["usages"]]
+    lines.append({"lp": "Collection only", "best": r["chain"], "iv": "—", "moves": "—", "keep": "", "coll": True})
+    n = len(lines)
+    totval = r["total"] or ""
+    for j, u in enumerate(lines):
+        if j == 0:
+            c0 = (f'<td rowspan={n} style="text-align:center">{img}</td>'
+                  f'<td rowspan={n} class=mon>{r["name"]}<br><span class=dex>#{r["dex"]}</span></td>')
+            ct = f'<td rowspan={n} class=tot>{totval}</td>'
+        else:
+            c0 = ct = ""
+        if u.get("coll"):
+            lp_html, best_html = '<span class=coll>Collection only</span>', f'<span class=note>{u["best"]}</span>'
+        else:
+            lp_html, best_html = f'<span class="lg {u["lp"]}">{u["lp"]}</span>', f'<b>{u["best"]}</b>'
+        h.append(f'<tr>{c0}<td>{lp_html}</td><td class=rank>{best_html}</td>'
+                 f'<td class=note>{u["iv"]}</td><td class=note>{u["moves"]}</td>'
+                 f'<td class=keep>{u["keep"]}</td>{ct}</tr>')
 h.append("</table></html>")
 open(os.path.join(HERE, "dex.html"), "w").write("\n".join(h))
 print("wrote dex.html")
