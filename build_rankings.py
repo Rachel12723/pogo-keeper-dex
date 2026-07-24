@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a PvP ranking reference page from pvpoke's public dataset.
 
-Sections = leagues (Little top 50, Great/Ultra/Master top 60), each ordered by rank.
+Sections = leagues (Little top 50, Great/Ultra top 100, Master top 75), each ordered by rank.
 The "League / Purpose" column lists a mon's OTHER leagues (within these cutoffs).
 Keep = 1 per row; Total = # of leagues that species ranks in. Shadows included.
 
@@ -18,9 +18,9 @@ DATA = os.path.join(HERE, "data")
 # league key -> (display, short code, top-N cutoff)
 LEAGUES = [
     ("little", "Little Cup", "LC", 50),
-    ("great", "Great League", "GL", 60),
-    ("ultra", "Ultra League", "UL", 60),
-    ("master", "Master League", "ML", 60),
+    ("great", "Great League", "GL", 100),
+    ("ultra", "Ultra League", "UL", 100),
+    ("master", "Master League", "ML", 75),
 ]
 SHORT = {k: s for k, _, s, _ in LEAGUES}
 

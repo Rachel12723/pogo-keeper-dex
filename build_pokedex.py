@@ -16,9 +16,9 @@ DATA = os.path.join(HERE, "data")
 
 LEAGUES = [
     ("little", "Little Cup", "LC", 50),
-    ("great", "Great League", "GL", 60),
-    ("ultra", "Ultra League", "UL", 60),
-    ("master", "Master League", "ML", 60),
+    ("great", "Great League", "GL", 100),
+    ("ultra", "Ultra League", "UL", 100),
+    ("master", "Master League", "ML", 75),
 ]
 SHORT = {k: s for k, _, s, _ in LEAGUES}
 LORDER = {k: i for i, (k, *_ ) in enumerate(LEAGUES)}
@@ -128,7 +128,7 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 </style>
 <h1>Pokémon GO PvP Rankings — by Pokédex #</h1>
 <p style="margin:0 0 10px"><a href="rankings.html">→ by League view</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="index.html">→ Ultra Unlock event guide</a></p>
-<p class=sub>Same pool as the by-League page (Little top 50, Great/Ultra/Master top 60), merged into one list
+<p class=sub>Same pool as the by-League page (Little top 50, Great/Ultra top 100, Master top 75), merged into one list
 ordered by Pokédex #. One row per <b>base-species line</b> — normal / shadow / Galarian (etc.) forms are
 grouped (search the family with <code>+name</code>); each form×league is a detail line. Sprite = base form.
 <span class=lg style="background:none;color:#14713a">Capped</span> want low ATK; <span class=lg style="background:none;color:#1e5fa8">Master</span> wants high ATK.</p>

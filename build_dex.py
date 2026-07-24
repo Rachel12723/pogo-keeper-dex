@@ -6,7 +6,7 @@ Source: pvpoke's Pokémon GO gamemaster (data/gamemaster.json) + our rank pools.
   species shows once; real alt-formes (Deoxys, Rotom, regionals…) survive.
 - One row per evolutionary family at its lowest ('first appearance') dex #, by dex.
 - League / Purpose lists ALL usage: each PvP league a form ranks in (LC50/GL·UL·ML60),
-  plus 'Mega' if the family has a Mega/Primal (a PvE raid option). Best form & rank is
+  (LC top 50 / GL·UL top 100 / ML top 75) plus 'Mega' if the family has a Mega/Primal. Best form & rank is
   one line per usage. Families with no usage show 'Collection only' + the folded forms.
 - Far-apart folded members get a pointer row. NOTE: non-mega PvE attacker tiers are
   not in this dataset (PvP-only), so raid-only attackers read 'Collection only'.
@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 FAR = 5
 
-LEAGUES = [("little", "LC", 50), ("great", "GL", 60), ("ultra", "UL", 60), ("master", "ML", 60)]
+LEAGUES = [("little", "LC", 50), ("great", "GL", 100), ("ultra", "UL", 100), ("master", "ML", 75)]
 LORDER = {k: i for i, (k, _s, _c) in enumerate(LEAGUES)}
 SHORT = {k: s for k, s, _c in LEAGUES}
 
@@ -148,7 +148,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 <p style="margin:0 0 10px"><a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="index.html">→ Ultra Unlock event</a></p>
 <p class=sub>Every released species in Pokémon GO (pvpoke gamemaster), <b>one row per family</b> at its first dex #.
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
-(LC top 50 / GL·UL·ML top 60) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid
+(LC top 50 / GL·UL top 100 / ML top 75) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid
 option), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
 <i>Note: non-mega PvE raid tiers aren't in this PvP dataset, so raid-only attackers may read Collection only.</i></p>
 <table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>
