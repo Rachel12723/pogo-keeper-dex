@@ -234,6 +234,10 @@ img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
 .ss b{font-size:13px} .ss code{background:#eef1f4;padding:1px 4px;border-radius:4px}
 pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
  border-radius:8px;padding:10px 12px;font-size:13px;margin:4px 0 14px;max-width:90ch}
+
+.sshead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}
+.copy{font:600 12px/1 -apple-system,Segoe UI,sans-serif;padding:4px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#334155;cursor:pointer;white-space:nowrap}
+.copy:hover{background:#f1f5f9} .copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
 </style>
 <h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ Rankings by League</a> &nbsp;·&nbsp; <a href="pokedex.html">→ by Pokédex #</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a></p>
@@ -268,7 +272,7 @@ h.append("<p class=note>Paste into the Pokémon GO search bar. <code>+name</code
 for label, s in [("KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)", S1),
                  ("PvP shape → then run Poke Genie (keep Rank % ≥ 95)", S2),
                  ("TRANSFER — junk copies (low IV, non-shiny)", ST)]:
-    h.append(f"<div class=ss><b>{label}</b><pre>{s}</pre></div>")
+    h.append(f"<div class=ss><div class=sshead><b>{label}</b><button class=copy>Copy</button></div><pre>{s}</pre></div>")
 for section, fams in FAMILIES:
     h.append(f"<h2>{section}</h2>")
     h.append("<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>"
@@ -287,6 +291,7 @@ for section, fams in FAMILIES:
                      f"<td>{mv}</td><td class=keep>{keep}</td>{ct}</tr>")
         h.append(f"<tr><td></td><td></td><td colspan=6 class=note>{note}</td></tr>")
     h.append("</table>")
+h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.textContent='Copied!';b.classList.add('ok');setTimeout(function(){b.textContent='Copy';b.classList.remove('ok');},1500);});});});</script>")
 h.append("</html>")
 html_path = os.path.join(HERE, "event.html")
 open(html_path, "w").write("\n".join(h))

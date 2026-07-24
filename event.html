@@ -25,6 +25,10 @@ img{width:52px;height:52px;object-fit:contain;vertical-align:middle}
 .ss b{font-size:13px} .ss code{background:#eef1f4;padding:1px 4px;border-radius:4px}
 pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
  border-radius:8px;padding:10px 12px;font-size:13px;margin:4px 0 14px;max-width:90ch}
+
+.sshead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}
+.copy{font:600 12px/1 -apple-system,Segoe UI,sans-serif;padding:4px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#334155;cursor:pointer;white-space:nowrap}
+.copy:hover{background:#f1f5f9} .copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
 </style>
 <h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ Rankings by League</a> &nbsp;·&nbsp; <a href="pokedex.html">→ by Pokédex #</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a></p>
@@ -43,9 +47,9 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 
 <h2>Quick in-game search strings</h2>
 <p class=note>Paste into the Pokémon GO search bar. <code>+name</code> = whole evolution line, <code>3*,4*</code> = high IV (incl. hundos); IV stats use a 0–4 scale (3–4 = 11–15 IV). <b>Order:</b> run String 2 first, nickname each PvP keeper so its name contains <code>pvp</code>, THEN run Transfer — <code>!pvp</code> + <code>!shiny</code> + the <code>0*,1*,2*</code> filter keep your tagged gems, shinies, and hundos safe.</p>
-<div class=ss><b>KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)</b><pre>+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&3*,4*</pre></div>
-<div class=ss><b>PvP shape → then run Poke Genie (keep Rank % ≥ 95)</b><pre>+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig,+oshawott,+popplio,+fuecoco&0-1attack&3-4defense&3-4hp</pre></div>
-<div class=ss><b>TRANSFER — junk copies (low IV, non-shiny)</b><pre>+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&0*,1*,2*&!shiny&!pvp</pre></div>
+<div class=ss><div class=sshead><b>KEEP — high IV (Mega / Raid / Master / Max-Battle + collection)</b><button class=copy>Copy</button></div><pre>+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&3*,4*</pre></div>
+<div class=ss><div class=sshead><b>PvP shape → then run Poke Genie (keep Rank % ≥ 95)</b><button class=copy>Copy</button></div><pre>+squirtle,+chikorita,+totodile,+mudkip,+piplup,+tepig,+oshawott,+popplio,+fuecoco&0-1attack&3-4defense&3-4hp</pre></div>
+<div class=ss><div class=sshead><b>TRANSFER — junk copies (low IV, non-shiny)</b><button class=copy>Copy</button></div><pre>+bulbasaur,+charmander,+squirtle,+chikorita,+cyndaquil,+totodile,+treecko,+torchic,+mudkip,+turtwig,+chimchar,+piplup,+snivy,+tepig,+oshawott,+chespin,+fennekin,+froakie,+rowlet,+litten,+popplio,+grookey,+scorbunny,+sobble,+sprigatito,+fuecoco,+quaxly,+beldum,+gible,+dreepy&0*,1*,2*&!shiny&!pvp</pre></div>
 <h2>Wild Spawns — Jul 21–23 (Kanto/Johto/Hoenn)</h2>
 <table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th><th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>
 <tr><td rowspan=1 style="text-align:center"><img loading=lazy src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt=""></td><td rowspan=1 class=mon>Bulbasaur</td><td><span class='tag hi'>Raid / Mega</span></td><td class=rank>Mega Venusaur (good Grass/Poison raider)</td><td class=note>IV% ≥96% or 15 ATK  (high ATK)</td><td>Vine Whip / Frenzy Plant</td><td class=keep>1</td><td rowspan=1 class=tot>1</td></tr>
@@ -149,4 +153,5 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 <tr><td rowspan=1 style="text-align:center"><img loading=lazy src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png" alt=""></td><td rowspan=1 class=mon>Mega Salamence</td><td><span class='tag hi'>Raid / Mega</span></td><td class=rank>Mega Salamence — top-tier mega Dragon/Flying raider (behind Mega Rayquaza, ≈ Mega Latios)</td><td class=note>IV% ≥96% or 15 ATK  (high ATK)</td><td>Dragon Tail / Draco Meteor</td><td class=keep>1</td><td rowspan=1 class=tot>1</td></tr>
 <tr><td></td><td></td><td colspan=6 class=note>PvP-fringe (ML #108, UL #321). Not #1 dragon — Mega Rayquaza leads — but far more accessible, and you can bring your own mega for the party damage boost. Keep a high-ATK one.</td></tr>
 </table>
+<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.textContent='Copied!';b.classList.add('ok');setTimeout(function(){b.textContent='Copy';b.classList.remove('ok');},1500);});});});</script>
 </html>

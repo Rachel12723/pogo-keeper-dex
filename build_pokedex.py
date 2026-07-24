@@ -125,6 +125,10 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 .ss b{font-size:13px} .ss code{background:#eef1f4;padding:1px 4px;border-radius:4px}
 pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;
  border-radius:8px;padding:10px 12px;font-size:12px;margin:4px 0 14px}
+
+.sshead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px}
+.copy{font:600 12px/1 -apple-system,Segoe UI,sans-serif;padding:4px 10px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#334155;cursor:pointer;white-space:nowrap}
+.copy:hover{background:#f1f5f9} .copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
 </style>
 <h1>Pokémon GO PvP Rankings — by Pokédex #</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
@@ -141,9 +145,9 @@ h.append("<h2>Quick search strings</h2>")
 h.append("<p class=note>Split by IV shape (a mon good in both a capped league and Master appears in both). "
          f"Capped-league species ({len(capped)}) want <b>low ATK</b>; Master-league species ({len(master)}) want "
          "<b>high ATK</b>. <code>+name</code> covers each family. If the game truncates a long string, split it.</p>")
-h.append("<div class=ss><b>PvP shape — low ATK / high bulk</b> (Little / Great / Ultra species):"
+h.append("<div class=ss><div class=sshead><b>PvP shape — low ATK / high bulk (Little / Great / Ultra)</b><button class=copy>Copy</button></div>"
          f"<pre>{cap_s}&0-1attack&3-4defense&3-4hp</pre></div>")
-h.append("<div class=ss><b>High IV — high ATK / hundo</b> (Master-league species):"
+h.append("<div class=ss><div class=sshead><b>High IV — high ATK / hundo (Master-league)</b><button class=copy>Copy</button></div>"
          f"<pre>{mas_s}&3*,4*</pre></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
@@ -159,6 +163,8 @@ for g in ordered:
         h.append(f'<tr{cls}>{c1}{c2}<td><span class="lg {SHORT[d["league"]]}">{SHORT[d["league"]]}</span></td>'
                  f'<td class=rank><b>{d["form"]}</b> #{d["rank"]} <span class=note>· {d["score"]}</span></td>'
                  f'<td class=note>{d["iv"]}</td><td>{d["moves"]}</td><td class=keep>1</td>{ct}</tr>')
-h.append("</table></html>")
+h.append("</table>")
+h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.textContent='Copied!';b.classList.add('ok');setTimeout(function(){b.textContent='Copy';b.classList.remove('ok');},1500);});});});</script>")
+h.append("</html>")
 open(os.path.join(HERE, "pokedex.html"), "w").write("\n".join(h))
 print("wrote pokedex.html")
