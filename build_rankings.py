@@ -138,7 +138,7 @@ img{width:44px;height:44px;object-fit:contain;vertical-align:middle}
 .UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8}
 </style>
 <h1>Pokémon GO PvP Rankings — by League</h1>
-<p style="margin:0 0 10px"><a href="pokedex.html">→ by Pokédex # view</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="index.html">→ Ultra Unlock event guide</a></p>
+<p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ by Pokédex #</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
 <p class=sub>pvpoke overall rankings (pulled 2026-07-21). Sections are leagues, ordered by rank.
 The <b>Spawn</b> sprite/name is the <i>base</i> form (what you catch); <b>Best form &amp; rank</b> is the ideal evolved form.
 <b>League / Purpose</b> = the mon's <i>other</i> leagues within these cutoffs.
