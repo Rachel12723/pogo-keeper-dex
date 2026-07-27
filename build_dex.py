@@ -77,6 +77,32 @@ for p in poke:
 
 LOW, HIGH = "low ATK / high bulk", "high ATK"
 
+# Curated top raid (PvE) attackers per type — knowledge-sourced (pvpoke data is PvP-only,
+# so DPS isn't computed). Applied ONLY to families that would otherwise be Collection-only.
+TOP_PVE = {
+ "Fire": "reshiram chandelure darmanitan moltres heatran entei blacephalon volcarona",
+ "Water": "kyogre palkia kingler",
+ "Grass": "kartana zarude roserade tangrowth",
+ "Electric": "xurkitree zekrom raikou magnezone zapdos thundurus regieleki electivire",
+ "Ice": "darmanitan mamoswine baxcalibur weavile glaceon kyurem",
+ "Fighting": "machamp conkeldurr terrakion keldeo cobalion pheromosa",
+ "Poison": "nihilego naganadel roserade",
+ "Ground": "groudon garchomp excadrill landorus rhyperior mamoswine",
+ "Flying": "rayquaza moltres tornadus staraptor yveltal honchkrow",
+ "Psychic": "mewtwo hoopa deoxys espeon latios",
+ "Bug": "genesect pheromosa volcarona escavalier",
+ "Rock": "rampardos rhyperior terrakion tyranitar gigalith",
+ "Ghost": "giratina chandelure golurk mismagius",
+ "Dragon": "rayquaza palkia dialga reshiram zekrom dragonite garchomp kyurem salamence haxorus dragapult baxcalibur",
+ "Dark": "darkrai hydreigon weavile yveltal guzzlord zoroark",
+ "Steel": "metagross dialga genesect excadrill jirachi zamazenta",
+ "Fairy": "xerneas zacian togekiss gardevoir primarina",
+}
+PVE_BY_NAME = {}
+for _t, _names in TOP_PVE.items():
+    for _n in _names.split():
+        PVE_BY_NAME.setdefault(_n, []).append(_t)
+
 
 def ranks(vid):
     return [(k, pool[k][vid]) for k, _s, _c in LEAGUES if vid in pool[k]]
@@ -99,6 +125,13 @@ for key, members in fams.items():
     for mname in megafams.get(key, []):
         usages.append({"kind": 1, "ord": 9, "rank": 0, "lp": "Mega",
                        "best": f"{mname} — PvE raids", "iv": HIGH, "moves": "—"})
+    if not usages:  # otherwise Collection-only -> flag curated top raid attackers
+        fam_types = set()
+        for m in members:
+            fam_types |= set(PVE_BY_NAME.get(plain(m["speciesName"]).lower(), []))
+        for tp in sorted(fam_types):
+            usages.append({"kind": 1, "ord": 8, "rank": 0, "lp": "PvE",
+                           "best": f"{tp} raid attacker", "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
@@ -142,7 +175,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .ptr td{background:#fafbfc;color:#9aa7b4;font-size:12px}
 .lg{display:inline-block;padding:1px 6px;border-radius:9px;font-size:11px;font-weight:700}
 .LC{background:#efe7f7;color:#6b3fa0} .GL{background:#e3f6ea;color:#14713a}
-.UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b}
+.UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b} .PvE{background:#ffedd5;color:#9a3412}
 </style>
 <h1>Complete Pokédex — folded by family</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
@@ -150,7 +183,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
 (LC top 50 / GL·UL top 100 / ML top 75) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid
 option), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
-<i>Note: non-mega PvE raid tiers aren't in this PvP dataset, so raid-only attackers may read Collection only.</i></p>
+A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type (curated set — niche attackers may still read Collection only).</p>
 <table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>
 <th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>"""]
 for kind, _d, payload in items:
