@@ -176,6 +176,13 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .lg{display:inline-block;padding:1px 6px;border-radius:9px;font-size:11px;font-weight:700}
 .LC{background:#efe7f7;color:#6b3fa0} .GL{background:#e3f6ea;color:#14713a}
 .UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b} .PvE{background:#ffedd5;color:#9a3412}
+.ss{margin-top:12px} .ss>b{font-size:13px}
+.codewrap{position:relative;margin:4px 0 14px}
+.codewrap pre{margin:0;padding:10px 12px;padding-right:44px;white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;border-radius:8px;font-size:12px}
+.copy{position:absolute;top:6px;right:6px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#475569;cursor:pointer}
+.copy:hover{background:#eef2f6;color:#0f172a} .copy svg{width:15px;height:15px}
+.copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
+.copy.ok svg{display:none} .copy.ok::after{content:'✓';font-size:16px;font-weight:700;line-height:1}
 </style>
 <h1>Complete Pokédex — folded by family</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
@@ -184,8 +191,22 @@ Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage �
 (LC top 50 / GL·UL top 100 / ML top 75) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid
 option), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
 A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type (curated set — niche attackers may still read Collection only).</p>
-<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>
-<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>"""]
+"""]
+COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
+capped_fams = [r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])]
+cap_join = ",".join("+" + n for n in capped_fams)
+neg_join = "&".join("!+" + n for n in capped_fams)
+h.append("<h2>Quick search strings</h2>")
+h.append(f"<p class=note>{len(capped_fams)} families have ≥ 1 capped-league (LC/GL/UL) usage. "
+         "<b>String 1</b> = those at low-ATK / high-bulk (then run Poke Genie). "
+         "<b>String 2</b> = <b>everything else</b> — the capped families negated with <code>!+</code> joined by "
+         "<code>&amp;</code> (AND) so all are excluded — at high IV. <code>+name</code> = whole evolution family.</p>")
+h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
+         f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-1attack&3-4defense&3-4hp</pre></div></div>")
+h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
+         f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&3*,4*</pre></div></div>")
+h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
+         '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for kind, _d, payload in items:
     if kind == "ptr":
         d, n, a, an = payload
@@ -212,6 +233,8 @@ for kind, _d, payload in items:
         h.append(f'<tr>{c0}<td>{lp_html}</td><td class=rank>{best_html}</td>'
                  f'<td class=note>{u["iv"]}</td><td class=note>{u["moves"]}</td>'
                  f'<td class=keep>{u["keep"]}</td>{ct}</tr>')
-h.append("</table></html>")
+h.append("</table>")
+h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.classList.add('ok');setTimeout(function(){b.classList.remove('ok');},1500);});});});</script>")
+h.append("</html>")
 open(os.path.join(HERE, "dex.html"), "w").write("\n".join(h))
 print("wrote dex.html")
