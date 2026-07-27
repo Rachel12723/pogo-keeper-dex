@@ -202,9 +202,9 @@ h.append(f"<p class=note>{len(capped_fams)} families have ≥ 1 capped-league 
          "<b>String 2</b> = <b>everything else</b> — the capped families negated with <code>!+</code> joined by "
          "<code>&amp;</code> (AND) so all are excluded — at high IV. <code>+name</code> = whole evolution family.</p>")
 h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
-         f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-1attack&3-4defense&3-4hp</pre></div></div>")
+         f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-2attack&3-4defense&3-4hp</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
-         f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&3*,4*</pre></div></div>")
+         f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for kind, _d, payload in items:
