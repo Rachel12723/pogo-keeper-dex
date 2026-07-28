@@ -121,8 +121,9 @@ non-shiny, **non-tagged** copies while keeping hundos, shinies, and your tagged 
   (Change `pvp` to whatever tag you use.)
 - **Mudkip is in String 1 & String 2** — keep a hundo for Mega Swampert/ML *and* a low-ATK one for GL/UL.
 - **Review rares before transferring** — even low-IV **Beldum / Gible / Dreepy** are worth the candy.
-- **Galar starters (Grookey/Scorbunny/Sobble)** have Gigantamax Max-Battle value (G-Max Inteleon is
-  the top Water Max attacker) — keep high-ATK ones.
+- **Galar starters (Grookey/Scorbunny/Sobble)** — the event's *wild* spawns are for regular raids /
+  collection only. Their Gigantamax forms (top-tier G-Max Inteleon / Rillaboom / Cinderace) are
+  **Max-Battle-only and must be caught from Max Battles** — these wild spawns can't be used there.
 - **Raids** (few catches, judge individually): high-IV **Party Hat Gengar** (Mega Gengar) &
   **Solgaleo** (ML #37) + a junk Solgaleo to fuse; high-ATK **Mega Salamence**. Other Party Hats
   = shiny/costume only.

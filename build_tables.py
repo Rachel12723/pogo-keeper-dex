@@ -100,8 +100,8 @@ FAMILIES = [
      "UL closer (keep low-ATK) AND ML pick (keep high-ATK) — two different IV builds. No mega."),
   ("Grookey", [("Collection", "Rillaboom — fringe", COLL, "—", 1)], "No PvP top-50, no mega."),
   ("Scorbunny", [("Collection", "Cinderace — glass, niche", COLL, "—", 1)], "No mega."),
-  ("Sobble", [("Raid / Max", "Inteleon #16 Water attacker (w/ Hydro Cannon or Snipe Shot); G-Max = TOP Water in Max Battles", HI, "Water Gun / Snipe Shot (or Hydro Cannon)", 1)],
-     "Sobble CD was 4 Jul 2026 — evolve for the CD move. Keep a high-ATK one for Water raids + Max Battles. Not top-50 PvP."),
+  ("Sobble", [("Raid", "Inteleon #16 Water attacker (w/ Hydro Cannon)", HI, "Water Gun / Hydro Cannon", 1)],
+     "Sobble CD was 4 Jul 2026 — evolve for Hydro Cannon; keep a high-ATK one for regular Water raids. (G-Max Inteleon is a top Max-Battle Water attacker, but that needs a Max-Battle-caught Sobble — this wild spawn can't be used in Max Battles.) Not top-50 PvP."),
   ("Sprigatito", [("Collection", "Meowscarada — glass, niche", COLL, "—", 1)], "No mega."),
   ("Fuecoco", [
      ("Ultra", "Skeledirge #94", PVP, "Incinerate / Torch Song / Shadow Ball", 1)],
