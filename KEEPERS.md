@@ -7,7 +7,7 @@ Ranks from pvpoke's public dataset (see README for method). Legend: **PvP rows**
 
 | Spawn | League / Purpose | Best form & rank | IV target | Moveset | Keep | Total |
 |---|---|---|---|---|:--:|:--:|
-| Bulbasaur | Raid / Mega | Mega Venusaur (good Grass/Poison raider) | IV% ≥96% or 15 ATK  (high ATK) | Vine Whip / Frenzy Plant | 1 | 1 |
+| Bulbasaur | Raid / Mega | Mega Venusaur (top-3 Grass raider; Poison niche) | IV% ≥96% or 15 ATK  (high ATK) | Vine Whip / Frenzy Plant | 1 | 1 |
 | | | *No league top-50 (Venusaur best UL #224). Bulbasaur Little #275 — not viable.* | | | | |
 | Charmander | Raid / Mega | Mega Charizard X & Y (Y = top Fire raider) | IV% ≥96% or 15 ATK  (high ATK) | Fire Spin / Blast Burn | 2 | 2 |
 | | | *† One Charizard Mega-evolves into EITHER X or Y — 1 hundo mechanically covers both. No PvP top-50.* | | | | |

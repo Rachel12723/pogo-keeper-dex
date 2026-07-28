@@ -37,7 +37,7 @@ COLL = "1× best IV or shiny"
 FAMILIES = [
  ("Wild Spawns — Jul 21–23 (Kanto/Johto/Hoenn)", [
   ("Bulbasaur", [
-     ("Raid / Mega", "Mega Venusaur (good Grass/Poison raider)", HI, "Vine Whip / Frenzy Plant", 1)],
+     ("Raid / Mega", "Mega Venusaur (top-3 Grass raider; Poison niche)", HI, "Vine Whip / Frenzy Plant", 1)],
      "No league top-50 (Venusaur best UL #224). Bulbasaur Little #275 — not viable."),
   ("Charmander", [
      ("Raid / Mega", "Mega Charizard X & Y (Y = top Fire raider)", HI, "Fire Spin / Blast Burn", 2)],
