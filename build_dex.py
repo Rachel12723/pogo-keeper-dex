@@ -185,7 +185,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .copy.ok svg{display:none} .copy.ok::after{content:'✓';font-size:16px;font-weight:700;line-height:1}
 </style>
 <h1>Complete Pokédex — folded by family</h1>
-<p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
+<p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
 <p class=sub>Every released species in Pokémon GO (pvpoke gamemaster), <b>one row per family</b> at its first dex #.
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
 (LC top 50 / GL·UL top 100 / ML top 75) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid

@@ -135,7 +135,7 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 .copy.ok svg{display:none} .copy.ok::after{content:'✓';font-size:16px;font-weight:700;line-height:1}
 </style>
 <h1>Pokémon GO PvP Rankings — by Pokédex #</h1>
-<p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a></p>
+<p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
 <p class=sub>Same pool as the by-League page (Little top 50, Great/Ultra top 100, Master top 75), merged into one list
 ordered by Pokédex #. One row per <b>base-species line</b> — normal / shadow / Galarian (etc.) forms are
 grouped (search the family with <code>+name</code>); each form×league is a detail line. Sprite = base form.
