@@ -47,6 +47,10 @@ DMAX = ["Bulbasaur", "Ivysaur", "Charmander", "Charmeleon", "Squirtle", "Wartort
         "Wooloo", "Dubwool", "Hatenna", "Hattrem", "Hatterene", "Falinks", "Duraludon", "Kubfu",
         "Urshifu", "Eternatus", "Zacian", "Zamazenta"]
 GMAX_SET = set(GMAX)
+# Finals obtainable as BOTH forms: G-Max (direct catch) AND D-Max (evolve a D-Max pre-evo).
+# Evolving never grants G-Max — a D-Max base → D-Max final; G-Max is a separate catch.
+DUAL = {"Charizard", "Venusaur", "Blastoise", "Machamp", "Gengar", "Kingler",
+        "Rillaboom", "Cinderace", "Inteleon", "Butterfree"}
 
 # ---- curated best picks (subset), role + IV + moveset ----
 ATT, TANK, COLL = "high ATK (hundo ideal)", "high HP + DEF (bulk)", "best IV / shiny"
@@ -91,6 +95,13 @@ def badge(name):
             else '<span class="tag dmax">D-Max</span>')
 
 
+def avail(name):
+    """Availability badge(s) — duals show both G-Max and D-Max."""
+    if name in DUAL:
+        return '<span class="tag gmax">G-Max</span> <span class="tag dmax">D-Max</span>'
+    return badge(name)
+
+
 def sprite(name):
     d = dexof(name)
     return f'<img loading=lazy src="{ART.format(d)}" alt="">' if d != 9999 else ""
@@ -113,7 +124,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .note{color:#5b6b7a;font-size:13px} .keep{text-align:center} .tot{text-align:center;font-weight:700;color:#b26b00}
 .sec td{background:#f7fafc;font-weight:700;color:#2a3a49}
 .tag{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;font-weight:700}
-.gmax{background:#fde2e4;color:#9b1c31} .dmax{background:#e3eefb;color:#1e5fa8} .role{background:#eef2f6;color:#334155}
+.gmax{background:#fde2e4;color:#9b1c31} .dmax{background:#e3eefb;color:#1e5fa8} .role{background:#eef2f6;color:#334155} .coll{background:#eef1f4;color:#5b6b7a}
 a{color:#1e5fa8} footer{margin-top:26px;color:#9aa7b4;font-size:12px;border-top:1px solid #edf1f5;padding-top:14px} footer a{color:#6b7b8a}
 </style>
 <h1>Pokémon GO — Max Battles (Dynamax &amp; Gigantamax)</h1>
@@ -125,6 +136,7 @@ Live rotation: <a href="https://www.snacknap.com/max-battles">snacknap</a> · <a
 <ul>
 <li><b>Only Max-Battle-caught Pokémon can be used</b> (a normal wild/raid catch of the same species can't Dynamax).</li>
 <li><span class="tag gmax">G-Max</span> = unique form + stronger exclusive move (tops the attacker tables); <span class="tag dmax">D-Max</span> = generic typed Max Moves.</li>
+<li><b>Evolving never grants G-Max</b> — a D-Max Charmander → <b>D-Max</b> Charizard; Gigantamax is a separate catch. So many finals (Charizard, Venusaur, Gengar, Inteleon…) exist as <b>both</b> — shown <span class="tag gmax">G-Max</span> <span class="tag dmax">D-Max</span> in the roster.</li>
 <li><b>Roles:</b> Max Attack (damage) / Max Guard (team shield) / Max Spirit (heal). Bring 1–2 attackers + a bulky Guard/Spirit anchor.</li>
 <li><b>IV by role:</b> attackers → high ATK; anchors → high HP + DEF. Max Attack type follows your fast move (pick STAB).</li>
 </ul>"""]
@@ -151,11 +163,13 @@ h.append('<table><tr><th></th><th>Spawn</th><th>Form</th><th>Purpose (role)</th>
 for nm in allmons:
     if nm in ANNOT:
         purpose, iv, mv = ANNOT[nm]
+        ptag = f'<span class="tag role">{purpose}</span>'
     else:
-        purpose, iv, mv = ("available", COLL, "—")
+        iv, mv = COLL, "—"
+        ptag = '<span class="tag coll">Collection</span>'
     h.append(f'<tr><td style="text-align:center">{sprite(nm)}</td>'
              f'<td class=mon>{nm} <span class=dex>#{dexof(nm)}</span></td>'
-             f'<td>{badge(nm)}</td><td class=note>{purpose}</td>'
+             f'<td>{avail(nm)}</td><td>{ptag}</td>'
              f'<td class=note>{iv}</td><td class=note>{mv}</td><td class=keep>1</td></tr>')
 h.append("</table>")
 
