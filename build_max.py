@@ -155,8 +155,9 @@ for fk, info in maxfams.items():
     # D-Max "best form" = evolved form you'd use: prefer an annotated member, else highest-dex
     ann_mem = [n for n in mem_names if n in ANNOT]
     dfinal = max(ann_mem, key=dexof) if ann_mem else max(mem_names, key=dexof)
+    chain = sorted([n for n in mem_names if norm(n) in DMAX_N or norm(n) in GMAX_N], key=dexof)
     families.append({"dex": base_dex, "name": base_name, "dmax": dmax,
-                     "gmax": gmax_names[0] if gmax_names else None, "dfinal": dfinal})
+                     "gmax": gmax_names[0] if gmax_names else None, "dfinal": dfinal, "chain": chain})
 families.sort(key=lambda f: (f["dex"], f["name"]))
 
 
@@ -222,27 +223,43 @@ h.append(f"<h2>Complete roster — folded by evolution line, by Pokédex # ({len
 h.append("<p class=note>Evolutions fold into the base (e.g. Zweilous &amp; Hydreigon → Deino). "
          "<b>Purpose</b> = the Max mode; <b>Best form</b> = the evolved form you'd use + its role. "
          "Lines obtainable in both modes get two rows.</p>")
-h.append('<table><tr><th></th><th>Spawn (base)</th><th>Purpose</th><th>Best form</th><th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
+h.append('<table><tr><th></th><th>Spawn (base)</th><th>Purpose</th><th>Best form / forms</th><th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
+
+
+def mbadge(mode):
+    return badge_gmax() if mode == "gmax" else badge_dmax()
+
+
 for f in families:
-    rows = []
-    if f["gmax"]:
-        rows.append(("gmax", f["gmax"]))
-    if f["dmax"]:
-        rows.append(("dmax", f["dfinal"]))
+    # battle rows: only a mode whose usable form has a real role (attacker/tank)
+    battle = []
+    if f["gmax"] and f["gmax"] in ANNOT:
+        battle.append(("gmax", f["gmax"]))
+    if f["dmax"] and f["dfinal"] in ANNOT:
+        battle.append(("dmax", f["dfinal"]))
+    covered = {m for m, _ in battle}
+    coll_modes = [m for m in ("gmax", "dmax")
+                  if ((m == "gmax" and f["gmax"]) or (m == "dmax" and f["dmax"])) and m not in covered]
+
+    rows = []  # (purpose_html, bestform_html, iv, moveset)
+    for mode, form in battle:
+        role, iv, mv = ANNOT[form]
+        rows.append((mbadge(mode), f'<b>{form}</b> <span class="tag role">{role}</span>', iv, mv))
+    if coll_modes:  # no battle purpose in these modes → show the collectible forms, not a "best form"
+        pill = " ".join(mbadge(m) for m in coll_modes)
+        chain = " · ".join(f'{n} <span class=dex>#{dexof(n)}</span>' for n in f["chain"])
+        rows.append((pill, f'{chain} <span class="tag coll">Collection</span>', COLL, "—"))
     if not rows:
         continue
+
     n = len(rows)
     img = sprite(f["dex"])
-    for i, (mode, form) in enumerate(rows):
-        role, iv, mv = role_cells(form)
-        rtag = f'<span class="tag {"coll" if role=="Collection" else "role"}">{role}</span>'
-        badge = badge_gmax() if mode == "gmax" else badge_dmax()
+    for i, (purpose, best, iv, mv) in enumerate(rows):
         c0 = (f'<td rowspan={n} style="text-align:center">{img}</td>'
               f'<td rowspan={n} class=mon>{f["name"]}<br><span class=dex>#{f["dex"]}</span></td>') if i == 0 else ""
         ct = f'<td rowspan={n} class=tot>{n}</td>' if i == 0 else ""
         grp = " class=grp" if i == 0 else ""
-        h.append(f'<tr{grp}>{c0}<td>{badge}</td>'
-                 f'<td><b>{form}</b> {rtag}</td>'
+        h.append(f'<tr{grp}>{c0}<td>{purpose}</td><td class=note>{best}</td>'
                  f'<td class=note>{iv}</td><td class=note>{mv}</td><td class=keep>1</td>{ct}</tr>')
 h.append("</table>")
 
