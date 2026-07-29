@@ -121,6 +121,10 @@ BEST = [
 ]
 
 
+def rclass(role):
+    return "att" if role.startswith("Attacker") else "sup"
+
+
 def sprite(dex):
     return f'<img loading=lazy src="{ART.format(dex)}" alt="">' if dex and dex != 9999 else ""
 
@@ -186,7 +190,8 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .note{color:#5b6b7a;font-size:13px} .keep{text-align:center} .tot{text-align:center;font-weight:700;color:#b26b00}
 .sec td{background:#f7fafc;font-weight:700;color:#2a3a49} .grp td{border-top:2px solid #dfe6ee}
 .tag{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;font-weight:700}
-.gmax{background:#fde2e4;color:#9b1c31} .dmax{background:#e3eefb;color:#1e5fa8} .role{background:#eef2f6;color:#334155} .coll{background:#eef1f4;color:#5b6b7a}
+.gmax{background:#fde2e4;color:#9b1c31} .dmax{background:#e3eefb;color:#1e5fa8}
+.att{background:#fdeee2;color:#9a4a12} .sup{background:#e3f6ea;color:#14713a} .coll{background:#eef1f4;color:#5b6b7a}
 a{color:#1e5fa8} footer{margin-top:26px;color:#9aa7b4;font-size:12px;border-top:1px solid #edf1f5;padding-top:14px} footer a{color:#6b7b8a}
 </style>
 <h1>Pokémon GO — Max Battles (Dynamax &amp; Gigantamax)</h1>
@@ -214,7 +219,7 @@ for title, names in BEST:
         ct = f'<td rowspan={n} class=tot>{n}</td>' if i == 0 else ""
         h.append(f'<tr><td style="text-align:center">{sprite(dexof(nm))}</td>'
                  f'<td class=mon>{nm} <span class=dex>#{dexof(nm)}</span></td>'
-                 f'<td><span class="tag role">{role}</span></td><td>{b}</td>'
+                 f'<td><span class="tag {rclass(role)}">{role}</span></td><td>{b}</td>'
                  f'<td class=note>{iv}</td><td class=note>{mv}</td><td class=keep>1</td>{ct}</tr>')
 h.append("</table>")
 
@@ -244,7 +249,7 @@ for f in families:
     rows = []  # (purpose_html, bestform_html, iv, moveset)
     for mode, form in battle:
         role, iv, mv = ANNOT[form]
-        rows.append((mbadge(mode), f'<b>{form}</b> <span class="tag role">{role}</span>', iv, mv))
+        rows.append((mbadge(mode), f'<b>{form}</b> <span class="tag {rclass(role)}">{role}</span>', iv, mv))
     if coll_modes:  # no battle purpose in these modes → show the collectible forms, not a "best form"
         pill = " ".join(mbadge(m) for m in coll_modes)
         chain = " · ".join(f'{n} <span class=dex>#{dexof(n)}</span>' for n in f["chain"])
