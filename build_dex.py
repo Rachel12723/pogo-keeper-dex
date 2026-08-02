@@ -130,8 +130,12 @@ for key, members in fams.items():
         for m in members:
             fam_types |= set(PVE_BY_NAME.get(plain(m["speciesName"]).lower(), []))
         for tp in sorted(fam_types):
+            # name the form: most-evolved family member of that type (handles split lines
+            # like Darmanitan Standard=Fire vs Darmanitan Galarian=Ice)
+            cands = [m for m in members if tp.lower() in m["types"]]
+            form = max(cands or members, key=lambda m: m["dex"])
             usages.append({"kind": 1, "ord": 8, "rank": 0, "lp": "PvE",
-                           "best": f"{tp} raid attacker", "iv": HIGH, "moves": "—"})
+                           "best": f'{form["speciesName"]} — {tp} raid attacker', "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
