@@ -205,6 +205,15 @@ h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-2attack&3-4defense&3-4hp</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
+highiv_fams = [r["name"] for r in rows if any(u["lp"] in ("ML", "Mega", "PvE") for u in r["usages"])]
+hi_join = ",".join("+" + n for n in highiv_fams)
+hineg_join = "&".join("!+" + n for n in highiv_fams)
+h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Mega / Raid (PvE) / Master-league</b> usage — all want "
+         "<b>high ATK / hundo</b>. Next = those; last = everything else (them negated).</p>")
+h.append(f"<div class=ss><b>Mega / Raid / Master — high IV / high ATK</b>"
+         f"<div class=codewrap>{COPYBTN}<pre>{hi_join}&3*,4*</pre></div></div>")
+h.append(f"<div class=ss><b>Everything else</b> (negated Mega/Raid/Master list)"
+         f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for kind, _d, payload in items:
