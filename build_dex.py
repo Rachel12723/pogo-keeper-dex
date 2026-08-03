@@ -170,8 +170,16 @@ A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of 
 (or top-20 for a legendary/mythical/UB you own) per type. A Mega only earns a PvE line if that Mega is actually a
 top attacker (no more blanket "has-a-Mega" flag).</p>
 """]
+def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legendaries share a name)
+    seen, out = set(), []
+    for x in seq:
+        if x not in seen:
+            seen.add(x); out.append(x)
+    return out
+
+
 COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
-capped_fams = [r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])]
+capped_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"]))
 cap_join = ",".join("+" + n for n in capped_fams)
 neg_join = "&".join("!+" + n for n in capped_fams)
 h.append("<h2>Quick search strings</h2>")
@@ -183,7 +191,7 @@ h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-2attack&3-4defense&3-4hp</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
-highiv_fams = [r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"])]
+highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
 hi_join = ",".join("+" + n for n in highiv_fams)
 hineg_join = "&".join("!+" + n for n in highiv_fams)
 h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Raid (PvE) / Master-league</b> usage — all want "
