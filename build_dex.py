@@ -70,6 +70,11 @@ for p in forms:
 
 LOW, HIGH = "low ATK / high bulk", "high ATK"
 
+# Raid-locked rarities: legendary / mythical / ultra beast (incl. wild-legendary). These are
+# only obtainable from raids (or research) and should be excluded from the 'everything else'
+# collection string regardless of whether they have a listed PvP/PvE usage.
+RARE_TAGS = {"legendary", "mythical", "ultrabeast", "wildlegendary"}
+
 # Real per-type PvE raid-attacker ranks from PGHub (data/pve_type_ranks.json via
 # pve_ranks.by_dex()), attached by member dex. Replaces the old curated TOP_PVE dict
 # AND the blanket 'every Mega -> PvE raids' line: a form is a PvE keeper only if it is
@@ -113,8 +118,9 @@ for key, members in fams.items():
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
+    rare = any(RARE_TAGS & set(m.get("tags") or []) for m in members)
     rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
-                 "chain": chain, "total": len(usages)})
+                 "chain": chain, "total": len(usages), "rare": rare})
     for m in members:
         if m is not anchor and m["dex"] - adex > FAR:
             pointers.append((m["dex"], plain(m["speciesName"]), adex, aname))
@@ -211,15 +217,20 @@ h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{hi_join}&3*,4*</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
-# Combined: negate the capped-PvP list AND negate the Raid/Master list, de-duplicated
-# (a family in both lists is negated once) so the string excludes every keeper of either kind.
-combined_fams = uniq(list(capped_fams) + list(highiv_fams))
+# Combined: negate the capped-PvP list AND negate the Raid/Master list AND negate every
+# raid-locked rarity (legendary / mythical / ultra beast), de-duplicated (a family appearing
+# in more than one of those groups is negated once) so the string keeps only the pure,
+# freely-catchable collection families.
+rare_fams = uniq(r["name"] for r in rows if r["rare"])
+combined_fams = uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams))
 combined_neg = "&".join("!+" + n for n in combined_fams)
-h.append(f"<p class=note>{len(combined_fams)} families are a keeper in <b>either</b> list "
-         "(capped-PvP <b>or</b> Raid/Master), de-duplicated. Negating all of them leaves only "
-         "the pure-collection families.</p>")
-h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master</b> (both lists negated, de-duplicated)"
-         f"<div class=codewrap>{COPYBTN}<pre>{combined_neg}&!3*</pre></div></div>")
+h.append(f"<p class=note>{len(combined_fams)} families are either a keeper "
+         "(capped-PvP <b>or</b> Raid/Master) <b>or</b> a raid-locked rarity "
+         f"(legendary / mythical / ultra beast — {len(rare_fams)} families), de-duplicated. "
+         "Negating all of them leaves only the freely-catchable, pure-collection families.</p>")
+h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
+         "(all three lists negated, de-duplicated)"
+         f"<div class=codewrap>{COPYBTN}<pre>{combined_neg}&!3*&!4*</pre></div></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
 for kind, _d, payload in items:
