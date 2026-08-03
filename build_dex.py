@@ -6,10 +6,10 @@ Source: pvpoke's Pokémon GO gamemaster (data/gamemaster.json) + our rank pools.
   species shows once; real alt-formes (Deoxys, Rotom, regionals…) survive.
 - One row per evolutionary family at its lowest ('first appearance') dex #, by dex.
 - League / Purpose lists ALL usage: each PvP league a form ranks in (LC50/GL·UL·ML60),
-  (LC top 50 / GL·UL top 100 / ML top 75) plus 'Mega' if the family has a Mega/Primal. Best form & rank is
+  (LC top 50 / GL·UL top 100 / ML top 75) plus PvE raid-attacker lines (real PGHub per-type
+  ranks via pve_ranks.by_dex(): top-10 catchable / top-20 owned-legendary). Best form & rank is
   one line per usage. Families with no usage show 'Collection only' + the folded forms.
-- Far-apart folded members get a pointer row. NOTE: non-mega PvE attacker tiers are
-  not in this dataset (PvP-only), so raid-only attackers read 'Collection only'.
+- Far-apart folded members get a pointer row.
 Regenerate:  python3 build_dex.py
 """
 import csv
@@ -68,40 +68,14 @@ fams = {}
 for p in forms:
     fams.setdefault(fkey_of(p["speciesId"]), []).append(p)
 
-# megas per family
-megafams = {}
-for p in poke:
-    if p.get("released") and is_mega(p):
-        base = re.split(r"_mega|_primal", p["speciesId"])[0]
-        megafams.setdefault(fkey_of(base), []).append(p["speciesName"])
-
 LOW, HIGH = "low ATK / high bulk", "high ATK"
 
-# Curated top raid (PvE) attackers per type — knowledge-sourced (pvpoke data is PvP-only,
-# so DPS isn't computed). Applied ONLY to families that would otherwise be Collection-only.
-TOP_PVE = {
- "Fire": "reshiram chandelure darmanitan moltres heatran entei blacephalon volcarona",
- "Water": "kyogre palkia kingler",
- "Grass": "kartana zarude roserade tangrowth",
- "Electric": "xurkitree zekrom raikou magnezone zapdos thundurus regieleki electivire",
- "Ice": "darmanitan mamoswine baxcalibur weavile glaceon kyurem",
- "Fighting": "machamp conkeldurr terrakion keldeo cobalion pheromosa",
- "Poison": "nihilego naganadel roserade",
- "Ground": "groudon garchomp excadrill landorus rhyperior mamoswine",
- "Flying": "rayquaza moltres tornadus staraptor yveltal honchkrow",
- "Psychic": "mewtwo hoopa deoxys espeon latios",
- "Bug": "genesect pheromosa volcarona escavalier",
- "Rock": "rampardos rhyperior terrakion tyranitar gigalith",
- "Ghost": "giratina chandelure golurk mismagius",
- "Dragon": "rayquaza palkia dialga reshiram zekrom dragonite garchomp kyurem salamence haxorus dragapult baxcalibur",
- "Dark": "darkrai hydreigon weavile yveltal guzzlord zoroark",
- "Steel": "metagross dialga genesect excadrill jirachi zamazenta",
- "Fairy": "xerneas zacian togekiss gardevoir primarina",
-}
-PVE_BY_NAME = {}
-for _t, _names in TOP_PVE.items():
-    for _n in _names.split():
-        PVE_BY_NAME.setdefault(_n, []).append(_t)
+# Real per-type PvE raid-attacker ranks from PGHub (data/pve_type_ranks.json via
+# pve_ranks.by_dex()), attached by member dex. Replaces the old curated TOP_PVE dict
+# AND the blanket 'every Mega -> PvE raids' line: a form is a PvE keeper only if it is
+# a top-10 catchable (or top-20 owned-legendary) attacker of some type, with real rank.
+import pve_ranks
+PVE_BY_DEX = pve_ranks.by_dex()
 
 
 def ranks(vid):
@@ -122,20 +96,18 @@ for key, members in fams.items():
                 usages.append({"kind": 0, "ord": LORDER[k], "rank": r, "lp": SHORT[k],
                                "best": f'{pref}{m["speciesName"]} #{r}',
                                "iv": LOW if k != "master" else HIGH, "moves": mvpool[k][vid]})
-    for mname in megafams.get(key, []):
-        usages.append({"kind": 1, "ord": 9, "rank": 0, "lp": "Mega",
-                       "best": f"{mname} — PvE raids", "iv": HIGH, "moves": "—"})
-    if not usages:  # otherwise Collection-only -> flag curated top raid attackers
-        fam_types = set()
-        for m in members:
-            fam_types |= set(PVE_BY_NAME.get(plain(m["speciesName"]).lower(), []))
-        for tp in sorted(fam_types):
-            # name the form: most-evolved family member of that type (handles split lines
-            # like Darmanitan Standard=Fire vs Darmanitan Galarian=Ice)
-            cands = [m for m in members if tp.lower() in m["types"]]
-            form = max(cands or members, key=lambda m: m["dex"])
-            usages.append({"kind": 1, "ord": 8, "rank": 0, "lp": "PvE",
-                           "best": f'{form["speciesName"]} — {tp} raid attacker', "iv": HIGH, "moves": "—"})
+    # PvE raid-attacker lines: attach by member dex, one line per type, best rank wins.
+    member_dexes = {m["dex"] for m in members}
+    pve_by_type = {}
+    for d in member_dexes:
+        for u in PVE_BY_DEX.get(d, []):
+            cur = pve_by_type.get(u["type"])
+            if cur is None or u["rank"] < cur["rank"]:
+                pve_by_type[u["type"]] = u
+    for u in sorted(pve_by_type.values(), key=lambda u: u["rank"]):
+        usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE",
+                       "best": f'{u["form"]} — {u["type"]} #{u["rank"]}',
+                       "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
@@ -192,9 +164,11 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
 <p class=sub>Every released species in Pokémon GO (pvpoke gamemaster), <b>one row per family</b> at its first dex #.
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
-(LC top 50 / GL·UL top 100 / ML top 75) plus <span class="lg Mega">Mega</span> if the family has a Mega/Primal (a PvE raid
-option), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
-A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type (curated set — niche attackers may still read Collection only).</p>
+(LC top 50 / GL·UL top 100 / ML top 75), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
+A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type, with its real
+<a href="https://db.pokemongohub.net/pokemon-list/best-per-type/dragon">PGHub</a> rank + best form — top-10 catchable
+(or top-20 for a legendary/mythical/UB you own) per type. A Mega only earns a PvE line if that Mega is actually a
+top attacker (no more blanket "has-a-Mega" flag).</p>
 """]
 COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
 capped_fams = [r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])]
@@ -209,14 +183,14 @@ h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-2attack&3-4defense&3-4hp</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
-highiv_fams = [r["name"] for r in rows if any(u["lp"] in ("ML", "Mega", "PvE") for u in r["usages"])]
+highiv_fams = [r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"])]
 hi_join = ",".join("+" + n for n in highiv_fams)
 hineg_join = "&".join("!+" + n for n in highiv_fams)
-h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Mega / Raid (PvE) / Master-league</b> usage — all want "
+h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Raid (PvE) / Master-league</b> usage — all want "
          "<b>high ATK / hundo</b>. Next = those; last = everything else (them negated).</p>")
-h.append(f"<div class=ss><b>Mega / Raid / Master — high IV / high ATK</b>"
+h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{hi_join}&3*,4*</pre></div></div>")
-h.append(f"<div class=ss><b>Everything else</b> (negated Mega/Raid/Master list)"
+h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
 h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
