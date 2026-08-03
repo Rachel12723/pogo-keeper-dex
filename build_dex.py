@@ -111,8 +111,8 @@ for key, members in fams.items():
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
-    rows.append({"dex": adex, "name": aname, "usages": usages, "chain": chain,
-                 "total": len(usages)})
+    rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
+                 "chain": chain, "total": len(usages)})
     for m in members:
         if m is not anchor and m["dex"] - adex > FAR:
             pointers.append((m["dex"], plain(m["speciesName"]), adex, aname))
@@ -134,6 +134,14 @@ print(f"wrote dex.csv  (families: {len(rows)}, pointers: {len(pointers)})")
 
 # ---- HTML ----
 ART = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{}.png"
+# Rows anchored on a regional form fold into their OWN family (separate family id), so the
+# base national-dex art is wrong. Map those anchors to the correct PokeAPI form-id sprite.
+SPRITE_OVERRIDE = {
+    "farfetchd_galarian": 10166, "tauros_combat": 10250, "tauros_blaze": 10251,
+    "tauros_aqua": 10252, "articuno_galarian": 10169, "zapdos_galarian": 10170,
+    "moltres_galarian": 10171, "wooper_paldean": 10253, "qwilfish_hisuian": 10234,
+    "corsola_galarian": 10173, "stunfisk_galarian": 10180,
+}
 h = ["""<!doctype html><html lang=en><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>Complete Pokédex — folded by family</title>
@@ -209,7 +217,7 @@ for kind, _d, payload in items:
                  f'<td colspan=6>→ folded into #{a} ({an} family)</td></tr>')
         continue
     r = payload
-    img = f'<img loading=lazy src="{ART.format(r["dex"])}" alt="">'
+    img = f'<img loading=lazy src="{ART.format(SPRITE_OVERRIDE.get(r["sid"], r["dex"]))}" alt="">'
     lines = [dict(u, keep="1") for u in r["usages"]]
     lines.append({"lp": "Collection only", "best": r["chain"], "iv": "—", "moves": "—", "keep": "", "coll": True})
     n = len(lines)

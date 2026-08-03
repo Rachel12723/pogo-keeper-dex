@@ -11,7 +11,7 @@ import json, os, re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
-TOP_N_CATCHABLE = 10   # catchable families kept per type (strict)
+TOP_N_CATCHABLE = 6    # catchable families kept per type (strict)
 LOCKED_OVERALL_CAP = 20  # owned legendaries/mythicals/UBs kept if within top-20 overall (generous)
 
 gm = json.load(open(os.path.join(DATA, "gamemaster.json")))
