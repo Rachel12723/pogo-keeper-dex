@@ -105,8 +105,10 @@ for key, members in fams.items():
             if cur is None or u["rank"] < cur["rank"]:
                 pve_by_type[u["type"]] = u
     for u in sorted(pve_by_type.values(), key=lambda u: u["rank"]):
+        # catchable keepers show a 2nd rank = position within our top-6 (e.g. "Flying #18, #6")
+        tail = f', #{u["crank"]}' if u.get("crank") else ""
         usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE",
-                       "best": f'{u["form"]} — {u["type"]} #{u["rank"]}',
+                       "best": f'{u["form"]} — {u["type"]} #{u["rank"]}{tail}',
                        "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
@@ -174,9 +176,10 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
 (LC top 50 / GL·UL top 100 / ML top 75), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
 A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type, with its real
-<a href="https://db.pokemongohub.net/pokemon-list/best-per-type/dragon">PGHub</a> rank + best form — top-10 catchable
-(or top-20 for a legendary/mythical/UB you own) per type. A Mega only earns a PvE line if that Mega is actually a
-top attacker (no more blanket "has-a-Mega" flag).</p>
+<a href="https://db.pokemongohub.net/pokemon-list/best-per-type/dragon">PGHub</a> rank + best form — top-6 catchable
+(or top-20 for a legendary/mythical/UB you own) per type. Catchable lines show a 2nd number = rank <b>within our 6</b>
+(e.g. <code>Flying #18, #6</code> = 18th overall, our 6th-best catchable Flying attacker). A Mega only earns a PvE line
+if that Mega is actually a top attacker (no more blanket "has-a-Mega" flag).</p>
 """]
 def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legendaries share a name)
     seen, out = set(), []

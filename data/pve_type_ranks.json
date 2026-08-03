@@ -4,6 +4,7 @@
    "fam": "regigigas",
    "rank": 1,
    "dex": 486,
+   "crank": null,
    "form": "Shadow Regigigas",
    "base": "Regigigas",
    "locked": true
@@ -12,6 +13,7 @@
    "fam": "mewtwo",
    "rank": 3,
    "dex": 150,
+   "crank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -20,6 +22,7 @@
    "fam": "zacian_hero",
    "rank": 5,
    "dex": 888,
+   "crank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true
@@ -28,6 +31,7 @@
    "fam": "FAMILY_BUNEARY",
    "rank": 6,
    "dex": 428,
+   "crank": 1,
    "form": "Mega Lopunny",
    "base": "Lopunny",
    "locked": false
@@ -36,6 +40,7 @@
    "fam": "FAMILY_PORYGON",
    "rank": 7,
    "dex": 474,
+   "crank": 2,
    "form": "Shadow Porygon-Z",
    "base": "Porygon-Z",
    "locked": false
@@ -44,6 +49,7 @@
    "fam": "meloetta_aria",
    "rank": 9,
    "dex": 648,
+   "crank": null,
    "form": "Aria Meloetta",
    "base": "Meloetta",
    "locked": true
@@ -52,6 +58,7 @@
    "fam": "xerneas",
    "rank": 11,
    "dex": 716,
+   "crank": null,
    "form": "Xerneas",
    "base": "Xerneas",
    "locked": true
@@ -60,6 +67,7 @@
    "fam": "FAMILY_TEDDIURSA",
    "rank": 12,
    "dex": 901,
+   "crank": 3,
    "form": "Shadow Ursaluna",
    "base": "Ursaluna",
    "locked": false
@@ -68,6 +76,7 @@
    "fam": "FAMILY_STUFFUL",
    "rank": 13,
    "dex": 760,
+   "crank": 4,
    "form": "Shadow Bewear",
    "base": "Bewear",
    "locked": false
@@ -76,6 +85,7 @@
    "fam": "zamazenta_hero",
    "rank": 14,
    "dex": 889,
+   "crank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
    "locked": true
@@ -84,6 +94,7 @@
    "fam": "FAMILY_DRATINI",
    "rank": 15,
    "dex": 149,
+   "crank": 5,
    "form": "Mega Dragonite",
    "base": "Dragonite",
    "locked": false
@@ -92,6 +103,7 @@
    "fam": "FAMILY_STARLY",
    "rank": 18,
    "dex": 398,
+   "crank": 6,
    "form": "Shadow Staraptor",
    "base": "Staraptor",
    "locked": false
@@ -102,6 +114,7 @@
    "fam": "FAMILY_CHARMANDER",
    "rank": 1,
    "dex": 6,
+   "crank": 1,
    "form": "Mega Y Charizard",
    "base": "Charizard",
    "locked": false
@@ -110,6 +123,7 @@
    "fam": "reshiram",
    "rank": 2,
    "dex": 643,
+   "crank": null,
    "form": "Shadow Reshiram",
    "base": "Reshiram",
    "locked": true
@@ -118,6 +132,7 @@
    "fam": "FAMILY_TORCHIC",
    "rank": 3,
    "dex": 257,
+   "crank": 2,
    "form": "Mega Blaziken",
    "base": "Blaziken",
    "locked": false
@@ -126,6 +141,7 @@
    "fam": "blacephalon",
    "rank": 4,
    "dex": 806,
+   "crank": null,
    "form": "Blacephalon",
    "base": "Blacephalon",
    "locked": true
@@ -134,6 +150,7 @@
    "fam": "heatran",
    "rank": 5,
    "dex": 485,
+   "crank": null,
    "form": "Shadow Heatran",
    "base": "Heatran",
    "locked": true
@@ -142,6 +159,7 @@
    "fam": "moltres",
    "rank": 8,
    "dex": 146,
+   "crank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
    "locked": true
@@ -150,6 +168,7 @@
    "fam": "FAMILY_FENNEKIN",
    "rank": 9,
    "dex": 655,
+   "crank": 3,
    "form": "Shadow Delphox",
    "base": "Delphox",
    "locked": false
@@ -158,6 +177,7 @@
    "fam": "FAMILY_LITWICK",
    "rank": 10,
    "dex": 609,
+   "crank": 4,
    "form": "Shadow Chandelure",
    "base": "Chandelure",
    "locked": false
@@ -166,6 +186,7 @@
    "fam": "ho_oh",
    "rank": 11,
    "dex": 250,
+   "crank": null,
    "form": "Apex Shadow Ho-Oh",
    "base": "Ho-Oh",
    "locked": true
@@ -174,6 +195,7 @@
    "fam": "entei",
    "rank": 13,
    "dex": 244,
+   "crank": null,
    "form": "Shadow Entei",
    "base": "Entei",
    "locked": true
@@ -182,6 +204,7 @@
    "fam": "mewtwo",
    "rank": 14,
    "dex": 150,
+   "crank": null,
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -190,6 +213,7 @@
    "fam": "FAMILY_TEPIG",
    "rank": 16,
    "dex": 500,
+   "crank": 5,
    "form": "Shadow Emboar",
    "base": "Emboar",
    "locked": false
@@ -198,6 +222,7 @@
    "fam": "FAMILY_DARUMAKA",
    "rank": 18,
    "dex": 555,
+   "crank": 6,
    "form": "Shadow Darmanitan",
    "base": "Darmanitan",
    "locked": false
@@ -208,6 +233,7 @@
    "fam": "kyogre",
    "rank": 1,
    "dex": 382,
+   "crank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
    "locked": true
@@ -216,6 +242,7 @@
    "fam": "FAMILY_MUDKIP",
    "rank": 2,
    "dex": 260,
+   "crank": 1,
    "form": "Mega Swampert",
    "base": "Swampert",
    "locked": false
@@ -224,6 +251,7 @@
    "fam": "FAMILY_SQUIRTLE",
    "rank": 4,
    "dex": 9,
+   "crank": 2,
    "form": "Mega Blastoise",
    "base": "Blastoise",
    "locked": false
@@ -232,6 +260,7 @@
    "fam": "FAMILY_MAGIKARP",
    "rank": 5,
    "dex": 130,
+   "crank": 3,
    "form": "Mega Gyarados",
    "base": "Gyarados",
    "locked": false
@@ -240,6 +269,7 @@
    "fam": "FAMILY_TOTODILE",
    "rank": 8,
    "dex": 160,
+   "crank": 4,
    "form": "Shadow Feraligatr",
    "base": "Feraligatr",
    "locked": false
@@ -248,6 +278,7 @@
    "fam": "FAMILY_KRABBY",
    "rank": 9,
    "dex": 99,
+   "crank": 5,
    "form": "Shadow Kingler",
    "base": "Kingler",
    "locked": false
@@ -256,6 +287,7 @@
    "fam": "FAMILY_OSHAWOTT",
    "rank": 10,
    "dex": 503,
+   "crank": 6,
    "form": "Shadow Samurott",
    "base": "Samurott",
    "locked": false
@@ -264,6 +296,7 @@
    "fam": "palkia",
    "rank": 15,
    "dex": 484,
+   "crank": null,
    "form": "Shadow Palkia",
    "base": "Palkia",
    "locked": true
@@ -274,6 +307,7 @@
    "fam": "mewtwo",
    "rank": 1,
    "dex": 150,
+   "crank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -282,6 +316,7 @@
    "fam": "zeraora",
    "rank": 2,
    "dex": 807,
+   "crank": null,
    "form": "Zeraora",
    "base": "Zeraora",
    "locked": true
@@ -290,6 +325,7 @@
    "fam": "raikou",
    "rank": 4,
    "dex": 243,
+   "crank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
    "locked": true
@@ -298,6 +334,7 @@
    "fam": "zekrom",
    "rank": 5,
    "dex": 644,
+   "crank": null,
    "form": "Zekrom",
    "base": "Zekrom",
    "locked": true
@@ -306,6 +343,7 @@
    "fam": "xurkitree",
    "rank": 6,
    "dex": 796,
+   "crank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true
@@ -314,6 +352,7 @@
    "fam": "FAMILY_ELECTRIKE",
    "rank": 7,
    "dex": 310,
+   "crank": 1,
    "form": "Mega Manectric",
    "base": "Manectric",
    "locked": false
@@ -322,6 +361,7 @@
    "fam": "thundurus_therian",
    "rank": 8,
    "dex": 642,
+   "crank": null,
    "form": "Shadow Therian Thundurus",
    "base": "Thundurus",
    "locked": true
@@ -330,6 +370,7 @@
    "fam": "zapdos",
    "rank": 9,
    "dex": 145,
+   "crank": null,
    "form": "Shadow Zapdos",
    "base": "Zapdos",
    "locked": true
@@ -338,6 +379,7 @@
    "fam": "FAMILY_MAGNEMITE",
    "rank": 10,
    "dex": 462,
+   "crank": 2,
    "form": "Shadow Magnezone",
    "base": "Magnezone",
    "locked": false
@@ -346,6 +388,7 @@
    "fam": "FAMILY_MAREEP",
    "rank": 11,
    "dex": 181,
+   "crank": 3,
    "form": "Mega Ampharos",
    "base": "Ampharos",
    "locked": false
@@ -354,6 +397,7 @@
    "fam": "FAMILY_ELECTABUZZ",
    "rank": 12,
    "dex": 466,
+   "crank": 4,
    "form": "Shadow Electivire",
    "base": "Electivire",
    "locked": false
@@ -362,6 +406,7 @@
    "fam": "regieleki",
    "rank": 14,
    "dex": 894,
+   "crank": null,
    "form": "Regieleki",
    "base": "Regieleki",
    "locked": true
@@ -370,6 +415,7 @@
    "fam": "kyurem",
    "rank": 19,
    "dex": 646,
+   "crank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
    "locked": true
@@ -378,6 +424,7 @@
    "fam": "FAMILY_SHINX",
    "rank": 21,
    "dex": 405,
+   "crank": 5,
    "form": "Shadow Luxray",
    "base": "Luxray",
    "locked": false
@@ -386,6 +433,7 @@
    "fam": "FAMILY_GEODUDE",
    "rank": 22,
    "dex": 76,
+   "crank": 6,
    "form": "Shadow Alolan Golem",
    "base": "Golem",
    "locked": false
@@ -396,6 +444,7 @@
    "fam": "FAMILY_TREECKO",
    "rank": 1,
    "dex": 254,
+   "crank": 1,
    "form": "Mega Sceptile",
    "base": "Sceptile",
    "locked": false
@@ -404,6 +453,7 @@
    "fam": "FAMILY_BULBASAUR",
    "rank": 2,
    "dex": 3,
+   "crank": 2,
    "form": "Mega Venusaur",
    "base": "Venusaur",
    "locked": false
@@ -412,6 +462,7 @@
    "fam": "kartana",
    "rank": 3,
    "dex": 798,
+   "crank": null,
    "form": "Kartana",
    "base": "Kartana",
    "locked": true
@@ -420,6 +471,7 @@
    "fam": "FAMILY_CHESPIN",
    "rank": 4,
    "dex": 652,
+   "crank": 3,
    "form": "Shadow Chesnaught",
    "base": "Chesnaught",
    "locked": false
@@ -428,6 +480,7 @@
    "fam": "zarude",
    "rank": 5,
    "dex": 893,
+   "crank": null,
    "form": "Zarude",
    "base": "Zarude",
    "locked": true
@@ -436,6 +489,7 @@
    "fam": "shaymin_sky",
    "rank": 6,
    "dex": 492,
+   "crank": null,
    "form": "Sky Shaymin",
    "base": "Shaymin",
    "locked": true
@@ -444,6 +498,7 @@
    "fam": "FAMILY_TANGELA",
    "rank": 7,
    "dex": 465,
+   "crank": 4,
    "form": "Shadow Tangrowth",
    "base": "Tangrowth",
    "locked": false
@@ -452,6 +507,7 @@
    "fam": "FAMILY_BELLSPROUT",
    "rank": 9,
    "dex": 71,
+   "crank": 5,
    "form": "Mega Victreebel",
    "base": "Victreebel",
    "locked": false
@@ -460,6 +516,7 @@
    "fam": "FAMILY_GROOKEY",
    "rank": 10,
    "dex": 812,
+   "crank": 6,
    "form": "Rillaboom",
    "base": "Rillaboom",
    "locked": false
@@ -468,6 +525,7 @@
    "fam": "xurkitree",
    "rank": 13,
    "dex": 796,
+   "crank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true
@@ -476,6 +534,7 @@
    "fam": "tapu_bulu",
    "rank": 15,
    "dex": 787,
+   "crank": null,
    "form": "Tapu Bulu",
    "base": "Tapu Bulu",
    "locked": true
@@ -484,6 +543,7 @@
    "fam": "latios",
    "rank": 20,
    "dex": 381,
+   "crank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true
@@ -494,6 +554,7 @@
    "fam": "kyurem",
    "rank": 1,
    "dex": 646,
+   "crank": null,
    "form": "White Kyurem",
    "base": "Kyurem",
    "locked": true
@@ -502,6 +563,7 @@
    "fam": "mewtwo",
    "rank": 3,
    "dex": 150,
+   "crank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -510,6 +572,7 @@
    "fam": "FAMILY_SWINUB",
    "rank": 5,
    "dex": 473,
+   "crank": 1,
    "form": "Shadow Mamoswine",
    "base": "Mamoswine",
    "locked": false
@@ -518,6 +581,7 @@
    "fam": "FAMILY_RALTS",
    "rank": 6,
    "dex": 282,
+   "crank": 2,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false
@@ -526,6 +590,7 @@
    "fam": "zamazenta_hero",
    "rank": 7,
    "dex": 889,
+   "crank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
    "locked": true
@@ -534,6 +599,7 @@
    "fam": "FAMILY_FRIGIBAX",
    "rank": 9,
    "dex": 998,
+   "crank": 3,
    "form": "Baxcalibur",
    "base": "Baxcalibur",
    "locked": false
@@ -542,6 +608,7 @@
    "fam": "kyogre",
    "rank": 10,
    "dex": 382,
+   "crank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
    "locked": true
@@ -550,6 +617,7 @@
    "fam": "FAMILY_SNOVER",
    "rank": 11,
    "dex": 460,
+   "crank": 4,
    "form": "Mega Abomasnow",
    "base": "Abomasnow",
    "locked": false
@@ -558,6 +626,7 @@
    "fam": "FAMILY_SNEASEL",
    "rank": 12,
    "dex": 461,
+   "crank": 5,
    "form": "Shadow Weavile",
    "base": "Weavile",
    "locked": false
@@ -566,6 +635,7 @@
    "fam": "articuno",
    "rank": 14,
    "dex": 144,
+   "crank": null,
    "form": "Shadow Articuno",
    "base": "Articuno",
    "locked": true
@@ -574,6 +644,7 @@
    "fam": "FAMILY_SNORUNT",
    "rank": 15,
    "dex": 362,
+   "crank": 6,
    "form": "Mega Glalie",
    "base": "Glalie",
    "locked": false
@@ -584,6 +655,7 @@
    "fam": "mewtwo",
    "rank": 1,
    "dex": 150,
+   "crank": null,
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -592,6 +664,7 @@
    "fam": "FAMILY_LUCARIO",
    "rank": 2,
    "dex": 448,
+   "crank": 1,
    "form": "Mega Lucario",
    "base": "Lucario",
    "locked": false
@@ -600,6 +673,7 @@
    "fam": "FAMILY_TORCHIC",
    "rank": 3,
    "dex": 257,
+   "crank": 2,
    "form": "Mega Blaziken",
    "base": "Blaziken",
    "locked": false
@@ -608,6 +682,7 @@
    "fam": "keldeo_ordinary",
    "rank": 4,
    "dex": 647,
+   "crank": null,
    "form": "Resolute Keldeo",
    "base": "Keldeo",
    "locked": true
@@ -616,6 +691,7 @@
    "fam": "heracross",
    "rank": 6,
    "dex": 214,
+   "crank": 3,
    "form": "Mega Heracross",
    "base": "Heracross",
    "locked": false
@@ -624,6 +700,7 @@
    "fam": "FAMILY_TIMBURR",
    "rank": 7,
    "dex": 534,
+   "crank": 4,
    "form": "Shadow Conkeldurr",
    "base": "Conkeldurr",
    "locked": false
@@ -632,6 +709,7 @@
    "fam": "terrakion",
    "rank": 9,
    "dex": 639,
+   "crank": null,
    "form": "Terrakion",
    "base": "Terrakion",
    "locked": true
@@ -640,6 +718,7 @@
    "fam": "latios",
    "rank": 12,
    "dex": 381,
+   "crank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true
@@ -648,6 +727,7 @@
    "fam": "raikou",
    "rank": 13,
    "dex": 243,
+   "crank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
    "locked": true
@@ -656,6 +736,7 @@
    "fam": "FAMILY_KUBFU",
    "rank": 14,
    "dex": 892,
+   "crank": null,
    "form": "Rapid Strike Urshifu",
    "base": "Urshifu",
    "locked": true
@@ -664,6 +745,7 @@
    "fam": "FAMILY_MACHOP",
    "rank": 17,
    "dex": 68,
+   "crank": 5,
    "form": "Shadow Machamp",
    "base": "Machamp",
    "locked": false
@@ -672,6 +754,7 @@
    "fam": "FAMILY_MAKUHITA",
    "rank": 18,
    "dex": 297,
+   "crank": 6,
    "form": "Shadow Hariyama",
    "base": "Hariyama",
    "locked": false
@@ -682,6 +765,7 @@
    "fam": "eternatus",
    "rank": 1,
    "dex": 890,
+   "crank": null,
    "form": "Eternatus",
    "base": "Eternatus",
    "locked": true
@@ -690,6 +774,7 @@
    "fam": "FAMILY_GASTLY",
    "rank": 2,
    "dex": 94,
+   "crank": 1,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false
@@ -698,6 +783,7 @@
    "fam": "FAMILY_WEEDLE",
    "rank": 3,
    "dex": 15,
+   "crank": 2,
    "form": "Mega Beedrill",
    "base": "Beedrill",
    "locked": false
@@ -706,6 +792,7 @@
    "fam": "nihilego",
    "rank": 4,
    "dex": 793,
+   "crank": null,
    "form": "Nihilego",
    "base": "Nihilego",
    "locked": true
@@ -714,6 +801,7 @@
    "fam": "FAMILY_BELLSPROUT",
    "rank": 5,
    "dex": 71,
+   "crank": 3,
    "form": "Mega Victreebel",
    "base": "Victreebel",
    "locked": false
@@ -722,6 +810,7 @@
    "fam": "FAMILY_QWILFISH",
    "rank": 6,
    "dex": 904,
+   "crank": 4,
    "form": "Shadow Overqwil",
    "base": "Overqwil",
    "locked": false
@@ -730,6 +819,7 @@
    "fam": "FAMILY_POIPOLE",
    "rank": 7,
    "dex": 804,
+   "crank": null,
    "form": "Naganadel",
    "base": "Naganadel",
    "locked": true
@@ -738,6 +828,7 @@
    "fam": "FAMILY_ROSELIA",
    "rank": 8,
    "dex": 407,
+   "crank": 5,
    "form": "Roserade",
    "base": "Roserade",
    "locked": false
@@ -746,6 +837,7 @@
    "fam": "FAMILY_VAROOM",
    "rank": 9,
    "dex": 966,
+   "crank": 6,
    "form": "Revavroom",
    "base": "Revavroom",
    "locked": false
@@ -756,6 +848,7 @@
    "fam": "groudon",
    "rank": 1,
    "dex": 383,
+   "crank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
    "locked": true
@@ -764,6 +857,7 @@
    "fam": "FAMILY_GIBLE",
    "rank": 2,
    "dex": 445,
+   "crank": 1,
    "form": "Mega Garchomp",
    "base": "Garchomp",
    "locked": false
@@ -772,6 +866,7 @@
    "fam": "landorus_therian",
    "rank": 5,
    "dex": 645,
+   "crank": null,
    "form": "Therian Landorus",
    "base": "Landorus",
    "locked": true
@@ -780,6 +875,7 @@
    "fam": "FAMILY_DRILBUR",
    "rank": 7,
    "dex": 530,
+   "crank": 2,
    "form": "Shadow Excadrill",
    "base": "Excadrill",
    "locked": false
@@ -788,6 +884,7 @@
    "fam": "FAMILY_RHYHORN",
    "rank": 8,
    "dex": 464,
+   "crank": 3,
    "form": "Shadow Rhyperior",
    "base": "Rhyperior",
    "locked": false
@@ -796,6 +893,7 @@
    "fam": "FAMILY_MUDKIP",
    "rank": 10,
    "dex": 260,
+   "crank": 4,
    "form": "Mega Swampert",
    "base": "Swampert",
    "locked": false
@@ -804,6 +902,7 @@
    "fam": "FAMILY_GOLETT",
    "rank": 14,
    "dex": 623,
+   "crank": 5,
    "form": "Shadow Golurk",
    "base": "Golurk",
    "locked": false
@@ -812,6 +911,7 @@
    "fam": "FAMILY_HIPPOPOTAS",
    "rank": 15,
    "dex": 450,
+   "crank": 6,
    "form": "Shadow Hippowdon",
    "base": "Hippowdon",
    "locked": false
@@ -822,6 +922,7 @@
    "fam": "rayquaza",
    "rank": 1,
    "dex": 384,
+   "crank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true
@@ -830,6 +931,7 @@
    "fam": "moltres",
    "rank": 3,
    "dex": 146,
+   "crank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
    "locked": true
@@ -838,6 +940,7 @@
    "fam": "FAMILY_BAGON",
    "rank": 4,
    "dex": 373,
+   "crank": 1,
    "form": "Shadow Salamence",
    "base": "Salamence",
    "locked": false
@@ -846,6 +949,7 @@
    "fam": "enamorus_therian",
    "rank": 6,
    "dex": 905,
+   "crank": null,
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
    "locked": true
@@ -854,6 +958,7 @@
    "fam": "FAMILY_CHARMANDER",
    "rank": 7,
    "dex": 6,
+   "crank": 2,
    "form": "Mega Y Charizard",
    "base": "Charizard",
    "locked": false
@@ -862,6 +967,7 @@
    "fam": "yveltal",
    "rank": 8,
    "dex": 717,
+   "crank": null,
    "form": "Yveltal",
    "base": "Yveltal",
    "locked": true
@@ -870,6 +976,7 @@
    "fam": "articuno",
    "rank": 10,
    "dex": 144,
+   "crank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
    "locked": true
@@ -878,6 +985,7 @@
    "fam": "FAMILY_PIKIPEK",
    "rank": 11,
    "dex": 733,
+   "crank": 3,
    "form": "Shadow Toucannon",
    "base": "Toucannon",
    "locked": false
@@ -886,6 +994,7 @@
    "fam": "lugia",
    "rank": 12,
    "dex": 249,
+   "crank": null,
    "form": "Apex Shadow Lugia",
    "base": "Lugia",
    "locked": true
@@ -894,6 +1003,7 @@
    "fam": "zapdos",
    "rank": 13,
    "dex": 145,
+   "crank": null,
    "form": "Shadow Zapdos",
    "base": "Zapdos",
    "locked": true
@@ -902,6 +1012,7 @@
    "fam": "skarmory",
    "rank": 15,
    "dex": 227,
+   "crank": 4,
    "form": "Mega Skarmory",
    "base": "Skarmory",
    "locked": false
@@ -910,6 +1021,7 @@
    "fam": "FAMILY_STARLY",
    "rank": 16,
    "dex": 398,
+   "crank": 5,
    "form": "Shadow Staraptor",
    "base": "Staraptor",
    "locked": false
@@ -918,6 +1030,7 @@
    "fam": "FAMILY_PIDGEY",
    "rank": 18,
    "dex": 18,
+   "crank": 6,
    "form": "Mega Pidgeot",
    "base": "Pidgeot",
    "locked": false
@@ -926,6 +1039,7 @@
    "fam": "zacian_hero",
    "rank": 20,
    "dex": 888,
+   "crank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true
@@ -936,6 +1050,7 @@
    "fam": "mewtwo",
    "rank": 1,
    "dex": 150,
+   "crank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -944,6 +1059,7 @@
    "fam": "FAMILY_ABRA",
    "rank": 4,
    "dex": 65,
+   "crank": 1,
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false
@@ -952,6 +1068,7 @@
    "fam": "latios",
    "rank": 5,
    "dex": 381,
+   "crank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true
@@ -960,6 +1077,7 @@
    "fam": "FAMILY_RALTS",
    "rank": 7,
    "dex": 282,
+   "crank": 2,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false
@@ -968,6 +1086,7 @@
    "fam": "FAMILY_BELDUM",
    "rank": 9,
    "dex": 376,
+   "crank": 3,
    "form": "Mega Metagross",
    "base": "Metagross",
    "locked": false
@@ -976,6 +1095,7 @@
    "fam": "latias",
    "rank": 12,
    "dex": 380,
+   "crank": null,
    "form": "Mega Latias",
    "base": "Latias",
    "locked": true
@@ -984,6 +1104,7 @@
    "fam": "necrozma",
    "rank": 13,
    "dex": 800,
+   "crank": null,
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
    "locked": true
@@ -992,6 +1113,7 @@
    "fam": "hoopa",
    "rank": 14,
    "dex": 720,
+   "crank": null,
    "form": "Unbound Hoopa",
    "base": "Hoopa",
    "locked": true
@@ -1000,6 +1122,7 @@
    "fam": "lugia",
    "rank": 15,
    "dex": 249,
+   "crank": null,
    "form": "Apex Shadow Lugia",
    "base": "Lugia",
    "locked": true
@@ -1008,6 +1131,7 @@
    "fam": "FAMILY_COSMOG",
    "rank": 17,
    "dex": 792,
+   "crank": null,
    "form": "Lunala",
    "base": "Lunala",
    "locked": true
@@ -1016,6 +1140,7 @@
    "fam": "articuno",
    "rank": 18,
    "dex": 144,
+   "crank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
    "locked": true
@@ -1024,6 +1149,7 @@
    "fam": "regigigas",
    "rank": 20,
    "dex": 486,
+   "crank": null,
    "form": "Shadow Regigigas",
    "base": "Regigigas",
    "locked": true
@@ -1032,6 +1158,7 @@
    "fam": "FAMILY_GASTLY",
    "rank": 21,
    "dex": 94,
+   "crank": 4,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false
@@ -1040,6 +1167,7 @@
    "fam": "FAMILY_FENNEKIN",
    "rank": 33,
    "dex": 655,
+   "crank": 5,
    "form": "Shadow Delphox",
    "base": "Delphox",
    "locked": false
@@ -1048,6 +1176,7 @@
    "fam": "FAMILY_SLOWPOKE",
    "rank": 37,
    "dex": 80,
+   "crank": 6,
    "form": "Mega Slowbro",
    "base": "Slowbro",
    "locked": false
@@ -1058,6 +1187,7 @@
    "fam": "heracross",
    "rank": 1,
    "dex": 214,
+   "crank": 1,
    "form": "Mega Heracross",
    "base": "Heracross",
    "locked": false
@@ -1066,6 +1196,7 @@
    "fam": "pinsir",
    "rank": 2,
    "dex": 127,
+   "crank": 2,
    "form": "Mega Pinsir",
    "base": "Pinsir",
    "locked": false
@@ -1074,6 +1205,7 @@
    "fam": "FAMILY_SCYTHER",
    "rank": 3,
    "dex": 212,
+   "crank": 3,
    "form": "Mega Scizor",
    "base": "Scizor",
    "locked": false
@@ -1082,6 +1214,7 @@
    "fam": "FAMILY_GRUBBIN",
    "rank": 4,
    "dex": 738,
+   "crank": 4,
    "form": "Shadow Vikavolt",
    "base": "Vikavolt",
    "locked": false
@@ -1090,6 +1223,7 @@
    "fam": "FAMILY_LARVESTA",
    "rank": 6,
    "dex": 637,
+   "crank": 5,
    "form": "Volcarona",
    "base": "Volcarona",
    "locked": false
@@ -1098,6 +1232,7 @@
    "fam": "FAMILY_WEEDLE",
    "rank": 7,
    "dex": 15,
+   "crank": 6,
    "form": "Mega Beedrill",
    "base": "Beedrill",
    "locked": false
@@ -1106,6 +1241,7 @@
    "fam": "genesect",
    "rank": 12,
    "dex": 649,
+   "crank": null,
    "form": "Shock Genesect",
    "base": "Genesect",
    "locked": true
@@ -1114,6 +1250,7 @@
    "fam": "kartana",
    "rank": 18,
    "dex": 798,
+   "crank": null,
    "form": "Kartana",
    "base": "Kartana",
    "locked": true
@@ -1124,6 +1261,7 @@
    "fam": "diancie",
    "rank": 1,
    "dex": 719,
+   "crank": null,
    "form": "Mega Diancie",
    "base": "Diancie",
    "locked": true
@@ -1132,6 +1270,7 @@
    "fam": "FAMILY_RHYHORN",
    "rank": 2,
    "dex": 464,
+   "crank": 1,
    "form": "Shadow Rhyperior",
    "base": "Rhyperior",
    "locked": false
@@ -1140,6 +1279,7 @@
    "fam": "FAMILY_LARVITAR",
    "rank": 3,
    "dex": 248,
+   "crank": 2,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
    "locked": false
@@ -1148,6 +1288,7 @@
    "fam": "aerodactyl",
    "rank": 4,
    "dex": 142,
+   "crank": 3,
    "form": "Mega Aerodactyl",
    "base": "Aerodactyl",
    "locked": false
@@ -1156,6 +1297,7 @@
    "fam": "FAMILY_ROGGENROLA",
    "rank": 5,
    "dex": 526,
+   "crank": 4,
    "form": "Shadow Gigalith",
    "base": "Gigalith",
    "locked": false
@@ -1164,6 +1306,7 @@
    "fam": "FAMILY_TYRUNT",
    "rank": 7,
    "dex": 697,
+   "crank": 5,
    "form": "Shadow Tyrantrum",
    "base": "Tyrantrum",
    "locked": false
@@ -1172,6 +1315,7 @@
    "fam": "FAMILY_CRANIDOS",
    "rank": 8,
    "dex": 409,
+   "crank": 6,
    "form": "Shadow Rampardos",
    "base": "Rampardos",
    "locked": false
@@ -1180,6 +1324,7 @@
    "fam": "rayquaza",
    "rank": 10,
    "dex": 384,
+   "crank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true
@@ -1188,6 +1333,7 @@
    "fam": "terrakion",
    "rank": 11,
    "dex": 639,
+   "crank": null,
    "form": "Terrakion",
    "base": "Terrakion",
    "locked": true
@@ -1198,6 +1344,7 @@
    "fam": "necrozma",
    "rank": 1,
    "dex": 800,
+   "crank": null,
    "form": "Dawn Wings Necrozma",
    "base": "Necrozma",
    "locked": true
@@ -1206,6 +1353,7 @@
    "fam": "mewtwo",
    "rank": 2,
    "dex": 150,
+   "crank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true
@@ -1214,6 +1362,7 @@
    "fam": "FAMILY_GASTLY",
    "rank": 3,
    "dex": 94,
+   "crank": 1,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false
@@ -1222,6 +1371,7 @@
    "fam": "darkrai",
    "rank": 5,
    "dex": 491,
+   "crank": null,
    "form": "Shadow Darkrai",
    "base": "Darkrai",
    "locked": true
@@ -1230,6 +1380,7 @@
    "fam": "FAMILY_LITWICK",
    "rank": 6,
    "dex": 609,
+   "crank": 2,
    "form": "Shadow Chandelure",
    "base": "Chandelure",
    "locked": false
@@ -1238,6 +1389,7 @@
    "fam": "FAMILY_SHUPPET",
    "rank": 7,
    "dex": 354,
+   "crank": 3,
    "form": "Mega Banette",
    "base": "Banette",
    "locked": false
@@ -1246,6 +1398,7 @@
    "fam": "FAMILY_COSMOG",
    "rank": 8,
    "dex": 792,
+   "crank": null,
    "form": "Lunala",
    "base": "Lunala",
    "locked": true
@@ -1254,6 +1407,7 @@
    "fam": "kyurem",
    "rank": 10,
    "dex": 646,
+   "crank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
    "locked": true
@@ -1262,6 +1416,7 @@
    "fam": "FAMILY_ABRA",
    "rank": 12,
    "dex": 65,
+   "crank": 4,
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false
@@ -1270,6 +1425,7 @@
    "fam": "FAMILY_GIMMIGHOUL",
    "rank": 13,
    "dex": 1000,
+   "crank": 5,
    "form": "Gholdengo",
    "base": "Gholdengo",
    "locked": false
@@ -1278,6 +1434,7 @@
    "fam": "giratina_origin",
    "rank": 15,
    "dex": 487,
+   "crank": null,
    "form": "Altered Shadow Giratina",
    "base": "Giratina",
    "locked": true
@@ -1286,6 +1443,7 @@
    "fam": "hoopa",
    "rank": 17,
    "dex": 720,
+   "crank": null,
    "form": "Unbound Hoopa",
    "base": "Hoopa",
    "locked": true
@@ -1294,6 +1452,7 @@
    "fam": "FAMILY_DREEPY",
    "rank": 18,
    "dex": 887,
+   "crank": 6,
    "form": "Dragapult",
    "base": "Dragapult",
    "locked": false
@@ -1304,6 +1463,7 @@
    "fam": "rayquaza",
    "rank": 1,
    "dex": 384,
+   "crank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true
@@ -1312,6 +1472,7 @@
    "fam": "eternatus",
    "rank": 2,
    "dex": 890,
+   "crank": null,
    "form": "Eternatus",
    "base": "Eternatus",
    "locked": true
@@ -1320,6 +1481,7 @@
    "fam": "kyurem",
    "rank": 3,
    "dex": 646,
+   "crank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
    "locked": true
@@ -1328,6 +1490,7 @@
    "fam": "FAMILY_GIBLE",
    "rank": 4,
    "dex": 445,
+   "crank": 1,
    "form": "Mega Garchomp",
    "base": "Garchomp",
    "locked": false
@@ -1336,6 +1499,7 @@
    "fam": "FAMILY_BAGON",
    "rank": 7,
    "dex": 373,
+   "crank": 2,
    "form": "Mega Salamence",
    "base": "Salamence",
    "locked": false
@@ -1344,6 +1508,7 @@
    "fam": "FAMILY_AXEW",
    "rank": 8,
    "dex": 612,
+   "crank": 3,
    "form": "Shadow Haxorus",
    "base": "Haxorus",
    "locked": false
@@ -1352,6 +1517,7 @@
    "fam": "dialga",
    "rank": 9,
    "dex": 483,
+   "crank": null,
    "form": "Shadow Dialga",
    "base": "Dialga",
    "locked": true
@@ -1360,6 +1526,7 @@
    "fam": "FAMILY_DRATINI",
    "rank": 10,
    "dex": 149,
+   "crank": 4,
    "form": "Mega Dragonite",
    "base": "Dragonite",
    "locked": false
@@ -1368,6 +1535,7 @@
    "fam": "palkia",
    "rank": 12,
    "dex": 484,
+   "crank": null,
    "form": "Shadow Palkia",
    "base": "Palkia",
    "locked": true
@@ -1376,6 +1544,7 @@
    "fam": "FAMILY_FRIGIBAX",
    "rank": 15,
    "dex": 998,
+   "crank": 5,
    "form": "Baxcalibur",
    "base": "Baxcalibur",
    "locked": false
@@ -1384,6 +1553,7 @@
    "fam": "latios",
    "rank": 17,
    "dex": 381,
+   "crank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true
@@ -1392,6 +1562,7 @@
    "fam": "regidrago",
    "rank": 18,
    "dex": 895,
+   "crank": null,
    "form": "Regidrago",
    "base": "Regidrago",
    "locked": true
@@ -1400,6 +1571,7 @@
    "fam": "groudon",
    "rank": 20,
    "dex": 383,
+   "crank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
    "locked": true
@@ -1408,6 +1580,7 @@
    "fam": "FAMILY_TREECKO",
    "rank": 25,
    "dex": 254,
+   "crank": 6,
    "form": "Mega Sceptile",
    "base": "Sceptile",
    "locked": false
@@ -1418,6 +1591,7 @@
    "fam": "FAMILY_LARVITAR",
    "rank": 1,
    "dex": 248,
+   "crank": 1,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
    "locked": false
@@ -1426,6 +1600,7 @@
    "fam": "FAMILY_DEINO",
    "rank": 3,
    "dex": 635,
+   "crank": 2,
    "form": "Shadow Hydreigon",
    "base": "Hydreigon",
    "locked": false
@@ -1434,6 +1609,7 @@
    "fam": "darkrai",
    "rank": 4,
    "dex": 491,
+   "crank": null,
    "form": "Shadow Darkrai",
    "base": "Darkrai",
    "locked": true
@@ -1442,6 +1618,7 @@
    "fam": "absol",
    "rank": 5,
    "dex": 359,
+   "crank": 3,
    "form": "Mega Absol",
    "base": "Absol",
    "locked": false
@@ -1450,6 +1627,7 @@
    "fam": "FAMILY_GASTLY",
    "rank": 6,
    "dex": 94,
+   "crank": 4,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false
@@ -1458,6 +1636,7 @@
    "fam": "FAMILY_HOUNDOUR",
    "rank": 7,
    "dex": 229,
+   "crank": 5,
    "form": "Mega Houndoom",
    "base": "Houndoom",
    "locked": false
@@ -1466,6 +1645,7 @@
    "fam": "FAMILY_BAGON",
    "rank": 8,
    "dex": 373,
+   "crank": 6,
    "form": "Mega Salamence",
    "base": "Salamence",
    "locked": false
@@ -1474,6 +1654,7 @@
    "fam": "yveltal",
    "rank": 20,
    "dex": 717,
+   "crank": null,
    "form": "Yveltal",
    "base": "Yveltal",
    "locked": true
@@ -1484,6 +1665,7 @@
    "fam": "zacian_hero",
    "rank": 1,
    "dex": 888,
+   "crank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true
@@ -1492,6 +1674,7 @@
    "fam": "zamazenta_hero",
    "rank": 2,
    "dex": 889,
+   "crank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
    "locked": true
@@ -1500,6 +1683,7 @@
    "fam": "necrozma",
    "rank": 3,
    "dex": 800,
+   "crank": null,
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
    "locked": true
@@ -1508,6 +1692,7 @@
    "fam": "FAMILY_BELDUM",
    "rank": 4,
    "dex": 376,
+   "crank": 1,
    "form": "Mega Metagross",
    "base": "Metagross",
    "locked": false
@@ -1516,6 +1701,7 @@
    "fam": "FAMILY_LUCARIO",
    "rank": 6,
    "dex": 448,
+   "crank": 2,
    "form": "Mega Lucario",
    "base": "Lucario",
    "locked": false
@@ -1524,6 +1710,7 @@
    "fam": "dialga",
    "rank": 7,
    "dex": 483,
+   "crank": null,
    "form": "Shadow Dialga",
    "base": "Dialga",
    "locked": true
@@ -1532,6 +1719,7 @@
    "fam": "FAMILY_DRILBUR",
    "rank": 9,
    "dex": 530,
+   "crank": 3,
    "form": "Shadow Excadrill",
    "base": "Excadrill",
    "locked": false
@@ -1540,6 +1728,7 @@
    "fam": "FAMILY_TINKATINK",
    "rank": 11,
    "dex": 959,
+   "crank": 4,
    "form": "Tinkaton",
    "base": "Tinkaton",
    "locked": false
@@ -1548,6 +1737,7 @@
    "fam": "skarmory",
    "rank": 14,
    "dex": 227,
+   "crank": 5,
    "form": "Mega Skarmory",
    "base": "Skarmory",
    "locked": false
@@ -1556,6 +1746,7 @@
    "fam": "FAMILY_MELTAN",
    "rank": 15,
    "dex": 809,
+   "crank": null,
    "form": "Melmetal",
    "base": "Melmetal",
    "locked": true
@@ -1564,6 +1755,7 @@
    "fam": "kyurem",
    "rank": 16,
    "dex": 646,
+   "crank": null,
    "form": "White Kyurem",
    "base": "Kyurem",
    "locked": true
@@ -1572,6 +1764,7 @@
    "fam": "FAMILY_ARON",
    "rank": 17,
    "dex": 306,
+   "crank": 6,
    "form": "Mega Aggron",
    "base": "Aggron",
    "locked": false
@@ -1580,6 +1773,7 @@
    "fam": "genesect",
    "rank": 18,
    "dex": 649,
+   "crank": null,
    "form": "Shock Genesect",
    "base": "Genesect",
    "locked": true
@@ -1590,6 +1784,7 @@
    "fam": "FAMILY_RALTS",
    "rank": 1,
    "dex": 282,
+   "crank": 1,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false
@@ -1598,6 +1793,7 @@
    "fam": "zacian_hero",
    "rank": 2,
    "dex": 888,
+   "crank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true
@@ -1606,6 +1802,7 @@
    "fam": "enamorus_therian",
    "rank": 3,
    "dex": 905,
+   "crank": null,
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
    "locked": true
@@ -1614,6 +1811,7 @@
    "fam": "FAMILY_ABRA",
    "rank": 5,
    "dex": 65,
+   "crank": 2,
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false
@@ -1622,6 +1820,7 @@
    "fam": "tapu_lele",
    "rank": 6,
    "dex": 786,
+   "crank": null,
    "form": "Tapu Lele",
    "base": "Tapu Lele",
    "locked": true
@@ -1630,6 +1829,7 @@
    "fam": "xerneas",
    "rank": 7,
    "dex": 716,
+   "crank": null,
    "form": "Xerneas",
    "base": "Xerneas",
    "locked": true
@@ -1638,6 +1838,7 @@
    "fam": "tapu_koko",
    "rank": 8,
    "dex": 785,
+   "crank": null,
    "form": "Tapu Koko",
    "base": "Tapu Koko",
    "locked": true
@@ -1646,6 +1847,7 @@
    "fam": "tapu_bulu",
    "rank": 9,
    "dex": 787,
+   "crank": null,
    "form": "Tapu Bulu",
    "base": "Tapu Bulu",
    "locked": true
@@ -1654,6 +1856,7 @@
    "fam": "latias",
    "rank": 10,
    "dex": 380,
+   "crank": null,
    "form": "Mega Latias",
    "base": "Latias",
    "locked": true
@@ -1662,6 +1865,7 @@
    "fam": "FAMILY_SNUBBULL",
    "rank": 11,
    "dex": 210,
+   "crank": 3,
    "form": "Shadow Granbull",
    "base": "Granbull",
    "locked": false
@@ -1670,6 +1874,7 @@
    "fam": "FAMILY_TOGEPI",
    "rank": 13,
    "dex": 468,
+   "crank": 4,
    "form": "Togekiss",
    "base": "Togekiss",
    "locked": false
@@ -1678,6 +1883,7 @@
    "fam": "xurkitree",
    "rank": 16,
    "dex": 796,
+   "crank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true
@@ -1686,6 +1892,7 @@
    "fam": "FAMILY_HATENNA",
    "rank": 17,
    "dex": 858,
+   "crank": 5,
    "form": "Hatterene",
    "base": "Hatterene",
    "locked": false
@@ -1694,6 +1901,7 @@
    "fam": "FAMILY_TEDDIURSA",
    "rank": 19,
    "dex": 901,
+   "crank": 6,
    "form": "Shadow Ursaluna",
    "base": "Ursaluna",
    "locked": false

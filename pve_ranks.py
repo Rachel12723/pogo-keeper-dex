@@ -74,15 +74,15 @@ def compute():
         keepers, n_catch = [], 0
         for fam, (pos, dex, tok) in ordered:
             locked = dex in locked_dex
-            keep = False
+            keep, crank = False, None
             if locked:
                 if pos <= LOCKED_OVERALL_CAP:
                     keep = True
             else:
                 if n_catch < TOP_N_CATCHABLE:
-                    keep = True; n_catch += 1
+                    n_catch += 1; keep = True; crank = n_catch  # rank within our top-6 catchable
             if keep:
-                keepers.append({"fam": fam, "rank": pos, "dex": dex,
+                keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank,
                                 "form": form_name(dex, tok), "base": dex_base.get(dex),
                                 "locked": locked})
         result[tp] = keepers
@@ -96,8 +96,8 @@ def by_dex():
     for tp, ks in res.items():
         for k in ks:
             m.setdefault(k["dex"], []).append(
-                {"type": tp.capitalize(), "rank": k["rank"], "form": k["form"],
-                 "base": k["base"], "locked": k["locked"]})
+                {"type": tp.capitalize(), "rank": k["rank"], "crank": k["crank"],
+                 "form": k["form"], "base": k["base"], "locked": k["locked"]})
     return m
 
 
