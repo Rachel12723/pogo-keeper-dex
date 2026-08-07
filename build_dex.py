@@ -175,6 +175,12 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .copy:hover{background:#eef2f6;color:#0f172a} .copy svg{width:15px;height:15px}
 .copy.ok{background:#e3f6ea;border-color:#86efac;color:#14713a}
 .copy.ok svg{display:none} .copy.ok::after{content:'✓';font-size:16px;font-weight:700;line-height:1}
+.views{position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:18px 0 4px;padding:8px 0;background:#fff;border-bottom:1px solid #edf1f5}
+.view{padding:5px 11px;border:1px solid #cbd5e1;border-radius:16px;background:#fff;color:#475569;font-size:13px;font-weight:600;cursor:pointer}
+.view:hover{background:#eef2f6;color:#0f172a}
+.view.on{background:#1e5fa8;border-color:#1e5fa8;color:#fff}
+.viewcount{margin-left:auto;color:#6b7b8a;font-size:12px;font-variant-numeric:tabular-nums}
+tbody.fam.hide{display:none}
 </style>
 <h1>Complete Pokédex — folded by family</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
@@ -238,15 +244,48 @@ h.append(f"<p class=note>{len(combined_fams)} families are either a keeper "
 h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
          "(all three lists negated, de-duplicated)"
          f"<div class=codewrap>{COPYBTN}<pre>{combined_neg}&!3*&!4*</pre></div></div>")
-h.append('<table><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
-         '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr>')
+h.append(
+    '<div class=views role=tablist aria-label="Dex views">'
+    '<button class="view on" data-view=all>All families</button>'
+    '<button class=view data-view=capped>Capped-PvP</button>'
+    '<button class=view data-view=raid>Raid / Master</button>'
+    '<button class=view data-view=raidonly>Raid / Master − Capped</button>'
+    '<button class=view data-view=rare>Legendary / Mythical / UB</button>'
+    '<button class=view data-view=collection>Collection only</button>'
+    '<span class=viewcount id=viewcount></span></div>'
+    '<p class=note id=viewhint>Showing every family. Each view below is a strict subset '
+    'of this same list — the rows are identical, only filtered.</p>')
+h.append('<table><thead><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
+         '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr></thead>')
+def fam_cats(r):
+    """Space-separated category tokens for a family — drives the client-side view tabs.
+    Mirrors the search-string groupings exactly so each view is a strict subset."""
+    capped = any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])
+    raid = any(u["lp"] in ("ML", "PvE") for u in r["usages"])
+    rare = bool(r["rare"])
+    cats = []
+    if capped:
+        cats.append("capped")
+    if raid:
+        cats.append("raid")
+    if raid and not capped:
+        cats.append("raidonly")
+    if rare:
+        cats.append("rare")
+    if not capped and not raid and not rare:
+        cats.append("collection")
+    return " ".join(cats)
+
+
 for kind, _d, payload in items:
     if kind == "ptr":
         d, n, a, an = payload
-        h.append(f'<tr class=ptr><td></td><td>{n} <span class=dex>#{d}</span></td>'
-                 f'<td colspan=6>→ folded into #{a} ({an} family)</td></tr>')
+        h.append(f'<tbody class=fam data-cat="ptr"><tr class=ptr><td></td>'
+                 f'<td>{n} <span class=dex>#{d}</span></td>'
+                 f'<td colspan=6>→ folded into #{a} ({an} family)</td></tr></tbody>')
         continue
     r = payload
+    h.append(f'<tbody class=fam data-cat="{fam_cats(r)}">')
     img = f'<img loading=lazy src="{ART.format(SPRITE_OVERRIDE.get(r["sid"], r["dex"]))}" alt="">'
     lines = [dict(u, keep="1") for u in r["usages"]]
     lines.append({"lp": "Collection only", "best": r["chain"], "iv": "—", "moves": "—", "keep": "", "coll": True})
@@ -266,8 +305,46 @@ for kind, _d, payload in items:
         h.append(f'<tr>{c0}<td>{lp_html}</td><td class=rank>{best_html}</td>'
                  f'<td class=note>{u["iv"]}</td><td class=note>{u["moves"]}</td>'
                  f'<td class=keep>{u["keep"]}</td>{ct}</tr>')
+    h.append("</tbody>")
 h.append("</table>")
 h.append("<script>document.querySelectorAll('.copy').forEach(function(b){b.addEventListener('click',function(){var p=b.closest('.ss').querySelector('pre');navigator.clipboard.writeText(p.innerText).then(function(){b.classList.add('ok');setTimeout(function(){b.classList.remove('ok');},1500);});});});</script>")
+h.append("""<script>
+(function(){
+  var fams=[].slice.call(document.querySelectorAll('tbody.fam'));
+  var btns=[].slice.call(document.querySelectorAll('.view'));
+  var count=document.getElementById('viewcount');
+  var hints={all:'Showing every family. Each view below is a strict subset of this same list — the rows are identical, only filtered.',
+    capped:'Capped-PvP candidates — families with a LC/GL/UL usage (breed for low ATK / high bulk).',
+    raid:'Raid (PvE) / Master-league families — want high ATK / hundo.',
+    raidonly:'Raid/Master families that are NOT also Capped-PvP candidates.',
+    rare:'Legendary / Mythical / Ultra Beast families (raid-locked rarities).',
+    collection:'Neither Capped-PvP nor Raid/Master, and not a legendary/mythical/UB — the freely-catchable collection.'};
+  var hint=document.getElementById('viewhint');
+  function apply(v){
+    var shown=0;
+    fams.forEach(function(t){
+      var cats=(t.getAttribute('data-cat')||'').split(' ');
+      // 'All' shows everything (incl. pointer rows); any filtered view matches by token
+      // and drops pointer rows, whose fold target may be hidden.
+      var vis=(v==='all')?true:(cats.indexOf(v)>=0);
+      t.classList.toggle('hide',!vis);
+      if(vis&&cats.indexOf('ptr')<0)shown++;
+    });
+    count.textContent=shown+' families';
+    if(hint)hint.textContent=hints[v]||'';
+    if(history.replaceState)history.replaceState(null,'',v==='all'?location.pathname:('#'+v));
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){
+    btns.forEach(function(x){x.classList.remove('on');});
+    b.classList.add('on');
+    apply(b.getAttribute('data-view'));
+  });});
+  var start=(location.hash||'').replace('#','');
+  var match=btns.filter(function(b){return b.getAttribute('data-view')===start;})[0];
+  if(match){btns.forEach(function(x){x.classList.remove('on');});match.classList.add('on');apply(start);}
+  else apply('all');
+})();
+</script>""")
 h.append("</html>")
 open(os.path.join(HERE, "dex.html"), "w").write("\n".join(h))
 print("wrote dex.html")
