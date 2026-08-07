@@ -217,6 +217,13 @@ h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b>"
          f"<div class=codewrap>{COPYBTN}<pre>{hi_join}&3*,4*</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
+# Raid/Master list with the capped-PvP families removed (set difference).
+cap_set = set(capped_fams)
+raid_minus_capped = [n for n in highiv_fams if n not in cap_set]
+rmc_join = ",".join("+" + n for n in raid_minus_capped)
+h.append(f"<div class=ss><b>Raid (PvE) / Master minus Capped-PvP candidates</b> "
+         "(Raid/Master list with capped-PvP families removed)"
+         f"<div class=codewrap>{COPYBTN}<pre>{rmc_join}</pre></div></div>")
 # Combined: negate the capped-PvP list AND negate the Raid/Master list AND negate every
 # raid-locked rarity (legendary / mythical / ultra beast), de-duplicated (a family appearing
 # in more than one of those groups is negated once) so the string keeps only the pure,
