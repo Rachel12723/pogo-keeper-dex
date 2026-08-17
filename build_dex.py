@@ -210,13 +210,13 @@ tbody.fam.hide{display:none}
 Cosmetic costumes are de-duplicated. <b>League / Purpose</b> lists every usage — each PvP league a form ranks in
 (LC top 50 / GL·UL top 100 / ML top 75), one line each. No usage → <span class=coll>Collection only</span> with the folded forms.
 A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of a type, with its real
-<a href="https://db.pokemongohub.net/pokemon-list/best-per-type/dragon">PGHub</a> rank + best form — top-6 catchable
-(or top-20 for a legendary/mythical/UB you own) per type. Catchable lines show up to three numbers:
-1st = rank <b>overall</b>, 2nd = rank <b>within the non-locked pool</b> (legendary/mythical/UB excluded),
-3rd = rank <b>within the non-locked &amp; non-shadow pool</b> (shadow can't be traded, so this is the best
-you can catch a tradeable high-IV of). The <b>top-6 by that 3rd rank</b> are kept
-(e.g. <code>Bug #7, #6, #5</code> = Mega Beedrill, 7th overall, 6th non-locked, 5th non-locked-non-shadow).
-A Mega only earns a PvE line if that Mega is actually a top attacker (no more blanket "has-a-Mega" flag).</p>
+<a href="https://db.pokemongohub.net/pokemon-list/best-per-type/dragon">PGHub</a> rank + form — each attacker
+<b>form</b> is ranked on its own. A line shows up to three numbers: 1st = rank <b>overall</b>,
+2nd = rank <b>among non-locked forms</b> (legendary/mythical/UB excluded), 3rd = rank <b>among non-locked
+&amp; non-shadow forms</b> (shadow can't be traded, so this is the best you can catch a tradeable high-IV of).
+Non-shadow forms in the <b>top-6 by that 3rd rank</b> are kept; shadow forms in the <b>top-6 by the 2nd</b>
+are kept too (with no 3rd number) — e.g. <code>Ice #5, #1</code> = Shadow Mamoswine, <code>Ice #13, #6, #4</code>
+= Mamoswine. Owned legendaries are kept if in the top-20 overall (rank only).</p>
 """]
 def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legendaries share a name)
     seen, out = set(), []
@@ -225,16 +225,26 @@ def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legend
             seen.add(x); out.append(x)
     return out
 
+# Names the gamemaster stores without their in-game accents won't match in the PoGo search bar,
+# so map them to a form that does when they go into a +name / !+name search string.
+SEARCH_NAME = {"Flabebe": "Flabébé"}
+def sn(name):
+    return SEARCH_NAME.get(name, name)
+
+# Families to always keep out of the pure-collection (transfer-candidate) string even with no
+# usage — you never want to trade them away.
+ALWAYS_KEEP = ["Pikachu"]
+
 
 COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
 capped_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"]))
-neg_join = "&".join("!+" + n for n in capped_fams)
+neg_join = "&".join("!+" + sn(n) for n in capped_fams)
 # Split the capped-PvP list by shadow (same logic as the Raid/Master split): families with a
 # non-shadow capped usage vs. families that rank in a capped league only as their shadow form.
 capped_ns_fams = uniq(r["name"] for r in rows if r["ns_capped"])
 capped_sh_fams = uniq(r["name"] for r in rows if r["cap_sh_only"])
-cap_ns_join = ",".join("+" + n for n in capped_ns_fams)
-cap_sh_join = ",".join("+" + n for n in capped_sh_fams)
+cap_ns_join = ",".join("+" + sn(n) for n in capped_ns_fams)
+cap_sh_join = ",".join("+" + sn(n) for n in capped_sh_fams)
 h.append("<h2>Quick search strings</h2>")
 h.append(f"<p class=note>{len(capped_fams)} families have ≥ 1 capped-league (LC/GL/UL) usage. "
          "all want <b>low ATK / high bulk</b> (then run Poke Genie). It splits by shadow: "
@@ -251,7 +261,7 @@ h.append(f'<div class=ss2>'
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
 highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
-hineg_join = "&".join("!+" + n for n in highiv_fams)
+hineg_join = "&".join("!+" + sn(n) for n in highiv_fams)
 # Split the Raid/Master high-IV list by shadow. Shadow can't be traded, so a family whose only
 # top ML/PvE form is a shadow (Master shadow-only, or a shadow-reliant PvE attacker like Kingler
 # or Vikavolt) goes to a separate 'shadowed version' string; you keep a high-IV shadow of it.
@@ -259,8 +269,8 @@ hineg_join = "&".join("!+" + n for n in highiv_fams)
 # list. The negated 'everything else' view below is unchanged (still the full Raid/Master list).
 highiv_ns_fams = uniq(r["name"] for r in rows if r["ns_highiv"])
 highiv_sh_fams = uniq(r["name"] for r in rows if r["sh_only"])
-hi_ns_join = ",".join("+" + n for n in highiv_ns_fams)
-hi_sh_join = ",".join("+" + n for n in highiv_sh_fams)
+hi_ns_join = ",".join("+" + sn(n) for n in highiv_ns_fams)
+hi_sh_join = ",".join("+" + sn(n) for n in highiv_sh_fams)
 h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Raid (PvE) / Master-league</b> usage — all want "
          "<b>high ATK / hundo</b>. It splits by shadow: "
          f"<b>{len(highiv_ns_fams)}</b> have a non-shadow top form (search normally), "
@@ -277,7 +287,7 @@ h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
 # Raid/Master list with the capped-PvP families removed (set difference).
 cap_set = set(capped_fams)
 raid_minus_capped = [n for n in highiv_fams if n not in cap_set]
-rmc_join = ",".join("+" + n for n in raid_minus_capped)
+rmc_join = ",".join("+" + sn(n) for n in raid_minus_capped)
 h.append(f"<div class=ss><b>Raid (PvE) / Master minus Capped-PvP candidates</b> "
          "(Raid/Master list with capped-PvP families removed)"
          f"<div class=codewrap>{COPYBTN}<pre>{rmc_join}</pre></div></div>")
@@ -286,11 +296,12 @@ h.append(f"<div class=ss><b>Raid (PvE) / Master minus Capped-PvP candidates</b> 
 # in more than one of those groups is negated once) so the string keeps only the pure,
 # freely-catchable collection families.
 rare_fams = uniq(r["name"] for r in rows if r["rare"])
-combined_fams = uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams))
-combined_neg = "&".join("!+" + n for n in combined_fams)
+combined_fams = uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
+combined_neg = "&".join("!+" + sn(n) for n in combined_fams)
 h.append(f"<p class=note>{len(combined_fams)} families are either a keeper "
          "(capped-PvP <b>or</b> Raid/Master) <b>or</b> a raid-locked rarity "
-         f"(legendary / mythical / ultra beast — {len(rare_fams)} families), de-duplicated. "
+         f"(legendary / mythical / ultra beast — {len(rare_fams)} families), de-duplicated "
+         f"(plus always-keep: {', '.join(ALWAYS_KEEP)}). "
          "Negating all of them leaves only the freely-catchable, pure-collection families.</p>")
 h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
          "(all three lists negated, de-duplicated)"
