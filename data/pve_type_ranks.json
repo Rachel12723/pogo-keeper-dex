@@ -42,11 +42,11 @@
   },
   {
    "fam": "FAMILY_PORYGON",
-   "rank": 7,
+   "rank": 10,
    "dex": 474,
    "crank": 2,
    "trank": 2,
-   "form": "Shadow Porygon-Z",
+   "form": "Porygon-Z",
    "base": "Porygon-Z",
    "locked": false
   },
@@ -72,11 +72,11 @@
   },
   {
    "fam": "FAMILY_TEDDIURSA",
-   "rank": 12,
+   "rank": 30,
    "dex": 901,
    "crank": 3,
    "trank": 5,
-   "form": "Shadow Ursaluna",
+   "form": "Ursaluna",
    "base": "Ursaluna",
    "locked": false
   },
@@ -418,11 +418,11 @@
   },
   {
    "fam": "FAMILY_MAGNEMITE",
-   "rank": 10,
+   "rank": 20,
    "dex": 462,
    "crank": 2,
    "trank": 4,
-   "form": "Shadow Magnezone",
+   "form": "Magnezone",
    "base": "Magnezone",
    "locked": false
   },
@@ -438,11 +438,11 @@
   },
   {
    "fam": "FAMILY_ELECTABUZZ",
-   "rank": 12,
+   "rank": 18,
    "dex": 466,
    "crank": 4,
    "trank": 3,
-   "form": "Shadow Electivire",
+   "form": "Electivire",
    "base": "Electivire",
    "locked": false
   },
@@ -468,21 +468,21 @@
   },
   {
    "fam": "FAMILY_SHINX",
-   "rank": 21,
+   "rank": 27,
    "dex": 405,
    "crank": 5,
    "trank": 5,
-   "form": "Shadow Luxray",
+   "form": "Luxray",
    "base": "Luxray",
    "locked": false
   },
   {
    "fam": "FAMILY_GEODUDE",
-   "rank": 22,
+   "rank": 29,
    "dex": 76,
    "crank": 6,
    "trank": 6,
-   "form": "Shadow Alolan Golem",
+   "form": "Alolan Golem",
    "base": "Golem",
    "locked": false
   }
@@ -520,11 +520,11 @@
   },
   {
    "fam": "FAMILY_CHESPIN",
-   "rank": 4,
+   "rank": 14,
    "dex": 652,
    "crank": 3,
    "trank": 6,
-   "form": "Shadow Chesnaught",
+   "form": "Chesnaught",
    "base": "Chesnaught",
    "locked": false
   },
@@ -632,11 +632,11 @@
   },
   {
    "fam": "FAMILY_SWINUB",
-   "rank": 5,
+   "rank": 13,
    "dex": 473,
    "crank": 1,
    "trank": 4,
-   "form": "Shadow Mamoswine",
+   "form": "Mamoswine",
    "base": "Mamoswine",
    "locked": false
   },
@@ -774,11 +774,11 @@
   },
   {
    "fam": "FAMILY_TIMBURR",
-   "rank": 7,
+   "rank": 21,
    "dex": 534,
    "crank": 4,
    "trank": 5,
-   "form": "Shadow Conkeldurr",
+   "form": "Conkeldurr",
    "base": "Conkeldurr",
    "locked": false
   },
@@ -896,11 +896,11 @@
   },
   {
    "fam": "FAMILY_QWILFISH",
-   "rank": 6,
+   "rank": 11,
    "dex": 904,
    "crank": 4,
    "trank": 6,
-   "form": "Shadow Overqwil",
+   "form": "Overqwil",
    "base": "Overqwil",
    "locked": false
   },
@@ -968,21 +968,21 @@
   },
   {
    "fam": "FAMILY_DRILBUR",
-   "rank": 7,
+   "rank": 12,
    "dex": 530,
    "crank": 2,
    "trank": 3,
-   "form": "Shadow Excadrill",
+   "form": "Excadrill",
    "base": "Excadrill",
    "locked": false
   },
   {
    "fam": "FAMILY_RHYHORN",
-   "rank": 8,
+   "rank": 16,
    "dex": 464,
    "crank": 3,
    "trank": 4,
-   "form": "Shadow Rhyperior",
+   "form": "Rhyperior",
    "base": "Rhyperior",
    "locked": false
   },
@@ -1040,11 +1040,11 @@
   },
   {
    "fam": "FAMILY_BAGON",
-   "rank": 4,
+   "rank": 5,
    "dex": 373,
    "crank": 1,
    "trank": 1,
-   "form": "Shadow Salamence",
+   "form": "Mega Salamence",
    "base": "Salamence",
    "locked": false
   },
@@ -1090,11 +1090,11 @@
   },
   {
    "fam": "FAMILY_PIKIPEK",
-   "rank": 11,
+   "rank": 23,
    "dex": 733,
    "crank": 3,
    "trank": 5,
-   "form": "Shadow Toucannon",
+   "form": "Toucannon",
    "base": "Toucannon",
    "locked": false
   },
@@ -1364,11 +1364,11 @@
   },
   {
    "fam": "FAMILY_BELDUM",
-   "rank": 10,
+   "rank": 11,
    "dex": 376,
    "crank": 8,
    "trank": 6,
-   "form": "Shadow Metagross",
+   "form": "Mega Metagross",
    "base": "Metagross",
    "locked": false
   },
@@ -1406,11 +1406,11 @@
   },
   {
    "fam": "FAMILY_RHYHORN",
-   "rank": 2,
+   "rank": 9,
    "dex": 464,
    "crank": 1,
    "trank": 3,
-   "form": "Shadow Rhyperior",
+   "form": "Rhyperior",
    "base": "Rhyperior",
    "locked": false
   },
@@ -1436,31 +1436,31 @@
   },
   {
    "fam": "FAMILY_ROGGENROLA",
-   "rank": 5,
+   "rank": 13,
    "dex": 526,
    "crank": 4,
    "trank": 5,
-   "form": "Shadow Gigalith",
+   "form": "Gigalith",
    "base": "Gigalith",
    "locked": false
   },
   {
    "fam": "FAMILY_TYRUNT",
-   "rank": 7,
+   "rank": 15,
    "dex": 697,
    "crank": 5,
    "trank": 6,
-   "form": "Shadow Tyrantrum",
+   "form": "Tyrantrum",
    "base": "Tyrantrum",
    "locked": false
   },
   {
    "fam": "FAMILY_CRANIDOS",
-   "rank": 8,
+   "rank": 12,
    "dex": 409,
    "crank": 6,
    "trank": 4,
-   "form": "Shadow Rampardos",
+   "form": "Rampardos",
    "base": "Rampardos",
    "locked": false
   },
@@ -1528,11 +1528,11 @@
   },
   {
    "fam": "FAMILY_LITWICK",
-   "rank": 6,
+   "rank": 19,
    "dex": 609,
    "crank": 2,
    "trank": 6,
-   "form": "Shadow Chandelure",
+   "form": "Chandelure",
    "base": "Chandelure",
    "locked": false
   },
@@ -1670,11 +1670,11 @@
   },
   {
    "fam": "FAMILY_AXEW",
-   "rank": 8,
+   "rank": 24,
    "dex": 612,
    "crank": 3,
    "trank": 5,
-   "form": "Shadow Haxorus",
+   "form": "Haxorus",
    "base": "Haxorus",
    "locked": false
   },
@@ -1772,11 +1772,11 @@
   },
   {
    "fam": "FAMILY_DEINO",
-   "rank": 3,
+   "rank": 12,
    "dex": 635,
    "crank": 2,
    "trank": 6,
-   "form": "Shadow Hydreigon",
+   "form": "Hydreigon",
    "base": "Hydreigon",
    "locked": false
   },

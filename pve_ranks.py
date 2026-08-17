@@ -98,8 +98,10 @@ def compute():
             locked = dex in locked_dex
             crank = trank = None
             if locked:
+                # legendary/mythical/UB you own: show the strongest form overall (no 2nd/3rd rank).
                 if pos > LOCKED_OVERALL_CAP:
                     continue
+                rank, rdex, rtok = pos, dex, tok
             else:
                 trank = trank_of.get(fam)
                 # non-locked keepers are the top-6 by third (non-shadow) rank; a family with
@@ -107,8 +109,11 @@ def compute():
                 if trank is None or trank > TOP_N_CATCHABLE:
                     continue
                 crank = crank_of.get(fam)
-            keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank, "trank": trank,
-                            "form": form_name(dex, tok), "base": dex_base.get(dex),
+                # Rank/display the best NON-shadow form: it's the tradeable copy you keep, and it
+                # is the form the 2nd/3rd ranks describe (a shadow form has no non-shadow rank).
+                rank, rdex, rtok = fam_best_ns[fam]
+            keepers.append({"fam": fam, "rank": rank, "dex": rdex, "crank": crank, "trank": trank,
+                            "form": form_name(rdex, rtok), "base": dex_base.get(rdex),
                             "locked": locked})
         result[tp] = keepers
     return result
