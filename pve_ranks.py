@@ -58,33 +58,58 @@ def form_name(dex, tok):
     pretty = TOK_PRETTY.get(tok, tok.replace("_", " ").title() if tok else "")
     return f"{pretty} {base}".strip() if pretty else base
 
+def is_shadow(tok):
+    return "shadow" in tok
+
+
 def compute():
     raw = json.load(open(os.path.join(DATA, "pve_type_ranks_raw.json")))
     result = {}
     for tp, arr in raw.items():
-        fam_best = {}  # fam -> (pos, dex, tok)
+        fam_best = {}     # fam -> (pos, dex, tok)  best form overall (shadow allowed)
+        fam_best_ns = {}  # fam -> (pos, dex, tok)  best NON-shadow form (tradeable-catchable)
         for i, suf in enumerate(arr):
             pos = i + 1
             dex, tok = parse(suf)
             fam = dex_fam.get(dex, str(dex))
             if fam not in fam_best:
                 fam_best[fam] = (pos, dex, tok)
-        # order families by best pos
-        ordered = sorted(fam_best.items(), key=lambda kv: kv[1][0])
-        keepers, n_catch = [], 0
-        for fam, (pos, dex, tok) in ordered:
+            if not is_shadow(tok) and fam not in fam_best_ns:
+                fam_best_ns[fam] = (pos, dex, tok)
+        # crank = family rank within the non-locked pool, ordered by best overall pos
+        # (excludes legendary/mythical/UB; shadow forms still count).
+        crank_of, n_catch = {}, 0
+        for fam, (pos, dex, tok) in sorted(fam_best.items(), key=lambda kv: kv[1][0]):
+            if dex in locked_dex:
+                continue
+            n_catch += 1
+            crank_of[fam] = n_catch
+        # trank = family rank within the non-locked AND non-shadow pool, ordered by best
+        # non-shadow pos. This is the pool we cap at TOP_N_CATCHABLE: the best attacker we can
+        # actually catch a high-IV, tradeable copy of (shadow can't be traded).
+        trank_of, n_ns = {}, 0
+        for fam, (pos, dex, tok) in sorted(fam_best_ns.items(), key=lambda kv: kv[1][0]):
+            if dex in locked_dex:
+                continue
+            n_ns += 1
+            trank_of[fam] = n_ns
+        keepers = []
+        for fam, (pos, dex, tok) in sorted(fam_best.items(), key=lambda kv: kv[1][0]):
             locked = dex in locked_dex
-            keep, crank = False, None
+            crank = trank = None
             if locked:
-                if pos <= LOCKED_OVERALL_CAP:
-                    keep = True
+                if pos > LOCKED_OVERALL_CAP:
+                    continue
             else:
-                if n_catch < TOP_N_CATCHABLE:
-                    n_catch += 1; keep = True; crank = n_catch  # rank within our top-6 catchable
-            if keep:
-                keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank,
-                                "form": form_name(dex, tok), "base": dex_base.get(dex),
-                                "locked": locked})
+                trank = trank_of.get(fam)
+                # non-locked keepers are the top-6 by third (non-shadow) rank; a family with
+                # no non-shadow board entry (shadow-only) is not a catchable-tradeable keeper.
+                if trank is None or trank > TOP_N_CATCHABLE:
+                    continue
+                crank = crank_of.get(fam)
+            keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank, "trank": trank,
+                            "form": form_name(dex, tok), "base": dex_base.get(dex),
+                            "locked": locked})
         result[tp] = keepers
     return result
 
@@ -97,7 +122,7 @@ def by_dex():
         for k in ks:
             m.setdefault(k["dex"], []).append(
                 {"type": tp.capitalize(), "rank": k["rank"], "crank": k["crank"],
-                 "form": k["form"], "base": k["base"], "locked": k["locked"]})
+                 "trank": k["trank"], "form": k["form"], "base": k["base"], "locked": k["locked"]})
     return m
 
 
