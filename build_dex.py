@@ -136,9 +136,15 @@ for key, members in fams.items():
     ns_highiv = any(not u["shadow"] for u in hv)
     sh_reliant_pve = any(d in PVE_SHADOW_RELIANT for d in member_dexes)
     sh_only = (not ns_highiv) and (any(u["shadow"] for u in hv) or sh_reliant_pve)
+    # Same split for capped-league (LC/GL/UL) usage: a family with a non-shadow capped usage vs.
+    # one that ranks in a capped league only as its shadow form (search that shadow instead).
+    cv = [u for u in usages if u["lp"] in ("LC", "GL", "UL")]
+    ns_capped = any(not u["shadow"] for u in cv)
+    cap_sh_only = bool(cv) and not ns_capped
     rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
                  "chain": chain, "total": len(usages), "rare": rare,
-                 "ns_highiv": ns_highiv, "sh_only": sh_only})
+                 "ns_highiv": ns_highiv, "sh_only": sh_only,
+                 "ns_capped": ns_capped, "cap_sh_only": cap_sh_only})
     for m in members:
         if m is not anchor and m["dex"] - adex > FAR:
             pointers.append((m["dex"], plain(m["speciesName"]), adex, aname))
@@ -187,6 +193,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .LC{background:#efe7f7;color:#6b3fa0} .GL{background:#e3f6ea;color:#14713a}
 .UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b} .PvE{background:#ffedd5;color:#9a3412}
 .ss{margin-top:12px} .ss>b{font-size:13px}
+.ss2{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px} .ss2>.ss{flex:1 1 320px;margin-top:0;min-width:0}
 .codewrap{position:relative;margin:4px 0 14px}
 .codewrap pre{margin:0;padding:10px 12px;padding-right:44px;white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px solid #e2e8ee;border-radius:8px;font-size:12px}
 .copy{position:absolute;top:6px;right:6px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;padding:0;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#475569;cursor:pointer}
@@ -224,15 +231,26 @@ def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legend
 
 COPYBTN = '<button class=copy title="Copy" aria-label="Copy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button>'
 capped_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"]))
-cap_join = ",".join("+" + n for n in capped_fams)
 neg_join = "&".join("!+" + n for n in capped_fams)
+# Split the capped-PvP list by shadow (same logic as the Raid/Master split): families with a
+# non-shadow capped usage vs. families that rank in a capped league only as their shadow form.
+capped_ns_fams = uniq(r["name"] for r in rows if r["ns_capped"])
+capped_sh_fams = uniq(r["name"] for r in rows if r["cap_sh_only"])
+cap_ns_join = ",".join("+" + n for n in capped_ns_fams)
+cap_sh_join = ",".join("+" + n for n in capped_sh_fams)
 h.append("<h2>Quick search strings</h2>")
 h.append(f"<p class=note>{len(capped_fams)} families have ≥ 1 capped-league (LC/GL/UL) usage. "
-         "<b>String 1</b> = those at low-ATK / high-bulk (then run Poke Genie). "
-         "<b>String 2</b> = <b>everything else</b> — the capped families negated with <code>!+</code> joined by "
+         "all want <b>low ATK / high bulk</b> (then run Poke Genie). It splits by shadow: "
+         f"<b>{len(capped_ns_fams)}</b> have a non-shadow form (search normally), "
+         f"<b>{len(capped_sh_fams)}</b> rank only as their shadow. "
+         "<b>Everything else</b> = the full capped list negated with <code>!+</code> joined by "
          "<code>&amp;</code> (AND) so all are excluded — at high IV. <code>+name</code> = whole evolution family.</p>")
-h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
-         f"<div class=codewrap>{COPYBTN}<pre>{cap_join}&0-1attack&3-4defense&3-4hp</pre></div></div>")
+h.append(f'<div class=ss2>'
+         f'<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b> (non-shadow)'
+         f'<div class=codewrap>{COPYBTN}<pre>{cap_ns_join}&0-1attack&3-4defense&3-4hp</pre></div></div>'
+         f'<div class=ss><b>Capped-PvP — shadowed version</b> (only their shadow form has usage)'
+         f'<div class=codewrap>{COPYBTN}<pre>{cap_sh_join}&shadow&0-1attack&3-4defense&3-4hp</pre></div></div>'
+         f'</div>')
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
 highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
@@ -251,10 +269,12 @@ h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Raid (PvE) / Mast
          f"<b>{len(highiv_ns_fams)}</b> have a non-shadow top form (search normally), "
          f"<b>{len(highiv_sh_fams)}</b> are shadow-only (search their shadow at high IV — can't trade). "
          "Last = everything else (the full list negated).</p>")
-h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b> (non-shadow)"
-         f"<div class=codewrap>{COPYBTN}<pre>{hi_ns_join}&3*,4*</pre></div></div>")
-h.append(f"<div class=ss><b>Raid (PvE) / Master — shadowed version</b> (only their shadow form has usage)"
-         f"<div class=codewrap>{COPYBTN}<pre>{hi_sh_join}&shadow&3*,4*</pre></div></div>")
+h.append(f'<div class=ss2>'
+         f'<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b> (non-shadow)'
+         f'<div class=codewrap>{COPYBTN}<pre>{hi_ns_join}&3*,4*</pre></div></div>'
+         f'<div class=ss><b>Raid (PvE) / Master — shadowed version</b> (only their shadow form has usage)'
+         f'<div class=codewrap>{COPYBTN}<pre>{hi_sh_join}&shadow&3*,4*</pre></div></div>'
+         f'</div>')
 h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
 # Raid/Master list with the capped-PvP families removed (set difference).
