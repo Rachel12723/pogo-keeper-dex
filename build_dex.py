@@ -81,9 +81,6 @@ RARE_TAGS = {"legendary", "mythical", "ultrabeast", "wildlegendary"}
 # a top-10 catchable (or top-20 owned-legendary) attacker of some type, with real rank.
 import pve_ranks
 PVE_BY_DEX = pve_ranks.by_dex()
-# Families whose only top form of a type is a (non-tradeable) shadow — dropped from the
-# catchable keepers by the 3rd-rank cap. They feed the 'shadowed version' search string.
-PVE_SHADOW_RELIANT = pve_ranks.shadow_reliant()  # dex -> [types]
 
 
 def ranks(vid):
@@ -104,38 +101,38 @@ for key, members in fams.items():
                 usages.append({"kind": 0, "ord": LORDER[k], "rank": r, "lp": SHORT[k],
                                "best": f'{pref}{m["speciesName"]} #{r}', "shadow": pref == "Shadow ",
                                "iv": LOW if k != "master" else HIGH, "moves": mvpool[k][vid]})
-    # PvE raid-attacker lines: attach by member dex, one line per type, best rank wins.
+    # PvE raid-attacker lines: attach by member dex. A family can have two lines per type — its
+    # non-shadow form and its (non-tradeable) shadow form — so key by (type, shadow), best rank.
     member_dexes = {m["dex"] for m in members}
-    pve_by_type = {}
+    pve_by_key = {}
     for d in member_dexes:
         for u in PVE_BY_DEX.get(d, []):
-            cur = pve_by_type.get(u["type"])
+            key = (u["type"], u["shadow"])
+            cur = pve_by_key.get(key)
             if cur is None or u["rank"] < cur["rank"]:
-                pve_by_type[u["type"]] = u
-    for u in sorted(pve_by_type.values(), key=lambda u: u["rank"]):
-        # catchable keepers show a 2nd rank (position within the non-locked pool) and a 3rd rank
-        # (position within the non-locked AND non-shadow pool) — e.g. "Bug #7, #6, #5".
+                pve_by_key[key] = u
+    for u in sorted(pve_by_key.values(), key=lambda u: u["rank"]):
+        # non-shadow catchable keepers show a 2nd rank (position among non-locked forms) and a 3rd
+        # (among non-locked & non-shadow forms) — e.g. "Bug #7, #7, #5". A shadow keeper shows only
+        # the 1st and 2nd (it has no non-shadow rank) — e.g. "Ice #5, #1".
         tail = ""
         if u.get("crank"):
             tail = f', #{u["crank"]}'
             if u.get("trank"):
                 tail += f', #{u["trank"]}'
-        # A kept PvE line means a non-shadow (or owned-legendary) form is a top attacker, so it
-        # counts as a NON-shadow high-attack usage — shadow-reliant families were already dropped.
-        usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE", "shadow": False,
-                       "best": f'{u["form"]} — {u["type"]} #{u["rank"]}{tail}',
+        usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE", "shadow": u["shadow"],
+                       "locked": u["locked"], "best": f'{u["form"]} — {u["type"]} #{u["rank"]}{tail}',
                        "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
     rare = any(RARE_TAGS & set(m.get("tags") or []) for m in members)
     # High-attack (ML/PvE) usage split by shadow: a family has a NON-shadow high-attack usage
-    # (Master non-shadow or any kept PvE line) vs. is shadow-reliant (only its shadow form is a
-    # top ML/PvE attacker — either Master shadow-only, or a shadow-reliant PvE family).
+    # (Master or PvE via a non-shadow form) vs. is shadow-only (its only top ML/PvE form is a
+    # shadow — e.g. Kingler/Vikavolt) and so belongs in the 'shadowed version' search string.
     hv = [u for u in usages if u["lp"] in ("ML", "PvE")]
     ns_highiv = any(not u["shadow"] for u in hv)
-    sh_reliant_pve = any(d in PVE_SHADOW_RELIANT for d in member_dexes)
-    sh_only = (not ns_highiv) and (any(u["shadow"] for u in hv) or sh_reliant_pve)
+    sh_only = bool(hv) and not ns_highiv
     # Same split for capped-league (LC/GL/UL) usage: a family with a non-shadow capped usage vs.
     # one that ranks in a capped league only as its shadow form (search that shadow instead).
     cv = [u for u in usages if u["lp"] in ("LC", "GL", "UL")]

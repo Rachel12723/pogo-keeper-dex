@@ -8,7 +8,19 @@
    "trank": null,
    "form": "Shadow Regigigas",
    "base": "Regigigas",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "regigigas",
+   "rank": 2,
+   "dex": 486,
+   "crank": null,
+   "trank": null,
+   "form": "Regigigas",
+   "base": "Regigigas",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "mewtwo",
@@ -18,7 +30,8 @@
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "zacian_hero",
@@ -28,7 +41,8 @@
    "trank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BUNEARY",
@@ -38,17 +52,30 @@
    "trank": 1,
    "form": "Mega Lopunny",
    "base": "Lopunny",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_PORYGON",
-   "rank": 10,
+   "rank": 7,
    "dex": 474,
    "crank": 2,
-   "trank": 2,
-   "form": "Porygon-Z",
+   "trank": null,
+   "form": "Shadow Porygon-Z",
    "base": "Porygon-Z",
-   "locked": false
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 8,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "meloetta_aria",
@@ -58,7 +85,19 @@
    "trank": null,
    "form": "Aria Meloetta",
    "base": "Meloetta",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_PORYGON",
+   "rank": 10,
+   "dex": 474,
+   "crank": 3,
+   "trank": 2,
+   "form": "Porygon-Z",
+   "base": "Porygon-Z",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "xerneas",
@@ -68,17 +107,30 @@
    "trank": null,
    "form": "Xerneas",
    "base": "Xerneas",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_TEDDIURSA",
-   "rank": 30,
+   "rank": 12,
    "dex": 901,
-   "crank": 3,
-   "trank": 5,
-   "form": "Ursaluna",
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Ursaluna",
    "base": "Ursaluna",
-   "locked": false
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_STUFFUL",
+   "rank": 13,
+   "dex": 760,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Bewear",
+   "base": "Bewear",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "zamazenta_hero",
@@ -88,37 +140,52 @@
    "trank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_DRATINI",
    "rank": 15,
    "dex": 149,
-   "crank": 5,
+   "crank": 6,
    "trank": 3,
    "form": "Mega Dragonite",
    "base": "Dragonite",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "aerodactyl",
    "rank": 24,
    "dex": 142,
-   "crank": 9,
+   "crank": 11,
    "trank": 4,
    "form": "Mega Aerodactyl",
    "base": "Aerodactyl",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_TEDDIURSA",
+   "rank": 30,
+   "dex": 901,
+   "crank": 14,
+   "trank": 5,
+   "form": "Ursaluna",
+   "base": "Ursaluna",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SOBBLE",
    "rank": 32,
    "dex": 818,
-   "crank": 12,
+   "crank": 15,
    "trank": 6,
    "form": "Inteleon",
    "base": "Inteleon",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "fire": [
@@ -130,7 +197,8 @@
    "trank": 1,
    "form": "Mega Y Charizard",
    "base": "Charizard",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "reshiram",
@@ -140,7 +208,8 @@
    "trank": null,
    "form": "Shadow Reshiram",
    "base": "Reshiram",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_TORCHIC",
@@ -150,7 +219,8 @@
    "trank": 2,
    "form": "Mega Blaziken",
    "base": "Blaziken",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "blacephalon",
@@ -160,7 +230,8 @@
    "trank": null,
    "form": "Blacephalon",
    "base": "Blacephalon",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "heatran",
@@ -170,7 +241,19 @@
    "trank": null,
    "form": "Shadow Heatran",
    "base": "Heatran",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "reshiram",
+   "rank": 7,
+   "dex": 643,
+   "crank": null,
+   "trank": null,
+   "form": "Reshiram",
+   "base": "Reshiram",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "moltres",
@@ -180,7 +263,30 @@
    "trank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_FENNEKIN",
+   "rank": 9,
+   "dex": 655,
+   "crank": 3,
+   "trank": null,
+   "form": "Shadow Delphox",
+   "base": "Delphox",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_LITWICK",
+   "rank": 10,
+   "dex": 609,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Chandelure",
+   "base": "Chandelure",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "ho_oh",
@@ -190,7 +296,19 @@
    "trank": null,
    "form": "Apex Shadow Ho-Oh",
    "base": "Ho-Oh",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_CHARMANDER",
+   "rank": 12,
+   "dex": 6,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Charizard",
+   "base": "Charizard",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "entei",
@@ -200,7 +318,8 @@
    "trank": null,
    "form": "Shadow Entei",
    "base": "Entei",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "mewtwo",
@@ -210,47 +329,74 @@
    "trank": null,
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_TORCHIC",
+   "rank": 15,
+   "dex": 257,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Blaziken",
+   "base": "Blaziken",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "heatran",
+   "rank": 19,
+   "dex": 485,
+   "crank": null,
+   "trank": null,
+   "form": "Heatran",
+   "base": "Heatran",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BAGON",
    "rank": 21,
    "dex": 373,
-   "crank": 7,
+   "crank": 9,
    "trank": 3,
    "form": "Mega Salamence",
    "base": "Salamence",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_HOUNDOUR",
    "rank": 25,
    "dex": 229,
-   "crank": 9,
+   "crank": 12,
    "trank": 4,
    "form": "Mega Houndoom",
    "base": "Houndoom",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_LARVESTA",
    "rank": 26,
    "dex": 637,
-   "crank": 10,
+   "crank": 13,
    "trank": 5,
    "form": "Volcarona",
    "base": "Volcarona",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SCORBUNNY",
    "rank": 28,
    "dex": 815,
-   "crank": 12,
+   "crank": 15,
    "trank": 6,
    "form": "Cinderace",
    "base": "Cinderace",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "water": [
@@ -262,7 +408,8 @@
    "trank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_MUDKIP",
@@ -272,7 +419,19 @@
    "trank": 1,
    "form": "Mega Swampert",
    "base": "Swampert",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "kyogre",
+   "rank": 3,
+   "dex": 382,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Kyogre",
+   "base": "Kyogre",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_SQUIRTLE",
@@ -282,7 +441,8 @@
    "trank": 2,
    "form": "Mega Blastoise",
    "base": "Blastoise",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_MAGIKARP",
@@ -292,27 +452,63 @@
    "trank": 3,
    "form": "Mega Gyarados",
    "base": "Gyarados",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_MUDKIP",
+   "rank": 6,
+   "dex": 260,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Swampert",
+   "base": "Swampert",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_TOTODILE",
+   "rank": 8,
+   "dex": 160,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Feraligatr",
+   "base": "Feraligatr",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_KRABBY",
+   "rank": 9,
+   "dex": 99,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Kingler",
+   "base": "Kingler",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_POPPLIO",
    "rank": 13,
    "dex": 730,
-   "crank": 8,
+   "crank": 10,
    "trank": 4,
    "form": "Primarina",
    "base": "Primarina",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_QUAXLY",
    "rank": 14,
    "dex": 914,
-   "crank": 9,
+   "crank": 11,
    "trank": 5,
    "form": "Quaquaval",
    "base": "Quaquaval",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "palkia",
@@ -322,17 +518,19 @@
    "trank": null,
    "form": "Shadow Palkia",
    "base": "Palkia",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_SOBBLE",
    "rank": 16,
    "dex": 818,
-   "crank": 10,
+   "crank": 12,
    "trank": 6,
    "form": "Inteleon",
    "base": "Inteleon",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "electric": [
@@ -344,7 +542,8 @@
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "zeraora",
@@ -354,7 +553,8 @@
    "trank": null,
    "form": "Zeraora",
    "base": "Zeraora",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "raikou",
@@ -364,7 +564,8 @@
    "trank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "zekrom",
@@ -374,7 +575,8 @@
    "trank": null,
    "form": "Zekrom",
    "base": "Zekrom",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "xurkitree",
@@ -384,7 +586,8 @@
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ELECTRIKE",
@@ -394,7 +597,8 @@
    "trank": 1,
    "form": "Mega Manectric",
    "base": "Manectric",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "thundurus_therian",
@@ -404,7 +608,8 @@
    "trank": null,
    "form": "Shadow Therian Thundurus",
    "base": "Thundurus",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "zapdos",
@@ -414,17 +619,19 @@
    "trank": null,
    "form": "Shadow Zapdos",
    "base": "Zapdos",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_MAGNEMITE",
-   "rank": 20,
+   "rank": 10,
    "dex": 462,
    "crank": 2,
-   "trank": 4,
-   "form": "Magnezone",
+   "trank": null,
+   "form": "Shadow Magnezone",
    "base": "Magnezone",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_MAREEP",
@@ -434,17 +641,30 @@
    "trank": 2,
    "form": "Mega Ampharos",
    "base": "Ampharos",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ELECTABUZZ",
-   "rank": 18,
+   "rank": 12,
    "dex": 466,
    "crank": 4,
-   "trank": 3,
-   "form": "Electivire",
+   "trank": null,
+   "form": "Shadow Electivire",
    "base": "Electivire",
-   "locked": false
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "thundurus_therian",
+   "rank": 13,
+   "dex": 642,
+   "crank": null,
+   "trank": null,
+   "form": "Therian Thundurus",
+   "base": "Thundurus",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "regieleki",
@@ -454,7 +674,52 @@
    "trank": null,
    "form": "Regieleki",
    "base": "Regieleki",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "raikou",
+   "rank": 15,
+   "dex": 243,
+   "crank": null,
+   "trank": null,
+   "form": "Raikou",
+   "base": "Raikou",
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 16,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "zapdos",
+   "rank": 17,
+   "dex": 145,
+   "crank": null,
+   "trank": null,
+   "form": "Zapdos",
+   "base": "Zapdos",
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_ELECTABUZZ",
+   "rank": 18,
+   "dex": 466,
+   "crank": 5,
+   "trank": 3,
+   "form": "Electivire",
+   "base": "Electivire",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "kyurem",
@@ -464,27 +729,41 @@
    "trank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_MAGNEMITE",
+   "rank": 20,
+   "dex": 462,
+   "crank": 6,
+   "trank": 4,
+   "form": "Magnezone",
+   "base": "Magnezone",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SHINX",
    "rank": 27,
    "dex": 405,
-   "crank": 5,
+   "crank": 10,
    "trank": 5,
    "form": "Luxray",
    "base": "Luxray",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GEODUDE",
    "rank": 29,
    "dex": 76,
-   "crank": 6,
+   "crank": 11,
    "trank": 6,
    "form": "Alolan Golem",
    "base": "Golem",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "grass": [
@@ -496,7 +775,8 @@
    "trank": 1,
    "form": "Mega Sceptile",
    "base": "Sceptile",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BULBASAUR",
@@ -506,7 +786,8 @@
    "trank": 2,
    "form": "Mega Venusaur",
    "base": "Venusaur",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "kartana",
@@ -516,17 +797,19 @@
    "trank": null,
    "form": "Kartana",
    "base": "Kartana",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_CHESPIN",
-   "rank": 14,
+   "rank": 4,
    "dex": 652,
    "crank": 3,
-   "trank": 6,
-   "form": "Chesnaught",
+   "trank": null,
+   "form": "Shadow Chesnaught",
    "base": "Chesnaught",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "zarude",
@@ -536,7 +819,8 @@
    "trank": null,
    "form": "Zarude",
    "base": "Zarude",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "shaymin_sky",
@@ -546,37 +830,63 @@
    "trank": null,
    "form": "Sky Shaymin",
    "base": "Shaymin",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_TANGELA",
+   "rank": 7,
+   "dex": 465,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Tangrowth",
+   "base": "Tangrowth",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_BULBASAUR",
+   "rank": 8,
+   "dex": 3,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Venusaur",
+   "base": "Venusaur",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_BELLSPROUT",
    "rank": 9,
    "dex": 71,
-   "crank": 5,
+   "crank": 6,
    "trank": 3,
    "form": "Mega Victreebel",
    "base": "Victreebel",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GROOKEY",
    "rank": 10,
    "dex": 812,
-   "crank": 6,
+   "crank": 7,
    "trank": 4,
    "form": "Rillaboom",
    "base": "Rillaboom",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_RALTS",
    "rank": 12,
    "dex": 475,
-   "crank": 7,
+   "crank": 9,
    "trank": 5,
    "form": "Mega Gallade",
    "base": "Gallade",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "xurkitree",
@@ -586,7 +896,19 @@
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_CHESPIN",
+   "rank": 14,
+   "dex": 652,
+   "crank": 10,
+   "trank": 6,
+   "form": "Chesnaught",
+   "base": "Chesnaught",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "tapu_bulu",
@@ -596,7 +918,8 @@
    "trank": null,
    "form": "Tapu Bulu",
    "base": "Tapu Bulu",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "latios",
@@ -606,7 +929,8 @@
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
-   "locked": true
+   "locked": true,
+   "shadow": false
   }
  ],
  "ice": [
@@ -618,7 +942,8 @@
    "trank": null,
    "form": "White Kyurem",
    "base": "Kyurem",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "mewtwo",
@@ -628,17 +953,19 @@
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SWINUB",
-   "rank": 13,
+   "rank": 5,
    "dex": 473,
    "crank": 1,
-   "trank": 4,
-   "form": "Mamoswine",
+   "trank": null,
+   "form": "Shadow Mamoswine",
    "base": "Mamoswine",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_RALTS",
@@ -648,7 +975,8 @@
    "trank": 1,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "zamazenta_hero",
@@ -658,7 +986,19 @@
    "trank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 8,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_FRIGIBAX",
@@ -668,7 +1008,8 @@
    "trank": 2,
    "form": "Baxcalibur",
    "base": "Baxcalibur",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "kyogre",
@@ -678,7 +1019,8 @@
    "trank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SNOVER",
@@ -688,7 +1030,30 @@
    "trank": 3,
    "form": "Mega Abomasnow",
    "base": "Abomasnow",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_SNEASEL",
+   "rank": 12,
+   "dex": 461,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Weavile",
+   "base": "Weavile",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_SWINUB",
+   "rank": 13,
+   "dex": 473,
+   "crank": 6,
+   "trank": 4,
+   "form": "Mamoswine",
+   "base": "Mamoswine",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "articuno",
@@ -698,27 +1063,30 @@
    "trank": null,
    "form": "Shadow Articuno",
    "base": "Articuno",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_SNORUNT",
    "rank": 15,
    "dex": 362,
-   "crank": 6,
+   "crank": 7,
    "trank": 5,
    "form": "Mega Glalie",
    "base": "Glalie",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_DARUMAKA",
    "rank": 17,
    "dex": 555,
-   "crank": 7,
+   "crank": 8,
    "trank": 6,
    "form": "Galarian Darmanitan",
    "base": "Darmanitan",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "fighting": [
@@ -730,7 +1098,8 @@
    "trank": null,
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_LUCARIO",
@@ -740,7 +1109,8 @@
    "trank": 1,
    "form": "Mega Lucario",
    "base": "Lucario",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_TORCHIC",
@@ -750,7 +1120,8 @@
    "trank": 2,
    "form": "Mega Blaziken",
    "base": "Blaziken",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "keldeo_ordinary",
@@ -760,7 +1131,8 @@
    "trank": null,
    "form": "Resolute Keldeo",
    "base": "Keldeo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "heracross",
@@ -770,17 +1142,30 @@
    "trank": 3,
    "form": "Mega Heracross",
    "base": "Heracross",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_TIMBURR",
-   "rank": 21,
+   "rank": 7,
    "dex": 534,
    "crank": 4,
-   "trank": 5,
-   "form": "Conkeldurr",
+   "trank": null,
+   "form": "Shadow Conkeldurr",
    "base": "Conkeldurr",
-   "locked": false
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_TORCHIC",
+   "rank": 8,
+   "dex": 257,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Blaziken",
+   "base": "Blaziken",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "terrakion",
@@ -790,7 +1175,8 @@
    "trank": null,
    "form": "Terrakion",
    "base": "Terrakion",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "latios",
@@ -800,7 +1186,8 @@
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "raikou",
@@ -810,7 +1197,8 @@
    "trank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_KUBFU",
@@ -820,27 +1208,63 @@
    "trank": null,
    "form": "Rapid Strike Urshifu",
    "base": "Urshifu",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 15,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_MACHOP",
+   "rank": 17,
+   "dex": 68,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Machamp",
+   "base": "Machamp",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_RALTS",
    "rank": 19,
    "dex": 475,
-   "crank": 7,
+   "crank": 8,
    "trank": 4,
    "form": "Mega Gallade",
    "base": "Gallade",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_TIMBURR",
+   "rank": 21,
+   "dex": 534,
+   "crank": 9,
+   "trank": 5,
+   "form": "Conkeldurr",
+   "base": "Conkeldurr",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ABRA",
    "rank": 22,
    "dex": 65,
-   "crank": 8,
+   "crank": 10,
    "trank": 6,
    "form": "Mega Alakazam",
    "base": "Alakazam",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "poison": [
@@ -852,7 +1276,8 @@
    "trank": null,
    "form": "Eternatus",
    "base": "Eternatus",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GASTLY",
@@ -862,7 +1287,8 @@
    "trank": 1,
    "form": "Mega Gengar",
    "base": "Gengar",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_WEEDLE",
@@ -872,7 +1298,8 @@
    "trank": 2,
    "form": "Mega Beedrill",
    "base": "Beedrill",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "nihilego",
@@ -882,7 +1309,8 @@
    "trank": null,
    "form": "Nihilego",
    "base": "Nihilego",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BELLSPROUT",
@@ -892,17 +1320,19 @@
    "trank": 3,
    "form": "Mega Victreebel",
    "base": "Victreebel",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_QWILFISH",
-   "rank": 11,
+   "rank": 6,
    "dex": 904,
    "crank": 4,
-   "trank": 6,
-   "form": "Overqwil",
+   "trank": null,
+   "form": "Shadow Overqwil",
    "base": "Overqwil",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_POIPOLE",
@@ -912,7 +1342,8 @@
    "trank": null,
    "form": "Naganadel",
    "base": "Naganadel",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ROSELIA",
@@ -922,7 +1353,8 @@
    "trank": 4,
    "form": "Roserade",
    "base": "Roserade",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_VAROOM",
@@ -932,7 +1364,19 @@
    "trank": 5,
    "form": "Revavroom",
    "base": "Revavroom",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_QWILFISH",
+   "rank": 11,
+   "dex": 904,
+   "crank": 8,
+   "trank": 6,
+   "form": "Overqwil",
+   "base": "Overqwil",
+   "locked": false,
+   "shadow": false
   }
  ],
  "ground": [
@@ -944,7 +1388,8 @@
    "trank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GIBLE",
@@ -954,7 +1399,30 @@
    "trank": 1,
    "form": "Mega Garchomp",
    "base": "Garchomp",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "groudon",
+   "rank": 3,
+   "dex": 383,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Groudon",
+   "base": "Groudon",
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_GIBLE",
+   "rank": 4,
+   "dex": 445,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Garchomp",
+   "base": "Garchomp",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "landorus_therian",
@@ -964,57 +1432,96 @@
    "trank": null,
    "form": "Therian Landorus",
    "base": "Landorus",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "landorus_therian",
+   "rank": 6,
+   "dex": 645,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Incarnate Landorus",
+   "base": "Landorus",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_DRILBUR",
-   "rank": 12,
+   "rank": 7,
    "dex": 530,
-   "crank": 2,
-   "trank": 3,
-   "form": "Excadrill",
+   "crank": 3,
+   "trank": null,
+   "form": "Shadow Excadrill",
    "base": "Excadrill",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_RHYHORN",
-   "rank": 16,
+   "rank": 8,
    "dex": 464,
-   "crank": 3,
-   "trank": 4,
-   "form": "Rhyperior",
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Rhyperior",
    "base": "Rhyperior",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_MUDKIP",
    "rank": 10,
    "dex": 260,
-   "crank": 4,
+   "crank": 5,
    "trank": 2,
    "form": "Mega Swampert",
    "base": "Swampert",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_DRILBUR",
+   "rank": 12,
+   "dex": 530,
+   "crank": 6,
+   "trank": 3,
+   "form": "Excadrill",
+   "base": "Excadrill",
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_RHYHORN",
+   "rank": 16,
+   "dex": 464,
+   "crank": 9,
+   "trank": 4,
+   "form": "Rhyperior",
+   "base": "Rhyperior",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "heracross",
    "rank": 18,
    "dex": 214,
-   "crank": 7,
+   "crank": 10,
    "trank": 5,
    "form": "Mega Heracross",
    "base": "Heracross",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BELDUM",
    "rank": 26,
    "dex": 376,
-   "crank": 13,
+   "crank": 17,
    "trank": 6,
    "form": "Mega Metagross",
    "base": "Metagross",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "flying": [
@@ -1026,7 +1533,8 @@
    "trank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "moltres",
@@ -1036,17 +1544,30 @@
    "trank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_BAGON",
+   "rank": 4,
+   "dex": 373,
+   "crank": 1,
+   "trank": null,
+   "form": "Shadow Salamence",
+   "base": "Salamence",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_BAGON",
    "rank": 5,
    "dex": 373,
-   "crank": 1,
+   "crank": 2,
    "trank": 1,
    "form": "Mega Salamence",
    "base": "Salamence",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "enamorus_therian",
@@ -1056,17 +1577,19 @@
    "trank": null,
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_CHARMANDER",
    "rank": 7,
    "dex": 6,
-   "crank": 2,
+   "crank": 3,
    "trank": 2,
    "form": "Mega Y Charizard",
    "base": "Charizard",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "yveltal",
@@ -1076,7 +1599,19 @@
    "trank": null,
    "form": "Yveltal",
    "base": "Yveltal",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "moltres",
+   "rank": 9,
+   "dex": 146,
+   "crank": null,
+   "trank": null,
+   "form": "Moltres",
+   "base": "Moltres",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "articuno",
@@ -1086,17 +1621,19 @@
    "trank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_PIKIPEK",
-   "rank": 23,
+   "rank": 11,
    "dex": 733,
-   "crank": 3,
-   "trank": 5,
-   "form": "Toucannon",
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Toucannon",
    "base": "Toucannon",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "lugia",
@@ -1106,7 +1643,8 @@
    "trank": null,
    "form": "Apex Shadow Lugia",
    "base": "Lugia",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "zapdos",
@@ -1116,27 +1654,41 @@
    "trank": null,
    "form": "Shadow Zapdos",
    "base": "Zapdos",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "skarmory",
    "rank": 15,
    "dex": 227,
-   "crank": 4,
+   "crank": 5,
    "trank": 3,
    "form": "Mega Skarmory",
    "base": "Skarmory",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_STARLY",
+   "rank": 16,
+   "dex": 398,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Staraptor",
+   "base": "Staraptor",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_PIDGEY",
    "rank": 18,
    "dex": 18,
-   "crank": 6,
+   "crank": 7,
    "trank": 4,
    "form": "Mega Pidgeot",
    "base": "Pidgeot",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "zacian_hero",
@@ -1146,17 +1698,30 @@
    "trank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_PIKIPEK",
+   "rank": 23,
+   "dex": 733,
+   "crank": 8,
+   "trank": 5,
+   "form": "Toucannon",
+   "base": "Toucannon",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_TORCHIC",
    "rank": 25,
    "dex": 257,
-   "crank": 7,
+   "crank": 9,
    "trank": 6,
    "form": "Mega Blaziken",
    "base": "Blaziken",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "psychic": [
@@ -1168,7 +1733,19 @@
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 3,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_ABRA",
@@ -1178,7 +1755,8 @@
    "trank": 1,
    "form": "Mega Alakazam",
    "base": "Alakazam",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "latios",
@@ -1188,7 +1766,8 @@
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_RALTS",
@@ -1198,7 +1777,8 @@
    "trank": 2,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BELDUM",
@@ -1208,7 +1788,30 @@
    "trank": 3,
    "form": "Mega Metagross",
    "base": "Metagross",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "latios",
+   "rank": 10,
+   "dex": 381,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Latios",
+   "base": "Latios",
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_BELDUM",
+   "rank": 11,
+   "dex": 376,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Metagross",
+   "base": "Metagross",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "latias",
@@ -1218,7 +1821,8 @@
    "trank": null,
    "form": "Mega Latias",
    "base": "Latias",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "necrozma",
@@ -1228,7 +1832,8 @@
    "trank": null,
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "hoopa",
@@ -1238,7 +1843,8 @@
    "trank": null,
    "form": "Unbound Hoopa",
    "base": "Hoopa",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "lugia",
@@ -1248,7 +1854,8 @@
    "trank": null,
    "form": "Apex Shadow Lugia",
    "base": "Lugia",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_COSMOG",
@@ -1258,7 +1865,8 @@
    "trank": null,
    "form": "Lunala",
    "base": "Lunala",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "articuno",
@@ -1268,7 +1876,8 @@
    "trank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "regigigas",
@@ -1278,37 +1887,52 @@
    "trank": null,
    "form": "Shadow Regigigas",
    "base": "Regigigas",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_GASTLY",
    "rank": 21,
    "dex": 94,
-   "crank": 4,
+   "crank": 5,
    "trank": 4,
    "form": "Mega Gengar",
    "base": "Gengar",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_RALTS",
+   "rank": 25,
+   "dex": 282,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Gardevoir",
+   "base": "Gardevoir",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_SLOWPOKE",
    "rank": 37,
    "dex": 80,
-   "crank": 6,
+   "crank": 9,
    "trank": 5,
    "form": "Mega Slowbro",
    "base": "Slowbro",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_EEVEE",
    "rank": 40,
    "dex": 196,
-   "crank": 8,
+   "crank": 11,
    "trank": 6,
    "form": "Espeon",
    "base": "Espeon",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "bug": [
@@ -1320,7 +1944,8 @@
    "trank": 1,
    "form": "Mega Heracross",
    "base": "Heracross",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "pinsir",
@@ -1330,7 +1955,8 @@
    "trank": 2,
    "form": "Mega Pinsir",
    "base": "Pinsir",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SCYTHER",
@@ -1340,37 +1966,63 @@
    "trank": 3,
    "form": "Mega Scizor",
    "base": "Scizor",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_GRUBBIN",
+   "rank": 4,
+   "dex": 738,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Vikavolt",
+   "base": "Vikavolt",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_SCYTHER",
+   "rank": 5,
+   "dex": 212,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Scizor",
+   "base": "Scizor",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_LARVESTA",
    "rank": 6,
    "dex": 637,
-   "crank": 5,
+   "crank": 6,
    "trank": 4,
    "form": "Volcarona",
    "base": "Volcarona",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_WEEDLE",
    "rank": 7,
    "dex": 15,
-   "crank": 6,
+   "crank": 7,
    "trank": 5,
    "form": "Mega Beedrill",
    "base": "Beedrill",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BELDUM",
    "rank": 11,
    "dex": 376,
-   "crank": 8,
+   "crank": 11,
    "trank": 6,
    "form": "Mega Metagross",
    "base": "Metagross",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "genesect",
@@ -1380,7 +2032,8 @@
    "trank": null,
    "form": "Shock Genesect",
    "base": "Genesect",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "kartana",
@@ -1390,7 +2043,8 @@
    "trank": null,
    "form": "Kartana",
    "base": "Kartana",
-   "locked": true
+   "locked": true,
+   "shadow": false
   }
  ],
  "rock": [
@@ -1402,17 +2056,19 @@
    "trank": null,
    "form": "Mega Diancie",
    "base": "Diancie",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_RHYHORN",
-   "rank": 9,
+   "rank": 2,
    "dex": 464,
    "crank": 1,
-   "trank": 3,
-   "form": "Rhyperior",
+   "trank": null,
+   "form": "Shadow Rhyperior",
    "base": "Rhyperior",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_LARVITAR",
@@ -1422,7 +2078,8 @@
    "trank": 1,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "aerodactyl",
@@ -1432,37 +2089,52 @@
    "trank": 2,
    "form": "Mega Aerodactyl",
    "base": "Aerodactyl",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ROGGENROLA",
-   "rank": 13,
+   "rank": 5,
    "dex": 526,
    "crank": 4,
-   "trank": 5,
-   "form": "Gigalith",
+   "trank": null,
+   "form": "Shadow Gigalith",
    "base": "Gigalith",
-   "locked": false
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_LARVITAR",
+   "rank": 6,
+   "dex": 248,
+   "crank": 5,
+   "trank": null,
+   "form": "Shadow Tyranitar",
+   "base": "Tyranitar",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_TYRUNT",
-   "rank": 15,
+   "rank": 7,
    "dex": 697,
-   "crank": 5,
-   "trank": 6,
-   "form": "Tyrantrum",
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Tyrantrum",
    "base": "Tyrantrum",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
-   "fam": "FAMILY_CRANIDOS",
-   "rank": 12,
-   "dex": 409,
-   "crank": 6,
-   "trank": 4,
-   "form": "Rampardos",
-   "base": "Rampardos",
-   "locked": false
+   "fam": "FAMILY_RHYHORN",
+   "rank": 9,
+   "dex": 464,
+   "crank": 8,
+   "trank": 3,
+   "form": "Rhyperior",
+   "base": "Rhyperior",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "rayquaza",
@@ -1472,7 +2144,8 @@
    "trank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "terrakion",
@@ -1482,7 +2155,41 @@
    "trank": null,
    "form": "Terrakion",
    "base": "Terrakion",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_CRANIDOS",
+   "rank": 12,
+   "dex": 409,
+   "crank": 9,
+   "trank": 4,
+   "form": "Rampardos",
+   "base": "Rampardos",
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_ROGGENROLA",
+   "rank": 13,
+   "dex": 526,
+   "crank": 10,
+   "trank": 5,
+   "form": "Gigalith",
+   "base": "Gigalith",
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_TYRUNT",
+   "rank": 15,
+   "dex": 697,
+   "crank": 12,
+   "trank": 6,
+   "form": "Tyrantrum",
+   "base": "Tyrantrum",
+   "locked": false,
+   "shadow": false
   }
  ],
  "ghost": [
@@ -1494,7 +2201,8 @@
    "trank": null,
    "form": "Dawn Wings Necrozma",
    "base": "Necrozma",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "mewtwo",
@@ -1504,7 +2212,8 @@
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GASTLY",
@@ -1514,7 +2223,8 @@
    "trank": 1,
    "form": "Mega Gengar",
    "base": "Gengar",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "darkrai",
@@ -1524,17 +2234,19 @@
    "trank": null,
    "form": "Shadow Darkrai",
    "base": "Darkrai",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_LITWICK",
-   "rank": 19,
+   "rank": 6,
    "dex": 609,
    "crank": 2,
-   "trank": 6,
-   "form": "Chandelure",
+   "trank": null,
+   "form": "Shadow Chandelure",
    "base": "Chandelure",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_SHUPPET",
@@ -1544,7 +2256,8 @@
    "trank": 2,
    "form": "Mega Banette",
    "base": "Banette",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_COSMOG",
@@ -1554,7 +2267,19 @@
    "trank": null,
    "form": "Lunala",
    "base": "Lunala",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 9,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "kyurem",
@@ -1564,7 +2289,19 @@
    "trank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "darkrai",
+   "rank": 11,
+   "dex": 491,
+   "crank": null,
+   "trank": null,
+   "form": "Darkrai",
+   "base": "Darkrai",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ABRA",
@@ -1574,7 +2311,8 @@
    "trank": 3,
    "form": "Mega Alakazam",
    "base": "Alakazam",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GIMMIGHOUL",
@@ -1584,7 +2322,8 @@
    "trank": 4,
    "form": "Gholdengo",
    "base": "Gholdengo",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "giratina_origin",
@@ -1594,7 +2333,19 @@
    "trank": null,
    "form": "Altered Shadow Giratina",
    "base": "Giratina",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "giratina_origin",
+   "rank": 16,
+   "dex": 487,
+   "crank": null,
+   "trank": null,
+   "form": "Origin Giratina",
+   "base": "Giratina",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "hoopa",
@@ -1604,7 +2355,8 @@
    "trank": null,
    "form": "Unbound Hoopa",
    "base": "Hoopa",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_DREEPY",
@@ -1614,7 +2366,19 @@
    "trank": 5,
    "form": "Dragapult",
    "base": "Dragapult",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_LITWICK",
+   "rank": 19,
+   "dex": 609,
+   "crank": 7,
+   "trank": 6,
+   "form": "Chandelure",
+   "base": "Chandelure",
+   "locked": false,
+   "shadow": false
   }
  ],
  "dragon": [
@@ -1626,7 +2390,8 @@
    "trank": null,
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "eternatus",
@@ -1636,7 +2401,8 @@
    "trank": null,
    "form": "Eternatus",
    "base": "Eternatus",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "kyurem",
@@ -1646,7 +2412,8 @@
    "trank": null,
    "form": "Black Kyurem",
    "base": "Kyurem",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GIBLE",
@@ -1656,27 +2423,41 @@
    "trank": 1,
    "form": "Mega Garchomp",
    "base": "Garchomp",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_GIBLE",
+   "rank": 6,
+   "dex": 445,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Garchomp",
+   "base": "Garchomp",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_BAGON",
    "rank": 7,
    "dex": 373,
-   "crank": 2,
+   "crank": 3,
    "trank": 2,
    "form": "Mega Salamence",
    "base": "Salamence",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_AXEW",
-   "rank": 24,
+   "rank": 8,
    "dex": 612,
-   "crank": 3,
-   "trank": 5,
-   "form": "Haxorus",
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Haxorus",
    "base": "Haxorus",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "dialga",
@@ -1686,17 +2467,30 @@
    "trank": null,
    "form": "Shadow Dialga",
    "base": "Dialga",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_DRATINI",
    "rank": 10,
    "dex": 149,
-   "crank": 4,
+   "crank": 5,
    "trank": 3,
    "form": "Mega Dragonite",
    "base": "Dragonite",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "dialga",
+   "rank": 11,
+   "dex": 483,
+   "crank": null,
+   "trank": null,
+   "form": "Origin Dialga",
+   "base": "Dialga",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "palkia",
@@ -1706,17 +2500,41 @@
    "trank": null,
    "form": "Shadow Palkia",
    "base": "Palkia",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_BAGON",
+   "rank": 13,
+   "dex": 373,
+   "crank": 6,
+   "trank": null,
+   "form": "Shadow Salamence",
+   "base": "Salamence",
+   "locked": false,
+   "shadow": true
+  },
+  {
+   "fam": "palkia",
+   "rank": 14,
+   "dex": 484,
+   "crank": null,
+   "trank": null,
+   "form": "Origin Palkia",
+   "base": "Palkia",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_FRIGIBAX",
    "rank": 15,
    "dex": 998,
-   "crank": 5,
+   "crank": 7,
    "trank": 4,
    "form": "Baxcalibur",
    "base": "Baxcalibur",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "latios",
@@ -1726,7 +2544,8 @@
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "regidrago",
@@ -1736,7 +2555,8 @@
    "trank": null,
    "form": "Regidrago",
    "base": "Regidrago",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "groudon",
@@ -1746,17 +2566,30 @@
    "trank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_AXEW",
+   "rank": 24,
+   "dex": 612,
+   "crank": 9,
+   "trank": 5,
+   "form": "Haxorus",
+   "base": "Haxorus",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_TREECKO",
    "rank": 25,
    "dex": 254,
-   "crank": 6,
+   "crank": 10,
    "trank": 6,
    "form": "Mega Sceptile",
    "base": "Sceptile",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "dark": [
@@ -1768,17 +2601,30 @@
    "trank": 1,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_LARVITAR",
+   "rank": 2,
+   "dex": 248,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Tyranitar",
+   "base": "Tyranitar",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_DEINO",
-   "rank": 12,
+   "rank": 3,
    "dex": 635,
-   "crank": 2,
-   "trank": 6,
-   "form": "Hydreigon",
+   "crank": 3,
+   "trank": null,
+   "form": "Shadow Hydreigon",
    "base": "Hydreigon",
-   "locked": false
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "darkrai",
@@ -1788,47 +2634,74 @@
    "trank": null,
    "form": "Shadow Darkrai",
    "base": "Darkrai",
-   "locked": true
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "absol",
    "rank": 5,
    "dex": 359,
-   "crank": 3,
+   "crank": 4,
    "trank": 2,
    "form": "Mega Absol",
    "base": "Absol",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_GASTLY",
    "rank": 6,
    "dex": 94,
-   "crank": 4,
+   "crank": 5,
    "trank": 3,
    "form": "Mega Gengar",
    "base": "Gengar",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_HOUNDOUR",
    "rank": 7,
    "dex": 229,
-   "crank": 5,
+   "crank": 6,
    "trank": 4,
    "form": "Mega Houndoom",
    "base": "Houndoom",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BAGON",
    "rank": 8,
    "dex": 373,
-   "crank": 6,
+   "crank": 7,
    "trank": 5,
    "form": "Mega Salamence",
    "base": "Salamence",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "darkrai",
+   "rank": 10,
+   "dex": 491,
+   "crank": null,
+   "trank": null,
+   "form": "Darkrai",
+   "base": "Darkrai",
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_DEINO",
+   "rank": 12,
+   "dex": 635,
+   "crank": 10,
+   "trank": 6,
+   "form": "Hydreigon",
+   "base": "Hydreigon",
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "yveltal",
@@ -1838,7 +2711,8 @@
    "trank": null,
    "form": "Yveltal",
    "base": "Yveltal",
-   "locked": true
+   "locked": true,
+   "shadow": false
   }
  ],
  "steel": [
@@ -1850,7 +2724,8 @@
    "trank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "zamazenta_hero",
@@ -1860,7 +2735,8 @@
    "trank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "necrozma",
@@ -1870,7 +2746,8 @@
    "trank": null,
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_BELDUM",
@@ -1880,17 +2757,30 @@
    "trank": 1,
    "form": "Mega Metagross",
    "base": "Metagross",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_BELDUM",
+   "rank": 5,
+   "dex": 376,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Metagross",
+   "base": "Metagross",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_LUCARIO",
    "rank": 6,
    "dex": 448,
-   "crank": 2,
+   "crank": 3,
    "trank": 2,
    "form": "Mega Lucario",
    "base": "Lucario",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "dialga",
@@ -1900,27 +2790,52 @@
    "trank": null,
    "form": "Shadow Dialga",
    "base": "Dialga",
-   "locked": true
+   "locked": true,
+   "shadow": true
+  },
+  {
+   "fam": "FAMILY_DRILBUR",
+   "rank": 9,
+   "dex": 530,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Excadrill",
+   "base": "Excadrill",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_TINKATINK",
    "rank": 11,
    "dex": 959,
-   "crank": 4,
+   "crank": 5,
    "trank": 3,
    "form": "Tinkaton",
    "base": "Tinkaton",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "dialga",
+   "rank": 12,
+   "dex": 483,
+   "crank": null,
+   "trank": null,
+   "form": "Dialga",
+   "base": "Dialga",
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "skarmory",
    "rank": 14,
    "dex": 227,
-   "crank": 5,
+   "crank": 6,
    "trank": 4,
    "form": "Mega Skarmory",
    "base": "Skarmory",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_MELTAN",
@@ -1930,7 +2845,8 @@
    "trank": null,
    "form": "Melmetal",
    "base": "Melmetal",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "kyurem",
@@ -1940,17 +2856,19 @@
    "trank": null,
    "form": "White Kyurem",
    "base": "Kyurem",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_ARON",
    "rank": 17,
    "dex": 306,
-   "crank": 6,
+   "crank": 7,
    "trank": 5,
    "form": "Mega Aggron",
    "base": "Aggron",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "genesect",
@@ -1960,17 +2878,19 @@
    "trank": null,
    "form": "Shock Genesect",
    "base": "Genesect",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_SCYTHER",
    "rank": 24,
    "dex": 212,
-   "crank": 7,
+   "crank": 8,
    "trank": 6,
    "form": "Mega Scizor",
    "base": "Scizor",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ],
  "fairy": [
@@ -1982,7 +2902,8 @@
    "trank": 1,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "zacian_hero",
@@ -1992,7 +2913,8 @@
    "trank": null,
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "enamorus_therian",
@@ -2002,17 +2924,30 @@
    "trank": null,
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_RALTS",
+   "rank": 4,
+   "dex": 282,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Gardevoir",
+   "base": "Gardevoir",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_ABRA",
    "rank": 5,
    "dex": 65,
-   "crank": 2,
+   "crank": 3,
    "trank": 2,
    "form": "Mega Alakazam",
    "base": "Alakazam",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "tapu_lele",
@@ -2022,7 +2957,8 @@
    "trank": null,
    "form": "Tapu Lele",
    "base": "Tapu Lele",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "xerneas",
@@ -2032,7 +2968,8 @@
    "trank": null,
    "form": "Xerneas",
    "base": "Xerneas",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "tapu_koko",
@@ -2042,7 +2979,8 @@
    "trank": null,
    "form": "Tapu Koko",
    "base": "Tapu Koko",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "tapu_bulu",
@@ -2052,7 +2990,8 @@
    "trank": null,
    "form": "Tapu Bulu",
    "base": "Tapu Bulu",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "latias",
@@ -2062,17 +3001,30 @@
    "trank": null,
    "form": "Mega Latias",
    "base": "Latias",
-   "locked": true
+   "locked": true,
+   "shadow": false
+  },
+  {
+   "fam": "FAMILY_SNUBBULL",
+   "rank": 11,
+   "dex": 210,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Granbull",
+   "base": "Granbull",
+   "locked": false,
+   "shadow": true
   },
   {
    "fam": "FAMILY_TOGEPI",
    "rank": 13,
    "dex": 468,
-   "crank": 4,
+   "crank": 5,
    "trank": 3,
    "form": "Togekiss",
    "base": "Togekiss",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "xurkitree",
@@ -2082,37 +3034,52 @@
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
-   "locked": true
+   "locked": true,
+   "shadow": false
   },
   {
    "fam": "FAMILY_HATENNA",
    "rank": 17,
    "dex": 858,
-   "crank": 5,
+   "crank": 6,
    "trank": 4,
    "form": "Hatterene",
    "base": "Hatterene",
-   "locked": false
+   "locked": false,
+   "shadow": false
+  },
+  {
+   "fam": "latias",
+   "rank": 20,
+   "dex": 380,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Latias",
+   "base": "Latias",
+   "locked": true,
+   "shadow": true
   },
   {
    "fam": "FAMILY_EEVEE",
    "rank": 21,
    "dex": 700,
-   "crank": 7,
+   "crank": 8,
    "trank": 5,
    "form": "Sylveon",
    "base": "Sylveon",
-   "locked": false
+   "locked": false,
+   "shadow": false
   },
   {
    "fam": "FAMILY_POPPLIO",
    "rank": 23,
    "dex": 730,
-   "crank": 8,
+   "crank": 9,
    "trank": 6,
    "form": "Primarina",
    "base": "Primarina",
-   "locked": false
+   "locked": false,
+   "shadow": false
   }
  ]
 }

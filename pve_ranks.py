@@ -63,96 +63,74 @@ def is_shadow(tok):
 
 
 def compute():
+    """Per type, rank each attacker FORM (not family) and keep the notable ones.
+
+    A 'candidate' is (family, shadow?) — a family's best shadow form and best non-shadow
+    form are separate candidates, each keeping its own board position. Every candidate gets:
+      rank  (1st) = its position on the full board (all forms, all rarities)
+      crank (2nd) = its position among the NON-LOCKED candidates (legendary/mythical/UB removed)
+      trank (3rd) = its position among the non-locked AND non-shadow candidates
+                    (only non-shadow forms get this — shadow can't be traded, so it's the best
+                     copy you can catch a high-IV, tradeable version of)
+    Keepers: non-shadow candidates in the top-6 by trank, plus shadow candidates in the top-6
+    by crank (so a strong shadow like Shadow Mamoswine still shows, with rank+crank and no trank).
+    Owned legendaries/mythicals/UBs are kept family-deduped (best form) if in the top-20 overall,
+    shown with rank only."""
     raw = json.load(open(os.path.join(DATA, "pve_type_ranks_raw.json")))
     result = {}
     for tp, arr in raw.items():
-        fam_best = {}     # fam -> (pos, dex, tok)  best form overall (shadow allowed)
-        fam_best_ns = {}  # fam -> (pos, dex, tok)  best NON-shadow form (tradeable-catchable)
+        cand = {}  # (fam, is_shadow) -> (pos, dex, tok)  best form of that candidate
         for i, suf in enumerate(arr):
-            pos = i + 1
             dex, tok = parse(suf)
-            fam = dex_fam.get(dex, str(dex))
-            if fam not in fam_best:
-                fam_best[fam] = (pos, dex, tok)
-            if not is_shadow(tok) and fam not in fam_best_ns:
-                fam_best_ns[fam] = (pos, dex, tok)
-        # crank = family rank within the non-locked pool, ordered by best overall pos
-        # (excludes legendary/mythical/UB; shadow forms still count).
-        crank_of, n_catch = {}, 0
-        for fam, (pos, dex, tok) in sorted(fam_best.items(), key=lambda kv: kv[1][0]):
+            key = (dex_fam.get(dex, str(dex)), is_shadow(tok))
+            if key not in cand:
+                cand[key] = (i + 1, dex, tok)
+        ordered = sorted(cand.items(), key=lambda kv: kv[1][0])
+        # rank the non-locked candidates: crank over all, trank over the non-shadow subset.
+        crank_of, trank_of, nc, nt = {}, {}, 0, 0
+        for (fam, sh), (pos, dex, tok) in ordered:
             if dex in locked_dex:
                 continue
-            n_catch += 1
-            crank_of[fam] = n_catch
-        # trank = family rank within the non-locked AND non-shadow pool, ordered by best
-        # non-shadow pos. This is the pool we cap at TOP_N_CATCHABLE: the best attacker we can
-        # actually catch a high-IV, tradeable copy of (shadow can't be traded).
-        trank_of, n_ns = {}, 0
-        for fam, (pos, dex, tok) in sorted(fam_best_ns.items(), key=lambda kv: kv[1][0]):
-            if dex in locked_dex:
-                continue
-            n_ns += 1
-            trank_of[fam] = n_ns
+            nc += 1
+            crank_of[(fam, sh)] = nc
+            if not sh:
+                nt += 1
+                trank_of[(fam, sh)] = nt
         keepers = []
-        for fam, (pos, dex, tok) in sorted(fam_best.items(), key=lambda kv: kv[1][0]):
-            locked = dex in locked_dex
-            crank = trank = None
-            if locked:
-                # legendary/mythical/UB you own: show the strongest form overall (no 2nd/3rd rank).
+        for (fam, sh), (pos, dex, tok) in ordered:
+            if dex in locked_dex:
+                # owned legendary/mythical/UB: keep each candidate (best non-shadow form and best
+                # shadow form are separate) inside the top-20 overall, shown with rank only. The
+                # (fam, shadow) key already collapses same-rarity forms (e.g. White/Black Kyurem).
                 if pos > LOCKED_OVERALL_CAP:
                     continue
-                rank, rdex, rtok = pos, dex, tok
+                crank = trank = None
             else:
-                trank = trank_of.get(fam)
-                # non-locked keepers are the top-6 by third (non-shadow) rank; a family with
-                # no non-shadow board entry (shadow-only) is not a catchable-tradeable keeper.
-                if trank is None or trank > TOP_N_CATCHABLE:
+                crank = crank_of[(fam, sh)]
+                trank = trank_of.get((fam, sh))  # None for shadow candidates
+                if sh:
+                    if crank > TOP_N_CATCHABLE:
+                        continue
+                elif trank > TOP_N_CATCHABLE:
                     continue
-                crank = crank_of.get(fam)
-                # Rank/display the best NON-shadow form: it's the tradeable copy you keep, and it
-                # is the form the 2nd/3rd ranks describe (a shadow form has no non-shadow rank).
-                rank, rdex, rtok = fam_best_ns[fam]
-            keepers.append({"fam": fam, "rank": rank, "dex": rdex, "crank": crank, "trank": trank,
-                            "form": form_name(rdex, rtok), "base": dex_base.get(rdex),
-                            "locked": locked})
+            keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank, "trank": trank,
+                            "form": form_name(dex, tok), "base": dex_base.get(dex),
+                            "locked": dex in locked_dex, "shadow": sh})
         result[tp] = keepers
     return result
 
-def shadow_reliant():
-    """dex -> [types] for non-locked families that make a type's shadow-inclusive top-6
-    (old 2nd-rank pool) but NOT its non-shadow top-6 (new 3rd-rank pool) — i.e. their only
-    top form of that type is a shadow, which can't be traded. compute() drops these from the
-    catchable keepers; they instead feed the 'shadowed version' search string."""
-    raw = json.load(open(os.path.join(DATA, "pve_type_ranks_raw.json")))
-    out = {}
-    for tp, arr in raw.items():
-        fb, fbns = {}, {}
-        for i, suf in enumerate(arr):
-            dex, tok = parse(suf)
-            fam = dex_fam.get(dex, str(dex))
-            fb.setdefault(fam, (i + 1, dex, tok))
-            if not is_shadow(tok):
-                fbns.setdefault(fam, (i + 1, dex, tok))
-        catch = lambda d: [(f, v) for f, v in sorted(d.items(), key=lambda kv: kv[1][0])
-                           if v[1] not in locked_dex][:TOP_N_CATCHABLE]
-        old_top6 = catch(fb)                      # shadow-inclusive top-6 (old 2nd-rank pool)
-        new_top6 = {f for f, _ in catch(fbns)}    # non-shadow top-6 (new 3rd-rank pool)
-        for fam, v in old_top6:
-            if fam not in new_top6:
-                out.setdefault(v[1], []).append(tp.capitalize())
-    return out
-
 
 def by_dex():
-    """dex -> list of PvE keeper usages {type, rank, form, base, locked}.
-    All forms of a species share a dex, so a family's PvE lines attach by member dex."""
+    """dex -> list of PvE keeper usages. A family can now have two lines for one type
+    (its non-shadow form and its shadow form), each with its own ranks."""
     res = compute()
     m = {}
     for tp, ks in res.items():
         for k in ks:
             m.setdefault(k["dex"], []).append(
                 {"type": tp.capitalize(), "rank": k["rank"], "crank": k["crank"],
-                 "trank": k["trank"], "form": k["form"], "base": k["base"], "locked": k["locked"]})
+                 "trank": k["trank"], "form": k["form"], "base": k["base"],
+                 "locked": k["locked"], "shadow": k["shadow"]})
     return m
 
 
