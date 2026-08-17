@@ -113,6 +113,31 @@ def compute():
         result[tp] = keepers
     return result
 
+def shadow_reliant():
+    """dex -> [types] for non-locked families that make a type's shadow-inclusive top-6
+    (old 2nd-rank pool) but NOT its non-shadow top-6 (new 3rd-rank pool) — i.e. their only
+    top form of that type is a shadow, which can't be traded. compute() drops these from the
+    catchable keepers; they instead feed the 'shadowed version' search string."""
+    raw = json.load(open(os.path.join(DATA, "pve_type_ranks_raw.json")))
+    out = {}
+    for tp, arr in raw.items():
+        fb, fbns = {}, {}
+        for i, suf in enumerate(arr):
+            dex, tok = parse(suf)
+            fam = dex_fam.get(dex, str(dex))
+            fb.setdefault(fam, (i + 1, dex, tok))
+            if not is_shadow(tok):
+                fbns.setdefault(fam, (i + 1, dex, tok))
+        catch = lambda d: [(f, v) for f, v in sorted(d.items(), key=lambda kv: kv[1][0])
+                           if v[1] not in locked_dex][:TOP_N_CATCHABLE]
+        old_top6 = catch(fb)                      # shadow-inclusive top-6 (old 2nd-rank pool)
+        new_top6 = {f for f, _ in catch(fbns)}    # non-shadow top-6 (new 3rd-rank pool)
+        for fam, v in old_top6:
+            if fam not in new_top6:
+                out.setdefault(v[1], []).append(tp.capitalize())
+    return out
+
+
 def by_dex():
     """dex -> list of PvE keeper usages {type, rank, form, base, locked}.
     All forms of a species share a dex, so a family's PvE lines attach by member dex."""

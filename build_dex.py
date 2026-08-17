@@ -81,6 +81,9 @@ RARE_TAGS = {"legendary", "mythical", "ultrabeast", "wildlegendary"}
 # a top-10 catchable (or top-20 owned-legendary) attacker of some type, with real rank.
 import pve_ranks
 PVE_BY_DEX = pve_ranks.by_dex()
+# Families whose only top form of a type is a (non-tradeable) shadow — dropped from the
+# catchable keepers by the 3rd-rank cap. They feed the 'shadowed version' search string.
+PVE_SHADOW_RELIANT = pve_ranks.shadow_reliant()  # dex -> [types]
 
 
 def ranks(vid):
@@ -99,7 +102,7 @@ for key, members in fams.items():
         for pref, vid in [("", fid), ("Shadow ", fid + "_shadow")]:
             for k, r in ranks(vid):
                 usages.append({"kind": 0, "ord": LORDER[k], "rank": r, "lp": SHORT[k],
-                               "best": f'{pref}{m["speciesName"]} #{r}',
+                               "best": f'{pref}{m["speciesName"]} #{r}', "shadow": pref == "Shadow ",
                                "iv": LOW if k != "master" else HIGH, "moves": mvpool[k][vid]})
     # PvE raid-attacker lines: attach by member dex, one line per type, best rank wins.
     member_dexes = {m["dex"] for m in members}
@@ -117,15 +120,25 @@ for key, members in fams.items():
             tail = f', #{u["crank"]}'
             if u.get("trank"):
                 tail += f', #{u["trank"]}'
-        usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE",
+        # A kept PvE line means a non-shadow (or owned-legendary) form is a top attacker, so it
+        # counts as a NON-shadow high-attack usage — shadow-reliant families were already dropped.
+        usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE", "shadow": False,
                        "best": f'{u["form"]} — {u["type"]} #{u["rank"]}{tail}',
                        "iv": HIGH, "moves": "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
     rare = any(RARE_TAGS & set(m.get("tags") or []) for m in members)
+    # High-attack (ML/PvE) usage split by shadow: a family has a NON-shadow high-attack usage
+    # (Master non-shadow or any kept PvE line) vs. is shadow-reliant (only its shadow form is a
+    # top ML/PvE attacker — either Master shadow-only, or a shadow-reliant PvE family).
+    hv = [u for u in usages if u["lp"] in ("ML", "PvE")]
+    ns_highiv = any(not u["shadow"] for u in hv)
+    sh_reliant_pve = any(d in PVE_SHADOW_RELIANT for d in member_dexes)
+    sh_only = (not ns_highiv) and (any(u["shadow"] for u in hv) or sh_reliant_pve)
     rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
-                 "chain": chain, "total": len(usages), "rare": rare})
+                 "chain": chain, "total": len(usages), "rare": rare,
+                 "ns_highiv": ns_highiv, "sh_only": sh_only})
     for m in members:
         if m is not anchor and m["dex"] - adex > FAR:
             pointers.append((m["dex"], plain(m["speciesName"]), adex, aname))
@@ -223,12 +236,25 @@ h.append(f"<div class=ss><b>Capped-PvP candidates — low ATK / high bulk</b>"
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
 highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
-hi_join = ",".join("+" + n for n in highiv_fams)
 hineg_join = "&".join("!+" + n for n in highiv_fams)
+# Split the Raid/Master high-IV list by shadow. Shadow can't be traded, so a family whose only
+# top ML/PvE form is a shadow (Master shadow-only, or a shadow-reliant PvE attacker like Kingler
+# or Vikavolt) goes to a separate 'shadowed version' string; you keep a high-IV shadow of it.
+# A family with any non-shadow high-attack usage (e.g. Articuno via Galarian) stays in the main
+# list. The negated 'everything else' view below is unchanged (still the full Raid/Master list).
+highiv_ns_fams = uniq(r["name"] for r in rows if r["ns_highiv"])
+highiv_sh_fams = uniq(r["name"] for r in rows if r["sh_only"])
+hi_ns_join = ",".join("+" + n for n in highiv_ns_fams)
+hi_sh_join = ",".join("+" + n for n in highiv_sh_fams)
 h.append(f"<p class=note>{len(highiv_fams)} families have a <b>Raid (PvE) / Master-league</b> usage — all want "
-         "<b>high ATK / hundo</b>. Next = those; last = everything else (them negated).</p>")
-h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b>"
-         f"<div class=codewrap>{COPYBTN}<pre>{hi_join}&3*,4*</pre></div></div>")
+         "<b>high ATK / hundo</b>. It splits by shadow: "
+         f"<b>{len(highiv_ns_fams)}</b> have a non-shadow top form (search normally), "
+         f"<b>{len(highiv_sh_fams)}</b> are shadow-only (search their shadow at high IV — can't trade). "
+         "Last = everything else (the full list negated).</p>")
+h.append(f"<div class=ss><b>Raid (PvE) / Master — high IV / high ATK</b> (non-shadow)"
+         f"<div class=codewrap>{COPYBTN}<pre>{hi_ns_join}&3*,4*</pre></div></div>")
+h.append(f"<div class=ss><b>Raid (PvE) / Master — shadowed version</b> (only their shadow form has usage)"
+         f"<div class=codewrap>{COPYBTN}<pre>{hi_sh_join}&shadow&3*,4*</pre></div></div>")
 h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
 # Raid/Master list with the capped-PvP families removed (set difference).
