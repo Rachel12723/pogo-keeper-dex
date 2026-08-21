@@ -30,6 +30,16 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .view.on{background:#1e5fa8;border-color:#1e5fa8;color:#fff}
 .viewcount{margin-left:auto;color:#6b7b8a;font-size:12px;font-variant-numeric:tabular-nums}
 tbody.fam.hide{display:none}
+@media (max-width:640px){
+  body{padding:14px}
+  /* Long search strings: a small scrollable box instead of a screen-tall wall of text. */
+  .codewrap pre{max-height:8.5em;overflow:auto;padding-right:40px}
+  /* View tabs: one swipeable row instead of wrapping into several uneven rows. */
+  .views{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;gap:6px;scrollbar-width:none}
+  .views::-webkit-scrollbar{display:none}
+  .view{flex:0 0 auto;white-space:nowrap}
+  .viewcount{flex:0 0 auto;margin-left:4px}
+}
 </style>
 <h1>Complete Pokédex — folded by family</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="pokedex.html">→ ranked-only by dex #</a> &nbsp;·&nbsp; <a href="rankings.html">→ by League</a> &nbsp;·&nbsp; <a href="event.html">→ Ultra Unlock event</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
