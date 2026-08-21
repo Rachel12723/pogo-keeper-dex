@@ -205,8 +205,12 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 tbody.fam.hide{display:none}
 @media (max-width:640px){
   body{padding:14px}
-  /* Long search strings: a small scrollable box instead of a screen-tall wall of text. */
-  .codewrap pre{max-height:8.5em;overflow:auto;padding-right:40px}
+  /* Search-string boxes span the FULL screen width (cancel the body's side padding) so the
+     long strings get all the horizontal room and wrap into fewer lines. */
+  .codewrap{margin-left:-14px;margin-right:-14px}
+  .codewrap pre{border-left:0;border-right:0;border-radius:0}
+  /* The two-column split stacks, each half full width. */
+  .ss2{gap:10px} .ss2>.ss{flex-basis:100%}
   /* View tabs: one swipeable row instead of wrapping into several uneven rows. */
   .views{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;gap:6px;scrollbar-width:none}
   .views::-webkit-scrollbar{display:none}
