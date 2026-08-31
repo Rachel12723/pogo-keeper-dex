@@ -70,16 +70,22 @@ Notes:
 
 ## Sources & honesty note
 
-- **PvP ranks + movesets**: pvpoke's public ranking dataset (`data/rankings-*.json`, pulled
-  **2026-07-21** from `raw.githubusercontent.com/pvpoke/pvpoke`). Same data behind pvpoke.com.
-  This is the authority for exact per-league rank numbers and rank-1 IV spreads.
+- **PvP ranks + movesets**: pvpoke's public ranking dataset (`data/rankings-*.json` +
+  `data/gamemaster.json`, pulled **2026-08-31** from `raw.githubusercontent.com/pvpoke/pvpoke`).
+  Same data behind pvpoke.com. The authority for exact per-league rank numbers and rank-1 IV spreads.
 - **Mega existence + raid-attacker value**: established PvE knowledge (no live raid tier list
   was fetched). These are stable facts (e.g. Mega Metagross = best Steel raider).
 - `db.pokemongohub.net` was the originally requested source but blocks automated access
   (**403**), and the local browser read-tool was disabled by org policy — hence pvpoke, which
   is the better source for exact PvP ranks anyway.
-- **Meta shifts fast.** Re-run `build_tables.py` after a big move/rebalance update to refresh
-  ranks. Confirm anything borderline on pvpoke.com before spending dust.
+- **PvE raid-attacker ranks** (`data/pve_type_ranks_raw.json`, per-type boards) come from
+  `db.pokemongohub.net`, which blocks automated access (**403**) — so that board is refreshed
+  **by hand**, unlike the pvpoke data. This is why a brand-new top attacker (e.g. Mega Delphox as
+  the #1 Fire raider) won't appear until the board is updated. See the runbook.
+- **Meta shifts fast.** Run **`python3 refresh.py`** after a big move/rebalance or new-Mega update
+  to re-pull the sources and rebuild every page — see **[REFRESH.md](REFRESH.md)** for the full
+  procedure (including the manual PvE step). Confirm anything borderline on pvpoke.com before
+  spending dust.
 
 ## Event spawn list (source of truth, page order)
 

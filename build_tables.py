@@ -245,7 +245,7 @@ pre{white-space:pre-wrap;word-break:break-all;background:#f5f8fb;border:1px soli
 </style>
 <h1>Ultra Unlock: 10th Anniversary — IV Keepers</h1>
 <p style="margin:0 0 10px"><a href="index.html">🏠 Home</a> &nbsp;·&nbsp; <a href="rankings.html">→ Rankings by League</a> &nbsp;·&nbsp; <a href="pokedex.html">→ by Pokédex #</a> &nbsp;·&nbsp; <a href="dex.html">→ complete Pokédex</a> &nbsp;·&nbsp; <a href="max.html">→ Max Battles</a></p>
-<p class=sub>PvP ranks from pvpoke (pulled 2026-07-21). <b class=tag style="background:none;color:#14713a">green = capped PvP</b> keep low ATK / high DEF+HP.
+<p class=sub>PvP ranks from pvpoke (pulled 2026-08-31). <b class=tag style="background:none;color:#14713a">green = capped PvP</b> keep low ATK / high DEF+HP.
 <b class=tag style="background:none;color:#9a4a12">orange = Master/Raid/Mega</b> keep high ATK (IV% &ge;96 / 15 ATK).
 <b class=tag style="background:none;color:#5b6b7a">grey = collection</b> keep 1 best/shiny.</p>
 <div class=tiers>

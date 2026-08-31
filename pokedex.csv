@@ -1,159 +1,154 @@
 Dex,Spawn (base),League / Purpose,Best form & rank,IV target,Moveset,Keep,Total
-7,Squirtle,GL,Blastoise #51 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Skull Bash,1,3
-,,UL,Blastoise #22 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Skull Bash,1,
-,,UL,Blastoise (Shadow) #77 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Ice Beam,1,
-19,Rattata,LC,Rattata (Shadow) #39 (score 77.6),Rank ≤ #100  (low ATK / high bulk),Quick Attack / Body Slam / Dig,1,1
-21,Spearow,GL,Fearow #20 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Peck / Drill Run,1,1
-27,Sandshrew,UL,Sandslash (Alolan) #93 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Ice Punch / Drill Run,1,2
-,,UL,Sandslash (Alolan) (Shadow) #83 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Ice Punch / Drill Run,1,
-37,Vulpix,GL,Ninetales #12 (score 91.5),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,12
-,,UL,Ninetales #38 (score 89.8),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
-,,GL,Ninetales (Alolan) #61 (score 89),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
-,,UL,Ninetales (Alolan) #15 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
-,,GL,Ninetales (Alolan) (Shadow) #63 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
-,,UL,Ninetales (Alolan) (Shadow) #18 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
-,,GL,Ninetales (Shadow) #13 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
-,,UL,Ninetales (Shadow) #52 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
-,,LC,Vulpix #49 (score 76.9),Rank ≤ #100  (low ATK / high bulk),Quick Attack / Weather Ball Fire / Body Slam,1,
-,,LC,Vulpix (Alolan) #14 (score 82.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Dark Pulse,1,
-,,LC,Vulpix (Alolan) (Shadow) #22 (score 79.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Dark Pulse,1,
-,,LC,Vulpix (Shadow) #38 (score 77.8),Rank ≤ #100  (low ATK / high bulk),Quick Attack / Weather Ball Fire / Body Slam,1,
-56,Mankey,UL,Annihilape #34 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Low Kick / Rage Fist / Close Combat,1,4
+7,Squirtle,GL,Blastoise #53 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Skull Bash,1,3
+,,UL,Blastoise #23 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Skull Bash,1,
+,,UL,Blastoise (Shadow) #78 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Rollout / Hydro Cannon / Skull Bash,1,
+21,Spearow,GL,Fearow #21 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Peck / Drill Run,1,1
+27,Sandshrew,UL,Sandslash (Alolan) #94 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Ice Punch / Drill Run,1,2
+,,UL,Sandslash (Alolan) (Shadow) #86 (score 88),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Ice Punch / Drill Run,1,
+37,Vulpix,GL,Ninetales #12 (score 91.4),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,9
+,,UL,Ninetales #41 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
+,,GL,Ninetales (Alolan) #64 (score 89),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
+,,UL,Ninetales (Alolan) #19 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
+,,GL,Ninetales (Alolan) (Shadow) #65 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
+,,UL,Ninetales (Alolan) (Shadow) #21 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Chilling Water,1,
+,,GL,Ninetales (Shadow) #14 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
+,,UL,Ninetales (Shadow) #55 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Energy Ball,1,
+,,LC,Vulpix #41 (score 76.4),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Body Slam,1,
+43,Oddish,LC,Oddish #44 (score 76.3),Rank ≤ #100  (low ATK / high bulk),Razor Leaf / Sludge Bomb / Seed Bomb,1,2
+,,LC,Oddish (Shadow) #31 (score 79.9),Rank ≤ #100  (low ATK / high bulk),Razor Leaf / Sludge Bomb / Seed Bomb,1,
+56,Mankey,UL,Annihilape #11 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Low Kick / Rage Fist / Ice Punch,1,5
 ,,ML,Annihilape #59 (score 82.3),IV% ≥96% or 15 ATK  (high ATK),Counter / Rage Fist / Ice Punch,1,
-,,UL,Annihilape (Shadow) #36 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Low Kick / Rage Fist / Close Combat,1,
+,,UL,Annihilape (Shadow) #12 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Counter / Rage Fist / Ice Punch,1,
 ,,ML,Annihilape (Shadow) #47 (score 84.6),IV% ≥96% or 15 ATK  (high ATK),Counter / Rage Fist / Ice Punch,1,
-72,Tentacool,UL,Tentacruel #75 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Acid / Scald / Payback,1,2
-,,UL,Tentacruel (Shadow) #76 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Acid / Scald / Payback,1,
-86,Seel,GL,Dewgong #56 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Ice Shard / Icy Wind / Drill Run,1,2
-,,LC,Seel #3 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Lick / Aqua Tail / Icy Wind,1,
-95,Onix,LC,Onix #47 (score 76.9),Rank ≤ #100  (low ATK / high bulk),Rock Throw / Rock Slide / Sand Tomb,1,5
-,,LC,Onix (Shadow) #40 (score 77.5),Rank ≤ #100  (low ATK / high bulk),Rock Throw / Rock Slide / Breaking Swipe,1,
-,,UL,Steelix #41 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Earthquake,1,
-,,GL,Steelix (Shadow) #59 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Crunch,1,
-,,UL,Steelix (Shadow) #49 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Crunch,1,
-104,Cubone,LC,Cubone #23 (score 79.4),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Bone Club / Dig,1,3
-,,LC,Cubone (Shadow) #15 (score 82.1),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Bone Club / Dig,1,
-,,GL,Marowak (Shadow) #67 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Bone Club / Rock Slide,1,
-108,Lickitung,GL,Lickilicky #2 (score 93.7),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Shadow Ball,1,3
-,,UL,Lickilicky #2 (score 93.7),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Shadow Ball,1,
-,,LC,Lickitung #8 (score 86.5),Rank ≤ #100  (low ATK / high bulk),Lick / Body Slam / Power Whip,1,
-109,Koffing,UL,Weezing (Galarian) #86 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Brutal Swing / Sludge,1,2
-,,UL,Weezing (Galarian) (Shadow) #89 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Brutal Swing / Sludge,1,
-111,Rhyhorn,LC,Rhyhorn (Shadow) #45 (score 77),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Horn Attack / Bulldoze,1,3
-,,ML,Rhyperior #68 (score 80.6),IV% ≥96% or 15 ATK  (high ATK),Mud Slap / Drill Run / Rock Wrecker,1,
+,,UL,Primeape #14 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Karate Chop / Rage Fist / Ice Punch,1,
+72,Tentacool,LC,Tentacool #20 (score 82.8),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Wrap / Water Pulse,1,4
+,,LC,Tentacool (Shadow) #25 (score 80.9),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Wrap / Water Pulse,1,
+,,UL,Tentacruel #83 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Acid / Scald / Payback,1,
+,,UL,Tentacruel (Shadow) #80 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Acid / Scald / Payback,1,
+79,Slowpoke,LC,Slowpoke #47 (score 76.2),Rank ≤ #100  (low ATK / high bulk),Confusion / Psyshock / Water Pulse,1,2
+,,LC,Slowpoke (Shadow) #37 (score 77.6),Rank ≤ #100  (low ATK / high bulk),Confusion / Psyshock / Water Pulse,1,
+86,Seel,GL,Dewgong #58 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Ice Shard / Icy Wind / Drill Run,1,2
+,,LC,Seel #27 (score 80.5),Rank ≤ #100  (low ATK / high bulk),Lick / Aqua Tail / Icy Wind,1,
+95,Onix,UL,Steelix #42 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Crunch,1,3
+,,GL,Steelix (Shadow) #60 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Crunch,1,
+,,UL,Steelix (Shadow) #51 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Thunder Fang / Psychic Fangs / Crunch,1,
+104,Cubone,GL,Marowak (Shadow) #69 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Bone Club / Rock Slide,1,1
+108,Lickitung,GL,Lickilicky #1 (score 93.7),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Shadow Ball,1,2
+,,UL,Lickilicky #2 (score 93.8),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Shadow Ball,1,
+109,Koffing,UL,Weezing (Galarian) #89 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Sludge / Brutal Swing,1,2
+,,UL,Weezing (Galarian) (Shadow) #95 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Sludge / Brutal Swing,1,
+111,Rhyhorn,ML,Rhyperior #68 (score 80.6),IV% ≥96% or 15 ATK  (high ATK),Mud Slap / Drill Run / Rock Wrecker,1,2
 ,,ML,Rhyperior (Shadow) #73 (score 80.3),IV% ≥96% or 15 ATK  (high ATK),Mud Slap / Drill Run / Rock Wrecker,1,
 116,Horsea,GL,Kingdra #23 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,4
-,,UL,Kingdra #17 (score 90.9),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
-,,GL,Kingdra (Shadow) #28 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
-,,UL,Kingdra (Shadow) #37 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
-118,Goldeen,GL,Seaking #79 (score 88),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Run / Icy Wind,1,2
-,,UL,Seaking #44 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Run / Icy Wind,1,
-123,Scyther,UL,Scizor (Shadow) #85 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Bullet Punch / Night Slash / Trailblaze,1,1
-129,Magikarp,UL,Gyarados #65 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Twister,1,4
+,,UL,Kingdra #20 (score 91),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
+,,GL,Kingdra (Shadow) #27 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
+,,UL,Kingdra (Shadow) #39 (score 90),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Surf / Swift,1,
+118,Goldeen,GL,Seaking #84 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Run / Icy Wind,1,2
+,,UL,Seaking #48 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Peck / Drill Run / Icy Wind,1,
+123,Scyther,UL,Scizor (Shadow) #87 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Bullet Punch / Night Slash / Trailblaze,1,1
+129,Magikarp,UL,Gyarados #66 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Twister,1,4
 ,,ML,Gyarados #58 (score 82.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aqua Tail / Crunch,1,
-,,UL,Gyarados (Shadow) #80 (score 88),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Twister,1,
+,,UL,Gyarados (Shadow) #85 (score 88),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Twister,1,
 ,,ML,Gyarados (Shadow) #32 (score 87.6),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aqua Tail / Twister,1,
-131,Lapras,GL,Lapras #25 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,4
-,,UL,Lapras #21 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,
+131,Lapras,GL,Lapras #28 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,4
+,,UL,Lapras #25 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,
 ,,GL,Lapras (Shadow) #46 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,
-,,UL,Lapras (Shadow) #25 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,
-133,Eevee,LC,Eevee #17 (score 81.5),Rank ≤ #100  (low ATK / high bulk),Quick Attack / Body Slam / Dig,1,4
-,,UL,Sylveon #78 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Moonblast / Shadow Ball,1,
+,,UL,Lapras (Shadow) #30 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Psywave / Sparkling Aria / Ice Beam,1,
+133,Eevee,UL,Sylveon #79 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Psyshock / Shadow Ball,1,3
 ,,ML,Sylveon #56 (score 83.1),IV% ≥96% or 15 ATK  (high ATK),Fairy Wind / Moonblast / Shadow Ball,1,
-,,GL,Umbreon #32 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Snarl / Foul Play / Last Resort,1,
+,,GL,Umbreon #33 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Snarl / Foul Play / Last Resort,1,
+138,Omanyte,LC,Omanyte #49 (score 75.5),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Rock Tomb / Rock Blast,1,1
 145,Zapdos,ML,Zapdos (Shadow) #72 (score 80.4),IV% ≥96% or 15 ATK  (high ATK),Thunder Shock / Drill Peck / Heat Wave,1,1
-146,Moltres,GL,Moltres (Galarian) #50 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Fly / Brave Bird,1,2
+146,Moltres,GL,Moltres (Galarian) #52 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Fly / Brave Bird,1,2
 ,,UL,Moltres (Galarian) #10 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Fly / Brave Bird,1,
-147,Dratini,GL,Dragonair #35 (score 90),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Dragon Pulse,1,6
-,,GL,Dragonair (Shadow) #29 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Wrap / Aqua Tail,1,
+147,Dratini,GL,Dragonair #36 (score 90),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Dragon Pulse,1,4
+,,GL,Dragonair (Shadow) #30 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Wrap / Aqua Tail,1,
 ,,ML,Dragonite #63 (score 81.5),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Thunder Punch / Super Power,1,
 ,,ML,Dragonite (Shadow) #52 (score 84),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Thunder Punch / Super Power,1,
-,,LC,Dratini #42 (score 77.2),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Wrap,1,
-,,LC,Dratini (Shadow) #24 (score 79.4),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Wrap,1,
 150,Mewtwo,ML,Mewtwo #45 (score 84.9),IV% ≥96% or 15 ATK  (high ATK),Psycho Cut / Psystrike / Shadow Ball,1,2
 ,,ML,Mewtwo (Shadow) #35 (score 87),IV% ≥96% or 15 ATK  (high ATK),Psycho Cut / Psystrike / Shadow Ball,1,
-152,Chikorita,LC,Chikorita #41 (score 77.2),Rank ≤ #100  (low ATK / high bulk),Vine Whip / Body Slam / Grass Knot,1,1
-158,Totodile,GL,Feraligatr #14 (score 91),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,4
-,,UL,Feraligatr #46 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,
+152,Chikorita,LC,Chikorita #35 (score 77.8),Rank ≤ #100  (low ATK / high bulk),Vine Whip / Body Slam / Grass Knot,1,2
+,,LC,Chikorita (Shadow) #30 (score 79.9),Rank ≤ #100  (low ATK / high bulk),Vine Whip / Grass Knot / Body Slam,1,
+155,Cyndaquil,LC,Cyndaquil (Shadow) #36 (score 77.8),Rank ≤ #100  (low ATK / high bulk),Ember / Swift / Flame Charge,1,1
+158,Totodile,GL,Feraligatr #15 (score 91),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,4
+,,UL,Feraligatr #45 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,
 ,,GL,Feraligatr (Shadow) #22 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,
-,,UL,Feraligatr (Shadow) #14 (score 91.2),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,
-161,Sentret,GL,Furret #27 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Swift / Trailblaze,1,1
-165,Ledyba,LC,Ledyba (Shadow) #19 (score 80.6),Rank ≤ #100  (low ATK / high bulk),Bug Bite / Aerial Ace / Silver Wind,1,1
-173,Cleffa,GL,Clefable #52 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Moonblast / Meteor Mash,1,2
-,,UL,Clefable #54 (score 89),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Meteor Mash / Moonblast,1,
-174,Igglybuff,LC,Igglybuff #32 (score 78.5),Rank ≤ #100  (low ATK / high bulk),Feint Attack / Body Slam / Shadow Ball,1,2
-,,GL,Wigglytuff #48 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Charm / Icy Wind / Swift,1,
-175,Togepi,UL,Togekiss #59 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Peck / Psyshock / Aura Sphere,1,2
+,,UL,Feraligatr (Shadow) #17 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Hydro Cannon / Ice Beam,1,
+161,Sentret,GL,Furret #26 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Swift / Trailblaze,1,1
+170,Chinchou,LC,Chinchou #39 (score 76.7),Rank ≤ #100  (low ATK / high bulk),Spark / Thunderbolt / Bubble Beam,1,1
+173,Cleffa,GL,Clefable #54 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Moonblast / Meteor Mash,1,2
+,,UL,Clefable #54 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Moonblast / Meteor Mash,1,
+174,Igglybuff,GL,Wigglytuff #48 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Charm / Icy Wind / Swift,1,1
+175,Togepi,UL,Togekiss #59 (score 89),Rank ≤ #100  (low ATK / high bulk),Peck / Psyshock / Aura Sphere,1,2
 ,,ML,Togekiss #46 (score 84.8),IV% ≥96% or 15 ATK  (high ATK),Peck / Dazzling Gleam / Aura Sphere,1,
-179,Mareep,UL,Ampharos #57 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Brutal Swing / Trailblaze,1,4
-,,UL,Ampharos (Shadow) #53 (score 89),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Brutal Swing / Trailblaze,1,
-,,LC,Mareep #50 (score 76.7),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Body Slam / Discharge,1,
-,,LC,Mareep (Shadow) #44 (score 77.1),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Body Slam / Discharge,1,
-187,Hoppip,GL,Jumpluff #17 (score 90.9),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Energy Ball / Acrobatics,1,2
-,,GL,Jumpluff (Shadow) #75 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Energy Ball / Acrobatics,1,
-194,Wooper,GL,Clodsire #18 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Earthquake / Stone Edge,1,6
+179,Mareep,UL,Ampharos #61 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Brutal Swing / Trailblaze,1,2
+,,UL,Ampharos (Shadow) #57 (score 89),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Brutal Swing / Trailblaze,1,
+187,Hoppip,GL,Jumpluff #18 (score 90.9),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Energy Ball / Acrobatics,1,2
+,,GL,Jumpluff (Shadow) #78 (score 88),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Energy Ball / Acrobatics,1,
+194,Wooper,GL,Clodsire #19 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Earthquake / Stone Edge,1,5
 ,,GL,Quagsire #9 (score 91.7),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Aqua Tail / Mud Bomb,1,
 ,,GL,Quagsire (Shadow) #8 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Aqua Tail / Mud Bomb,1,
-,,LC,Wooper #11 (score 84.2),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Body Slam / Mud Bomb,1,
-,,LC,Wooper (Paldean) #18 (score 81.3),Rank ≤ #100  (low ATK / high bulk),Poison Jab / Body Slam / Dig,1,
-,,LC,Wooper (Shadow) #10 (score 84.3),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Body Slam / Mud Bomb,1,
+,,LC,Wooper #23 (score 81.1),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Body Slam,1,
+,,LC,Wooper (Shadow) #28 (score 80.3),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Body Slam,1,
 204,Pineco,GL,Forretress #11 (score 91.5),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Sand Tomb / Rock Tomb,1,4
-,,UL,Forretress #12 (score 91.7),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Rock Tomb / Sand Tomb,1,
-,,GL,Forretress (Shadow) #15 (score 91),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Sand Tomb / Rock Tomb,1,
-,,UL,Forretress (Shadow) #16 (score 91),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Rock Tomb / Sand Tomb,1,
-206,Dunsparce,UL,Dudunsparce #79 (score 88),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Drill Run,1,2
-,,GL,Dunsparce #74 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Rollout / Drill Run / Rock Slide,1,
-207,Gligar,LC,Gligar #7 (score 87.1),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Aerial Ace / Dig,1,2
-,,LC,Gligar (Shadow) #30 (score 78.7),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Aerial Ace / Dig,1,
-222,Corsola,GL,Corsola (Galarian) #16 (score 90.9),Rank ≤ #100  (low ATK / high bulk),Astonish / Night Shade / Power Gem,1,1
-243,Raikou,UL,Raikou (Shadow) #58 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Wild Charge / Aura Sphere,1,2
+,,UL,Forretress #15 (score 91.7),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Sand Tomb / Rock Tomb,1,
+,,GL,Forretress (Shadow) #16 (score 91),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Sand Tomb / Rock Tomb,1,
+,,UL,Forretress (Shadow) #18 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Volt Switch / Sand Tomb / Rock Tomb,1,
+206,Dunsparce,UL,Dudunsparce #82 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Drill Run,1,2
+,,GL,Dunsparce #77 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Rollout / Drill Run / Rock Slide,1,
+222,Corsola,GL,Corsola (Galarian) #17 (score 90.9),Rank ≤ #100  (low ATK / high bulk),Astonish / Night Shade / Power Gem,1,1
+243,Raikou,UL,Raikou (Shadow) #56 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Wild Charge / Aura Sphere,1,2
 ,,ML,Raikou (Shadow) #67 (score 80.7),IV% ≥96% or 15 ATK  (high ATK),Thunder Shock / Wild Charge / Aura Sphere,1,
 246,Larvitar,ML,Tyranitar (Shadow) #55 (score 83.2),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Brutal Swing / Stone Edge,1,1
 249,Lugia,ML,Lugia #17 (score 91),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Aeroblast / Fly,1,2
 ,,ML,Lugia (Shadow) #19 (score 90.2),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Aeroblast / Fly,1,
 250,Ho-Oh,ML,Ho-Oh #24 (score 88.7),IV% ≥96% or 15 ATK  (high ATK),Incinerate / Brave Bird / Sacred Fire,1,2
 ,,ML,Ho-Oh (Shadow) #61 (score 82.1),IV% ≥96% or 15 ATK  (high ATK),Incinerate / Brave Bird / Sacred Fire,1,
-258,Mudkip,GL,Swampert #64 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,4
-,,UL,Swampert #45 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
-,,GL,Swampert (Shadow) #68 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
-,,UL,Swampert (Shadow) #95 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
-263,Zigzagoon,LC,Zigzagoon (Galarian) #4 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Tackle / Body Slam / Dig,1,1
-270,Lotad,UL,Ludicolo #92 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Astonish / Weather Ball Water / Energy Ball,1,1
-278,Wingull,GL,Pelipper #77 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Weather Ball Water / Hurricane,1,1
-298,Azurill,GL,Azumarill #21 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Bubble / Ice Beam / Play Rough,1,1
+258,Mudkip,GL,Swampert #66 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,4
+,,UL,Swampert #49 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
+,,GL,Swampert (Shadow) #70 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
+,,UL,Swampert (Shadow) #100 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Hydro Cannon / Earthquake,1,
+270,Lotad,UL,Ludicolo #93 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Astonish / Weather Ball Water / Energy Ball,1,1
+278,Wingull,GL,Pelipper #81 (score 88),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Weather Ball Water / Hurricane,1,1
+283,Surskit,LC,Surskit #46 (score 76.3),Rank ≤ #100  (low ATK / high bulk),Bug Bite / Aqua Jet / Signal Beam,1,1
+298,Azurill,GL,Azumarill #24 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Bubble / Ice Beam / Play Rough,1,1
 302,Sableye,GL,Sableye #47 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Foul Play / Power Gem,1,2
-,,GL,Sableye (Shadow) #30 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Foul Play / Drain Punch,1,
-307,Meditite,GL,Medicham #33 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Ice Punch / Dynamic Punch,1,1
-320,Wailmer,LC,Wailmer #20 (score 80.1),Rank ≤ #100  (low ATK / high bulk),Water Gun / Body Slam / Scald,1,1
-325,Spoink,GL,Grumpig #43 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Psywave / Dynamic Punch / Shadow Ball,1,1
-333,Swablu,GL,Altaria #4 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Sky Attack / Flamethrower,1,2
+,,GL,Sableye (Shadow) #31 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Foul Play / Drain Punch,1,
+307,Meditite,GL,Medicham #34 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Ice Punch / Dynamic Punch,1,1
+318,Carvanha,LC,Carvanha #17 (score 84.9),Rank ≤ #100  (low ATK / high bulk),Bite / Aqua Jet / Poison Fang,1,2
+,,LC,Carvanha (Shadow) #3 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Bite / Aqua Jet / Poison Fang,1,
+320,Wailmer,LC,Wailmer (Shadow) #33 (score 78.1),Rank ≤ #100  (low ATK / high bulk),Rollout / Body Slam / Scald,1,1
+322,Numel,LC,Numel (Shadow) #50 (score 75.3),Rank ≤ #100  (low ATK / high bulk),Ember / Stomp / Bulldoze,1,1
+325,Spoink,GL,Grumpig #41 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Psywave / Dynamic Punch / Shadow Ball,1,1
+333,Swablu,GL,Altaria #3 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Sky Attack / Flamethrower,1,2
 ,,GL,Altaria (Shadow) #6 (score 91.9),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Sky Attack / Flamethrower,1,
-339,Barboach,LC,Barboach #35 (score 78.1),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Aqua Tail,1,2
-,,LC,Barboach (Shadow) #12 (score 83.8),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Aqua Tail,1,
-345,Lileep,GL,Cradily #44 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,3
-,,UL,Cradily #42 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,
-,,UL,Cradily (Shadow) #50 (score 89.2),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,
-349,Feebas,GL,Milotic #83 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,3
-,,UL,Milotic #40 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,
-,,UL,Milotic (Shadow) #55 (score 89),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,
-351,Castform,GL,Castform (Sunny) #95 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Solar Beam,1,1
-355,Duskull,GL,Dusclops #42 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Hex / Ice Punch / Shadow Punch,1,6
-,,GL,Dusclops (Shadow) #49 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Hex / Ice Punch / Shadow Punch,1,
-,,GL,Dusknoir #96 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
-,,UL,Dusknoir #20 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
-,,GL,Dusknoir (Shadow) #72 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
-,,UL,Dusknoir (Shadow) #23 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
-360,Wynaut,LC,Wynaut #2 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Counter / Mirror Coat,1,1
-363,Spheal,GL,Sealeo #38 (score 89.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Surf / Body Slam,1,4
-,,GL,Sealeo (Shadow) #40 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Surf / Body Slam,1,
-,,UL,Walrein #31 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Icicle Spear / Earthquake,1,
-,,UL,Walrein (Shadow) #27 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Icicle Spear / Earthquake,1,
+339,Barboach,LC,Barboach #32 (score 79.8),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Aqua Tail,1,2
+,,LC,Barboach (Shadow) #21 (score 82.4),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Mud Bomb / Aqua Tail,1,
+345,Lileep,GL,Cradily #49 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,5
+,,UL,Cradily #43 (score 89.8),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,
+,,UL,Cradily (Shadow) #52 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Acid / Rock Tomb / Grass Knot,1,
+,,LC,Lileep #18 (score 84.8),Rank ≤ #100  (low ATK / high bulk),Acid / Ancient Power / Grass Knot,1,
+,,LC,Lileep (Shadow) #14 (score 86.3),Rank ≤ #100  (low ATK / high bulk),Acid / Ancient Power / Grass Knot,1,
+349,Feebas,GL,Milotic #88 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,3
+,,UL,Milotic #40 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,
+,,UL,Milotic (Shadow) #58 (score 89),Rank ≤ #100  (low ATK / high bulk),Waterfall / Aqua Tail / Wrap,1,
+351,Castform,GL,Castform (Sunny) #100 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Ember / Weather Ball Fire / Solar Beam,1,1
+355,Duskull,GL,Dusclops #45 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Hex / Ice Punch / Shadow Punch,1,6
+,,GL,Dusclops (Shadow) #50 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Hex / Ice Punch / Shadow Punch,1,
+,,GL,Dusknoir #98 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
+,,UL,Dusknoir #24 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
+,,GL,Dusknoir (Shadow) #75 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
+,,UL,Dusknoir (Shadow) #28 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Astonish / Dynamic Punch / Shadow Punch,1,
+363,Spheal,GL,Sealeo #39 (score 89.8),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Surf / Body Slam,1,4
+,,GL,Sealeo (Shadow) #42 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Surf / Body Slam,1,
+,,UL,Walrein #33 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Icicle Spear / Earthquake,1,
+,,UL,Walrein (Shadow) #34 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Icicle Spear / Earthquake,1,
 371,Bagon,GL,Shelgon #89 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Twister / Flamethrower,1,2
-,,GL,Shelgon (Shadow) #91 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Twister / Flamethrower,1,
+,,GL,Shelgon (Shadow) #93 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Twister / Flamethrower,1,
 374,Beldum,ML,Metagross #3 (score 97.9),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Meteor Mash / Earthquake,1,2
 ,,ML,Metagross (Shadow) #18 (score 90.5),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Meteor Mash / Earthquake,1,
-379,Registeel,GL,Registeel #70 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Lock On / Flash Cannon / Focus Blast,1,2
-,,UL,Registeel #19 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Lock On / Flash Cannon / Focus Blast,1,
+379,Registeel,GL,Registeel #74 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Lock On / Flash Cannon / Focus Blast,1,2
+,,UL,Registeel #22 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Lock On / Flash Cannon / Focus Blast,1,
 380,Latias,ML,Latias #50 (score 84.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aura Sphere / Mist Ball,1,2
 ,,ML,Latias (Shadow) #40 (score 86.3),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aura Sphere / Mist Ball,1,
 381,Latios,ML,Latios #28 (score 88),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aura Sphere / Luster Purge,1,2
@@ -163,26 +158,25 @@ Dex,Spawn (base),League / Purpose,Best form & rank,IV target,Moveset,Keep,Total
 383,Groudon,ML,Groudon #33 (score 87.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Fire Punch / Precipice Blades,1,2
 ,,ML,Groudon (Shadow) #60 (score 82.3),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Fire Punch / Precipice Blades,1,
 385,Jirachi,ML,Jirachi #44 (score 85.2),IV% ≥96% or 15 ATK  (high ATK),Confusion / Doom Desire / Aura Sphere,1,1
-393,Piplup,GL,Empoleon #5 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,4
+387,Turtwig,LC,Turtwig (Shadow) #29 (score 80.2),Rank ≤ #100  (low ATK / high bulk),Razor Leaf / Body Slam / Seed Bomb,1,1
+393,Piplup,GL,Empoleon #4 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,4
 ,,UL,Empoleon #9 (score 92.5),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,
 ,,GL,Empoleon (Shadow) #7 (score 91.9),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,
-,,UL,Empoleon (Shadow) #7 (score 92.7),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,
-410,Shieldon,GL,Bastiodon #66 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Smack Down / Stone Edge / Flamethrower,1,1
-422,Shellos,GL,Gastrodon #57 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Earth Power,1,2
-,,UL,Gastrodon #90 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Earth Power,1,
-425,Drifloon,LC,Drifloon #34 (score 78.3),Rank ≤ #100  (low ATK / high bulk),Hex / Icy Wind / Shadow Ball,1,2
-,,LC,Drifloon (Shadow) #27 (score 79),Rank ≤ #100  (low ATK / high bulk),Hex / Icy Wind / Shadow Ball,1,
-434,Stunky,LC,Stunky (Shadow) #13 (score 82.8),Rank ≤ #100  (low ATK / high bulk),Bite / Crunch / Sludge Bomb,1,1
-436,Bronzor,LC,Bronzor #1 (score 98.3),Rank ≤ #100  (low ATK / high bulk),Tackle / Heavy Slam / Payback,1,1
+,,UL,Empoleon (Shadow) #8 (score 92.7),Rank ≤ #100  (low ATK / high bulk),Metal Sound / Hydro Cannon / Drill Peck,1,
+406,Budew,LC,Budew #26 (score 80.6),Rank ≤ #100  (low ATK / high bulk),Razor Leaf / Grass Knot / Energy Ball,1,1
+410,Shieldon,GL,Bastiodon #68 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Smack Down / Stone Edge / Flamethrower,1,1
+422,Shellos,GL,Gastrodon #63 (score 89),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Earth Power,1,3
+,,UL,Gastrodon #91 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Earth Power,1,
+,,LC,Shellos #22 (score 81.4),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Mud Bomb,1,
 443,Gible,ML,Garchomp #23 (score 88.7),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Twister / Earth Power,1,2
 ,,ML,Garchomp (Shadow) #20 (score 89.7),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Twister / Earth Power,1,
-447,Riolu,LC,Riolu #28 (score 78.9),Rank ≤ #100  (low ATK / high bulk),Counter / Cross Chop / Blaze Kick,1,1
-449,Hippopotas,UL,Hippowdon #60 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Weather Ball Rock / Earth Power,1,2
-,,UL,Hippowdon (Shadow) #69 (score 88.5),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Weather Ball Rock / Earth Power,1,
-451,Skorupi,GL,Drapion #93 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,3
-,,UL,Drapion #99 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,
-,,GL,Drapion (Shadow) #60 (score 89),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,
-458,Mantyke,GL,Mantine #53 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Twister / Water Pulse,1,1
+449,Hippopotas,UL,Hippowdon #63 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Weather Ball Rock / Earth Power,1,2
+,,UL,Hippowdon (Shadow) #71 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Weather Ball Rock / Earth Power,1,
+451,Skorupi,GL,Drapion #92 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,3
+,,UL,Drapion #98 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,
+,,GL,Drapion (Shadow) #62 (score 89),Rank ≤ #100  (low ATK / high bulk),Poison Sting / Crunch / Aqua Tail,1,
+458,Mantyke,GL,Mantine #55 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Twister / Water Pulse,1,2
+,,LC,Mantyke #48 (score 75.5),Rank ≤ #100  (low ATK / high bulk),Bubble / Aerial Ace / Ice Beam,1,
 483,Dialga,ML,Dialga #41 (score 86),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Iron Head / Draco Meteor,1,3
 ,,ML,Dialga (Origin) #7 (score 94),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Roar Of Time / Iron Head,1,
 ,,ML,Dialga (Shadow) #42 (score 86),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Iron Head / Draco Meteor,1,
@@ -190,44 +184,43 @@ Dex,Spawn (base),League / Purpose,Best form & rank,IV target,Moveset,Keep,Total
 ,,ML,Palkia (Origin) #2 (score 98.9),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aqua Tail / Spacial Rend,1,
 ,,ML,Palkia (Shadow) #16 (score 91.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aqua Tail / Draco Meteor,1,
 485,Heatran,ML,Heatran (Shadow) #66 (score 80.8),IV% ≥96% or 15 ATK  (high ATK),Fire Spin / Magma Storm / Earth Power,1,1
-487,Giratina,UL,Giratina (Altered) #32 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Claw / Shadow Sneak,1,4
-,,UL,Giratina (Altered) (Shadow) #43 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Claw / Shadow Sneak,1,
+487,Giratina,UL,Giratina (Altered) #36 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Claw / Shadow Sneak,1,4
+,,UL,Giratina (Altered) (Shadow) #46 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Claw / Shadow Sneak,1,
 ,,ML,Giratina (Altered) (Shadow) #75 (score 80.1),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Ancient Power / Dragon Claw,1,
 ,,ML,Giratina (Origin) #70 (score 80.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Shadow Ball / Ominous Wind,1,
-488,Cresselia,UL,Cresselia #39 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Grass Knot / Moonblast,1,2
-,,UL,Cresselia (Shadow) #51 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Grass Knot / Moonblast,1,
-498,Tepig,LC,Tepig #48 (score 76.9),Rank ≤ #100  (low ATK / high bulk),Ember / Body Slam / Flame Charge,1,1
-501,Oshawott,GL,Samurott #90 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Hydro Cannon / Megahorn,1,3
-,,UL,Samurott #74 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Hydro Cannon / Megahorn,1,
-,,UL,Samurott (Shadow) #100 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Hydro Cannon / Megahorn,1,
-509,Purrloin,LC,Purrloin (Shadow) #21 (score 79.9),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Night Slash / Dark Pulse,1,1
-535,Tympole,GL,Seismitoad #31 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Earth Power / Icy Wind,1,2
-,,UL,Seismitoad #68 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Earth Power / Icy Wind,1,
-557,Dwebble,GL,Crustle #98 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Rock Wrecker,1,2
-,,UL,Crustle #98 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Rock Wrecker,1,
-562,Yamask,UL,Cofagrigus #97 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Shadow Ball / Dark Pulse,1,2
-,,UL,Runerigus #48 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Rock Tomb / Shadow Ball,1,
-564,Tirtouga,LC,Tirtouga #46 (score 77),Rank ≤ #100  (low ATK / high bulk),Water Gun / Surf / Body Slam,1,1
-580,Ducklett,LC,Ducklett #6 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Bubble Beam / Brave Bird,1,2
-,,LC,Ducklett (Shadow) #31 (score 78.5),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Bubble Beam / Brave Bird,1,
-592,Frillish,GL,Jellicent #10 (score 91.6),Rank ≤ #100  (low ATK / high bulk),Hex / Surf / Shadow Ball,1,2
-,,UL,Jellicent #11 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Hex / Surf / Shadow Ball,1,
-616,Shelmet,LC,Shelmet #29 (score 78.9),Rank ≤ #100  (low ATK / high bulk),Infestation / Body Slam / Bug Buzz,1,1
-618,Stunfisk,GL,Stunfisk #71 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Mud Bomb / Discharge,1,3
-,,UL,Stunfisk #84 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Mud Bomb / Discharge,1,
-,,GL,Stunfisk (Galarian) #69 (score 88.5),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Rock Slide / Earthquake,1,
-622,Golett,LC,Golett (Shadow) #25 (score 79.4),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Shadow Punch / Brick Break,1,1
-624,Pawniard,LC,Pawniard #16 (score 81.6),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Night Slash / Iron Head,1,1
-629,Vullaby,GL,Mandibuzz #55 (score 89.2),Rank ≤ #100  (low ATK / high bulk),Snarl / Foul Play / Shadow Ball,1,2
-,,LC,Vullaby #5 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Feint Attack / Brave Bird / Foul Play,1,
-633,Deino,LC,Deino #9 (score 84.7),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Body Slam / Crunch,1,6
-,,GL,Hydreigon #88 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Brutal Swing / Fly,1,
+488,Cresselia,UL,Cresselia #44 (score 89.8),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Grass Knot / Moonblast,1,2
+,,UL,Cresselia (Shadow) #53 (score 89.2),Rank ≤ #100  (low ATK / high bulk),Psycho Cut / Grass Knot / Moonblast,1,
+501,Oshawott,GL,Samurott #96 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Hydro Cannon / Megahorn,1,2
+,,UL,Samurott #77 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Hydro Cannon / Megahorn,1,
+535,Tympole,GL,Seismitoad #32 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Earth Power / Icy Wind,1,2
+,,UL,Seismitoad #73 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Earth Power / Icy Wind,1,
+540,Sewaddle,LC,Sewaddle #45 (score 76.3),Rank ≤ #100  (low ATK / high bulk),Bug Bite / Seed Bomb / Silver Wind,1,1
+546,Cottonee,LC,Cottonee #42 (score 76.3),Rank ≤ #100  (low ATK / high bulk),Charm / Grass Knot / Seed Bomb,1,1
+557,Dwebble,GL,Crustle #97 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Rock Wrecker,1,2
+,,UL,Crustle #97 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Rock Wrecker,1,
+562,Yamask,UL,Runerigus #50 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Shadow Ball / Rock Tomb,1,1
+564,Tirtouga,LC,Tirtouga #40 (score 76.7),Rank ≤ #100  (low ATK / high bulk),Water Gun / Ancient Power / Body Slam,1,1
+580,Ducklett,LC,Ducklett #2 (score 93),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Brave Bird / Aerial Ace,1,2
+,,LC,Ducklett (Shadow) #13 (score 86.4),Rank ≤ #100  (low ATK / high bulk),Wing Attack / Brave Bird / Aerial Ace,1,
+590,Foongus,LC,Foongus #6 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Astonish / Body Slam / Grass Knot,1,2
+,,LC,Foongus (Shadow) #10 (score 87.2),Rank ≤ #100  (low ATK / high bulk),Astonish / Grass Knot / Body Slam,1,
+592,Frillish,LC,Frillish #7 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Hex / Night Shade / Ice Beam,1,3
+,,GL,Jellicent #10 (score 91.6),Rank ≤ #100  (low ATK / high bulk),Hex / Surf / Shadow Ball,1,
+,,UL,Jellicent #13 (score 91.8),Rank ≤ #100  (low ATK / high bulk),Hex / Surf / Shadow Ball,1,
+597,Ferroseed,LC,Ferroseed #24 (score 80.9),Rank ≤ #100  (low ATK / high bulk),Tackle / Iron Head / Flash Cannon,1,1
+607,Litwick,LC,Litwick #16 (score 85.6),Rank ≤ #100  (low ATK / high bulk),Astonish / Mystical Fire / Flame Charge,1,2
+,,LC,Litwick (Shadow) #19 (score 84.1),Rank ≤ #100  (low ATK / high bulk),Astonish / Mystical Fire / Flame Charge,1,
+618,Stunfisk,GL,Stunfisk #72 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Mud Bomb / Discharge,1,3
+,,UL,Stunfisk #88 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Mud Bomb / Discharge,1,
+,,GL,Stunfisk (Galarian) #71 (score 88.5),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Rock Slide / Earthquake,1,
+629,Vullaby,GL,Mandibuzz #57 (score 89.2),Rank ≤ #100  (low ATK / high bulk),Snarl / Foul Play / Shadow Ball,1,1
+633,Deino,GL,Hydreigon #91 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Brutal Swing / Fly,1,5
 ,,ML,Hydreigon #65 (score 81),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Brutal Swing / Fly,1,
 ,,GL,Hydreigon (Shadow) #73 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Brutal Swing / Fly,1,
-,,UL,Hydreigon (Shadow) #67 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Brutal Swing / Fly,1,
+,,UL,Hydreigon (Shadow) #67 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Brutal Swing / Fly,1,
 ,,ML,Hydreigon (Shadow) #43 (score 85.3),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Brutal Swing / Fly,1,
-638,Cobalion,UL,Cobalion #72 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Double Kick / Sacred Sword / Stone Edge,1,1
-640,Virizion,UL,Virizion #8 (score 92.7),Rank ≤ #100  (low ATK / high bulk),Double Kick / Leaf Blade / Sacred Sword,1,1
+638,Cobalion,UL,Cobalion #75 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Double Kick / Sacred Sword / Stone Edge,1,1
+640,Virizion,UL,Virizion #7 (score 92.8),Rank ≤ #100  (low ATK / high bulk),Double Kick / Leaf Blade / Sacred Sword,1,1
 643,Reshiram,ML,Reshiram #8 (score 94),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Fusion Flare / Draco Meteor,1,2
 ,,ML,Reshiram (Shadow) #14 (score 92.5),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Fusion Flare / Draco Meteor,1,
 644,Zekrom,ML,Zekrom #12 (score 92.8),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Outrage / Fusion Bolt,1,1
@@ -238,89 +231,96 @@ Dex,Spawn (base),League / Purpose,Best form & rank,IV target,Moveset,Keep,Total
 647,Keldeo,ML,Keldeo (Ordinary) #54 (score 83.9),IV% ≥96% or 15 ATK  (high ATK),Low Kick / Aqua Jet / Sacred Sword,1,2
 ,,ML,Keldeo (Resolute) #39 (score 86.3),IV% ≥96% or 15 ATK  (high ATK),Low Kick / Secret Sword / Aqua Jet,1,
 648,Meloetta,ML,Meloetta (Aria) #26 (score 88.5),IV% ≥96% or 15 ATK  (high ATK),Confusion / Psyshock / Dazzling Gleam,1,1
-659,Bunnelby,GL,Diggersby #41 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Fire Punch / Scorching Sands,1,1
-661,Fletchling,LC,Fletchling #37 (score 77.9),Rank ≤ #100  (low ATK / high bulk),Quick Attack / Fly / Aerial Ace,1,5
-,,GL,Talonflame #34 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Incinerate / Fly / Brave Bird,1,
-,,UL,Talonflame #24 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Incinerate / Fly / Brave Bird,1,
-,,GL,Talonflame (Shadow) #54 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Incinerate / Flame Charge / Fly,1,
-,,UL,Talonflame (Shadow) #35 (score 90),Rank ≤ #100  (low ATK / high bulk),Incinerate / Fly / Brave Bird,1,
-669,Flabebe,GL,Florges #45 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Chilling Water / Disarming Voice,1,3
-,,UL,Florges #6 (score 92.9),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Chilling Water / Disarming Voice,1,
+653,Fennekin,LC,Fennekin #38 (score 77.4),Rank ≤ #100  (low ATK / high bulk),Ember / Psyshock / Flame Charge,1,1
+659,Bunnelby,GL,Diggersby #44 (score 89.6),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Fire Punch / Scorching Sands,1,1
+661,Fletchling,GL,Talonflame #35 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Incinerate / Fly / Brave Bird,1,4
+,,UL,Talonflame #32 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Incinerate / Fly / Brave Bird,1,
+,,GL,Talonflame (Shadow) #56 (score 89.3),Rank ≤ #100  (low ATK / high bulk),Incinerate / Flame Charge / Fly,1,
+,,UL,Talonflame (Shadow) #37 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Incinerate / Flame Charge / Fly,1,
+667,Litleo,LC,Litleo #43 (score 76.3),Rank ≤ #100  (low ATK / high bulk),Incinerate / Crunch / Flame Charge,1,1
+669,Flabebe,GL,Florges #51 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Chilling Water / Disarming Voice,1,3
+,,UL,Florges #6 (score 93),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Chilling Water / Disarming Voice,1,
 ,,ML,Florges #36 (score 86.8),IV% ≥96% or 15 ATK  (high ATK),Fairy Wind / Moonblast / Chilling Water,1,
-679,Honedge,GL,Aegislash (Blade) #65 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Aegislash Charge Psycho Cut / Shadow Ball / Gyro Ball,1,2
-,,GL,Doublade #92 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Sacred Sword / Gyro Ball,1,
-682,Spritzee,UL,Aromatisse #63 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Psyshock / Moonblast,1,1
-686,Inkay,GL,Malamar #58 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Psywave / Super Power / Foul Play,1,4
-,,UL,Malamar #29 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Psywave / Foul Play / Super Power,1,
+679,Honedge,GL,Aegislash (Blade) #67 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Aegislash Charge Psycho Cut / Shadow Ball / Gyro Ball,1,2
+,,GL,Doublade #94 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Sacred Sword / Gyro Ball,1,
+682,Spritzee,UL,Aromatisse #64 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Psyshock / Moonblast,1,1
+686,Inkay,GL,Malamar #59 (score 89.1),Rank ≤ #100  (low ATK / high bulk),Psywave / Super Power / Foul Play,1,4
+,,UL,Malamar #26 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Psywave / Super Power / Foul Play,1,
 ,,GL,Malamar (Shadow) #76 (score 88.2),Rank ≤ #100  (low ATK / high bulk),Psywave / Foul Play / Super Power,1,
-,,UL,Malamar (Shadow) #26 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Psywave / Foul Play / Super Power,1,
-690,Skrelp,UL,Dragalge #82 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Aqua Tail / Outrage,1,1
-698,Amaura,LC,Amaura #33 (score 78.3),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Ancient Power,1,3
-,,UL,Aurorus #81 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Meteor Beam,1,
-,,UL,Aurorus (Shadow) #96 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Meteor Beam,1,
-704,Goomy,UL,Goodra #87 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Power Whip,1,3
+,,UL,Malamar (Shadow) #29 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Psywave / Foul Play / Super Power,1,
+688,Binacle,LC,Binacle #15 (score 85.8),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Ancient Power / Cross Chop,1,1
+690,Skrelp,UL,Dragalge #81 (score 88.1),Rank ≤ #100  (low ATK / high bulk),Acid / Aqua Tail / Outrage,1,2
+,,LC,Skrelp #1 (score 95.9),Rank ≤ #100  (low ATK / high bulk),Acid / Aqua Tail / Sludge Bomb,1,
+698,Amaura,UL,Aurorus #84 (score 88),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Meteor Beam,1,2
+,,UL,Aurorus (Shadow) #96 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Powder Snow / Weather Ball Ice / Meteor Beam,1,
+704,Goomy,UL,Goodra #76 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Aqua Tail / Thunder Punch,1,3
 ,,ML,Goodra #53 (score 83.9),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Aqua Tail / Draco Meteor,1,
-,,GL,Sliggoo #37 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Body Slam / Dragon Pulse,1,
-710,Pumpkaboo,GL,Gourgeist (Average) #86 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,4
-,,GL,Gourgeist (Large) #82 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,
-,,GL,Gourgeist (Small) #97 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,
+,,GL,Sliggoo #38 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Body Slam / Dragon Pulse,1,
+710,Pumpkaboo,GL,Gourgeist (Average) #90 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,8
+,,GL,Gourgeist (Large) #86 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,
+,,GL,Gourgeist (Small) #99 (score 87.4),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,
 ,,GL,Gourgeist (Super) #87 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Incinerate / Shadow Ball / Seed Bomb,1,
+,,LC,Pumpkaboo (Average) #9 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Astonish / Grass Knot / Foul Play,1,
+,,LC,Pumpkaboo (Large) #11 (score 87.2),Rank ≤ #100  (low ATK / high bulk),Astonish / Grass Knot / Foul Play,1,
+,,LC,Pumpkaboo (Small) #12 (score 86.5),Rank ≤ #100  (low ATK / high bulk),Astonish / Grass Knot / Foul Play,1,
+,,LC,Pumpkaboo (Super) #5 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Astonish / Grass Knot / Foul Play,1,
 716,Xerneas,ML,Xerneas #6 (score 94.8),IV% ≥96% or 15 ATK  (high ATK),Geomancy / Close Combat / Moonblast,1,1
 717,Yveltal,ML,Yveltal #22 (score 89.6),IV% ≥96% or 15 ATK  (high ATK),Sucker Punch / Dark Pulse / Oblivion Wing,1,1
-718,Zygarde,UL,Zygarde (Complete Forme) #13 (score 91.6),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Crunch / Earthquake,1,2
+718,Zygarde,UL,Zygarde (Complete Forme) #16 (score 91.7),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Crunch / Earthquake,1,2
 ,,ML,Zygarde (Complete Forme) #25 (score 88.6),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Crunch / Earthquake,1,
 721,Volcanion,ML,Volcanion #62 (score 81.8),IV% ≥96% or 15 ATK  (high ATK),Incinerate / Scald / Earth Power,1,1
-728,Popplio,UL,Primarina #71 (score 88.4),Rank ≤ #100  (low ATK / high bulk),Waterfall / Disarming Voice / Hydro Cannon,1,2
+728,Popplio,UL,Primarina #74 (score 88.5),Rank ≤ #100  (low ATK / high bulk),Waterfall / Disarming Voice / Hydro Cannon,1,2
 ,,ML,Primarina #49 (score 84.6),IV% ≥96% or 15 ATK  (high ATK),Waterfall / Disarming Voice / Hydro Cannon,1,
-731,Pikipek,UL,Toucannon #62 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Peck / Beak Blast / Drill Peck,1,2
-,,UL,Toucannon (Shadow) #66 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Peck / Beak Blast / Drill Peck,1,
-736,Grubbin,GL,Charjabug #62 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Volt Switch / X Scissor / Discharge,1,1
-747,Mareanie,GL,Toxapex #100 (score 87.2),Rank ≤ #100  (low ATK / high bulk),Poison Jab / Brine / Sludge Wave,1,1
-765,Oranguru,GL,Oranguru #85 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Confusion / Brutal Swing / Trailblaze,1,2
-,,UL,Oranguru #47 (score 89.5),Rank ≤ #100  (low ATK / high bulk),Confusion / Brutal Swing / Trailblaze,1,
-767,Wimpod,UL,Golisopod #64 (score 88.7),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Aqua Jet,1,1
-776,Turtonator,GL,Turtonator #80 (score 88),Rank ≤ #100  (low ATK / high bulk),Incinerate / Brutal Swing / Dragon Claw,1,2
-,,UL,Turtonator #56 (score 89),Rank ≤ #100  (low ATK / high bulk),Incinerate / Brutal Swing / Dragon Claw,1,
-778,Mimikyu,GL,Mimikyu (Busted) #1 (score 95.9),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Shadow Sneak / Play Rough,1,2
+731,Pikipek,UL,Toucannon #69 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Peck / Beak Blast / Drill Peck,1,2
+,,UL,Toucannon (Shadow) #70 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Peck / Beak Blast / Drill Peck,1,
+736,Grubbin,GL,Charjabug #61 (score 89),Rank ≤ #100  (low ATK / high bulk),Volt Switch / X Scissor / Discharge,1,1
+751,Dewpider,LC,Dewpider #8 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Bug Bite / Mirror Coat / Bubble Beam,1,1
+753,Fomantis,LC,Fomantis #4 (score 89.4),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / Leaf Blade / Trailblaze,1,1
+765,Oranguru,GL,Oranguru #83 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Confusion / Brutal Swing / Trailblaze,1,2
+,,UL,Oranguru #47 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Confusion / Brutal Swing / Trailblaze,1,
+767,Wimpod,UL,Golisopod #65 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Fury Cutter / X Scissor / Aqua Jet,1,1
+776,Turtonator,GL,Turtonator #82 (score 88),Rank ≤ #100  (low ATK / high bulk),Incinerate / Brutal Swing / Dragon Claw,1,2
+,,UL,Turtonator #60 (score 89),Rank ≤ #100  (low ATK / high bulk),Incinerate / Brutal Swing / Dragon Claw,1,
+778,Mimikyu,GL,Mimikyu (Busted) #5 (score 92.2),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Shadow Sneak / Play Rough,1,2
 ,,UL,Mimikyu (Busted) #1 (score 95.9),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Shadow Sneak / Play Rough,1,
-782,Jangmo-o,UL,Kommo-o #91 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Clanging Scales / Upper Hand,1,1
+782,Jangmo-o,UL,Kommo-o #92 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Clanging Scales / Upper Hand,1,1
 786,Tapu Lele,ML,Tapu Lele #51 (score 84.4),IV% ≥96% or 15 ATK  (high ATK),Astonish / Psyshock / Natures Madness,1,1
 789,Cosmog,ML,Lunala #5 (score 94.8),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Shadow Ball / Moonblast,1,2
 ,,ML,Solgaleo #37 (score 86.8),IV% ≥96% or 15 ATK  (high ATK),Fire Spin / Psychic Fangs / Iron Head,1,
-799,Guzzlord,GL,Guzzlord #24 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Brutal Swing / Sludge Bomb,1,2
-,,UL,Guzzlord #73 (score 88.3),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Brutal Swing / Dragon Claw,1,
+799,Guzzlord,GL,Guzzlord #25 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Brutal Swing / Sludge Bomb,1,2
+,,UL,Guzzlord #62 (score 88.9),Rank ≤ #100  (low ATK / high bulk),Dragon Tail / Brutal Swing / Sludge Bomb,1,
 800,Necrozma,ML,Necrozma (Dawn Wings) #21 (score 89.6),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Dark Pulse / Moongeist Beam,1,2
 ,,ML,Necrozma (Dusk Mane) #31 (score 87.7),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Dark Pulse / Sunsteel Strike,1,
 802,Marshadow,ML,Marshadow #13 (score 92.6),IV% ≥96% or 15 ATK  (high ATK),Shadow Claw / Close Combat / Ice Punch,1,1
-808,Meltan,GL,Melmetal #78 (score 88),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Double Iron Bash / Dynamic Punch,1,3
-,,UL,Melmetal #70 (score 88.5),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Double Iron Bash / Dynamic Punch,1,
+808,Meltan,GL,Melmetal #79 (score 88),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Double Iron Bash / Dynamic Punch,1,3
+,,UL,Melmetal #72 (score 88.6),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Double Iron Bash / Dynamic Punch,1,
 ,,ML,Melmetal #38 (score 86.6),IV% ≥96% or 15 ATK  (high ATK),Thunder Shock / Double Iron Bash / Dynamic Punch,1,
-819,Skwovet,GL,Greedent #39 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Body Slam / Trailblaze,1,1
-821,Rookidee,GL,Corviknight #19 (score 90.8),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,4
+810,Grookey,LC,Grookey #34 (score 77.9),Rank ≤ #100  (low ATK / high bulk),Razor Leaf / Grass Knot / Energy Ball,1,1
+819,Skwovet,GL,Greedent #40 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Mud Shot / Body Slam / Trailblaze,1,1
+821,Rookidee,GL,Corviknight #20 (score 90.7),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,4
 ,,UL,Corviknight #3 (score 93.4),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,
-,,GL,Corviknight (Shadow) #26 (score 90.3),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,
+,,GL,Corviknight (Shadow) #29 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,
 ,,UL,Corviknight (Shadow) #5 (score 93.1),Rank ≤ #100  (low ATK / high bulk),Sand Attack / Air Cutter / Payback,1,
-859,Impidimp,GL,Morgrem #94 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Foul Play / Play Rough,1,1
-877,Morpeko,GL,Morpeko (Hangry) #84 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Aura Wheel Electric / Psychic Fangs,1,1
+827,Nickit,GL,Thievul #43 (score 89.7),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Night Slash / Icy Wind,1,1
+845,Cramorant,GL,Cramorant #13 (score 91.1),Rank ≤ #100  (low ATK / high bulk),Peck / Dive / Fly,1,2
+,,UL,Cramorant #27 (score 90.6),Rank ≤ #100  (low ATK / high bulk),Peck / Dive / Fly,1,
+859,Impidimp,GL,Morgrem #95 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Foul Play / Play Rough,1,1
+877,Morpeko,GL,Morpeko (Hangry) #80 (score 88),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Aura Wheel Electric / Psychic Fangs,1,1
 888,Zacian,ML,Zacian (Crowned Sword) #1 (score 99),IV% ≥96% or 15 ATK  (high ATK),Metal Claw / Close Combat / Behemoth Blade,1,1
 889,Zamazenta,ML,Zamazenta (Crowned Shield) #9 (score 93.9),IV% ≥96% or 15 ATK  (high ATK),Ice Fang / Close Combat / Behemoth Bash,1,1
 890,Eternatus,ML,Eternatus #15 (score 91.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Tail / Dynamax Cannon / Flamethrower,1,1
 891,Kubfu,ML,Urshifu (Rapid Strike) #71 (score 80.4),IV% ≥96% or 15 ATK  (high ATK),Waterfall / Aqua Jet / Dynamic Punch,1,2
 ,,ML,Urshifu (Single Strike) #64 (score 81.1),IV% ≥96% or 15 ATK  (high ATK),Sucker Punch / Dynamic Punch / Payback,1,
-895,Regidrago,UL,Regidrago #30 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Energy / Vice Grip,1,1
+895,Regidrago,UL,Regidrago #31 (score 90.5),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Dragon Energy / Vice Grip,1,1
 905,Enamorus,ML,Enamorus (Therian) #74 (score 80.1),IV% ≥96% or 15 ATK  (high ATK),Fairy Wind / Mystical Fire / Moonblast,1,1
-909,Fuecoco,UL,Skeledirge #94 (score 87.6),Rank ≤ #100  (low ATK / high bulk),Incinerate / Torch Song / Shadow Ball,1,1
-915,Lechonk,LC,Lechonk #43 (score 77.2),Rank ≤ #100  (low ATK / high bulk),Tackle / Body Slam / Dig,1,3
-,,GL,Oinkologne (Female) #36 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Trailblaze,1,
-,,UL,Oinkologne (Female) #88 (score 87.7),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Trailblaze,1,
-917,Tarountula,GL,Spidops #99 (score 87.3),Rank ≤ #100  (low ATK / high bulk),Shadow Claw / Lunge / Rock Tomb,1,1
-938,Tadbulb,UL,Bellibolt #33 (score 90.2),Rank ≤ #100  (low ATK / high bulk),Sucker Punch / Parabolic Charge / Zap Cannon,1,1
-957,Tinkatink,GL,Tinkaton #3 (score 92.6),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Gigaton Hammer / Bulldoze,1,2
+909,Fuecoco,UL,Skeledirge #99 (score 87.5),Rank ≤ #100  (low ATK / high bulk),Incinerate / Torch Song / Shadow Ball,1,1
+915,Lechonk,GL,Oinkologne (Female) #37 (score 89.9),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Trailblaze,1,2
+,,UL,Oinkologne (Female) #90 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Body Slam / Trailblaze,1,
+938,Tadbulb,UL,Bellibolt #38 (score 90.1),Rank ≤ #100  (low ATK / high bulk),Thunder Shock / Zap Cannon / Parabolic Charge,1,1
+957,Tinkatink,GL,Tinkaton #2 (score 92.6),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Gigaton Hammer / Bulldoze,1,2
 ,,UL,Tinkaton #4 (score 93.2),Rank ≤ #100  (low ATK / high bulk),Fairy Wind / Gigaton Hammer / Bulldoze,1,
-968,Orthworm,UL,Orthworm #61 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Rock Tomb / Earthquake,1,1
-971,Greavard,LC,Greavard #26 (score 79.4),Rank ≤ #100  (low ATK / high bulk),Lick / Psychic Fangs / Shadow Ball,1,1
-977,Dondozo,GL,Dondozo #81 (score 87.9),Rank ≤ #100  (low ATK / high bulk),Waterfall / Surf / Outrage,1,2
-,,UL,Dondozo #28 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Waterfall / Surf / Outrage,1,
-996,Frigibax,ML,Baxcalibur #69 (score 80.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Glaive Rush / Avalanche,1,2
-,,LC,Frigibax #36 (score 78),Rank ≤ #100  (low ATK / high bulk),Dragon Breath / Avalanche / Dragon Claw,1,
+968,Orthworm,UL,Orthworm #68 (score 88.8),Rank ≤ #100  (low ATK / high bulk),Mud Slap / Rock Tomb / Earthquake,1,1
+977,Dondozo,GL,Dondozo #85 (score 87.8),Rank ≤ #100  (low ATK / high bulk),Waterfall / Surf / Outrage,1,2
+,,UL,Dondozo #35 (score 90.4),Rank ≤ #100  (low ATK / high bulk),Waterfall / Surf / Outrage,1,
+996,Frigibax,ML,Baxcalibur #69 (score 80.4),IV% ≥96% or 15 ATK  (high ATK),Dragon Breath / Glaive Rush / Avalanche,1,1
 999,Gimmighoul,ML,Gholdengo #34 (score 87),IV% ≥96% or 15 ATK  (high ATK),Hex / Shadow Ball / Focus Blast,1,1
