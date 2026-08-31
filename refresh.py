@@ -9,21 +9,32 @@ refresh is reproducible instead of a pile of hand edits. See REFRESH.md for the
 full runbook (and for the one source that must be updated by hand).
 
 Usage:
-    python3 refresh.py            # fetch pvpoke sources, then rebuild all pages
+    python3 refresh.py            # fetch pvpoke + PGHub sources, then rebuild
     python3 refresh.py --no-fetch # skip the download, just rebuild from data/
     python3 refresh.py --check    # report what would change, download nothing
 
-What it CAN refresh automatically (pvpoke, public + reachable):
-    data/gamemaster.json                     species, forms, tags, movesets
-    data/rankings-little.json   (CP 500)     Little Cup overall ranking
-    data/rankings-great.json    (CP 1500)    Great League overall ranking
-    data/rankings-ultra.json    (CP 2500)    Ultra League overall ranking
-    data/rankings-master.json   (CP 10000)   Master League overall ranking
+What it refreshes automatically:
+    data/gamemaster.json                     species, forms, tags, movesets   (pvpoke)
+    data/rankings-little.json   (CP 500)     Little Cup overall ranking       (pvpoke)
+    data/rankings-great.json    (CP 1500)    Great League overall ranking     (pvpoke)
+    data/rankings-ultra.json    (CP 2500)    Ultra League overall ranking     (pvpoke)
+    data/rankings-master.json   (CP 10000)   Master League overall ranking    (pvpoke)
+    data/pve_type_ranks_raw.json             PvE per-type raid boards         (PGHub)
 
-What it can NOT (PvE per-type raid boards): data/pve_type_ranks_raw.json comes
-from db.pokemongohub.net, which blocks automated access (403) and is denied by
-this environment's egress policy. That board is what ranks the Fire/Water/...
-raid attackers, so it must be refreshed by hand — REFRESH.md, step 2.
+The pvpoke files live on raw.githubusercontent.com (public, plain JSON) and are
+fetched with urllib. The PGHub best-per-type boards render client-side (the served
+HTML has no ranking in it), so they need a real browser: this uses Playwright, and
+only when it's importable. Playwright is an OPTIONAL dependency — if it's missing
+(or PGHub is unreachable, e.g. a cloud sandbox's egress policy blocks it), the PvE
+step degrades gracefully: it prints one-time setup instructions, keeps the existing
+data/pve_type_ranks_raw.json untouched, and you fall back to REFRESH.md step 2
+(update that file by hand). See REFRESH.md for the full runbook.
+
+One-time Playwright setup (so `python3 refresh.py` refreshes PGHub too):
+    python3 -m venv .venv
+    .venv/bin/pip install playwright
+    .venv/bin/playwright install chromium
+then run refreshes with  .venv/bin/python refresh.py  (or activate the venv first).
 """
 import json
 import os
@@ -37,6 +48,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 
 PVPOKE = "https://raw.githubusercontent.com/pvpoke/pvpoke/master/src/data"
+
+# PGHub best-per-type raid-attacker boards. Each type -> ordered list of "<dex>[-<Form>]"
+# tokens (position = rank), taken from the /pokemon/<token> hrefs on the rendered board.
+PGHUB_BOARD = "https://db.pokemongohub.net/pokemon-list/best-per-type/{type}"
+PVE_TYPES = [
+    "normal", "fire", "water", "electric", "grass", "ice", "fighting", "poison",
+    "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark",
+    "steel", "fairy",
+]
+PVE_RAW = "pve_type_ranks_raw.json"
+PVE_KEEP_TOP = 50  # entries kept per type (the file's existing convention)
 
 # local filename -> (upstream url, quick sanity predicate on the parsed JSON)
 SOURCES = {
@@ -136,6 +158,98 @@ def top_species_of(parsed):
     return None
 
 
+def fetch_pve_board(page, tp):
+    """Render one PGHub best-per-type board and return its ordered token list.
+
+    The board is client-rendered, so we load the page, wait for the ranking anchors
+    to hydrate, and read the "<dex>[-<Form>]" suffix off each /pokemon/<token> href
+    (top -> bottom = best -> worst). Returns [] if the list never populated."""
+    page.goto(PGHUB_BOARD.format(type=tp), wait_until="domcontentloaded", timeout=60_000)
+    # wait until the list has hydrated (>= 40 attacker links) rather than a fixed sleep
+    page.wait_for_function(
+        "() => document.querySelectorAll('a[href*=\"/pokemon/\"]').length >= 40",
+        timeout=30_000,
+    )
+    hrefs = page.eval_on_selector_all(
+        'a[href*="/pokemon/"]',
+        "els => els.map(e => e.getAttribute('href').replace('/pokemon/',''))",
+    )
+    return hrefs[:PVE_KEEP_TOP]
+
+
+def refresh_pve_boards(check_only):
+    """Refresh data/pve_type_ranks_raw.json from the live PGHub boards via Playwright.
+
+    Optional + fail-soft: if Playwright isn't installed or PGHub can't be reached, we
+    print what to do and leave the committed file untouched (REFRESH.md step 2 covers
+    the by-hand fallback). Never raises — a blocked PvE refresh must not abort the run."""
+    dest = os.path.join(DATA, PVE_RAW)
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  ! Playwright not installed — skipping PGHub PvE refresh, keeping the")
+        print("    existing data/pve_type_ranks_raw.json (update by hand per REFRESH.md")
+        print("    step 2, or install it once:  python3 -m venv .venv &&")
+        print("    .venv/bin/pip install playwright && .venv/bin/playwright install chromium)")
+        return []
+
+    try:
+        before = json.load(open(dest))
+    except (OSError, ValueError):
+        before = {}
+
+    boards, failures = {}, []
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch()
+            page = browser.new_page()
+            for tp in PVE_TYPES:
+                try:
+                    arr = fetch_pve_board(page, tp)
+                except Exception as e:  # noqa: BLE001 - one type failing shouldn't sink the rest
+                    print(f"  ! {tp}: PGHub fetch failed ({type(e).__name__}) — keeping existing")
+                    failures.append(tp)
+                    continue
+                if len(arr) < 40:
+                    print(f"  ! {tp}: only {len(arr)} entries rendered (expected ~50) — keeping existing")
+                    failures.append(tp)
+                    continue
+                boards[tp] = arr
+                b0 = (before.get(tp) or [None])[0]
+                mark = "" if b0 == arr[0] else f"   [#1: {b0} -> {arr[0]}]"
+                print(f"  - {tp}: {len(arr)} attackers{mark}" if check_only
+                      else f"  * {tp}: {len(arr)} attackers{mark}")
+            browser.close()
+    except Exception as e:  # noqa: BLE001 - launch/connection failure -> whole step degrades
+        print(f"  ! PGHub PvE refresh unavailable ({type(e).__name__}: {e}) — keeping existing file")
+        return []
+
+    if failures and boards:
+        # keep the old ordering for any type we couldn't re-fetch, refresh the rest
+        for tp in failures:
+            if tp in before:
+                boards[tp] = before[tp]
+
+    if not boards or len(boards) < len(PVE_TYPES):
+        missing = [t for t in PVE_TYPES if t not in boards]
+        if missing:
+            print(f"  ! incomplete PvE refresh (missing {', '.join(missing)}) — file left unchanged")
+            return []
+
+    if check_only:
+        return []
+
+    # atomic replace, same discipline as the pvpoke sources
+    ordered = {tp: boards[tp] for tp in PVE_TYPES}  # keep the canonical type order
+    fd, tmp = tempfile.mkstemp(dir=DATA, prefix=PVE_RAW + ".", suffix=".tmp")
+    with os.fdopen(fd, "w") as fh:
+        json.dump(ordered, fh, indent=2)
+        fh.write("\n")
+    os.replace(tmp, dest)
+    print(f"  * {PVE_RAW}: updated (18 types)")
+    return [PVE_RAW]
+
+
 def rebuild():
     for script in BUILDERS:
         print(f"  $ python3 {script}")
@@ -155,16 +269,14 @@ def main(argv):
     if not no_fetch:
         print("== 1. Refresh pvpoke sources ==")
         refresh_sources(check_only)
+        print("\n== 2. Refresh PGHub PvE per-type raid boards ==")
+        refresh_pve_boards(check_only)
         if check_only:
             print("\n(--check: nothing written, nothing rebuilt.)")
             return
     else:
         print("== 1. Skipped source fetch (--no-fetch) ==")
-
-    print("\n== 2. PvE per-type raid boards (manual) ==")
-    print("   data/pve_type_ranks_raw.json is from db.pokemongohub.net, which blocks")
-    print("   automated access. It is NOT refreshed here — see REFRESH.md step 2 if the")
-    print("   raid-attacker ranks (e.g. the #1 Fire attacker) look out of date.")
+        print("== 2. Skipped PGHub PvE refresh (--no-fetch) ==")
 
     print("\n== 3. Rebuild all pages ==")
     rebuild()
