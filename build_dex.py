@@ -298,18 +298,31 @@ h.append(f'<div class=ss2>'
          f'</div>')
 h.append(f"<div class=ss><b>Everything else</b> (negated Raid/Master list)"
          f"<div class=codewrap>{COPYBTN}<pre>{hineg_join}&!3*</pre></div></div>")
-# Raid/Master list with the capped-PvP families removed (set difference).
-cap_set = set(capped_fams)
+# Raid/Master list with the capped-PvP families removed (set difference), shown next to the
+# same list with raid-locked rarities (legendary / mythical / UB) also removed — so the right
+# column is the purely catchable, non-PvP raid/Master attackers you can farm high-ATK copies of.
+rare_fams = uniq(r["name"] for r in rows if r["rare"])
+cap_set, rare_set = set(capped_fams), set(rare_fams)
 raid_minus_capped = [n for n in highiv_fams if n not in cap_set]
+raid_minus_capped_no_rare = [n for n in raid_minus_capped if n not in rare_set]
 rmc_join = ",".join("+" + sn(n) for n in raid_minus_capped)
-h.append(f"<div class=ss><b>Raid (PvE) / Master minus Capped-PvP candidates</b> "
-         "(Raid/Master list with capped-PvP families removed)"
-         f"<div class=codewrap>{COPYBTN}<pre>{rmc_join}</pre></div></div>")
+rmc_nr_join = ",".join("+" + sn(n) for n in raid_minus_capped_no_rare)
+h.append(f"<p class=note>{len(raid_minus_capped)} Raid/Master families aren't capped-PvP "
+         f"candidates; of those, <b>{len(raid_minus_capped_no_rare)}</b> are freely catchable once "
+         f"the {len(raid_minus_capped) - len(raid_minus_capped_no_rare)} legendary / mythical / UB "
+         "(raid-locked) families are also removed.</p>")
+h.append(f'<div class=ss2>'
+         f'<div class=ss><b>Raid (PvE) / Master minus Capped-PvP candidates</b> '
+         f'(Raid/Master list with capped-PvP families removed)'
+         f'<div class=codewrap>{COPYBTN}<pre>{rmc_join}</pre></div></div>'
+         f'<div class=ss><b>Raid (PvE) / Master minus Capped-PvP, no legendary/mythical/UB</b> '
+         f'(also removes raid-locked rarities)'
+         f'<div class=codewrap>{COPYBTN}<pre>{rmc_nr_join}</pre></div></div>'
+         f'</div>')
 # Combined: negate the capped-PvP list AND negate the Raid/Master list AND negate every
 # raid-locked rarity (legendary / mythical / ultra beast), de-duplicated (a family appearing
 # in more than one of those groups is negated once) so the string keeps only the pure,
 # freely-catchable collection families.
-rare_fams = uniq(r["name"] for r in rows if r["rare"])
 combined_fams = uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
 combined_neg = "&".join("!+" + sn(n) for n in combined_fams)
 h.append(f"<p class=note>{len(combined_fams)} families are either a keeper "
