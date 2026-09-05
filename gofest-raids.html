@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GO Fest Raid Cheat Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --ground:#f3f1ec; --panel:#fbfaf7; --panel-2:#efece4; --ink:#1a1e24; --ink-2:#565d68;
+  --ink-3:#8a8f98; --line:#e2ddd3; --line-2:#d3cdc0;
+  --mega:#0e9c92; --mega-bg:#dcf3f0; --mega-ink:#065e58;
+  --super:#c47a12; --super-bg:#f8ebd2; --super-ink:#7a4c05;
+  --t-elite:#0f8f4c; --t-strong:#2a78d6; --t-niche:#8a7a2a; --t-skip:#a2988a;
+  --elite-bg:#e4f2e6; --strong-bg:#e4eefb; --niche-bg:#f2eed9; --skip-bg:#ece8e0;
+  --radius:12px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#12151a; --panel:#191d24; --panel-2:#20252d; --ink:#eef1f4; --ink-2:#a7aeb8;
+  --ink-3:#727a85; --line:#2a2f38; --line-2:#353b45;
+  --mega:#3ccabd; --mega-bg:#0f2b29; --mega-ink:#8fe3da;
+  --super:#e8a94a; --super-bg:#33260f; --super-ink:#f4cf95;
+  --t-elite:#57c983; --t-strong:#5b9ef0; --t-niche:#cdb45a; --t-skip:#8a8378;
+  --elite-bg:#122a1c; --strong-bg:#12233a; --niche-bg:#2a2410; --skip-bg:#23262c;
+}}
+:root[data-theme="dark"]{
+  --ground:#12151a; --panel:#191d24; --panel-2:#20252d; --ink:#eef1f4; --ink-2:#a7aeb8;
+  --ink-3:#727a85; --line:#2a2f38; --line-2:#353b45;
+  --mega:#3ccabd; --mega-bg:#0f2b29; --mega-ink:#8fe3da;
+  --super:#e8a94a; --super-bg:#33260f; --super-ink:#f4cf95;
+  --t-elite:#57c983; --t-strong:#5b9ef0; --t-niche:#cdb45a; --t-skip:#8a8378;
+  --elite-bg:#122a1c; --strong-bg:#12233a; --niche-bg:#2a2410; --skip-bg:#23262c;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:620px;margin:0 auto;padding:22px 16px 48px}
+header.top{margin-bottom:18px}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mega);margin:0 0 6px}
+h1{font-family:"Chakra Petch",sans-serif;font-weight:700;font-size:30px;line-height:1.05;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--ink-2);font-size:14px;margin:8px 0 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin:16px 0 4px;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);font-size:12.5px}
+.legend b{font-weight:600}
+.lg{display:inline-flex;align-items:center;gap:6px;color:var(--ink-2)}
+.dot{width:10px;height:10px;border-radius:50%;flex:none}
+.tag{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.05em;padding:2px 7px;border-radius:999px;text-transform:uppercase;white-space:nowrap}
+.tag.mega{background:var(--mega-bg);color:var(--mega-ink)}
+.tag.super{background:var(--super-bg);color:var(--super-ink)}
+.tag.star{background:var(--panel-2);color:var(--ink-2)}
+
+.day{font-family:"Chakra Petch",sans-serif;font-weight:600;font-size:15px;letter-spacing:.03em;text-transform:uppercase;
+  color:var(--ink);margin:30px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--line-2);display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.day .when{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;letter-spacing:0;text-transform:none;color:var(--ink-3)}
+.day.today .badge{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;color:var(--mega-ink);background:var(--mega-bg);padding:2px 8px;border-radius:999px;letter-spacing:.04em}
+
+.slot{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);margin:0 0 12px;overflow:hidden}
+.slot-hd{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px 14px;background:var(--panel-2);border-bottom:1px solid var(--line)}
+.slot-name{font-family:"Chakra Petch",sans-serif;font-weight:600;font-size:15px;letter-spacing:.01em}
+.slot-time{font-family:"IBM Plex Mono",monospace;font-size:11.5px;color:var(--ink-2);text-align:right;white-space:nowrap}
+.rows{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:10px;padding:10px 14px 10px 12px;border-left:4px solid var(--tier);border-bottom:1px solid var(--line)}
+.row:last-child{border-bottom:none}
+.rank{font-family:"IBM Plex Mono",monospace;font-weight:600;text-align:center;background:var(--tier-bg);color:var(--tier);border-radius:8px;padding:5px 4px;line-height:1.15}
+.rank .n{font-size:16px;display:block}
+.rank .tp{font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;opacity:.9}
+.nm{min-width:0}
+.nm .name{font-weight:600;font-size:15px}
+.nm .meta{font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.tier-el{--tier:var(--t-elite);--tier-bg:var(--elite-bg)}
+.tier-st{--tier:var(--t-strong);--tier-bg:var(--strong-bg)}
+.tier-ni{--tier:var(--t-niche);--tier-bg:var(--niche-bg)}
+.tier-sk{--tier:var(--t-skip);--tier-bg:var(--skip-bg)}
+.always{background:var(--panel);border:1px dashed var(--line-2);border-radius:var(--radius);padding:12px 14px;margin:0 0 12px;display:flex;gap:12px;align-items:center}
+.always .rank{flex:none;width:60px}
+.foot{margin-top:24px;font-size:12px;color:var(--ink-3);line-height:1.6}
+.foot code{font-family:"IBM Plex Mono",monospace;background:var(--panel-2);padding:1px 5px;border-radius:5px;color:var(--ink-2)}
+</style>
+</head>
+<body>
+
+
+<div class="wrap">
+<header class="top">
+  <p class="kicker">GO Fest 2026 · Mega Finale</p>
+  <h1>Raid attacker cheat sheet</h1>
+  <p class="sub">Every habitat boss by time slot, with its best attacking type and raid-attacker rank. All slots repeat: morning &amp; afternoon, local time.</p>
+  <div class="legend">
+    <span class="lg"><span class="dot" style="background:var(--t-elite)"></span><b>Elite</b> top&nbsp;3</span>
+    <span class="lg"><span class="dot" style="background:var(--t-strong)"></span><b>Strong</b> top&nbsp;10</span>
+    <span class="lg"><span class="dot" style="background:var(--t-niche)"></span><b>Niche</b> 11–30</span>
+    <span class="lg"><span class="dot" style="background:var(--t-skip)"></span><b>Skip</b> 30+&nbsp;/&nbsp;none</span>
+    <span class="lg"><span class="tag mega">Mega</span> Mega only</span>
+    <span class="lg"><span class="tag super">Super&nbsp;Mega</span> has Super Mega form</span>
+  </div>
+</header>
+
+<div class="day today">
+  <span>Today · Sat Sep 5</span>
+  <span class="when"><span class="badge">Verdant → Circuit</span></span>
+</div>
+
+<div class="always">
+  <div class="rank tier-el"><span class="n">#1</span><span class="tp">Psy</span></div>
+  <div class="nm"><div class="name">Armored Mewtwo <span class="tag star">5★ · both days</span></div>
+  <div class="meta">10:00 a.m.–6:00 p.m. · not a Mega · no shiny this event</div></div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Verdant Overgrowth</span><span class="slot-time">10–11a &amp; 2–3p<br>Grass · Bug</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#1</span><span class="tp">Bug</span></div><div class="nm"><div class="name">Mega Beedrill</div><div class="meta">Bug #1 · Poison #3 — top Bug attacker</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-el"><div class="rank"><span class="n">#1</span><span class="tp">Poi</span></div><div class="nm"><div class="name">Mega Victreebel</div><div class="meta">Poison #1 · Grass #7 — top Poison attacker</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-el"><div class="rank"><span class="n">#3</span><span class="tp">Bug</span></div><div class="nm"><div class="name">Mega Pinsir</div><div class="meta">Bug #3 — elite Bug</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#9</span><span class="tp">Ice</span></div><div class="nm"><div class="name">Mega Abomasnow</div><div class="meta">Ice #9 · Grass #44 — solid dual-type</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Mindworks Canal</span><span class="slot-time">11a–12p &amp; 3–4p<br>Psychic · Water</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#3</span><span class="tp">Fai</span></div><div class="nm"><div class="name">Mega Alakazam</div><div class="meta">Fairy #3 · Psychic #4 — flex attacker</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-el"><div class="rank"><span class="n">#3</span><span class="tp">Wat</span></div><div class="nm"><div class="name">Mega Starmie</div><div class="meta">Water #3 — elite Water</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#28</span><span class="tp">Wat</span></div><div class="nm"><div class="name">Mega Slowbro</div><div class="meta">Water #28 — niche</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">—</span><span class="tp">n/a</span></div><div class="nm"><div class="name">Mega Medicham</div><div class="meta">Outside top 50 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Eerie Alley</span><span class="slot-time">12–1p &amp; 4–5p<br>Ghost · Dark</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#1</span><span class="tp">Gho</span></div><div class="nm"><div class="name">Mega Gengar</div><div class="meta">Ghost #1 · Dark #2 · Poison #2 — S-tier</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-el"><div class="rank"><span class="n">#1</span><span class="tp">Dar</span></div><div class="nm"><div class="name">Mega Houndoom</div><div class="meta">Dark #1 · Fire #21 — top Dark attacker</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#6</span><span class="tp">Gho</span></div><div class="nm"><div class="name">Mega Banette</div><div class="meta">Ghost #6 — strong Ghost</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#11</span><span class="tp">Psy</span></div><div class="nm"><div class="name">Mega Malamar</div><div class="meta">Psychic #11 — niche</div></div><span class="tag super">Super Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Circuit Plaza</span><span class="slot-time">1–2p &amp; 5–6p<br>Electric</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#2</span><span class="tp">Ele</span></div><div class="nm"><div class="name">Mega Raichu X</div><div class="meta">Electric #2 — elite Electric</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#5</span><span class="tp">Ele</span></div><div class="nm"><div class="name">Mega Manectric</div><div class="meta">Electric #5 — strong Electric</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#13</span><span class="tp">Ele</span></div><div class="nm"><div class="name">Mega Ampharos</div><div class="meta">Electric #13 · Dark #21 — niche</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="always">
+  <div class="rank tier-el"><span class="n">#1</span><span class="tp">Fig</span></div>
+  <div class="nm"><div class="name">Mega Mewtwo X <span class="tag super">Super Mega · Sat</span></div>
+  <div class="meta">Fighting #1 · Psychic #2 · Ghost #4 · Ice #4 — best Fighting attacker in the game</div></div>
+</div>
+
+<div class="day">
+  <span>Tomorrow · Sun Sep 6</span>
+  <span class="when">Iron Frostworks → Prism Promenade</span>
+</div>
+
+<div class="always">
+  <div class="rank tier-el"><span class="n">#1</span><span class="tp">Psy</span></div>
+  <div class="nm"><div class="name">Armored Mewtwo <span class="tag star">5★ · both days</span></div>
+  <div class="meta">10:00 a.m.–6:00 p.m. · not a Mega · no shiny this event</div></div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Iron Frostworks</span><span class="slot-time">10–11a &amp; 2–3p<br>Steel · Ice</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#2</span><span class="tp">Fly</span></div><div class="nm"><div class="name">Mega Skarmory</div><div class="meta">Flying #2 · Steel #8 — elite Flying</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#10</span><span class="tp">Ice</span></div><div class="nm"><div class="name">Mega Glalie</div><div class="meta">Ice #10 — strong Ice</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#15</span><span class="tp">Ste</span></div><div class="nm"><div class="name">Mega Aggron</div><div class="meta">Steel #15 · Rock #19 — niche</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">#34</span><span class="tp">Ste</span></div><div class="nm"><div class="name">Mega Steelix</div><div class="meta">Steel #34 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Battle District</span><span class="slot-time">11a–12p &amp; 3–4p<br>Fighting · Ground · Dark</span></div>
+  <div class="rows">
+    <div class="row tier-st"><div class="rank"><span class="n">#4</span><span class="tp">Fig</span></div><div class="nm"><div class="name">Mega Falinks</div><div class="meta">Fighting #4 — strong Fighting</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#17</span><span class="tp">Wat</span></div><div class="nm"><div class="name">Mega Sharpedo</div><div class="meta">Water #17 · Dark #19 — niche flex</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#15</span><span class="tp">Nor</span></div><div class="nm"><div class="name">Mega Lopunny</div><div class="meta">Normal #15 · Fighting #20 — niche</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">#34</span><span class="tp">Gro</span></div><div class="nm"><div class="name">Mega Camerupt</div><div class="meta">Ground #34 · Fire #39 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Skyline Roosts</span><span class="slot-time">12–1p &amp; 4–5p<br>Flying · Dragon</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#3</span><span class="tp">Dra</span></div><div class="nm"><div class="name">Mega Dragonite</div><div class="meta">Dragon #3 — elite Dragon</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#5</span><span class="tp">Roc</span></div><div class="nm"><div class="name">Mega Aerodactyl</div><div class="meta">Rock #5 — strong Rock</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-st"><div class="rank"><span class="n">#7</span><span class="tp">Wat</span></div><div class="nm"><div class="name">Mega Gyarados</div><div class="meta">Water #7 · Dark #13 — strong flex</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-ni"><div class="rank"><span class="n">#24</span><span class="tp">Fai</span></div><div class="nm"><div class="name">Mega Altaria</div><div class="meta">Fairy #24 · Dragon #50 — niche</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="slot">
+  <div class="slot-hd"><span class="slot-name">Prism Promenade</span><span class="slot-time">1–2p &amp; 5–6p<br>Fairy · Dark</span></div>
+  <div class="rows">
+    <div class="row tier-el"><div class="rank"><span class="n">#1</span><span class="tp">Ele</span></div><div class="nm"><div class="name">Mega Raichu Y</div><div class="meta">Electric #1 — top Electric attacker</div></div><span class="tag super">Super Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">#36</span><span class="tp">Fai</span></div><div class="nm"><div class="name">Mega Mawile</div><div class="meta">Fairy #36 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">—</span><span class="tp">n/a</span></div><div class="nm"><div class="name">Mega Sableye</div><div class="meta">Outside top 50 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+    <div class="row tier-sk"><div class="rank"><span class="n">—</span><span class="tp">n/a</span></div><div class="nm"><div class="name">Mega Audino</div><div class="meta">Outside top 50 — energy/dex only</div></div><span class="tag mega">Mega</span></div>
+  </div>
+</div>
+
+<div class="always">
+  <div class="rank tier-el"><span class="n">#1</span><span class="tp">Psy</span></div>
+  <div class="nm"><div class="name">Mega Mewtwo Y <span class="tag super">Super Mega · Sun</span></div>
+  <div class="meta">Psychic #1 · Ice #2 · Ghost #3 · Normal #3 — best Psychic attacker in the game</div></div>
+</div>
+
+<p class="foot">Rank = raid-attacker position on that type's <code>best-per-type</code> board (PokémonGO Hub, refreshed 2026-09-05 via pogo-keeper-dex). "Best form" is the Mega itself. The <span class="tag super" style="font-size:9.5px">Super Mega</span> badge marks species that have a Super Mega form released in-game (from the <code>supermega</code> tag in the game master); the rest are Mega-only. Skip-tier bosses are still worth one pass for Mega Energy, the dex, or a shiny. Mega Mewtwo X/Y run as the actual Super Mega Raids at select gyms during Finale hours; Armored Mewtwo runs 5★ all day both days.</p>
+</div>
+
+</body>
+</html>
