@@ -74,6 +74,12 @@ LOW, HIGH = "low ATK / high bulk", "high ATK"
 # only obtainable from raids (or research) and should be excluded from the 'everything else'
 # collection string regardless of whether they have a listed PvP/PvE usage.
 RARE_TAGS = {"legendary", "mythical", "ultrabeast", "wildlegendary"}
+# Of those, these three have a native Pokémon GO search keyword (!legendary / !mythical /
+# !ultra beast), so their family names can be dropped from negation strings and covered by the
+# keyword instead — critical for staying under PoGo's ~2000-char search-bar limit. A raid-locked
+# family whose only rare tag is outside this set (e.g. wildlegendary-only) has no keyword and must
+# still be listed by name.
+KW_TAGS = {"legendary", "mythical", "ultrabeast"}
 
 # Real per-type PvE raid-attacker ranks from PGHub (data/pve_type_ranks.json via
 # pve_ranks.by_dex()), attached by member dex. Replaces the old curated TOP_PVE dict
@@ -126,7 +132,9 @@ for key, members in fams.items():
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
-    rare = any(RARE_TAGS & set(m.get("tags") or []) for m in members)
+    fam_tags = set().union(*[set(m.get("tags") or []) for m in members]) if members else set()
+    rare = bool(RARE_TAGS & fam_tags)
+    kw = bool(KW_TAGS & fam_tags)  # covered by a native PoGo !legendary/!mythical/!ultra beast keyword
     # High-attack (ML/PvE) usage split by shadow: a family has a NON-shadow high-attack usage
     # (Master or PvE via a non-shadow form) vs. is shadow-only (its only top ML/PvE form is a
     # shadow — e.g. Kingler/Vikavolt) and so belongs in the 'shadowed version' search string.
@@ -140,7 +148,7 @@ for key, members in fams.items():
     cap_sh_only = bool(cv) and not ns_capped
     rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
                  "chain": chain, "total": len(usages), "rare": rare,
-                 "ns_highiv": ns_highiv, "sh_only": sh_only,
+                 "ns_highiv": ns_highiv, "sh_only": sh_only, "kw": kw,
                  "ns_capped": ns_capped, "cap_sh_only": cap_sh_only})
     for m in members:
         if m is not anchor and m["dex"] - adex > FAR:
@@ -320,19 +328,33 @@ h.append(f'<div class=ss2>'
          f'<div class=codewrap>{COPYBTN}<pre>{rmc_nr_join}</pre></div></div>'
          f'</div>')
 # Combined: negate the capped-PvP list AND negate the Raid/Master list AND negate every
-# raid-locked rarity (legendary / mythical / ultra beast), de-duplicated (a family appearing
-# in more than one of those groups is negated once) so the string keeps only the pure,
-# freely-catchable collection families.
-combined_fams = uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
-combined_neg = "&".join("!+" + sn(n) for n in combined_fams)
-h.append(f"<p class=note>{len(combined_fams)} families are either a keeper "
-         "(capped-PvP <b>or</b> Raid/Master) <b>or</b> a raid-locked rarity "
-         f"(legendary / mythical / ultra beast — {len(rare_fams)} families), de-duplicated "
-         f"(plus always-keep: {', '.join(ALWAYS_KEEP)}). "
+# raid-locked rarity, de-duplicated, so the string keeps only the pure, freely-catchable
+# collection families. Families covered by a native PoGo keyword (legendary / mythical /
+# ultra beast) are dropped from the by-name list and negated with the keyword instead — a
+# family listed once by name costs ~10 chars, and there are enough keepers that spelling out
+# all ~78 raid-locked families overflows PoGo's ~2000-char search-bar limit (the tail — e.g.
+# !+Froakie / Greninja — then silently truncates, so top attackers wrongly survive the filter).
+# Any raid-locked family with no keyword (e.g. wildlegendary-only) is still listed by name.
+kw_fams = set(uniq(r["name"] for r in rows if r["kw"]))
+rare_nokw_fams = uniq(r["name"] for r in rows if r["rare"] and not r["kw"])
+combined_named = [n for n in uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
+                  if n not in kw_fams]
+KW_NEG = "!legendary&!mythical&!ultra beast"
+combined_neg = "&".join("!+" + sn(n) for n in combined_named) + "&" + KW_NEG
+rare_nokw_note = (f" The {len(rare_nokw_fams)} raid-locked families with no keyword "
+                  f"({', '.join(rare_nokw_fams)}) are kept by name." if rare_nokw_fams else "")
+h.append(f"<p class=note>{len(combined_named)} keeper families are negated by name, plus every "
+         f"legendary / mythical / ultra beast via the <code>!legendary&amp;!mythical&amp;!ultra beast</code> "
+         f"keywords (covering {len(kw_fams)} raid-locked families) — this keeps the string under PoGo's "
+         f"~2000-char limit (plus always-keep: {', '.join(ALWAYS_KEEP)}).{rare_nokw_note} "
          "Negating all of them leaves only the freely-catchable, pure-collection families.</p>")
+combined_full = f"{combined_neg}&!3*&!4*"
+if len(combined_full) > 1950:
+    print(f"      WARNING: 'Neither' search string is {len(combined_full)} chars (>1950) — "
+          "may hit PoGo's ~2000-char limit")
 h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
-         "(all three lists negated, de-duplicated)"
-         f"<div class=codewrap>{COPYBTN}<pre>{combined_neg}&!3*&!4*</pre></div></div>")
+         "(keeper lists negated + raid-locked via keywords, de-duplicated)"
+         f"<div class=codewrap>{COPYBTN}<pre>{combined_full}</pre></div></div>")
 h.append(
     '<div class=views role=tablist aria-label="Dex views">'
     '<button class="view on" data-view=all>All families</button>'
