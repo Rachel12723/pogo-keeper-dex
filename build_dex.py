@@ -17,6 +17,13 @@ import json
 import os
 import re
 
+from pvp_ivs import iv_target
+
+# CP caps for the capped leagues whose IV target we compute a real rank-1 spread
+# for (instead of the generic "low ATK / high bulk"). Little Cup stays generic
+# and Master stays "high ATK".
+IV_CAP = {"great": 1500, "ultra": 2500}
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 FAR = 5
@@ -104,9 +111,15 @@ for key, members in fams.items():
         fid = m["speciesId"]
         for pref, vid in [("", fid), ("Shadow ", fid + "_shadow")]:
             for k, r in ranks(vid):
+                if k in IV_CAP and m.get("baseStats"):
+                    iv = iv_target(m["baseStats"], IV_CAP[k], shadow=(pref == "Shadow "))
+                elif k == "master":
+                    iv = HIGH
+                else:
+                    iv = LOW
                 usages.append({"kind": 0, "ord": LORDER[k], "rank": r, "lp": SHORT[k],
                                "best": f'{pref}{m["speciesName"]} #{r}', "shadow": pref == "Shadow ",
-                               "iv": LOW if k != "master" else HIGH, "moves": mvpool[k][vid]})
+                               "iv": iv, "moves": mvpool[k][vid]})
     # PvE raid-attacker lines: attach by member dex. A family can have two lines per type — its
     # non-shadow form and its (non-tradeable) shadow form — so key by (type, shadow), best rank.
     member_dexes = {m["dex"] for m in members}
@@ -366,6 +379,12 @@ h.append(
     '<span class=viewcount id=viewcount></span></div>'
     '<p class=note id=viewhint>Showing every family. Each view below is a strict subset '
     'of this same list — the rows are identical, only filtered.</p>')
+h.append('<p class=note><b>IV target</b>: Great &amp; Ultra rows show the actual rank-1 spread '
+         '(atk/def/hp) that maximizes stat product under that league\'s CP cap — computed from base '
+         'stats, so it matches what Poke Genie reports. It is per-species and per-league: an undersized '
+         'species that can\'t reach the cap wants <b>15/15/15</b> (e.g. Altaria in Ultra), while a big '
+         'one wants low ATK / high bulk. When the level-50 and level-51 (best-buddy) spreads differ, both '
+         'are shown. Little Cup shows the generic <i>low ATK / high bulk</i>; Master shows <i>high ATK</i>.</p>')
 h.append('<table><thead><tr><th></th><th>Spawn</th><th>League / Purpose</th><th>Best form &amp; rank</th>'
          '<th>IV target</th><th>Moveset</th><th>Keep</th><th>Total</th></tr></thead>')
 def fam_cats(r):
