@@ -13,6 +13,10 @@ python3 refresh.py        # re-pull pvpoke + PGHub sources, rebuild every page
 git diff                  # review — see "Verify" below
 ```
 
+Each pvpoke refresh also appends a dated entry to `data/CHANGELOG.md` (rank movers,
+top-30 in/out, pool changes, move/species/stat changes), since the overwrite
+keeps no history of its own.
+
 `refresh.py` now refreshes **both** sources: the pvpoke league data (step 1) and
 the PGHub PvE per-type raid boards (step 2). The PGHub step needs Playwright — a
 one-time setup (see step 2). If Playwright isn't installed, that step is skipped

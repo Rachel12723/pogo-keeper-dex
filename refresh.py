@@ -41,6 +41,7 @@ import os
 import subprocess
 import sys
 import tempfile
+import datetime
 import urllib.error
 import urllib.request
 
@@ -57,6 +58,7 @@ PVE_TYPES = [
     "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark",
     "steel", "fairy",
 ]
+CHANGELOG = os.path.join(DATA, "CHANGELOG.md")
 PVE_RAW = "pve_type_ranks_raw.json"
 PVE_KEEP_TOP = 50  # entries kept per type (the file's existing convention)
 
@@ -119,9 +121,14 @@ def top_species(path):
 
 def refresh_sources(check_only):
     changed = []
+    diffs = []
     for name, (url, ok) in SOURCES.items():
         dest = os.path.join(DATA, name)
         before = top_species(dest)
+        try:
+            old_parsed = json.load(open(dest))
+        except (OSError, ValueError):
+            old_parsed = None
         try:
             raw = fetch(url)
         except (urllib.error.URLError, OSError) as e:
@@ -147,7 +154,102 @@ def refresh_sources(check_only):
         os.replace(tmp, dest)
         print(f"  * {name}: updated ({len(raw):,} bytes){mark}")
         changed.append(name)
+        diffs.append((name, old_parsed, parsed))
+    write_changelog(diffs)
     return changed
+
+
+LEAGUE_LABEL = {"rankings-little.json": "Little Cup (CP 500)",
+                "rankings-great.json": "Great League (CP 1500)",
+                "rankings-ultra.json": "Ultra League (CP 2500)",
+                "rankings-master.json": "Master League (CP 10000)"}
+MOVE_FIELDS = ("power", "energy", "energyGain", "cooldown", "buffs")
+
+
+def diff_rankings(old, new):
+    ids_o = [x["speciesId"] for x in old]
+    ids_n = [x["speciesId"] for x in new]
+    ro = {s: i + 1 for i, s in enumerate(ids_o)}
+    rn = {s: i + 1 for i, s in enumerate(ids_n)}
+    out = []
+    if ids_o[:10] != ids_n[:10]:
+        out.append(f"- Top 10: {', '.join(ids_o[:10])}  ->  {', '.join(ids_n[:10])}")
+    top_in = [s for s in ids_n[:30] if ro.get(s, 10**9) > 30]
+    top_out = [s for s in ids_o[:30] if rn.get(s, 10**9) > 30]
+    if top_in or top_out:
+        out.append(f"- Top 30 in: {', '.join(top_in) or '-'}; out: {', '.join(top_out) or '-'}")
+    added = [s for s in ids_n if s not in ro]
+    removed = [s for s in ids_o if s not in rn]
+    if added or removed:
+        out.append(f"- Pool added: {', '.join(added) or '-'}; removed: {', '.join(removed) or '-'}")
+    movers = sorted(((abs(ro[s] - rn[s]), s) for s in rn if s in ro and min(ro[s], rn[s]) <= 50),
+                    reverse=True)[:8]
+    movers = [f"{s} #{ro[s]}->#{rn[s]}" for d, s in movers if d >= 5]
+    if movers:
+        out.append(f"- Biggest top-50 movers: {', '.join(movers)}")
+    return out
+
+
+def diff_gamemaster(old, new):
+    out = []
+    mo = {m["moveId"]: m for m in old.get("moves", [])}
+    mn = {m["moveId"]: m for m in new.get("moves", [])}
+    new_moves = [k for k in mn if k not in mo]
+    if new_moves:
+        out.append(f"- New moves: {', '.join(new_moves)}")
+    for k, m in mn.items():
+        if k in mo:
+            d = [f"{f} {mo[k].get(f)}->{m.get(f)}" for f in MOVE_FIELDS if mo[k].get(f) != m.get(f)]
+            if d:
+                out.append(f"- Move {k}: {'; '.join(d)}")
+    so = {m["speciesId"]: m for m in old.get("pokemon", [])}
+    sn = {m["speciesId"]: m for m in new.get("pokemon", [])}
+    new_sp = [k for k in sn if k not in so]
+    if new_sp:
+        out.append(f"- New species/forms: {', '.join(new_sp)}")
+    for k, m in sn.items():
+        if k in so:
+            d = []
+            if so[k].get("baseStats") != m.get("baseStats"):
+                d.append(f"stats {so[k].get('baseStats')}->{m.get('baseStats')}")
+            for f, label in (("fastMoves", "fast"), ("chargedMoves", "charged")):
+                a, b = set(so[k].get(f, [])), set(m.get(f, []))
+                if a != b:
+                    d.append(f"{label} +{sorted(b - a)} -{sorted(a - b)}")
+            if d:
+                out.append(f"- Species {k}: {'; '.join(d)}")
+    return out
+
+
+def write_changelog(diffs):
+    """Prepend a dated entry to data/CHANGELOG.md describing what this refresh changed
+    (rank movements per league + gamemaster move/species/stat changes), so the history
+    that the overwrite would otherwise lose is kept. Git history has the raw files."""
+    sections = []
+    for name, old, new in diffs:
+        if old is None:
+            continue
+        try:
+            lines = (diff_gamemaster(old, new) if name == "gamemaster.json"
+                     else diff_rankings(old, new))
+        except (KeyError, TypeError, AttributeError):
+            continue
+        if lines:
+            title = "Gamemaster (moves / species)" if name == "gamemaster.json" else LEAGUE_LABEL.get(name, name)
+            sections.append(f"### {title}\n" + "\n".join(lines))
+    if not sections:
+        print("  = changelog: no source changes")
+        return
+    entry = f"## {datetime.date.today().isoformat()}\n\n" + "\n\n".join(sections) + "\n"
+    head = "# Data changelog\n\nWhat each `refresh.py` run changed in the pvpoke sources, newest first.\n\n"
+    try:
+        prev = open(CHANGELOG).read()
+        prev = prev[len(head):] if prev.startswith(head) else prev
+    except OSError:
+        prev = ""
+    with open(CHANGELOG, "w") as fh:
+        fh.write(head + entry + ("\n" + prev if prev else ""))
+    print(f"  * changelog: entry written to {os.path.relpath(CHANGELOG, HERE)}")
 
 
 def top_species_of(parsed):
