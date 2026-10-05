@@ -32,9 +32,14 @@ LEAGUES = [("little", "LC", 50), ("great", "GL", 100), ("ultra", "UL", 100), ("m
 LORDER = {k: i for i, (k, _s, _c) in enumerate(LEAGUES)}
 SHORT = {k: s for k, s, _c in LEAGUES}
 
+# Shadow-TM list: a species' shadow form counts as "used" if it is top-100 in ANY league
+# (independent of the per-league cuts above) or is a PvE raid attacker (see PVE usages below).
+SHADOW_TM_CUT = 100
+shadow_top = set()
 pool, mvpool = {}, {}
 for key, _s, cut in LEAGUES:
     arr = json.load(open(os.path.join(DATA, f"rankings-{key}.json")))
+    shadow_top |= {e["speciesId"] for e in arr[:SHADOW_TM_CUT] if e["speciesId"].endswith("_shadow")}
     pool[key] = {e["speciesId"]: i + 1 for i, e in enumerate(arr[:cut])}
     mvpool[key] = {e["speciesId"]: " / ".join(m.replace("_", " ").title() for m in e.get("moveset", []))
                    for e in arr[:cut]}
@@ -159,7 +164,10 @@ for key, members in fams.items():
     cv = [u for u in usages if u["lp"] in ("LC", "GL", "UL")]
     ns_capped = any(not u["shadow"] for u in cv)
     cap_sh_only = bool(cv) and not ns_capped
-    rows.append({"dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
+    # shadow form has usage -> worth a TM to replace Frustration (any league top-100, or PvE shadow)
+    shadow_tm = any(m["speciesId"] + "_shadow" in shadow_top for m in members) \
+        or any(u["shadow"] for u in usages if u["lp"] == "PvE")
+    rows.append({"shadow_tm": shadow_tm, "dex": adex, "name": aname, "sid": anchor["speciesId"], "usages": usages,
                  "chain": chain, "total": len(usages), "rare": rare,
                  "ns_highiv": ns_highiv, "sh_only": sh_only, "kw": kw,
                  "ns_capped": ns_capped, "cap_sh_only": cap_sh_only})
@@ -293,6 +301,19 @@ h.append(f'<div class=ss2>'
          f'<div class=ss><b>Capped-PvP — shadowed version</b> (only their shadow form has usage)'
          f'<div class=codewrap>{COPYBTN}<pre>{cap_sh_join}&shadow&0-1attack&3-4defense&3-4hp</pre></div></div>'
          f'</div>')
+# Shadows whose usage justifies a TM to replace Frustration: names + shadow + @2frustration
+# (the shadow still carries Frustration as its 2nd/charged move).
+shadow_tm_fams = uniq(r["name"] for r in rows if r["shadow_tm"])
+shadow_tm_join = ",".join("+" + sn(n) for n in shadow_tm_fams)
+shadow_tm_str = f"{shadow_tm_join}&shadow&@2frustration"
+h.append(f"<p class=note><b>{len(shadow_tm_fams)}</b> families have a shadow form with usage (top-{SHADOW_TM_CUT} "
+         "in any league, or a PvE raid attacker). This finds their shadows that still have "
+         "<b>Frustration</b> — candidates for a Charged TM.</p>")
+h.append(f'<div class=ss><b>Shadows with usage — still have Frustration</b> (TM candidates)'
+         f'<div class=codewrap>{COPYBTN}<pre>{shadow_tm_str}</pre></div></div>')
+if len(shadow_tm_str) > 1950:
+    print(f"      WARNING: shadow-TM search string is {len(shadow_tm_str)} chars (>1950) — "
+          "will be truncated by the PoGo search bar")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
 highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
