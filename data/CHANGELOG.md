@@ -2,6 +2,29 @@
 
 What each `refresh.py` run changed in the pvpoke sources, newest first.
 
+## 2026-10-10
+
+### Gamemaster (moves / species)
+- New species/forms: zekrom_shadow, pancham_shadow, pangoro_shadow, sliggoo_hisuian, goodra_hisuian, fomantis_shadow, lurantis_shadow, wimpod_shadow, golisopod_shadow, sandygast_shadow, palossand_shadow
+- Species zoroark: fast +['SUCKER_PUNCH'] -[]
+
+### Great League (CP 1500)
+- Top 10: melmetal, altaria, ninetales_shadow, cramorant, tinkaton, mimikyu, corviknight, corsola_galarian, altaria_shadow, corviknight_shadow  ->  melmetal, altaria, ninetales_shadow, cramorant, mimikyu, tinkaton, altaria_shadow, corsola_galarian, corviknight, florges
+- Top 30 in: hydreigon_shadow, annihilape, azumarill, electrode_hisuian; out: empoleon_shadow, mantine, araquanid_shadow, feraligatr
+- Pool added: golisopod_shadow, lurantis_shadow, pangoro_shadow, zekrom_shadow, pancham_shadow, palossand_shadow, sandygast_shadow; removed: golisopodsh
+- Biggest top-50 movers: hydreigon_shadow #56->#16, carbink #46->#35, furret #43->#50, feraligatr #30->#37, empoleon_shadow #24->#31, empoleon #23->#30, snorlax_shadow #40->#46, mantine #26->#32
+
+### Ultra League (CP 2500)
+- Top 10: tinkaton, corviknight, snorlax_shadow, corviknight_shadow, melmetal, virizion, zygarde_complete, empoleon, empoleon_shadow, mimikyu  ->  tinkaton, corviknight, snorlax_shadow, corviknight_shadow, zygarde_complete, virizion, mimikyu, florges, moltres_galarian, empoleon
+- Top 30 in: giratina_altered_shadow, regidrago; out: blastoise, ninetales_alolan_shadow
+- Pool added: golisopod_shadow, pangoro_shadow, zekrom_shadow, lurantis_shadow, palossand_shadow; removed: -
+- Biggest top-50 movers: swampert #48->#63, toucannon_shadow #63->#50, toucannon #49->#39, milotic_shadow #50->#60, melmetal #5->#12, blastoise #29->#35, forretress_shadow #39->#44
+
+### Master League (CP 10000)
+- Top 10: palkia_origin, zacian_crowned_sword, zygarde_complete, metagross, kyurem_white, xerneas, kyogre, dialga_origin, reshiram, ursaluna  ->  palkia_origin, zacian_crowned_sword, zygarde_complete, metagross, kyurem_white, reshiram, xerneas, kyogre, dialga_origin, eternatus
+- Top 30 in: zekrom_shadow; out: garchomp
+- Pool added: zekrom_shadow, golisopod_shadow, pangoro_shadow; removed: -
+
 ## 2026-10-01
 
 ### Gamemaster (moves / species)
