@@ -2,6 +2,20 @@
 
 What each `refresh.py` run changed in the pvpoke sources, newest first.
 
+## 2026-10-18
+
+### Great League (CP 1500)
+- Top 10: melmetal, altaria, ninetales_shadow, cramorant, mimikyu, tinkaton, altaria_shadow, corsola_galarian, corviknight, florges  ->  melmetal, altaria, ninetales_shadow, cramorant, tinkaton, corviknight, mimikyu, corsola_galarian, altaria_shadow, corviknight_shadow
+- Top 30 in: empoleon_shadow, mantine, araquanid_shadow; out: annihilape, azumarill, electrode_hisuian
+- Pool added: brambleghast; removed: -
+- Biggest top-50 movers: carbink #35->#44, annihilape #25->#33, snorlax_shadow #46->#40, morpeko_full_belly #48->#54, empoleon_shadow #31->#25, empoleon #30->#24, electrode_hisuian #29->#35, umbreon #24->#29
+
+### Ultra League (CP 2500)
+- Top 10: tinkaton, corviknight, snorlax_shadow, corviknight_shadow, zygarde_complete, virizion, mimikyu, florges, moltres_galarian, empoleon  ->  tinkaton, corviknight, snorlax_shadow, corviknight_shadow, melmetal, virizion, empoleon, empoleon_shadow, mimikyu, zygarde_complete
+- Top 30 in: blastoise, forretress; out: giratina_altered_shadow, regidrago
+- Pool added: brambleghast; removed: -
+- Biggest top-50 movers: toucannon_shadow #50->#63, toucannon #39->#49, melmetal #12->#5, blastoise #35->#29, zygarde_complete #5->#10, seaking #48->#43, forretress_shadow #44->#39
+
 ## 2026-10-10
 
 ### Gamemaster (moves / species)
