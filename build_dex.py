@@ -170,7 +170,7 @@ for key, members in fams.items():
     # High-attack (ML/PvE) usage split by shadow: a family has a NON-shadow high-attack usage
     # (Master or PvE via a non-shadow form) vs. is shadow-only (its only top ML/PvE form is a
     # shadow — e.g. Kingler/Vikavolt) and so belongs in the 'shadowed version' search string.
-    hv = [u for u in usages if u["lp"] in ("ML", "PvE", "Max")]
+    hv = [u for u in usages if u["lp"] in ("ML", "PvE")]
     ns_highiv = any(not u["shadow"] for u in hv)
     sh_only = bool(hv) and not ns_highiv
     # Same split for capped-league (LC/GL/UL) usage: a family with a non-shadow capped usage vs.
@@ -276,8 +276,8 @@ are kept too (with no 3rd number) — e.g. <code>Ice #5, #1</code> = Shadow Mamo
 = Mamoswine. Owned legendaries are kept if in the top-20 overall (rank only).
 A <span class="lg Max">Max</span> line flags a top <b>Max Battle</b> (Dynamax / Gigantamax) attacker of a type — the top 5
 families per type on <a href="https://db.pokemongohub.net/pokemon-list/best-dynamax-per-type/fire">PGHub's Max board</a>,
-with its tier (SS best) and its fast + Max move. Like raid attackers they want <b>high ATK</b>, so they count toward the
-Raid / Master search strings. The <b>moves</b> column on a PvE / Max line is that board's best moveset.</p>
+with its tier (SS best) and its fast + Max move. They want <b>high ATK</b> but are tracked separately from raid attackers (own search
+string and view). The <b>moves</b> column on a PvE / Max line is that board's best moveset.</p>
 """]
 def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legendaries share a name)
     seen, out = set(), []
@@ -334,7 +334,7 @@ if len(shadow_tm_str) > 1950:
           "will be truncated by the PoGo search bar")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
-highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE", "Max") for u in r["usages"]))
+highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
 hineg_join = "&".join("!+" + sn(n) for n in highiv_fams)
 # Split the Raid/Master high-IV list by shadow. Shadow can't be traded, so a family whose only
 # top ML/PvE form is a shadow (Master shadow-only, or a shadow-reliant PvE attacker like Kingler
@@ -379,6 +379,14 @@ h.append(f'<div class=ss2>'
          f'(also removes raid-locked rarities)'
          f'<div class=codewrap>{COPYBTN}<pre>{rmc_nr_join}</pre></div></div>'
          f'</div>')
+# Max Battle (Dynamax / G-Max) attackers: their own group, NOT part of the Raid/Master strings.
+max_fams = uniq(r["name"] for r in rows if any(u["lp"] == "Max" for u in r["usages"]))
+max_join = ",".join("+" + sn(n) for n in max_fams)
+h.append(f"<p class=note><b>{len(max_fams)}</b> families are top Max Battle attackers of a type "
+         "(top 5 families per type on PGHub's Dynamax board). They want <b>high ATK</b>; this is kept "
+         "separate from the Raid/Master lists above.</p>")
+h.append(f'<div class=ss><b>Max Battle attackers — high ATK</b> (Dynamax / Gigantamax)'
+         f'<div class=codewrap>{COPYBTN}<pre>{max_join}&3*,4*</pre></div></div>')
 # Combined: negate the capped-PvP list AND negate the Raid/Master list AND negate every
 # raid-locked rarity, de-duplicated, so the string keeps only the pure, freely-catchable
 # collection families. Families covered by a native PoGo keyword (legendary / mythical /
@@ -389,7 +397,7 @@ h.append(f'<div class=ss2>'
 # Any raid-locked family with no keyword (e.g. wildlegendary-only) is still listed by name.
 kw_fams = set(uniq(r["name"] for r in rows if r["kw"]))
 rare_nokw_fams = uniq(r["name"] for r in rows if r["rare"] and not r["kw"])
-combined_named = [n for n in uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
+combined_named = [n for n in uniq(list(capped_fams) + list(highiv_fams) + list(max_fams) + list(rare_fams) + ALWAYS_KEEP)
                   if n not in kw_fams]
 KW_NEG = "!legendary&!mythical&!ultra beast"
 combined_neg = "&".join("!+" + sn(n) for n in combined_named) + "&" + KW_NEG
@@ -404,7 +412,7 @@ combined_full = f"{combined_neg}&!3*&!4*"
 if len(combined_full) > 1950:
     print(f"      WARNING: 'Neither' search string is {len(combined_full)} chars (>1950) — "
           "may hit PoGo's ~2000-char limit")
-h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
+h.append(f"<div class=ss><b>Neither Capped-PvP, Raid/Master nor Max, no legendary/mythical/UB</b> "
          "(keeper lists negated + raid-locked via keywords, de-duplicated)"
          f"<div class=codewrap>{COPYBTN}<pre>{combined_full}</pre></div></div>")
 h.append(
@@ -413,6 +421,7 @@ h.append(
     '<button class=view data-view=capped>Capped-PvP</button>'
     '<button class=view data-view=raid>Raid / Master</button>'
     '<button class=view data-view=raidonly>Raid / Master − Capped</button>'
+    '<button class=view data-view=max>Max Battle</button>'
     '<button class=view data-view=rare>Legendary / Mythical / UB</button>'
     '<button class=view data-view=collection>Collection only</button>'
     '<span class=viewcount id=viewcount></span></div>'
@@ -430,8 +439,9 @@ def fam_cats(r):
     """Space-separated category tokens for a family — drives the client-side view tabs.
     Mirrors the search-string groupings exactly so each view is a strict subset."""
     capped = any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])
-    raid = any(u["lp"] in ("ML", "PvE", "Max") for u in r["usages"])
+    raid = any(u["lp"] in ("ML", "PvE") for u in r["usages"])
     rare = bool(r["rare"])
+    mx = any(u["lp"] == "Max" for u in r["usages"])
     cats = []
     if capped:
         cats.append("capped")
@@ -439,9 +449,11 @@ def fam_cats(r):
         cats.append("raid")
     if raid and not capped:
         cats.append("raidonly")
+    if mx:
+        cats.append("max")
     if rare:
         cats.append("rare")
-    if not capped and not raid and not rare:
+    if not capped and not raid and not mx and not rare:
         cats.append("collection")
     return " ".join(cats)
 
@@ -486,8 +498,9 @@ h.append("""<script>
     capped:'Capped-PvP candidates — families with a LC/GL/UL usage (breed for low ATK / high bulk).',
     raid:'Raid (PvE) / Master-league families — want high ATK / hundo.',
     raidonly:'Raid/Master families that are NOT also Capped-PvP candidates.',
+    max:'Top Max Battle (Dynamax / Gigantamax) attackers — want high ATK; separate from Raid / Master.',
     rare:'Legendary / Mythical / Ultra Beast families (raid-locked rarities).',
-    collection:'Neither Capped-PvP nor Raid/Master, and not a legendary/mythical/UB — the freely-catchable collection.'};
+    collection:'Neither Capped-PvP, Raid/Master nor Max, and not a legendary/mythical/UB — the freely-catchable collection.'};
   var hint=document.getElementById('viewhint');
   function apply(v){
     var shown=0;
