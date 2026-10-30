@@ -397,7 +397,7 @@ h.append(f'<div class=ss><b>Max Battle attackers — high ATK</b> (Dynamax / Gig
 # Any raid-locked family with no keyword (e.g. wildlegendary-only) is still listed by name.
 kw_fams = set(uniq(r["name"] for r in rows if r["kw"]))
 rare_nokw_fams = uniq(r["name"] for r in rows if r["rare"] and not r["kw"])
-combined_named = [n for n in uniq(list(capped_fams) + list(highiv_fams) + list(max_fams) + list(rare_fams) + ALWAYS_KEEP)
+combined_named = [n for n in uniq(list(capped_fams) + list(highiv_fams) + list(rare_fams) + ALWAYS_KEEP)
                   if n not in kw_fams]
 KW_NEG = "!legendary&!mythical&!ultra beast"
 combined_neg = "&".join("!+" + sn(n) for n in combined_named) + "&" + KW_NEG
@@ -412,7 +412,7 @@ combined_full = f"{combined_neg}&!3*&!4*"
 if len(combined_full) > 1950:
     print(f"      WARNING: 'Neither' search string is {len(combined_full)} chars (>1950) — "
           "may hit PoGo's ~2000-char limit")
-h.append(f"<div class=ss><b>Neither Capped-PvP, Raid/Master nor Max, no legendary/mythical/UB</b> "
+h.append(f"<div class=ss><b>Neither Capped-PvP nor Raid/Master, no legendary/mythical/UB</b> "
          "(keeper lists negated + raid-locked via keywords, de-duplicated)"
          f"<div class=codewrap>{COPYBTN}<pre>{combined_full}</pre></div></div>")
 h.append(
@@ -453,7 +453,7 @@ def fam_cats(r):
         cats.append("max")
     if rare:
         cats.append("rare")
-    if not capped and not raid and not mx and not rare:
+    if not capped and not raid and not rare:
         cats.append("collection")
     return " ".join(cats)
 
@@ -500,7 +500,7 @@ h.append("""<script>
     raidonly:'Raid/Master families that are NOT also Capped-PvP candidates.',
     max:'Top Max Battle (Dynamax / Gigantamax) attackers — want high ATK; separate from Raid / Master.',
     rare:'Legendary / Mythical / Ultra Beast families (raid-locked rarities).',
-    collection:'Neither Capped-PvP, Raid/Master nor Max, and not a legendary/mythical/UB — the freely-catchable collection.'};
+    collection:'Neither Capped-PvP nor Raid/Master, and not a legendary/mythical/UB (Max-only families stay here — the game marks Max Pokémon in your inventory) — the freely-catchable collection.'};
   var hint=document.getElementById('viewhint');
   function apply(v){
     var shown=0;
