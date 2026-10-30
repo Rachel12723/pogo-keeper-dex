@@ -1,0 +1,2494 @@
+{
+ "normal": [
+  {
+   "token": "143-Gigantamax",
+   "name": "Gigantamax Snorlax",
+   "tier": "SS",
+   "fast": "Lick",
+   "max": "G-Max Replenish",
+   "dmg": "244"
+  },
+  {
+   "token": "555-Dynamax",
+   "name": "Dynamax Darmanitan",
+   "tier": "S",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "214"
+  },
+  {
+   "token": "818-Dynamax",
+   "name": "Dynamax Inteleon",
+   "tier": "S",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "213"
+  },
+  {
+   "token": "812-Dynamax",
+   "name": "Dynamax Rillaboom",
+   "tier": "A",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "196"
+  },
+  {
+   "token": "250-Dynamax",
+   "name": "Dynamax Ho-Oh",
+   "tier": "A",
+   "fast": "Hidden Power",
+   "max": "Max Strike",
+   "dmg": "196"
+  },
+  {
+   "token": "815-Dynamax",
+   "name": "Dynamax Cinderace",
+   "tier": "A",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "195"
+  },
+  {
+   "token": "766-Dynamax",
+   "name": "Dynamax Passimian",
+   "tier": "A",
+   "fast": "Take Down",
+   "max": "Max Strike",
+   "dmg": "183"
+  },
+  {
+   "token": "470-Dynamax",
+   "name": "Dynamax Leafeon",
+   "tier": "A",
+   "fast": "Quick Attack",
+   "max": "Max Strike",
+   "dmg": "178"
+  },
+  {
+   "token": "700-Dynamax",
+   "name": "Dynamax Sylveon",
+   "tier": "B",
+   "fast": "Quick Attack",
+   "max": "Max Strike",
+   "dmg": "168"
+  },
+  {
+   "token": "820-Dynamax",
+   "name": "Dynamax Greedent",
+   "tier": "B",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "162"
+  },
+  {
+   "token": "832-Dynamax",
+   "name": "Dynamax Dubwool",
+   "tier": "B",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "161"
+  },
+  {
+   "token": "817-Dynamax",
+   "name": "Dynamax Drizzile",
+   "tier": "B",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "155"
+  },
+  {
+   "token": "569-Dynamax",
+   "name": "Dynamax Garbodor",
+   "tier": "B",
+   "fast": "Take Down",
+   "max": "Max Strike",
+   "dmg": "151"
+  },
+  {
+   "token": "377-Dynamax",
+   "name": "Dynamax Regirock",
+   "tier": "B",
+   "fast": "Lock-On",
+   "max": "Max Strike",
+   "dmg": "150"
+  },
+  {
+   "token": "378-Dynamax",
+   "name": "Dynamax Regice",
+   "tier": "B",
+   "fast": "Lock-On",
+   "max": "Max Strike",
+   "dmg": "150"
+  },
+  {
+   "token": "245-Dynamax",
+   "name": "Dynamax Suicune",
+   "tier": "B",
+   "fast": "Hidden Power",
+   "max": "Max Strike",
+   "dmg": "150"
+  },
+  {
+   "token": "814-Dynamax",
+   "name": "Dynamax Raboot",
+   "tier": "C",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "143"
+  },
+  {
+   "token": "811-Dynamax",
+   "name": "Dynamax Thwackey",
+   "tier": "C",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "139"
+  },
+  {
+   "token": "242-Dynamax",
+   "name": "Dynamax Blissey",
+   "tier": "C",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "133"
+  },
+  {
+   "token": "5-Dynamax",
+   "name": "Dynamax Charmeleon",
+   "tier": "C",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "133"
+  },
+  {
+   "token": "529-Dynamax",
+   "name": "Dynamax Drilbur",
+   "tier": "C",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "130"
+  },
+  {
+   "token": "554-Dynamax",
+   "name": "Dynamax Darumaka",
+   "tier": "C",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "130"
+  },
+  {
+   "token": "52-Gigantamax",
+   "name": "Gigantamax Meowth",
+   "tier": "C",
+   "fast": "Bite",
+   "max": "G-Max Gold Rush",
+   "dmg": "127"
+  },
+  {
+   "token": "140-Dynamax",
+   "name": "Dynamax Kabuto",
+   "tier": "C",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "126"
+  },
+  {
+   "token": "379-Dynamax",
+   "name": "Dynamax Registeel",
+   "tier": "C",
+   "fast": "Lock-On",
+   "max": "Max Strike",
+   "dmg": "122"
+  },
+  {
+   "token": "813-Dynamax",
+   "name": "Dynamax Scorbunny",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "113"
+  },
+  {
+   "token": "816-Dynamax",
+   "name": "Dynamax Sobble",
+   "tier": "D",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "113"
+  },
+  {
+   "token": "133-Dynamax",
+   "name": "Dynamax Eevee",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "110"
+  },
+  {
+   "token": "810-Dynamax",
+   "name": "Dynamax Grookey",
+   "tier": "D",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "106"
+  },
+  {
+   "token": "524-Dynamax",
+   "name": "Dynamax Roggenrola",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "105"
+  },
+  {
+   "token": "519-Dynamax",
+   "name": "Dynamax Pidove",
+   "tier": "D",
+   "fast": "Quick Attack",
+   "max": "Max Strike",
+   "dmg": "105"
+  },
+  {
+   "token": "1-Dynamax",
+   "name": "Dynamax Bulbasaur",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "103"
+  },
+  {
+   "token": "819-Dynamax",
+   "name": "Dynamax Skwovet",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "102"
+  },
+  {
+   "token": "4-Dynamax",
+   "name": "Dynamax Charmander",
+   "tier": "D",
+   "fast": "Scratch",
+   "max": "Max Strike",
+   "dmg": "101"
+  },
+  {
+   "token": "633-Dynamax",
+   "name": "Dynamax Deino",
+   "tier": "D",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "101"
+  },
+  {
+   "token": "686-Dynamax",
+   "name": "Dynamax Inkay",
+   "tier": "E",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "87"
+  },
+  {
+   "token": "568-Dynamax",
+   "name": "Dynamax Trubbish",
+   "tier": "E",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "86"
+  },
+  {
+   "token": "374-Dynamax",
+   "name": "Dynamax Beldum",
+   "tier": "E",
+   "fast": "Take Down",
+   "max": "Max Strike",
+   "dmg": "86"
+  },
+  {
+   "token": "7-Dynamax",
+   "name": "Dynamax Squirtle",
+   "tier": "E",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "84"
+  },
+  {
+   "token": "831-Dynamax",
+   "name": "Dynamax Wooloo",
+   "tier": "E",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "84"
+  },
+  {
+   "token": "113-Dynamax",
+   "name": "Dynamax Chansey",
+   "tier": "E",
+   "fast": "Pound",
+   "max": "Max Strike",
+   "dmg": "70"
+  },
+  {
+   "token": "10-Dynamax",
+   "name": "Dynamax Caterpie",
+   "tier": "F",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "54"
+  },
+  {
+   "token": "11-Dynamax",
+   "name": "Dynamax Metapod",
+   "tier": "F",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "47"
+  },
+  {
+   "token": "349-Dynamax",
+   "name": "Dynamax Feebas",
+   "tier": "F",
+   "fast": "Tackle",
+   "max": "Max Strike",
+   "dmg": "34"
+  }
+ ],
+ "fire": [
+  {
+   "token": "815-Gigantamax",
+   "name": "Gigantamax Cinderace",
+   "tier": "SS",
+   "fast": "Tackle",
+   "max": "G-Max Fireball",
+   "dmg": "300"
+  },
+  {
+   "token": "6-Gigantamax",
+   "name": "Gigantamax Charizard",
+   "tier": "S",
+   "fast": "Dragon Breath",
+   "max": "G-Max Wildfire",
+   "dmg": "283"
+  },
+  {
+   "token": "555-Dynamax",
+   "name": "Dynamax Darmanitan",
+   "tier": "A",
+   "fast": "Fire Fang",
+   "max": "Max Flare",
+   "dmg": "257"
+  },
+  {
+   "token": "146-Dynamax",
+   "name": "Dynamax Moltres",
+   "tier": "B",
+   "fast": "Fire Spin",
+   "max": "Max Flare",
+   "dmg": "246"
+  },
+  {
+   "token": "136-Dynamax",
+   "name": "Dynamax Flareon",
+   "tier": "B",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "241"
+  },
+  {
+   "token": "250-Dynamax",
+   "name": "Dynamax Ho-Oh",
+   "tier": "C",
+   "fast": "Incinerate",
+   "max": "Max Flare",
+   "dmg": "235"
+  },
+  {
+   "token": "815-Dynamax",
+   "name": "Dynamax Cinderace",
+   "tier": "C",
+   "fast": "Fire Spin",
+   "max": "Max Flare",
+   "dmg": "234"
+  },
+  {
+   "token": "244-Dynamax",
+   "name": "Dynamax Entei",
+   "tier": "C",
+   "fast": "Fire Fang",
+   "max": "Max Flare",
+   "dmg": "231"
+  },
+  {
+   "token": "59-Dynamax",
+   "name": "Dynamax Arcanine",
+   "tier": "D",
+   "fast": "Fire Fang",
+   "max": "Max Flare",
+   "dmg": "224"
+  },
+  {
+   "token": "6-Dynamax",
+   "name": "Dynamax Charizard",
+   "tier": "D",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "220"
+  },
+  {
+   "token": "851-Dynamax",
+   "name": "Dynamax Centiskorch",
+   "tier": "D",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "217"
+  },
+  {
+   "token": "814-Dynamax",
+   "name": "Dynamax Raboot",
+   "tier": "E",
+   "fast": "Fire Spin",
+   "max": "Max Flare",
+   "dmg": "171"
+  },
+  {
+   "token": "5-Dynamax",
+   "name": "Dynamax Charmeleon",
+   "tier": "E",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "160"
+  },
+  {
+   "token": "554-Dynamax",
+   "name": "Dynamax Darumaka",
+   "tier": "E",
+   "fast": "Fire Fang",
+   "max": "Max Flare",
+   "dmg": "155"
+  },
+  {
+   "token": "58-Dynamax",
+   "name": "Dynamax Growlithe",
+   "tier": "F",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "140"
+  },
+  {
+   "token": "813-Dynamax",
+   "name": "Dynamax Scorbunny",
+   "tier": "F",
+   "fast": "Fire Spin",
+   "max": "Max Flare",
+   "dmg": "136"
+  },
+  {
+   "token": "850-Dynamax",
+   "name": "Dynamax Sizzlipede",
+   "tier": "F",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "123"
+  },
+  {
+   "token": "4-Dynamax",
+   "name": "Dynamax Charmander",
+   "tier": "F",
+   "fast": "Ember",
+   "max": "Max Flare",
+   "dmg": "121"
+  }
+ ],
+ "water": [
+  {
+   "token": "818-Gigantamax",
+   "name": "Gigantamax Inteleon",
+   "tier": "SS",
+   "fast": "Pound",
+   "max": "G-Max Hydrosnipe",
+   "dmg": "329"
+  },
+  {
+   "token": "99-Gigantamax",
+   "name": "Gigantamax Kingler",
+   "tier": "S",
+   "fast": "Metal Claw",
+   "max": "G-Max Foam Burst",
+   "dmg": "303"
+  },
+  {
+   "token": "818-Dynamax",
+   "name": "Dynamax Inteleon",
+   "tier": "A",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "256"
+  },
+  {
+   "token": "892-Dynamax_Rapid_Strike",
+   "name": "Dynamax Urshifu (Rapid Strike Style)",
+   "tier": "A",
+   "fast": "Waterfall",
+   "max": "Max Geyser",
+   "dmg": "249"
+  },
+  {
+   "token": "99-Dynamax",
+   "name": "Dynamax Kingler",
+   "tier": "B",
+   "fast": "Bubble",
+   "max": "Max Geyser",
+   "dmg": "236"
+  },
+  {
+   "token": "130-Dynamax",
+   "name": "Dynamax Gyarados",
+   "tier": "B",
+   "fast": "Waterfall",
+   "max": "Max Geyser",
+   "dmg": "233"
+  },
+  {
+   "token": "9-Gigantamax",
+   "name": "Gigantamax Blastoise",
+   "tier": "C",
+   "fast": "Bite",
+   "max": "G-Max Cannonade",
+   "dmg": "221"
+  },
+  {
+   "token": "141-Dynamax",
+   "name": "Dynamax Kabutops",
+   "tier": "C",
+   "fast": "Waterfall",
+   "max": "Max Geyser",
+   "dmg": "217"
+  },
+  {
+   "token": "139-Dynamax",
+   "name": "Dynamax Omastar",
+   "tier": "C",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "205"
+  },
+  {
+   "token": "134-Dynamax",
+   "name": "Dynamax Vaporeon",
+   "tier": "C",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "203"
+  },
+  {
+   "token": "350-Dynamax",
+   "name": "Dynamax Milotic",
+   "tier": "D",
+   "fast": "Waterfall",
+   "max": "Max Geyser",
+   "dmg": "191"
+  },
+  {
+   "token": "817-Dynamax",
+   "name": "Dynamax Drizzile",
+   "tier": "D",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "186"
+  },
+  {
+   "token": "365-Dynamax",
+   "name": "Dynamax Walrein",
+   "tier": "D",
+   "fast": "Waterfall",
+   "max": "Max Geyser",
+   "dmg": "182"
+  },
+  {
+   "token": "98-Dynamax",
+   "name": "Dynamax Krabby",
+   "tier": "D",
+   "fast": "Bubble",
+   "max": "Max Geyser",
+   "dmg": "181"
+  },
+  {
+   "token": "245-Dynamax",
+   "name": "Dynamax Suicune",
+   "tier": "D",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "180"
+  },
+  {
+   "token": "321-Dynamax",
+   "name": "Dynamax Wailord",
+   "tier": "D",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "176"
+  },
+  {
+   "token": "9-Dynamax",
+   "name": "Dynamax Blastoise",
+   "tier": "D",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "172"
+  },
+  {
+   "token": "131-Dynamax",
+   "name": "Dynamax Lapras",
+   "tier": "D",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "166"
+  },
+  {
+   "token": "138-Dynamax",
+   "name": "Dynamax Omanyte",
+   "tier": "E",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "157"
+  },
+  {
+   "token": "364-Dynamax",
+   "name": "Dynamax Sealeo",
+   "tier": "E",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "141"
+  },
+  {
+   "token": "320-Dynamax",
+   "name": "Dynamax Wailmer",
+   "tier": "E",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "140"
+  },
+  {
+   "token": "816-Dynamax",
+   "name": "Dynamax Sobble",
+   "tier": "E",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "136"
+  },
+  {
+   "token": "8-Dynamax",
+   "name": "Dynamax Wartortle",
+   "tier": "E",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "131"
+  },
+  {
+   "token": "363-Dynamax",
+   "name": "Dynamax Spheal",
+   "tier": "F",
+   "fast": "Water Gun",
+   "max": "Max Geyser",
+   "dmg": "102"
+  },
+  {
+   "token": "7-Dynamax",
+   "name": "Dynamax Squirtle",
+   "tier": "F",
+   "fast": "Bubble",
+   "max": "Max Geyser",
+   "dmg": "101"
+  },
+  {
+   "token": "129-Dynamax",
+   "name": "Dynamax Magikarp",
+   "tier": "F",
+   "fast": "Splash",
+   "max": "Max Geyser",
+   "dmg": "41"
+  },
+  {
+   "token": "349-Dynamax",
+   "name": "Dynamax Feebas",
+   "tier": "F",
+   "fast": "Splash",
+   "max": "Max Geyser",
+   "dmg": "41"
+  }
+ ],
+ "electric": [
+  {
+   "token": "849-Gigantamax",
+   "name": "Gigantamax Toxtricity",
+   "tier": "SS",
+   "fast": "Spark",
+   "max": "G-Max Stun Shock",
+   "dmg": "284"
+  },
+  {
+   "token": "145-Dynamax",
+   "name": "Dynamax Zapdos",
+   "tier": "S",
+   "fast": "Thunder Shock",
+   "max": "Max Lightning",
+   "dmg": "248"
+  },
+  {
+   "token": "466-Dynamax",
+   "name": "Dynamax Electivire",
+   "tier": "S",
+   "fast": "Thunder Shock",
+   "max": "Max Lightning",
+   "dmg": "244"
+  },
+  {
+   "token": "243-Dynamax",
+   "name": "Dynamax Raikou",
+   "tier": "A",
+   "fast": "Thunder Shock",
+   "max": "Max Lightning",
+   "dmg": "237"
+  },
+  {
+   "token": "135-Dynamax",
+   "name": "Dynamax Jolteon",
+   "tier": "B",
+   "fast": "Thunder Shock",
+   "max": "Max Lightning",
+   "dmg": "228"
+  },
+  {
+   "token": "849-Dynamax_Amped",
+   "name": "Dynamax Toxtricity (Amped Form)",
+   "tier": "B",
+   "fast": "Spark",
+   "max": "Max Lightning",
+   "dmg": "221"
+  },
+  {
+   "token": "849-Dynamax_Low_Key",
+   "name": "Dynamax Toxtricity (Low Key Form)",
+   "tier": "B",
+   "fast": "Spark",
+   "max": "Max Lightning",
+   "dmg": "221"
+  },
+  {
+   "token": "125-Dynamax",
+   "name": "Dynamax Electabuzz",
+   "tier": "C",
+   "fast": "Thunder Shock",
+   "max": "Max Lightning",
+   "dmg": "197"
+  },
+  {
+   "token": "282-Dynamax",
+   "name": "Dynamax Gardevoir",
+   "tier": "C",
+   "fast": "Charge Beam",
+   "max": "Max Lightning",
+   "dmg": "194"
+  },
+  {
+   "token": "59-Dynamax",
+   "name": "Dynamax Arcanine",
+   "tier": "C",
+   "fast": "Thunder Fang",
+   "max": "Max Lightning",
+   "dmg": "186"
+  },
+  {
+   "token": "63-Dynamax",
+   "name": "Dynamax Abra",
+   "tier": "D",
+   "fast": "Charge Beam",
+   "max": "Max Lightning",
+   "dmg": "162"
+  },
+  {
+   "token": "281-Dynamax",
+   "name": "Dynamax Kirlia",
+   "tier": "E",
+   "fast": "Charge Beam",
+   "max": "Max Lightning",
+   "dmg": "102"
+  },
+  {
+   "token": "280-Dynamax",
+   "name": "Dynamax Ralts",
+   "tier": "F",
+   "fast": "Charge Beam",
+   "max": "Max Lightning",
+   "dmg": "73"
+  }
+ ],
+ "grass": [
+  {
+   "token": "812-Gigantamax",
+   "name": "Gigantamax Rillaboom",
+   "tier": "SS",
+   "fast": "Scratch",
+   "max": "G-Max Drum Solo",
+   "dmg": "302"
+  },
+  {
+   "token": "3-Gigantamax",
+   "name": "Gigantamax Venusaur",
+   "tier": "S",
+   "fast": "Vine Whip",
+   "max": "G-Max Vine Lash",
+   "dmg": "253"
+  },
+  {
+   "token": "812-Dynamax",
+   "name": "Dynamax Rillaboom",
+   "tier": "A",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "235"
+  },
+  {
+   "token": "763-Dynamax",
+   "name": "Dynamax Tsareena",
+   "tier": "B",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "219"
+  },
+  {
+   "token": "470-Dynamax",
+   "name": "Dynamax Leafeon",
+   "tier": "B",
+   "fast": "Bullet Seed",
+   "max": "Max Overgrowth",
+   "dmg": "213"
+  },
+  {
+   "token": "3-Dynamax",
+   "name": "Dynamax Venusaur",
+   "tier": "C",
+   "fast": "Vine Whip",
+   "max": "Max Overgrowth",
+   "dmg": "197"
+  },
+  {
+   "token": "282-Dynamax",
+   "name": "Dynamax Gardevoir",
+   "tier": "C",
+   "fast": "Magical Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "194"
+  },
+  {
+   "token": "811-Dynamax",
+   "name": "Dynamax Thwackey",
+   "tier": "D",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "166"
+  },
+  {
+   "token": "2-Dynamax",
+   "name": "Dynamax Ivysaur",
+   "tier": "D",
+   "fast": "Vine Whip",
+   "max": "Max Overgrowth",
+   "dmg": "154"
+  },
+  {
+   "token": "820-Dynamax",
+   "name": "Dynamax Greedent",
+   "tier": "E",
+   "fast": "Bullet Seed",
+   "max": "Max Overgrowth",
+   "dmg": "135"
+  },
+  {
+   "token": "810-Dynamax",
+   "name": "Dynamax Grookey",
+   "tier": "E",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "127"
+  },
+  {
+   "token": "1-Dynamax",
+   "name": "Dynamax Bulbasaur",
+   "tier": "E",
+   "fast": "Vine Whip",
+   "max": "Max Overgrowth",
+   "dmg": "123"
+  },
+  {
+   "token": "281-Dynamax",
+   "name": "Dynamax Kirlia",
+   "tier": "F",
+   "fast": "Magical Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "102"
+  },
+  {
+   "token": "762-Dynamax",
+   "name": "Dynamax Steenee",
+   "tier": "F",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "86"
+  },
+  {
+   "token": "819-Dynamax",
+   "name": "Dynamax Skwovet",
+   "tier": "F",
+   "fast": "Bullet Seed",
+   "max": "Max Overgrowth",
+   "dmg": "85"
+  },
+  {
+   "token": "761-Dynamax",
+   "name": "Dynamax Bounsweet",
+   "tier": "F",
+   "fast": "Razor Leaf",
+   "max": "Max Overgrowth",
+   "dmg": "65"
+  }
+ ],
+ "ice": [
+  {
+   "token": "461-Dynamax",
+   "name": "Dynamax Weavile",
+   "tier": "SS",
+   "fast": "Ice Shard",
+   "max": "Max Hailstorm",
+   "dmg": "238"
+  },
+  {
+   "token": "471-Dynamax",
+   "name": "Dynamax Glaceon",
+   "tier": "S",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "234"
+  },
+  {
+   "token": "131-Gigantamax",
+   "name": "Gigantamax Lapras",
+   "tier": "A",
+   "fast": "Psywave",
+   "max": "G-Max Resonance",
+   "dmg": "214"
+  },
+  {
+   "token": "144-Dynamax",
+   "name": "Dynamax Articuno",
+   "tier": "B",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "191"
+  },
+  {
+   "token": "615-Dynamax",
+   "name": "Dynamax Cryogonal",
+   "tier": "B",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "190"
+  },
+  {
+   "token": "215-Dynamax",
+   "name": "Dynamax Sneasel",
+   "tier": "B",
+   "fast": "Ice Shard",
+   "max": "Max Hailstorm",
+   "dmg": "189"
+  },
+  {
+   "token": "365-Dynamax",
+   "name": "Dynamax Walrein",
+   "tier": "C",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "182"
+  },
+  {
+   "token": "378-Dynamax",
+   "name": "Dynamax Regice",
+   "tier": "C",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "179"
+  },
+  {
+   "token": "131-Dynamax",
+   "name": "Dynamax Lapras",
+   "tier": "D",
+   "fast": "Frost Breath",
+   "max": "Max Hailstorm",
+   "dmg": "166"
+  },
+  {
+   "token": "245-Dynamax",
+   "name": "Dynamax Suicune",
+   "tier": "E",
+   "fast": "Ice Fang",
+   "max": "Max Hailstorm",
+   "dmg": "150"
+  },
+  {
+   "token": "364-Dynamax",
+   "name": "Dynamax Sealeo",
+   "tier": "F",
+   "fast": "Powder Snow",
+   "max": "Max Hailstorm",
+   "dmg": "141"
+  }
+ ],
+ "fighting": [
+  {
+   "token": "68-Gigantamax",
+   "name": "Gigantamax Machamp",
+   "tier": "SS",
+   "fast": "Bullet Punch",
+   "max": "G-Max Chi Strike",
+   "dmg": "296"
+  },
+  {
+   "token": "892-Dynamax_Rapid_Strike",
+   "name": "Dynamax Urshifu (Rapid Strike Style)",
+   "tier": "S",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "249"
+  },
+  {
+   "token": "892-Dynamax_Single_Strike",
+   "name": "Dynamax Urshifu (Single Strike Style)",
+   "tier": "S",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "249"
+  },
+  {
+   "token": "475-Dynamax",
+   "name": "Dynamax Gallade",
+   "tier": "A",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "233"
+  },
+  {
+   "token": "68-Dynamax",
+   "name": "Dynamax Machamp",
+   "tier": "A",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "230"
+  },
+  {
+   "token": "106-Dynamax",
+   "name": "Dynamax Hitmonlee",
+   "tier": "A",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "221"
+  },
+  {
+   "token": "65-Dynamax",
+   "name": "Dynamax Alakazam",
+   "tier": "A",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "220"
+  },
+  {
+   "token": "766-Dynamax",
+   "name": "Dynamax Passimian",
+   "tier": "A",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "219"
+  },
+  {
+   "token": "466-Dynamax",
+   "name": "Dynamax Electivire",
+   "tier": "B",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "203"
+  },
+  {
+   "token": "107-Dynamax",
+   "name": "Dynamax Hitmonchan",
+   "tier": "B",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "192"
+  },
+  {
+   "token": "870-Dynamax",
+   "name": "Dynamax Falinks",
+   "tier": "B",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "192"
+  },
+  {
+   "token": "112-Dynamax",
+   "name": "Dynamax Rhydon",
+   "tier": "C",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "183"
+  },
+  {
+   "token": "141-Dynamax",
+   "name": "Dynamax Kabutops",
+   "tier": "C",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "181"
+  },
+  {
+   "token": "67-Dynamax",
+   "name": "Dynamax Machoke",
+   "tier": "C",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "178"
+  },
+  {
+   "token": "237-Dynamax",
+   "name": "Dynamax Hitmontop",
+   "tier": "C",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "174"
+  },
+  {
+   "token": "891-Dynamax",
+   "name": "Dynamax Kubfu",
+   "tier": "C",
+   "fast": "Counter",
+   "max": "Max Knuckle",
+   "dmg": "171"
+  },
+  {
+   "token": "125-Dynamax",
+   "name": "Dynamax Electabuzz",
+   "tier": "C",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "164"
+  },
+  {
+   "token": "377-Dynamax",
+   "name": "Dynamax Regirock",
+   "tier": "D",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "150"
+  },
+  {
+   "token": "378-Dynamax",
+   "name": "Dynamax Regice",
+   "tier": "D",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "150"
+  },
+  {
+   "token": "66-Dynamax",
+   "name": "Dynamax Machop",
+   "tier": "D",
+   "fast": "Low Kick",
+   "max": "Max Knuckle",
+   "dmg": "141"
+  },
+  {
+   "token": "832-Dynamax",
+   "name": "Dynamax Dubwool",
+   "tier": "E",
+   "fast": "Double Kick",
+   "max": "Max Knuckle",
+   "dmg": "134"
+  },
+  {
+   "token": "379-Dynamax",
+   "name": "Dynamax Registeel",
+   "tier": "E",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "122"
+  },
+  {
+   "token": "111-Dynamax",
+   "name": "Dynamax Rhyhorn",
+   "tier": "E",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "120"
+  },
+  {
+   "token": "363-Dynamax",
+   "name": "Dynamax Spheal",
+   "tier": "F",
+   "fast": "Rock Smash",
+   "max": "Max Knuckle",
+   "dmg": "85"
+  }
+ ],
+ "poison": [
+  {
+   "token": "569-Gigantamax",
+   "name": "Gigantamax Garbodor",
+   "tier": "S",
+   "fast": "Infestation",
+   "max": "G-Max Malodor",
+   "dmg": "233"
+  },
+  {
+   "token": "849-Dynamax_Amped",
+   "name": "Dynamax Toxtricity (Amped Form)",
+   "tier": "A",
+   "fast": "Acid",
+   "max": "Max Ooze",
+   "dmg": "221"
+  },
+  {
+   "token": "849-Dynamax_Low_Key",
+   "name": "Dynamax Toxtricity (Low Key Form)",
+   "tier": "A",
+   "fast": "Acid",
+   "max": "Max Ooze",
+   "dmg": "221"
+  }
+ ],
+ "ground": [
+  {
+   "token": "530-Dynamax",
+   "name": "Dynamax Excadrill",
+   "tier": "SS",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "249"
+  },
+  {
+   "token": "464-Dynamax",
+   "name": "Dynamax Rhyperior",
+   "tier": "SS",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "237"
+  },
+  {
+   "token": "112-Dynamax",
+   "name": "Dynamax Rhydon",
+   "tier": "S",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "219"
+  },
+  {
+   "token": "330-Dynamax",
+   "name": "Dynamax Flygon",
+   "tier": "A",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "203"
+  },
+  {
+   "token": "99-Dynamax",
+   "name": "Dynamax Kingler",
+   "tier": "A",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "196"
+  },
+  {
+   "token": "526-Dynamax",
+   "name": "Dynamax Gigalith",
+   "tier": "B",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "186"
+  },
+  {
+   "token": "141-Dynamax",
+   "name": "Dynamax Kabutops",
+   "tier": "B",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "181"
+  },
+  {
+   "token": "139-Dynamax",
+   "name": "Dynamax Omastar",
+   "tier": "C",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "171"
+  },
+  {
+   "token": "328-Dynamax",
+   "name": "Dynamax Trapinch",
+   "tier": "C",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "164"
+  },
+  {
+   "token": "529-Dynamax",
+   "name": "Dynamax Drilbur",
+   "tier": "D",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "156"
+  },
+  {
+   "token": "98-Dynamax",
+   "name": "Dynamax Krabby",
+   "tier": "D",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "151"
+  },
+  {
+   "token": "525-Dynamax",
+   "name": "Dynamax Boldore",
+   "tier": "D",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "146"
+  },
+  {
+   "token": "111-Dynamax",
+   "name": "Dynamax Rhyhorn",
+   "tier": "D",
+   "fast": "Mud-Slap",
+   "max": "Max Quake",
+   "dmg": "143"
+  },
+  {
+   "token": "329-Dynamax",
+   "name": "Dynamax Vibrava",
+   "tier": "E",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "138"
+  },
+  {
+   "token": "823-Dynamax",
+   "name": "Dynamax Corviknight",
+   "tier": "E",
+   "fast": "Sand Attack",
+   "max": "Max Quake",
+   "dmg": "137"
+  },
+  {
+   "token": "820-Dynamax",
+   "name": "Dynamax Greedent",
+   "tier": "E",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "135"
+  },
+  {
+   "token": "138-Dynamax",
+   "name": "Dynamax Omanyte",
+   "tier": "E",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "131"
+  },
+  {
+   "token": "140-Dynamax",
+   "name": "Dynamax Kabuto",
+   "tier": "E",
+   "fast": "Mud Shot",
+   "max": "Max Quake",
+   "dmg": "126"
+  },
+  {
+   "token": "822-Dynamax",
+   "name": "Dynamax Corvisquire",
+   "tier": "F",
+   "fast": "Sand Attack",
+   "max": "Max Quake",
+   "dmg": "111"
+  },
+  {
+   "token": "821-Dynamax",
+   "name": "Dynamax Rookidee",
+   "tier": "F",
+   "fast": "Sand Attack",
+   "max": "Max Quake",
+   "dmg": "80"
+  }
+ ],
+ "flying": [
+  {
+   "token": "146-Dynamax",
+   "name": "Dynamax Moltres",
+   "tier": "SS",
+   "fast": "Wing Attack",
+   "max": "Max Airstream",
+   "dmg": "246"
+  },
+  {
+   "token": "521-Dynamax",
+   "name": "Dynamax Unfezant",
+   "tier": "S",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "223"
+  },
+  {
+   "token": "6-Dynamax",
+   "name": "Dynamax Charizard",
+   "tier": "S",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "220"
+  },
+  {
+   "token": "823-Dynamax",
+   "name": "Dynamax Corviknight",
+   "tier": "A",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "165"
+  },
+  {
+   "token": "528-Dynamax",
+   "name": "Dynamax Swoobat",
+   "tier": "A",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "163"
+  },
+  {
+   "token": "164-Dynamax",
+   "name": "Dynamax Noctowl",
+   "tier": "B",
+   "fast": "Wing Attack",
+   "max": "Max Airstream",
+   "dmg": "148"
+  },
+  {
+   "token": "687-Dynamax",
+   "name": "Dynamax Malamar",
+   "tier": "B",
+   "fast": "Peck",
+   "max": "Max Airstream",
+   "dmg": "148"
+  },
+  {
+   "token": "520-Dynamax",
+   "name": "Dynamax Tranquill",
+   "tier": "B",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "147"
+  },
+  {
+   "token": "822-Dynamax",
+   "name": "Dynamax Corvisquire",
+   "tier": "C",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "133"
+  },
+  {
+   "token": "527-Dynamax",
+   "name": "Dynamax Woobat",
+   "tier": "D",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "113"
+  },
+  {
+   "token": "519-Dynamax",
+   "name": "Dynamax Pidove",
+   "tier": "D",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "105"
+  },
+  {
+   "token": "821-Dynamax",
+   "name": "Dynamax Rookidee",
+   "tier": "E",
+   "fast": "Air Slash",
+   "max": "Max Airstream",
+   "dmg": "95"
+  },
+  {
+   "token": "686-Dynamax",
+   "name": "Dynamax Inkay",
+   "tier": "E",
+   "fast": "Peck",
+   "max": "Max Airstream",
+   "dmg": "87"
+  },
+  {
+   "token": "163-Dynamax",
+   "name": "Dynamax Hoothoot",
+   "tier": "F",
+   "fast": "Peck",
+   "max": "Max Airstream",
+   "dmg": "76"
+  }
+ ],
+ "psychic": [
+  {
+   "token": "65-Dynamax",
+   "name": "Dynamax Alakazam",
+   "tier": "SS",
+   "fast": "Psycho Cut",
+   "max": "Max Mindstorm",
+   "dmg": "264"
+  },
+  {
+   "token": "482-Dynamax",
+   "name": "Dynamax Azelf",
+   "tier": "SS",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "263"
+  },
+  {
+   "token": "381-Dynamax",
+   "name": "Dynamax Latios",
+   "tier": "SS",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "261"
+  },
+  {
+   "token": "196-Dynamax",
+   "name": "Dynamax Espeon",
+   "tier": "SS",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "255"
+  },
+  {
+   "token": "376-Dynamax",
+   "name": "Dynamax Metagross",
+   "tier": "SS",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "251"
+  },
+  {
+   "token": "475-Dynamax",
+   "name": "Dynamax Gallade",
+   "tier": "S",
+   "fast": "Psycho Cut",
+   "max": "Max Mindstorm",
+   "dmg": "233"
+  },
+  {
+   "token": "858-Dynamax",
+   "name": "Dynamax Hatterene",
+   "tier": "S",
+   "fast": "Psycho Cut",
+   "max": "Max Mindstorm",
+   "dmg": "233"
+  },
+  {
+   "token": "282-Dynamax",
+   "name": "Dynamax Gardevoir",
+   "tier": "S",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "233"
+  },
+  {
+   "token": "64-Dynamax",
+   "name": "Dynamax Kadabra",
+   "tier": "S",
+   "fast": "Psycho Cut",
+   "max": "Max Mindstorm",
+   "dmg": "228"
+  },
+  {
+   "token": "380-Dynamax",
+   "name": "Dynamax Latias",
+   "tier": "S",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "225"
+  },
+  {
+   "token": "481-Dynamax",
+   "name": "Dynamax Mesprit",
+   "tier": "A",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "210"
+  },
+  {
+   "token": "250-Dynamax",
+   "name": "Dynamax Ho-Oh",
+   "tier": "B",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "196"
+  },
+  {
+   "token": "63-Dynamax",
+   "name": "Dynamax Abra",
+   "tier": "B",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "194"
+  },
+  {
+   "token": "249-Dynamax",
+   "name": "Dynamax Lugia",
+   "tier": "B",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "192"
+  },
+  {
+   "token": "780-Dynamax",
+   "name": "Dynamax Drampa",
+   "tier": "B",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "190"
+  },
+  {
+   "token": "687-Dynamax",
+   "name": "Dynamax Malamar",
+   "tier": "B",
+   "fast": "Psycho Cut",
+   "max": "Max Mindstorm",
+   "dmg": "178"
+  },
+  {
+   "token": "528-Dynamax",
+   "name": "Dynamax Swoobat",
+   "tier": "C",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "163"
+  },
+  {
+   "token": "480-Dynamax",
+   "name": "Dynamax Uxie",
+   "tier": "C",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "158"
+  },
+  {
+   "token": "857-Dynamax",
+   "name": "Dynamax Hattrem",
+   "tier": "C",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "155"
+  },
+  {
+   "token": "245-Dynamax",
+   "name": "Dynamax Suicune",
+   "tier": "D",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "150"
+  },
+  {
+   "token": "321-Dynamax",
+   "name": "Dynamax Wailord",
+   "tier": "D",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "146"
+  },
+  {
+   "token": "375-Dynamax",
+   "name": "Dynamax Metang",
+   "tier": "D",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "142"
+  },
+  {
+   "token": "12-Dynamax",
+   "name": "Dynamax Butterfree",
+   "tier": "D",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "140"
+  },
+  {
+   "token": "131-Dynamax",
+   "name": "Dynamax Lapras",
+   "tier": "D",
+   "fast": "Psywave",
+   "max": "Max Mindstorm",
+   "dmg": "139"
+  },
+  {
+   "token": "164-Dynamax",
+   "name": "Dynamax Noctowl",
+   "tier": "E",
+   "fast": "Extrasensory",
+   "max": "Max Mindstorm",
+   "dmg": "123"
+  },
+  {
+   "token": "281-Dynamax",
+   "name": "Dynamax Kirlia",
+   "tier": "E",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "122"
+  },
+  {
+   "token": "527-Dynamax",
+   "name": "Dynamax Woobat",
+   "tier": "E",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "113"
+  },
+  {
+   "token": "242-Dynamax",
+   "name": "Dynamax Blissey",
+   "tier": "E",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "111"
+  },
+  {
+   "token": "686-Dynamax",
+   "name": "Dynamax Inkay",
+   "tier": "E",
+   "fast": "Psywave",
+   "max": "Max Mindstorm",
+   "dmg": "105"
+  },
+  {
+   "token": "856-Dynamax",
+   "name": "Dynamax Hatenna",
+   "tier": "E",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "105"
+  },
+  {
+   "token": "280-Dynamax",
+   "name": "Dynamax Ralts",
+   "tier": "F",
+   "fast": "Confusion",
+   "max": "Max Mindstorm",
+   "dmg": "87"
+  },
+  {
+   "token": "113-Dynamax",
+   "name": "Dynamax Chansey",
+   "tier": "F",
+   "fast": "Zen Headbutt",
+   "max": "Max Mindstorm",
+   "dmg": "58"
+  }
+ ],
+ "bug": [
+  {
+   "token": "851-Dynamax",
+   "name": "Dynamax Centiskorch",
+   "tier": "SS",
+   "fast": "Bug Bite",
+   "max": "Max Flutterby",
+   "dmg": "217"
+  },
+  {
+   "token": "12-Gigantamax",
+   "name": "Gigantamax Butterfree",
+   "tier": "SS",
+   "fast": "Bug Bite",
+   "max": "G-Max Befuddle",
+   "dmg": "216"
+  },
+  {
+   "token": "376-Dynamax",
+   "name": "Dynamax Metagross",
+   "tier": "S",
+   "fast": "Fury Cutter",
+   "max": "Max Flutterby",
+   "dmg": "209"
+  },
+  {
+   "token": "141-Dynamax",
+   "name": "Dynamax Kabutops",
+   "tier": "A",
+   "fast": "Fury Cutter",
+   "max": "Max Flutterby",
+   "dmg": "181"
+  },
+  {
+   "token": "12-Dynamax",
+   "name": "Dynamax Butterfree",
+   "tier": "B",
+   "fast": "Bug Bite",
+   "max": "Max Flutterby",
+   "dmg": "168"
+  },
+  {
+   "token": "569-Dynamax",
+   "name": "Dynamax Garbodor",
+   "tier": "C",
+   "fast": "Infestation",
+   "max": "Max Flutterby",
+   "dmg": "151"
+  },
+  {
+   "token": "328-Dynamax",
+   "name": "Dynamax Trapinch",
+   "tier": "D",
+   "fast": "Struggle Bug",
+   "max": "Max Flutterby",
+   "dmg": "136"
+  },
+  {
+   "token": "850-Dynamax",
+   "name": "Dynamax Sizzlipede",
+   "tier": "E",
+   "fast": "Bug Bite",
+   "max": "Max Flutterby",
+   "dmg": "123"
+  },
+  {
+   "token": "375-Dynamax",
+   "name": "Dynamax Metang",
+   "tier": "E",
+   "fast": "Fury Cutter",
+   "max": "Max Flutterby",
+   "dmg": "118"
+  },
+  {
+   "token": "10-Dynamax",
+   "name": "Dynamax Caterpie",
+   "tier": "F",
+   "fast": "Bug Bite",
+   "max": "Max Flutterby",
+   "dmg": "65"
+  },
+  {
+   "token": "11-Dynamax",
+   "name": "Dynamax Metapod",
+   "tier": "F",
+   "fast": "Bug Bite",
+   "max": "Max Flutterby",
+   "dmg": "56"
+  },
+  {
+   "token": "213-Dynamax",
+   "name": "Dynamax Shuckle",
+   "tier": "F",
+   "fast": "Struggle Bug",
+   "max": "Max Flutterby",
+   "dmg": "30"
+  }
+ ],
+ "rock": [
+  {
+   "token": "464-Dynamax",
+   "name": "Dynamax Rhyperior",
+   "tier": "SS",
+   "fast": "Smack Down",
+   "max": "Max Rockfall",
+   "dmg": "237"
+  },
+  {
+   "token": "526-Dynamax",
+   "name": "Dynamax Gigalith",
+   "tier": "S",
+   "fast": "Smack Down",
+   "max": "Max Rockfall",
+   "dmg": "223"
+  },
+  {
+   "token": "139-Dynamax",
+   "name": "Dynamax Omastar",
+   "tier": "A",
+   "fast": "Rock Throw",
+   "max": "Max Rockfall",
+   "dmg": "205"
+  },
+  {
+   "token": "377-Dynamax",
+   "name": "Dynamax Regirock",
+   "tier": "B",
+   "fast": "Rock Throw",
+   "max": "Max Rockfall",
+   "dmg": "179"
+  },
+  {
+   "token": "525-Dynamax",
+   "name": "Dynamax Boldore",
+   "tier": "B",
+   "fast": "Smack Down",
+   "max": "Max Rockfall",
+   "dmg": "175"
+  },
+  {
+   "token": "321-Dynamax",
+   "name": "Dynamax Wailord",
+   "tier": "C",
+   "fast": "Rollout",
+   "max": "Max Rockfall",
+   "dmg": "146"
+  },
+  {
+   "token": "9-Dynamax",
+   "name": "Dynamax Blastoise",
+   "tier": "C",
+   "fast": "Rollout",
+   "max": "Max Rockfall",
+   "dmg": "143"
+  },
+  {
+   "token": "524-Dynamax",
+   "name": "Dynamax Roggenrola",
+   "tier": "D",
+   "fast": "Smack Down",
+   "max": "Max Rockfall",
+   "dmg": "126"
+  },
+  {
+   "token": "320-Dynamax",
+   "name": "Dynamax Wailmer",
+   "tier": "E",
+   "fast": "Rollout",
+   "max": "Max Rockfall",
+   "dmg": "117"
+  },
+  {
+   "token": "213-Dynamax",
+   "name": "Dynamax Shuckle",
+   "tier": "F",
+   "fast": "Rock Throw",
+   "max": "Max Rockfall",
+   "dmg": "30"
+  }
+ ],
+ "ghost": [
+  {
+   "token": "94-Gigantamax",
+   "name": "Gigantamax Gengar",
+   "tier": "SS",
+   "fast": "Lick",
+   "max": "G-Max Terror",
+   "dmg": "328"
+  },
+  {
+   "token": "94-Dynamax",
+   "name": "Dynamax Gengar",
+   "tier": "S",
+   "fast": "Lick",
+   "max": "Max Phantasm",
+   "dmg": "255"
+  },
+  {
+   "token": "93-Dynamax",
+   "name": "Dynamax Haunter",
+   "tier": "A",
+   "fast": "Lick",
+   "max": "Max Phantasm",
+   "dmg": "220"
+  },
+  {
+   "token": "376-Dynamax",
+   "name": "Dynamax Metagross",
+   "tier": "B",
+   "fast": "Shadow Claw",
+   "max": "Max Phantasm",
+   "dmg": "209"
+  },
+  {
+   "token": "92-Dynamax",
+   "name": "Dynamax Gastly",
+   "tier": "C",
+   "fast": "Lick",
+   "max": "Max Phantasm",
+   "dmg": "186"
+  },
+  {
+   "token": "302-Dynamax",
+   "name": "Dynamax Sableye",
+   "tier": "D",
+   "fast": "Shadow Claw",
+   "max": "Max Phantasm",
+   "dmg": "144"
+  }
+ ],
+ "dragon": [
+  {
+   "token": "890",
+   "name": "Eternatus",
+   "tier": "SS",
+   "fast": "Dragon Tail",
+   "max": "Dynamax Cannon",
+   "dmg": "348"
+  },
+  {
+   "token": "381-Dynamax",
+   "name": "Dynamax Latios",
+   "tier": "S",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "261"
+  },
+  {
+   "token": "635-Dynamax",
+   "name": "Dynamax Hydreigon",
+   "tier": "A",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "250"
+  },
+  {
+   "token": "884-Dynamax",
+   "name": "Dynamax Duraludon",
+   "tier": "B",
+   "fast": "Dragon Tail",
+   "max": "Max Wyrmwind",
+   "dmg": "235"
+  },
+  {
+   "token": "780-Dynamax",
+   "name": "Dynamax Drampa",
+   "tier": "B",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "227"
+  },
+  {
+   "token": "380-Dynamax",
+   "name": "Dynamax Latias",
+   "tier": "B",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "225"
+  },
+  {
+   "token": "330-Dynamax",
+   "name": "Dynamax Flygon",
+   "tier": "C",
+   "fast": "Dragon Tail",
+   "max": "Max Wyrmwind",
+   "dmg": "203"
+  },
+  {
+   "token": "130-Dynamax",
+   "name": "Dynamax Gyarados",
+   "tier": "C",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "194"
+  },
+  {
+   "token": "6-Dynamax",
+   "name": "Dynamax Charizard",
+   "tier": "D",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "183"
+  },
+  {
+   "token": "634-Dynamax",
+   "name": "Dynamax Zweilous",
+   "tier": "E",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "161"
+  },
+  {
+   "token": "249-Dynamax",
+   "name": "Dynamax Lugia",
+   "tier": "E",
+   "fast": "Dragon Tail",
+   "max": "Max Wyrmwind",
+   "dmg": "160"
+  },
+  {
+   "token": "350-Dynamax",
+   "name": "Dynamax Milotic",
+   "tier": "E",
+   "fast": "Dragon Tail",
+   "max": "Max Wyrmwind",
+   "dmg": "160"
+  },
+  {
+   "token": "329-Dynamax",
+   "name": "Dynamax Vibrava",
+   "tier": "F",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "138"
+  },
+  {
+   "token": "633-Dynamax",
+   "name": "Dynamax Deino",
+   "tier": "F",
+   "fast": "Dragon Breath",
+   "max": "Max Wyrmwind",
+   "dmg": "121"
+  }
+ ],
+ "dark": [
+  {
+   "token": "861-Gigantamax",
+   "name": "Gigantamax Grimmsnarl",
+   "tier": "SS",
+   "fast": "Bite",
+   "max": "G-Max Snooze",
+   "dmg": "287"
+  },
+  {
+   "token": "635-Dynamax",
+   "name": "Dynamax Hydreigon",
+   "tier": "S",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "250"
+  },
+  {
+   "token": "892-Dynamax_Single_Strike",
+   "name": "Dynamax Urshifu (Single Strike Style)",
+   "tier": "S",
+   "fast": "Sucker Punch",
+   "max": "Max Darkness",
+   "dmg": "249"
+  },
+  {
+   "token": "461-Dynamax",
+   "name": "Dynamax Weavile",
+   "tier": "S",
+   "fast": "Feint Attack",
+   "max": "Max Darkness",
+   "dmg": "238"
+  },
+  {
+   "token": "94-Dynamax",
+   "name": "Dynamax Gengar",
+   "tier": "A",
+   "fast": "Sucker Punch",
+   "max": "Max Darkness",
+   "dmg": "213"
+  },
+  {
+   "token": "130-Dynamax",
+   "name": "Dynamax Gyarados",
+   "tier": "B",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "194"
+  },
+  {
+   "token": "215-Dynamax",
+   "name": "Dynamax Sneasel",
+   "tier": "B",
+   "fast": "Feint Attack",
+   "max": "Max Darkness",
+   "dmg": "189"
+  },
+  {
+   "token": "59-Dynamax",
+   "name": "Dynamax Arcanine",
+   "tier": "B",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "186"
+  },
+  {
+   "token": "634-Dynamax",
+   "name": "Dynamax Zweilous",
+   "tier": "C",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "161"
+  },
+  {
+   "token": "92-Dynamax",
+   "name": "Dynamax Gastly",
+   "tier": "C",
+   "fast": "Sucker Punch",
+   "max": "Max Darkness",
+   "dmg": "155"
+  },
+  {
+   "token": "245-Dynamax",
+   "name": "Dynamax Suicune",
+   "tier": "C",
+   "fast": "Snarl",
+   "max": "Max Darkness",
+   "dmg": "150"
+  },
+  {
+   "token": "302-Dynamax",
+   "name": "Dynamax Sableye",
+   "tier": "D",
+   "fast": "Feint Attack",
+   "max": "Max Darkness",
+   "dmg": "144"
+  },
+  {
+   "token": "9-Dynamax",
+   "name": "Dynamax Blastoise",
+   "tier": "D",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "143"
+  },
+  {
+   "token": "820-Dynamax",
+   "name": "Dynamax Greedent",
+   "tier": "D",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "135"
+  },
+  {
+   "token": "197-Dynamax",
+   "name": "Dynamax Umbreon",
+   "tier": "D",
+   "fast": "Feint Attack",
+   "max": "Max Darkness",
+   "dmg": "131"
+  },
+  {
+   "token": "58-Dynamax",
+   "name": "Dynamax Growlithe",
+   "tier": "E",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "117"
+  },
+  {
+   "token": "8-Dynamax",
+   "name": "Dynamax Wartortle",
+   "tier": "E",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "109"
+  },
+  {
+   "token": "819-Dynamax",
+   "name": "Dynamax Skwovet",
+   "tier": "F",
+   "fast": "Bite",
+   "max": "Max Darkness",
+   "dmg": "85"
+  },
+  {
+   "token": "163-Dynamax",
+   "name": "Dynamax Hoothoot",
+   "tier": "F",
+   "fast": "Feint Attack",
+   "max": "Max Darkness",
+   "dmg": "64"
+  }
+ ],
+ "steel": [
+  {
+   "token": "888-Crowned_Sword",
+   "name": "Crowned Sword Zacian",
+   "tier": "SS",
+   "fast": "Metal Claw",
+   "max": "Behemoth Blade",
+   "dmg": "320"
+  },
+  {
+   "token": "376-Dynamax",
+   "name": "Dynamax Metagross",
+   "tier": "S",
+   "fast": "Bullet Punch",
+   "max": "Max Steelspike",
+   "dmg": "251"
+  },
+  {
+   "token": "530-Dynamax",
+   "name": "Dynamax Excadrill",
+   "tier": "S",
+   "fast": "Metal Claw",
+   "max": "Max Steelspike",
+   "dmg": "249"
+  },
+  {
+   "token": "889-Crowned_Shield",
+   "name": "Crowned Shield Zamazenta",
+   "tier": "S",
+   "fast": "Metal Claw",
+   "max": "Behemoth Bash",
+   "dmg": "245"
+  },
+  {
+   "token": "884-Dynamax",
+   "name": "Dynamax Duraludon",
+   "tier": "A",
+   "fast": "Metal Claw",
+   "max": "Max Steelspike",
+   "dmg": "235"
+  },
+  {
+   "token": "99-Dynamax",
+   "name": "Dynamax Kingler",
+   "tier": "B",
+   "fast": "Metal Claw",
+   "max": "Max Steelspike",
+   "dmg": "196"
+  },
+  {
+   "token": "250-Dynamax",
+   "name": "Dynamax Ho-Oh",
+   "tier": "B",
+   "fast": "Steel Wing",
+   "max": "Max Steelspike",
+   "dmg": "196"
+  },
+  {
+   "token": "68-Dynamax",
+   "name": "Dynamax Machamp",
+   "tier": "B",
+   "fast": "Bullet Punch",
+   "max": "Max Steelspike",
+   "dmg": "192"
+  },
+  {
+   "token": "521-Dynamax",
+   "name": "Dynamax Unfezant",
+   "tier": "C",
+   "fast": "Steel Wing",
+   "max": "Max Steelspike",
+   "dmg": "186"
+  },
+  {
+   "token": "823-Dynamax",
+   "name": "Dynamax Corviknight",
+   "tier": "D",
+   "fast": "Steel Wing",
+   "max": "Max Steelspike",
+   "dmg": "165"
+  },
+  {
+   "token": "107-Dynamax",
+   "name": "Dynamax Hitmonchan",
+   "tier": "D",
+   "fast": "Bullet Punch",
+   "max": "Max Steelspike",
+   "dmg": "160"
+  },
+  {
+   "token": "379-Dynamax",
+   "name": "Dynamax Registeel",
+   "tier": "E",
+   "fast": "Metal Claw",
+   "max": "Max Steelspike",
+   "dmg": "146"
+  },
+  {
+   "token": "375-Dynamax",
+   "name": "Dynamax Metang",
+   "tier": "E",
+   "fast": "Metal Claw",
+   "max": "Max Steelspike",
+   "dmg": "142"
+  },
+  {
+   "token": "520-Dynamax",
+   "name": "Dynamax Tranquill",
+   "tier": "F",
+   "fast": "Steel Wing",
+   "max": "Max Steelspike",
+   "dmg": "123"
+  }
+ ],
+ "fairy": [
+  {
+   "token": "282-Dynamax",
+   "name": "Dynamax Gardevoir",
+   "tier": "SS",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "233"
+  },
+  {
+   "token": "858-Dynamax",
+   "name": "Dynamax Hatterene",
+   "tier": "SS",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "233"
+  },
+  {
+   "token": "700-Dynamax",
+   "name": "Dynamax Sylveon",
+   "tier": "S",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "201"
+  },
+  {
+   "token": "475-Dynamax",
+   "name": "Dynamax Gallade",
+   "tier": "A",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "194"
+  },
+  {
+   "token": "380-Dynamax",
+   "name": "Dynamax Latias",
+   "tier": "B",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "187"
+  },
+  {
+   "token": "763-Dynamax",
+   "name": "Dynamax Tsareena",
+   "tier": "B",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "183"
+  },
+  {
+   "token": "857-Dynamax",
+   "name": "Dynamax Hattrem",
+   "tier": "C",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "130"
+  },
+  {
+   "token": "856-Dynamax",
+   "name": "Dynamax Hatenna",
+   "tier": "D",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "87"
+  },
+  {
+   "token": "762-Dynamax",
+   "name": "Dynamax Steenee",
+   "tier": "E",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "72"
+  },
+  {
+   "token": "761-Dynamax",
+   "name": "Dynamax Bounsweet",
+   "tier": "F",
+   "fast": "Charm",
+   "max": "Max Starfall",
+   "dmg": "54"
+  }
+ ]
+}

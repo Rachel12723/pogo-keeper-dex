@@ -2,6 +2,12 @@
 
 What each `refresh.py` run changed in the pvpoke sources, newest first.
 
+## 2026-10-30
+
+### Gamemaster (moves / species)
+- New moves: KOWTOW_CLEAVE, OMINOUS_WIND_PLUS
+- New species/forms: chandelure_mega
+
 ## 2026-10-23
 
 ### Great League (CP 1500)

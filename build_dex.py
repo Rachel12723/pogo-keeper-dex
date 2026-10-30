@@ -99,6 +99,7 @@ KW_TAGS = {"legendary", "mythical", "ultrabeast"}
 # a top-10 catchable (or top-20 owned-legendary) attacker of some type, with real rank.
 import pve_ranks
 PVE_BY_DEX = pve_ranks.by_dex()
+MAX_BY_DEX = pve_ranks.max_by_dex()  # Max Battle (Dynamax / G-Max) per-type attacker ranks
 
 
 def ranks(vid):
@@ -146,7 +147,20 @@ for key, members in fams.items():
                 tail += f', #{u["trank"]}'
         usages.append({"kind": 1, "ord": 5, "rank": u["rank"], "lp": "PvE", "shadow": u["shadow"],
                        "locked": u["locked"], "best": f'{u["form"]} — {u["type"]} #{u["rank"]}{tail}',
-                       "iv": HIGH, "moves": "—"})
+                       "iv": HIGH, "moves": u.get("moves") or "—"})
+    # Max Battle attacker lines: top attacker families per type on PGHub's Dynamax board, attached
+    # by member dex; one line per type (best form). Max attackers want high ATK, like raid ones.
+    max_by_type = {}
+    for d in member_dexes:
+        for u in MAX_BY_DEX.get(d, []):
+            cur = max_by_type.get(u["type"])
+            if cur is None or u["rank"] < cur["rank"]:
+                max_by_type[u["type"]] = u
+    for u in sorted(max_by_type.values(), key=lambda u: u["rank"]):
+        usages.append({"kind": 1, "ord": 6, "rank": u["rank"], "lp": "Max", "shadow": False,
+                       "locked": False, "best": f'{u["form"]} — {u["type"]} Max #{u["rank"]}'
+                       + (f' ({u["tier"]})' if u["tier"] else ""),
+                       "iv": HIGH, "moves": u["moves"] or "—"})
     usages.sort(key=lambda u: (u["kind"], u["ord"], u["rank"]))
 
     chain = " · ".join(f'{m["speciesName"]} <span class=dex>#{m["dex"]}</span>' for m in members)
@@ -156,7 +170,7 @@ for key, members in fams.items():
     # High-attack (ML/PvE) usage split by shadow: a family has a NON-shadow high-attack usage
     # (Master or PvE via a non-shadow form) vs. is shadow-only (its only top ML/PvE form is a
     # shadow — e.g. Kingler/Vikavolt) and so belongs in the 'shadowed version' search string.
-    hv = [u for u in usages if u["lp"] in ("ML", "PvE")]
+    hv = [u for u in usages if u["lp"] in ("ML", "PvE", "Max")]
     ns_highiv = any(not u["shadow"] for u in hv)
     sh_only = bool(hv) and not ns_highiv
     # Same split for capped-league (LC/GL/UL) usage: a family with a non-shadow capped usage vs.
@@ -217,7 +231,7 @@ img{width:42px;height:42px;object-fit:contain;vertical-align:middle}
 .ptr td{background:#fafbfc;color:#9aa7b4;font-size:12px}
 .lg{display:inline-block;padding:1px 6px;border-radius:9px;font-size:11px;font-weight:700}
 .LC{background:#efe7f7;color:#6b3fa0} .GL{background:#e3f6ea;color:#14713a}
-.UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b} .PvE{background:#ffedd5;color:#9a3412}
+.UL{background:#fdeee2;color:#9a4a12} .ML{background:#e3eefb;color:#1e5fa8} .Mega{background:#fce4ec;color:#b0146b} .PvE{background:#ffedd5;color:#9a3412} .Max{background:#ede4fb;color:#5b2a9e}
 .ss{margin-top:12px} .ss>b{font-size:13px}
 .ss2{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px} .ss2>.ss{flex:1 1 320px;margin-top:0;min-width:0}
 .codewrap{position:relative;margin:4px 0 14px}
@@ -259,7 +273,11 @@ A <span class="lg PvE">PvE</span> line flags a family as a top raid attacker of 
 &amp; non-shadow forms</b> (shadow can't be traded, so this is the best you can catch a tradeable high-IV of).
 Non-shadow forms in the <b>top-6 by that 3rd rank</b> are kept; shadow forms in the <b>top-6 by the 2nd</b>
 are kept too (with no 3rd number) — e.g. <code>Ice #5, #1</code> = Shadow Mamoswine, <code>Ice #13, #6, #4</code>
-= Mamoswine. Owned legendaries are kept if in the top-20 overall (rank only).</p>
+= Mamoswine. Owned legendaries are kept if in the top-20 overall (rank only).
+A <span class="lg Max">Max</span> line flags a top <b>Max Battle</b> (Dynamax / Gigantamax) attacker of a type — the top 5
+families per type on <a href="https://db.pokemongohub.net/pokemon-list/best-dynamax-per-type/fire">PGHub's Max board</a>,
+with its tier (SS best) and its fast + Max move. Like raid attackers they want <b>high ATK</b>, so they count toward the
+Raid / Master search strings. The <b>moves</b> column on a PvE / Max line is that board's best moveset.</p>
 """]
 def uniq(seq):  # order-preserving de-dup (regional variants / multi-form legendaries share a name)
     seen, out = set(), []
@@ -316,7 +334,7 @@ if len(shadow_tm_str) > 1950:
           "will be truncated by the PoGo search bar")
 h.append(f"<div class=ss><b>Everything else — high IV / high ATK</b> (negated capped list)"
          f"<div class=codewrap>{COPYBTN}<pre>{neg_join}&!3*</pre></div></div>")
-highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE") for u in r["usages"]))
+highiv_fams = uniq(r["name"] for r in rows if any(u["lp"] in ("ML", "PvE", "Max") for u in r["usages"]))
 hineg_join = "&".join("!+" + sn(n) for n in highiv_fams)
 # Split the Raid/Master high-IV list by shadow. Shadow can't be traded, so a family whose only
 # top ML/PvE form is a shadow (Master shadow-only, or a shadow-reliant PvE attacker like Kingler
@@ -412,7 +430,7 @@ def fam_cats(r):
     """Space-separated category tokens for a family — drives the client-side view tabs.
     Mirrors the search-string groupings exactly so each view is a strict subset."""
     capped = any(u["lp"] in ("LC", "GL", "UL") for u in r["usages"])
-    raid = any(u["lp"] in ("ML", "PvE") for u in r["usages"])
+    raid = any(u["lp"] in ("ML", "PvE", "Max") for u in r["usages"])
     rare = bool(r["rare"])
     cats = []
     if capped:

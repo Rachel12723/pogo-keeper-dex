@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-21 03:50:13",
+    "timestamp": "2026-10-29 05:02:09",
     "id": "gamemaster",
     "title": "Default",
     "settings": {
@@ -54,7 +54,7 @@
             "exclude": [
                 {
                     "filterType": "id",
-                    "values": ["rayquaza_mega", "groudon_primal", "kyogre_primal", "metagross_mega", "heracross_mega", "delphox_mega", "dragonite_mega", "tyranitar_mega", "salamence_mega", "garchomp_mega", "mewtwo_mega_y", "mewtwo_mega_x", "gyarados_mega", "greninja_mega", "chesnaught_mega", "charizard_mega_y", "swampert_mega", "latios_mega", "latias_mega", "gallade_mega", "gengar_mega", "aggron_mega", "kyogre", "xerneas", "yveltal", "palkia_origin", "ursaluna", "marshadow", "lugia", "kyurem_white", "groudon", "reshiram", "lunala", "zacian_crowned_sword", "eternatus"]
+                    "values": ["rayquaza_mega", "groudon_primal", "kyogre_primal", "metagross_mega", "heracross_mega", "delphox_mega", "dragonite_mega", "tyranitar_mega", "salamence_mega", "garchomp_mega", "mewtwo_mega_y", "mewtwo_mega_x", "gyarados_mega", "greninja_mega", "chesnaught_mega", "charizard_mega_y", "swampert_mega", "latios_mega", "latias_mega", "gallade_mega", "gengar_mega", "aggron_mega", "kyogre", "xerneas", "yveltal", "palkia_origin", "ursaluna", "marshadow", "lugia", "kyurem_white", "groudon", "reshiram", "lunala", "zacian_crowned_sword", "eternatus", "palkia", "necrozma_dawn_wings", "metagross", "zamazenta_crowned_shield", "zygarde_complete"]
                 }
             ]
         },
@@ -245,6 +245,44 @@
             "exclude": []
         },
         {
+            "name": "fable",
+            "title": "Fable Cup",
+            "link": "https://devon.gg/",
+            "include": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["fairy", "ghost", "grass", "water"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["cetitan", "dustox", "flamigo", "glalie", "glalie_shadow", "orbeetle", "piloswine", "piloswine_shadow", "qwilfish", "qwilfish_shadow", "qwilfish_hisuian", "venomoth", "venomoth_shadow"]
+                }
+            ],
+            "exclude": [
+                {
+                    "filterType": "type",
+                    "name": "Type",
+                    "values": ["dark", "fire", "flying", "poison", "steel"]
+                },
+                {
+                    "filterType": "tag",
+                    "name": "Tag",
+                    "values": ["mega"]
+                },
+                {
+                    "filterType": "id",
+                    "name": "Species",
+                    "values": ["abomasnow", "araquanid", "carbink", "clefable", "corsola_galarian", "dusclops", "gourgeist_average", "gourgeist_large", "gourgeist_small", "gourgeist_super", "lanturn", "mimikyu", "ninetales_alolan", "swadloon", "wigglytuff"]
+                }
+            ],
+            "overrides": [],
+            "league": 1500,
+            "useDefaultMovesets": 1,
+            "excludeLowPokemon": 1
+        },
+        {
             "name": "fantasy",
             "title": "Fantasy Cup",
             "include": [
@@ -301,6 +339,19 @@
                     "values": ["empoleon", "corviknight", "tinkaton", "tinkatuff", "mawile", "mimikyu", "cramorant", "carbink", "morpeko_full_belly"]
                 }
             ]
+        },
+        {
+            "name": "halloweenmega",
+            "title": "Mega Halloween Cup",
+            "include": [
+                {
+                    "filterType": "type",
+                    "values": ["poison", "ghost", "bug", "dark", "fairy"]
+                }
+            ],
+            "exclude": [],
+            "partySize": 3,
+            "presetOnly": true
         },
         {
             "name": "laic2027",
@@ -546,16 +597,6 @@
             "rules": ["No CP limit.", "Mega Evolutions are eligible."]
         },
         {
-            "title": "Little Cup",
-            "cup": "little",
-            "cp": 500,
-            "meta": "little",
-            "showCup": true,
-            "showFormat": true,
-            "showMeta": true,
-            "rules": ["Pokémon must be at or below 500 CP to enter.", "Only Pokémon that are able to evolve and have not evolved even once are eligible."]
-        },
-        {
             "title": "Fantasy Cup",
             "cup": "fantasy",
             "cp": 1500,
@@ -564,6 +605,16 @@
             "showFormat": true,
             "showMeta": true,
             "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Only Dragon-,  Steel-,  and Fairy-type Pokémon are eligible."]
+        },
+        {
+            "title": "Mega Halloween Cup",
+            "cup": "halloweenmega",
+            "cp": 1500,
+            "meta": "halloweenmega",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true,
+            "rules": ["Pokémon must be at or below 1, 500 CP to enter.", "Mega-Evolved Pokémon are eligible.", "Only Bug-,  Poison-,  Ghost-,  Dark-,  and Fairy-type Pokémon are eligible."]
         },
         {
             "title": "LAIC 2027 Championship Series Cup",
@@ -607,6 +658,15 @@
             "cup": "trail",
             "cp": 1500,
             "meta": "trail",
+            "showCup": true,
+            "showFormat": true,
+            "showMeta": true
+        },
+        {
+            "title": "Devon Fable Cup",
+            "cup": "fable",
+            "cp": 1500,
+            "meta": "fable",
             "showCup": true,
             "showFormat": true,
             "showMeta": true
@@ -31999,6 +32059,35 @@
         },
         {
             "dex": 609,
+            "speciesId": "chandelure_mega",
+            "speciesName": "Chandelure (Mega)",
+            "baseStats": {
+                "atk": 335,
+                "def": 182,
+                "hp": 155
+            },
+            "types": ["ghost", "fire"],
+            "fastMoves": ["HEX", "FIRE_SPIN", "INCINERATE", "ASTONISH"],
+            "chargedMoves": ["ENERGY_BALL", "SHADOW_BALL", "OVERHEAT", "FLAME_CHARGE", "POLTERGEIST"],
+            "eliteMoves": ["POLTERGEIST"],
+            "extraChargedMoves": ["OMINOUS_WIND_PLUS"],
+            "defaultIVs": {
+                "cp500": [5, 4, 11, 4],
+                "cp1500": [13.5, 6, 14, 15],
+                "cp2500": [22.5, 7, 14, 14]
+            },
+            "buddyDistance": 5,
+            "thirdMoveCost": 75000,
+            "released": false,
+            "family": {
+                "id": "FAMILY_LITWICK",
+                "parent": "lampent"
+            },
+            "level25CP": 2030,
+            "tags": ["shadoweligible", "mega", "supermega"]
+        },
+        {
+            "dex": 609,
             "speciesId": "chandelure_shadow",
             "speciesName": "Chandelure (Shadow)",
             "baseStats": {
@@ -48511,6 +48600,18 @@
             "turns": 2
         },
         {
+            "moveId": "KOWTOW_CLEAVE",
+            "name": "Kowtow Cleave",
+            "abbreviation": "KTC",
+            "type": "dark",
+            "power": 75,
+            "energy": 40,
+            "energyGain": 0,
+            "cooldown": 500,
+            "archetype": "Spam/Bait",
+            "turns": 1
+        },
+        {
             "moveId": "LAST_RESORT",
             "name": "Last Resort",
             "type": "normal",
@@ -49043,8 +49144,24 @@
             "buffs": [1, 1],
             "buffTarget": "self",
             "buffApplyChance": ".1",
-            "archetype": "Boost",
+            "archetype": "Boost Spam",
             "turns": 1
+        },
+        {
+            "moveId": "OMINOUS_WIND_PLUS",
+            "name": "Ominous Wind+",
+            "abbreviation": "OW+",
+            "type": "ghost",
+            "power": 50,
+            "energy": 40,
+            "energyGain": 0,
+            "cooldown": 500,
+            "buffs": [1, 1],
+            "buffTarget": "self",
+            "buffApplyChance": ".1",
+            "archetype": "Boost",
+            "turns": 1,
+            "isMegaMove": true
         },
         {
             "moveId": "ORIGIN_PULSE",

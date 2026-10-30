@@ -77,6 +77,10 @@ def compute():
     Owned legendaries/mythicals/UBs are kept family-deduped (best form) if in the top-20 overall,
     shown with rank only."""
     raw = json.load(open(os.path.join(DATA, "pve_type_ranks_raw.json")))
+    try:  # best fast / charged move per board entry (scraped alongside the ranks)
+        mv = json.load(open(os.path.join(DATA, "pve_type_moves.json")))
+    except (OSError, ValueError):
+        mv = {}
     result = {}
     for tp, arr in raw.items():
         cand = {}  # (fam, is_shadow) -> (pos, dex, tok)  best form of that candidate
@@ -115,9 +119,38 @@ def compute():
                     continue
             keepers.append({"fam": fam, "rank": pos, "dex": dex, "crank": crank, "trank": trank,
                             "form": form_name(dex, tok), "base": dex_base.get(dex),
-                            "locked": dex in locked_dex, "shadow": sh})
+                            "locked": dex in locked_dex, "shadow": sh,
+                            "moves": " / ".join(x for x in mv.get(tp, {}).get(arr[pos - 1], []) if x)})
         result[tp] = keepers
     return result
+
+
+MAX_TOP_N = 5  # Max Battle attackers kept per type (the PGHub Max boards are short: 3-32 rows)
+
+
+def max_by_dex():
+    """dex -> Max Battle (Dynamax / Gigantamax) usages: the top MAX_TOP_N attacker FAMILIES of each
+    type on PGHub's best-dynamax-per-type board (data/max_type_ranks.json). Rank is the board
+    position of the family's best form; 'tier' is PGHub's tier letter. Fail-soft if the file's absent."""
+    try:
+        raw = json.load(open(os.path.join(DATA, "max_type_ranks.json")))
+    except (OSError, ValueError):
+        return {}
+    m = {}
+    for tp, rows in raw.items():
+        seen = set()
+        for i, r in enumerate(rows):
+            dex, _tok = parse(r["token"])
+            fam = dex_fam.get(dex, str(dex))
+            if fam in seen:
+                continue
+            seen.add(fam)
+            if len(seen) > MAX_TOP_N:
+                break
+            m.setdefault(dex, []).append(
+                {"type": tp.capitalize(), "rank": i + 1, "form": r["name"], "tier": r.get("tier", ""),
+                 "moves": " / ".join(x for x in (r.get("fast"), r.get("max")) if x)})
+    return m
 
 
 def by_dex():
@@ -130,7 +163,7 @@ def by_dex():
             m.setdefault(k["dex"], []).append(
                 {"type": tp.capitalize(), "rank": k["rank"], "crank": k["crank"],
                  "trank": k["trank"], "form": k["form"], "base": k["base"],
-                 "locked": k["locked"], "shadow": k["shadow"]})
+                 "locked": k["locked"], "shadow": k["shadow"], "moves": k.get("moves", "")})
     return m
 
 

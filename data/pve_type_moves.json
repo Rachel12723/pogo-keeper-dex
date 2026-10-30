@@ -1,0 +1,3638 @@
+{
+ "normal": {
+  "719-Mega": [
+   "Tackle",
+   "Power Gem+"
+  ],
+  "486-Shadow": [
+   "Zen Headbutt",
+   "Crush Grip"
+  ],
+  "398-Mega": [
+   "Quick Attack",
+   "Brave Bird+"
+  ],
+  "655-Mega": [
+   "Scratch",
+   "Mystical Fire+"
+  ],
+  "150-Mega_Y": [
+   "Confusion",
+   "Hyper Beam"
+  ],
+  "150-Mega_X": [
+   "Counter",
+   "Hyper Beam"
+  ],
+  "888-Crowned_Sword": [
+   "Metal Claw",
+   "Giga Impact"
+  ],
+  "121-Mega": [
+   "Tackle",
+   "Liquidation+"
+  ],
+  "486": [
+   "Zen Headbutt",
+   "Crush Grip"
+  ],
+  "526-Shadow": [
+   "Lock-On",
+   "Meteor Beam"
+  ],
+  "428-Mega": [
+   "Pound",
+   "Close Combat+"
+  ],
+  "894": [
+   "Lock-On",
+   "Thunder Cage"
+  ],
+  "785": [
+   "Quick Attack",
+   "Nature's Madness"
+  ],
+  "149-Mega": [
+   "Dragon Tail",
+   "Hyper Beam"
+  ],
+  "901-Shadow": [
+   "Scratch",
+   "High Horsepower"
+  ],
+  "398-Shadow": [
+   "Quick Attack",
+   "Fly"
+  ],
+  "149-Shadow": [
+   "Dragon Tail",
+   "Hyper Beam"
+  ],
+  "526": [
+   "Lock-On",
+   "Meteor Beam"
+  ],
+  "150-Shadow": [
+   "Confusion",
+   "Hyper Beam"
+  ],
+  "716": [
+   "Geomancy",
+   "Giga Impact"
+  ],
+  "142-Mega": [
+   "Rock Throw",
+   "Hyper Beam"
+  ],
+  "888-Hero": [
+   "Quick Attack",
+   "Play Rough"
+  ],
+  "494": [
+   "Quick Attack",
+   "V-create"
+  ],
+  "464-Shadow": [
+   "Smack Down",
+   "Skull Bash"
+  ],
+  "655-Shadow": [
+   "Scratch",
+   "Blast Burn"
+  ],
+  "398": [
+   "Quick Attack",
+   "Fly"
+  ],
+  "889-Crowned_Shield": [
+   "Metal Claw",
+   "Giga Impact"
+  ],
+  "250-Shadow": [
+   "Hidden Power",
+   "Brave Bird"
+  ],
+  "818": [
+   "Pound",
+   "Snipe Shot"
+  ],
+  "793": [
+   "Pound",
+   "Rock Slide"
+  ],
+  "474-Shadow": [
+   "Lock-On",
+   "Blizzard"
+  ],
+  "901": [
+   "Scratch",
+   "High Horsepower"
+  ],
+  "26-Mega_Y": [
+   "Charm",
+   "Skull Bash"
+  ],
+  "648-Aria": [
+   "Quick Attack",
+   "Dazzling Gleam"
+  ],
+  "149": [
+   "Dragon Tail",
+   "Hyper Beam"
+  ],
+  "150": [
+   "Confusion",
+   "Hyper Beam"
+  ],
+  "975": [
+   "Tackle",
+   "Avalanche"
+  ],
+  "555-Galarian_Standard": [
+   "Tackle",
+   "Avalanche"
+  ],
+  "378-Shadow": [
+   "Lock-On",
+   "Blizzard"
+  ],
+  "815": [
+   "Tackle",
+   "Blast Burn"
+  ],
+  "531-Mega": [
+   "Pound",
+   "Draining Kiss+"
+  ],
+  "717": [
+   "Snarl",
+   "Hyper Beam"
+  ],
+  "143-Shadow": [
+   "Lick",
+   "Skull Bash"
+  ],
+  "655": [
+   "Scratch",
+   "Blast Burn"
+  ],
+  "464": [
+   "Smack Down",
+   "Skull Bash"
+  ],
+  "405-Shadow": [
+   "Hidden Power",
+   "Wild Charge"
+  ],
+  "474": [
+   "Lock-On",
+   "Blizzard"
+  ],
+  "760-Shadow": [
+   "Tackle",
+   "Superpower"
+  ],
+  "330-Shadow": [
+   "Dragon Tail",
+   "Boomburst"
+  ],
+  "784": [
+   "Dragon Tail",
+   "Boomburst"
+  ]
+ },
+ "fire": {
+  "257-Mega": [
+   "Fire Spin",
+   "Blaze Kick+"
+  ],
+  "655-Mega": [
+   "Fire Spin",
+   "Mystical Fire+"
+  ],
+  "6-Mega_Y": [
+   "Fire Spin",
+   "Blast Burn+"
+  ],
+  "643-Shadow": [
+   "Fire Fang",
+   "Fusion Flare"
+  ],
+  "806": [
+   "Incinerate",
+   "Mind Blown"
+  ],
+  "485-Shadow": [
+   "Fire Spin",
+   "Magma Storm"
+  ],
+  "373-Mega": [
+   "Fire Fang",
+   "Fly+"
+  ],
+  "6-Mega_X": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "609-Shadow": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "643": [
+   "Fire Fang",
+   "Fusion Flare"
+  ],
+  "146-Shadow": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "655-Shadow": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "257-Shadow": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "323-Mega": [
+   "Ember",
+   "Heat Wave+"
+  ],
+  "6-Shadow": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "150-Mega_X": [
+   "Counter",
+   "Flamethrower"
+  ],
+  "244-Shadow": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "500-Shadow": [
+   "Ember",
+   "Blast Burn"
+  ],
+  "150-Mega_Y": [
+   "Psycho Cut",
+   "Flamethrower"
+  ],
+  "555-Standard_Shadow": [
+   "Fire Fang",
+   "Overheat"
+  ],
+  "383-Primal": [
+   "Mud Shot",
+   "Fire Blast"
+  ],
+  "373-Shadow": [
+   "Fire Fang",
+   "Fly"
+  ],
+  "157-Shadow": [
+   "Incinerate",
+   "Blast Burn"
+  ],
+  "250-Shadow": [
+   "Incinerate",
+   "Sacred Fire"
+  ],
+  "485": [
+   "Fire Spin",
+   "Magma Storm"
+  ],
+  "392-Shadow": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "229-Mega": [
+   "Fire Fang",
+   "Flamethrower"
+  ],
+  "637": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "609": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "815": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "467-Shadow": [
+   "Fire Spin",
+   "Fire Blast"
+  ],
+  "146": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "257": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "655": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "59-Shadow": [
+   "Fire Fang",
+   "Flamethrower"
+  ],
+  "555-Standard": [
+   "Fire Fang",
+   "Overheat"
+  ],
+  "555": [
+   "Fire Fang",
+   "Overheat"
+  ],
+  "500": [
+   "Ember",
+   "Blast Burn"
+  ],
+  "494": [
+   "Quick Attack",
+   "V-create"
+  ],
+  "6": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "244": [
+   "Fire Spin",
+   "Overheat"
+  ],
+  "448-Mega": [
+   "Force Palm",
+   "Blaze Kick"
+  ],
+  "721": [
+   "Incinerate",
+   "Overheat"
+  ],
+  "727": [
+   "Fire Fang",
+   "Blast Burn"
+  ],
+  "373": [
+   "Fire Fang",
+   "Fly"
+  ],
+  "157": [
+   "Incinerate",
+   "Blast Burn"
+  ],
+  "392": [
+   "Fire Spin",
+   "Blast Burn"
+  ],
+  "911": [
+   "Incinerate",
+   "Blast Burn"
+  ],
+  "150-Shadow": [
+   "Psycho Cut",
+   "Flamethrower"
+  ],
+  "136": [
+   "Fire Spin",
+   "Overheat"
+  ]
+ },
+ "water": {
+  "260-Mega": [
+   "Water Gun",
+   "Muddy Water+"
+  ],
+  "382-Primal": [
+   "Waterfall",
+   "Origin Pulse"
+  ],
+  "658-Mega": [
+   "Water Shuriken",
+   "Surf+"
+  ],
+  "121-Mega": [
+   "Psywave",
+   "Liquidation+"
+  ],
+  "9-Mega": [
+   "Water Gun",
+   "Hydro Cannon+"
+  ],
+  "382-Shadow": [
+   "Waterfall",
+   "Origin Pulse"
+  ],
+  "130-Mega": [
+   "Waterfall",
+   "Payback+"
+  ],
+  "260-Shadow": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "382": [
+   "Waterfall",
+   "Origin Pulse"
+  ],
+  "99-Shadow": [
+   "Bubble",
+   "Crabhammer"
+  ],
+  "658-Shadow": [
+   "Water Shuriken",
+   "Hydro Cannon"
+  ],
+  "160-Shadow": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "503-Shadow": [
+   "Waterfall",
+   "Hydro Cannon"
+  ],
+  "130-Shadow": [
+   "Waterfall",
+   "Hydro Pump"
+  ],
+  "768-Shadow": [
+   "Waterfall",
+   "Razor Shell"
+  ],
+  "818": [
+   "Water Gun",
+   "Snipe Shot"
+  ],
+  "914": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "730": [
+   "Waterfall",
+   "Hydro Cannon"
+  ],
+  "395-Shadow": [
+   "Waterfall",
+   "Hydro Cannon"
+  ],
+  "484-Shadow": [
+   "Dragon Tail",
+   "Aqua Tail"
+  ],
+  "658": [
+   "Water Shuriken",
+   "Hydro Cannon"
+  ],
+  "99": [
+   "Bubble",
+   "Crabhammer"
+  ],
+  "260": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "464-Shadow": [
+   "Mud-Slap",
+   "Surf"
+  ],
+  "319-Mega": [
+   "Waterfall",
+   "Crunch+"
+  ],
+  "503": [
+   "Waterfall",
+   "Hydro Cannon"
+  ],
+  "160": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "721": [
+   "Water Gun",
+   "Hydro Pump"
+  ],
+  "350-Shadow": [
+   "Waterfall",
+   "Surf"
+  ],
+  "80-Mega": [
+   "Water Gun",
+   "Surf"
+  ],
+  "130": [
+   "Waterfall",
+   "Hydro Pump"
+  ],
+  "9-Shadow": [
+   "Water Gun",
+   "Hydro Cannon"
+  ],
+  "373-Mega": [
+   "Dragon Tail",
+   "Hydro Pump"
+  ],
+  "693": [
+   "Water Gun",
+   "Crabhammer"
+  ],
+  "768": [
+   "Waterfall",
+   "Razor Shell"
+  ],
+  "395": [
+   "Waterfall",
+   "Hydro Cannon"
+  ],
+  "342-Shadow": [
+   "Waterfall",
+   "Razor Shell"
+  ],
+  "503-Hisuian": [
+   "Waterfall",
+   "Razor Shell"
+  ],
+  "186-Shadow": [
+   "Bubble",
+   "Weather Ball"
+  ],
+  "230-Shadow": [
+   "Waterfall",
+   "Surf"
+  ],
+  "484-Origin": [
+   "Dragon Tail",
+   "Aqua Tail"
+  ],
+  "612-Shadow": [
+   "Dragon Tail",
+   "Surf"
+  ],
+  "373-Shadow": [
+   "Dragon Tail",
+   "Hydro Pump"
+  ],
+  "131-Shadow": [
+   "Water Gun",
+   "Sparkling Aria"
+  ],
+  "484": [
+   "Dragon Tail",
+   "Aqua Tail"
+  ],
+  "892-Rapid_Strike": [
+   "Waterfall",
+   "Dynamic Punch"
+  ],
+  "121-Shadow": [
+   "Water Gun",
+   "Surf"
+  ],
+  "245-Shadow": [
+   "Water Gun",
+   "Hydro Pump"
+  ],
+  "112-Shadow": [
+   "Mud-Slap",
+   "Surf"
+  ],
+  "647-Resolute": [
+   "Low Kick",
+   "Hydro Pump"
+  ]
+ },
+ "electric": {
+  "181-Mega": [
+   "Volt Switch",
+   "Thunder Punch+"
+  ],
+  "26-Mega_Y": [
+   "Thunder Shock",
+   "Zap Cannon+"
+  ],
+  "310-Mega": [
+   "Thunder Fang",
+   "Discharge+"
+  ],
+  "26-Mega_X": [
+   "Thunder Shock",
+   "Volt Tackle+"
+  ],
+  "642-Therian_Shadow": [
+   "Volt Switch",
+   "Wildbolt Storm"
+  ],
+  "150-Mega_Y": [
+   "Psycho Cut",
+   "Thunderbolt"
+  ],
+  "807": [
+   "Volt Switch",
+   "Plasma Fists"
+  ],
+  "243-Shadow": [
+   "Thunder Shock",
+   "Wild Charge"
+  ],
+  "150-Mega_X": [
+   "Psycho Cut",
+   "Thunderbolt"
+  ],
+  "894": [
+   "Lock-On",
+   "Thunder Cage"
+  ],
+  "796": [
+   "Thunder Shock",
+   "Discharge"
+  ],
+  "644": [
+   "Charge Beam",
+   "Fusion Bolt"
+  ],
+  "145-Shadow": [
+   "Thunder Shock",
+   "Thunderbolt"
+  ],
+  "466-Shadow": [
+   "Thunder Shock",
+   "Wild Charge"
+  ],
+  "642-Therian": [
+   "Volt Switch",
+   "Wildbolt Storm"
+  ],
+  "462-Shadow": [
+   "Volt Switch",
+   "Wild Charge"
+  ],
+  "282-Mega": [
+   "Charge Beam",
+   "Dazzling Gleam+"
+  ],
+  "243": [
+   "Thunder Shock",
+   "Wild Charge"
+  ],
+  "405-Shadow": [
+   "Spark",
+   "Wild Charge"
+  ],
+  "150-Shadow": [
+   "Psycho Cut",
+   "Thunderbolt"
+  ],
+  "76-Alola_Shadow": [
+   "Rollout",
+   "Wild Charge"
+  ],
+  "466": [
+   "Thunder Shock",
+   "Wild Charge"
+  ],
+  "145": [
+   "Thunder Shock",
+   "Thunderbolt"
+  ],
+  "738-Shadow": [
+   "Volt Switch",
+   "Discharge"
+  ],
+  "646-Black": [
+   "Dragon Tail",
+   "Fusion Bolt"
+  ],
+  "462": [
+   "Volt Switch",
+   "Wild Charge"
+  ],
+  "785": [
+   "Volt Switch",
+   "Thunderbolt"
+  ],
+  "405": [
+   "Spark",
+   "Wild Charge"
+  ],
+  "59-Shadow": [
+   "Thunder Fang",
+   "Wild Charge"
+  ],
+  "382-Primal": [
+   "Waterfall",
+   "Thunder"
+  ],
+  "310-Shadow": [
+   "Thunder Fang",
+   "Wild Charge"
+  ],
+  "642-Incarnate": [
+   "Thunder Shock",
+   "Thunder Punch"
+  ],
+  "150": [
+   "Psycho Cut",
+   "Thunderbolt"
+  ],
+  "523-Shadow": [
+   "Spark",
+   "Wild Charge"
+  ],
+  "76-Alola": [
+   "Rollout",
+   "Wild Charge"
+  ],
+  "738": [
+   "Volt Switch",
+   "Discharge"
+  ],
+  "181-Shadow": [
+   "Volt Switch",
+   "Zap Cannon"
+  ],
+  "82-Shadow": [
+   "Thunder Shock",
+   "Discharge"
+  ],
+  "923": [
+   "Thunder Shock",
+   "Wild Charge"
+  ],
+  "901-Shadow": [
+   "Smack Down",
+   "Thunder Punch"
+  ],
+  "135": [
+   "Thunder Shock",
+   "Thunderbolt"
+  ],
+  "695-Shadow": [
+   "Volt Switch",
+   "Thunderbolt"
+  ],
+  "450-Shadow": [
+   "Thunder Fang",
+   "Weather Ball"
+  ],
+  "888-Hero": [
+   "Snarl",
+   "Wild Charge"
+  ],
+  "149-Mega": [
+   "Dragon Tail",
+   "Thunder Punch"
+  ],
+  "849-Low_Key": [
+   "Spark",
+   "Wild Charge"
+  ],
+  "849-Amped": [
+   "Spark",
+   "Wild Charge"
+  ],
+  "149-Shadow": [
+   "Dragon Tail",
+   "Thunder Punch"
+  ],
+  "483-Shadow": [
+   "Metal Claw",
+   "Thunder"
+  ],
+  "310": [
+   "Thunder Fang",
+   "Wild Charge"
+  ]
+ },
+ "grass": {
+  "254-Mega": [
+   "Fury Cutter",
+   "Leaf Blade+"
+  ],
+  "652-Mega": [
+   "Vine Whip",
+   "Seed Bomb+"
+  ],
+  "3-Mega": [
+   "Vine Whip",
+   "Frenzy Plant+"
+  ],
+  "282-Mega": [
+   "Magical Leaf",
+   "Dazzling Gleam+"
+  ],
+  "798": [
+   "Razor Leaf",
+   "Leaf Blade"
+  ],
+  "652-Shadow": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "492-Sky": [
+   "Magical Leaf",
+   "Grass Knot"
+  ],
+  "893": [
+   "Vine Whip",
+   "Power Whip"
+  ],
+  "465-Shadow": [
+   "Vine Whip",
+   "Power Whip"
+  ],
+  "3-Shadow": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "71-Mega": [
+   "Magical Leaf",
+   "Leaf Blade"
+  ],
+  "254-Shadow": [
+   "Fury Cutter",
+   "Frenzy Plant"
+  ],
+  "812": [
+   "Razor Leaf",
+   "Frenzy Plant"
+  ],
+  "383-Primal": [
+   "Mud Shot",
+   "Solar Beam"
+  ],
+  "796": [
+   "Thunder Shock",
+   "Power Whip"
+  ],
+  "389-Shadow": [
+   "Razor Leaf",
+   "Frenzy Plant"
+  ],
+  "475-Mega": [
+   "Low Kick",
+   "Leaf Blade"
+  ],
+  "787": [
+   "Bullet Seed",
+   "Grass Knot"
+  ],
+  "407": [
+   "Magical Leaf",
+   "Grass Knot"
+  ],
+  "652": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "908": [
+   "Leafage",
+   "Frenzy Plant"
+  ],
+  "381-Mega": [
+   "Dragon Breath",
+   "Solar Beam"
+  ],
+  "724": [
+   "Magical Leaf",
+   "Frenzy Plant"
+  ],
+  "154-Shadow": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "465": [
+   "Vine Whip",
+   "Power Whip"
+  ],
+  "103-Alola_Shadow": [
+   "Bullet Seed",
+   "Solar Beam"
+  ],
+  "254": [
+   "Fury Cutter",
+   "Frenzy Plant"
+  ],
+  "763": [
+   "Magical Leaf",
+   "Grass Knot"
+  ],
+  "3": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "103-Shadow": [
+   "Bullet Seed",
+   "Solar Beam"
+  ],
+  "383-Shadow": [
+   "Mud Shot",
+   "Solar Beam"
+  ],
+  "286": [
+   "Force Palm",
+   "Grass Knot"
+  ],
+  "71-Shadow": [
+   "Magical Leaf",
+   "Leaf Blade"
+  ],
+  "497-Shadow": [
+   "Vine Whip",
+   "Frenzy Plant"
+  ],
+  "389": [
+   "Razor Leaf",
+   "Frenzy Plant"
+  ],
+  "251": [
+   "Magical Leaf",
+   "Leaf Storm"
+  ],
+  "26-Mega_Y": [
+   "Thunder Shock",
+   "Trailblaze"
+  ],
+  "181-Mega": [
+   "Volt Switch",
+   "Trailblaze"
+  ],
+  "114-Shadow": [
+   "Vine Whip",
+   "Grass Knot"
+  ],
+  "724-Hisuian": [
+   "Magical Leaf",
+   "Aura Sphere"
+  ],
+  "905-Incarnate": [
+   "Fairy Wind",
+   "Grass Knot"
+  ],
+  "754-Shadow": [
+   "Leafage",
+   "Leaf Blade"
+  ],
+  "381-Shadow": [
+   "Dragon Breath",
+   "Solar Beam"
+  ],
+  "673": [
+   "Vine Whip",
+   "Leaf Blade"
+  ],
+  "865-Shadow": [
+   "Counter",
+   "Leaf Blade"
+  ],
+  "470": [
+   "Razor Leaf",
+   "Leaf Blade"
+  ],
+  "212-Mega": [
+   "Fury Cutter",
+   "Trailblaze"
+  ],
+  "460-Mega": [
+   "Leafage",
+   "Energy Ball"
+  ],
+  "275-Shadow": [
+   "Razor Leaf",
+   "Leaf Blade"
+  ],
+  "474-Shadow": [
+   "Lock-On",
+   "Solar Beam"
+  ]
+ },
+ "ice": {
+  "646-White": [
+   "Ice Fang",
+   "Ice Burn"
+  ],
+  "646-Black": [
+   "Dragon Tail",
+   "Freeze Shock"
+  ],
+  "150-Mega_Y": [
+   "Psycho Cut",
+   "Ice Beam"
+  ],
+  "460-Mega": [
+   "Powder Snow",
+   "Blizzard+"
+  ],
+  "150-Mega_X": [
+   "Psycho Cut",
+   "Ice Beam"
+  ],
+  "473-Shadow": [
+   "Powder Snow",
+   "Avalanche"
+  ],
+  "282-Mega": [
+   "Charm",
+   "Triple Axel"
+  ],
+  "150-Shadow": [
+   "Psycho Cut",
+   "Ice Beam"
+  ],
+  "889-Crowned_Shield": [
+   "Ice Fang",
+   "Behemoth Bash"
+  ],
+  "382-Primal": [
+   "Waterfall",
+   "Avalanche"
+  ],
+  "998": [
+   "Ice Fang",
+   "Avalanche"
+  ],
+  "461-Shadow": [
+   "Ice Shard",
+   "Triple Axel"
+  ],
+  "473": [
+   "Powder Snow",
+   "Avalanche"
+  ],
+  "362-Mega": [
+   "Frost Breath",
+   "Avalanche"
+  ],
+  "555-Galarian_Standard": [
+   "Ice Fang",
+   "Avalanche"
+  ],
+  "144-Shadow": [
+   "Frost Breath",
+   "Triple Axel"
+  ],
+  "699-Shadow": [
+   "Frost Breath",
+   "Weather Ball"
+  ],
+  "866-Shadow": [
+   "Ice Shard",
+   "Triple Axel"
+  ],
+  "646": [
+   "Dragon Breath",
+   "Glaciate"
+  ],
+  "975": [
+   "Ice Shard",
+   "Avalanche"
+  ],
+  "150": [
+   "Psycho Cut",
+   "Ice Beam"
+  ],
+  "471": [
+   "Frost Breath",
+   "Avalanche"
+  ],
+  "282-Shadow": [
+   "Charm",
+   "Triple Axel"
+  ],
+  "461": [
+   "Ice Shard",
+   "Triple Axel"
+  ],
+  "382-Shadow": [
+   "Waterfall",
+   "Avalanche"
+  ],
+  "428-Mega": [
+   "Pound",
+   "Triple Axel"
+  ],
+  "378-Shadow": [
+   "Frost Breath",
+   "Blizzard"
+  ],
+  "713": [
+   "Ice Fang",
+   "Avalanche"
+  ],
+  "584": [
+   "Frost Breath",
+   "Avalanche"
+  ],
+  "474-Shadow": [
+   "Lock-On",
+   "Blizzard"
+  ],
+  "365-Shadow": [
+   "Frost Breath",
+   "Icicle Spear"
+  ],
+  "866": [
+   "Ice Shard",
+   "Triple Axel"
+  ],
+  "38-Alola_Shadow": [
+   "Powder Snow",
+   "Weather Ball"
+  ],
+  "699": [
+   "Frost Breath",
+   "Weather Ball"
+  ],
+  "460-Shadow": [
+   "Powder Snow",
+   "Weather Ball"
+  ],
+  "144": [
+   "Frost Breath",
+   "Triple Axel"
+  ],
+  "121-Mega": [
+   "Psywave",
+   "Ice Beam"
+  ],
+  "901-Shadow": [
+   "Tackle",
+   "Ice Punch"
+  ],
+  "91-Shadow": [
+   "Frost Breath",
+   "Avalanche"
+  ],
+  "9-Mega": [
+   "Rollout",
+   "Ice Beam"
+  ],
+  "221-Shadow": [
+   "Ice Shard",
+   "Avalanche"
+  ],
+  "713-Hisuian": [
+   "Powder Snow",
+   "Blizzard"
+  ],
+  "131-Shadow": [
+   "Frost Breath",
+   "Ice Beam"
+  ],
+  "124": [
+   "Frost Breath",
+   "Avalanche"
+  ],
+  "615": [
+   "Frost Breath",
+   "Triple Axel"
+  ],
+  "282": [
+   "Charm",
+   "Triple Axel"
+  ],
+  "614": [
+   "Powder Snow",
+   "Ice Punch"
+  ],
+  "382": [
+   "Waterfall",
+   "Avalanche"
+  ],
+  "474": [
+   "Lock-On",
+   "Blizzard"
+  ],
+  "904-Shadow": [
+   "Poison Jab",
+   "Ice Beam"
+  ]
+ },
+ "fighting": {
+  "150-Mega_X": [
+   "Counter",
+   "Dynamic Punch+"
+  ],
+  "448-Mega": [
+   "Force Palm",
+   "Aura Sphere+"
+  ],
+  "257-Mega": [
+   "Counter",
+   "Aura Sphere"
+  ],
+  "647-Resolute": [
+   "Low Kick",
+   "Secret Sword"
+  ],
+  "870-Mega": [
+   "Counter",
+   "Brick Break+"
+  ],
+  "150-Mega_Y": [
+   "Counter",
+   "Focus Blast"
+  ],
+  "475-Mega": [
+   "Low Kick",
+   "Sacred Sword"
+  ],
+  "428-Mega": [
+   "Double Kick",
+   "Close Combat+"
+  ],
+  "214-Mega": [
+   "Counter",
+   "Lunge+"
+  ],
+  "257-Shadow": [
+   "Counter",
+   "Aura Sphere"
+  ],
+  "534-Shadow": [
+   "Force Palm",
+   "Dynamic Punch"
+  ],
+  "639": [
+   "Double Kick",
+   "Sacred Sword"
+  ],
+  "448": [
+   "Force Palm",
+   "Aura Sphere"
+  ],
+  "381-Mega": [
+   "Dragon Breath",
+   "Aura Sphere"
+  ],
+  "475-Shadow": [
+   "Low Kick",
+   "Sacred Sword"
+  ],
+  "647-Ordinary": [
+   "Low Kick",
+   "Sacred Sword"
+  ],
+  "243-Shadow": [
+   "Thunder Shock",
+   "Aura Sphere"
+  ],
+  "68-Shadow": [
+   "Counter",
+   "Dynamic Punch"
+  ],
+  "257": [
+   "Counter",
+   "Aura Sphere"
+  ],
+  "150-Shadow": [
+   "Counter",
+   "Focus Blast"
+  ],
+  "297-Shadow": [
+   "Force Palm",
+   "Dynamic Punch"
+  ],
+  "65-Mega": [
+   "Counter",
+   "Focus Blast"
+  ],
+  "892-Rapid_Strike": [
+   "Counter",
+   "Dynamic Punch"
+  ],
+  "534": [
+   "Force Palm",
+   "Dynamic Punch"
+  ],
+  "892-Single_Strike": [
+   "Counter",
+   "Dynamic Punch"
+  ],
+  "381-Shadow": [
+   "Dragon Breath",
+   "Aura Sphere"
+  ],
+  "380-Mega": [
+   "Dragon Breath",
+   "Aura Sphere"
+  ],
+  "798": [
+   "Fury Cutter",
+   "Sacred Sword"
+  ],
+  "979-Shadow": [
+   "Counter",
+   "Close Combat"
+  ],
+  "802": [
+   "Counter",
+   "Close Combat"
+  ],
+  "475": [
+   "Low Kick",
+   "Sacred Sword"
+  ],
+  "760-Shadow": [
+   "Low Kick",
+   "Superpower"
+  ],
+  "308-Mega": [
+   "Counter",
+   "High Jump Kick+"
+  ],
+  "150": [
+   "Counter",
+   "Focus Blast"
+  ],
+  "500-Shadow": [
+   "Low Kick",
+   "Focus Blast"
+  ],
+  "243": [
+   "Thunder Shock",
+   "Aura Sphere"
+  ],
+  "68": [
+   "Counter",
+   "Dynamic Punch"
+  ],
+  "865-Shadow": [
+   "Counter",
+   "Close Combat"
+  ],
+  "297": [
+   "Force Palm",
+   "Dynamic Punch"
+  ],
+  "454-Shadow": [
+   "Counter",
+   "Dynamic Punch"
+  ],
+  "724-Hisuian": [
+   "Psycho Cut",
+   "Aura Sphere"
+  ],
+  "794": [
+   "Counter",
+   "Superpower"
+  ],
+  "652-Mega": [
+   "Low Kick",
+   "Superpower"
+  ],
+  "638": [
+   "Double Kick",
+   "Sacred Sword"
+  ],
+  "145-Galarian": [
+   "Counter",
+   "Close Combat"
+  ],
+  "612-Shadow": [
+   "Counter",
+   "Breaking Swipe"
+  ],
+  "640": [
+   "Double Kick",
+   "Sacred Sword"
+  ],
+  "380-Shadow": [
+   "Dragon Breath",
+   "Aura Sphere"
+  ],
+  "903-Shadow": [
+   "Rock Smash",
+   "Close Combat"
+  ],
+  "62-Shadow": [
+   "Counter",
+   "Dynamic Punch"
+  ]
+ },
+ "poison": {
+  "71-Mega": [
+   "Acid",
+   "Acid Spray+"
+  ],
+  "94-Mega": [
+   "Lick",
+   "Sludge Bomb"
+  ],
+  "890": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "15-Mega": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "793": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "904-Shadow": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "804": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "94-Shadow": [
+   "Lick",
+   "Sludge Bomb"
+  ],
+  "407": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "545-Shadow": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "966": [
+   "Poison Jab",
+   "Gunk Shot"
+  ],
+  "45-Shadow": [
+   "Acid",
+   "Sludge Bomb"
+  ],
+  "904": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "89-Shadow": [
+   "Poison Jab",
+   "Gunk Shot"
+  ],
+  "71-Shadow": [
+   "Acid",
+   "Sludge Bomb"
+  ],
+  "89-Alola_Shadow": [
+   "Poison Jab",
+   "Gunk Shot"
+  ],
+  "454-Shadow": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "491-Shadow": [
+   "Snarl",
+   "Sludge Bomb"
+  ],
+  "435-Shadow": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "94": [
+   "Lick",
+   "Sludge Bomb"
+  ],
+  "169-Shadow": [
+   "Gust",
+   "Sludge Bomb"
+  ],
+  "3-Mega": [
+   "Vine Whip",
+   "Sludge Bomb"
+  ],
+  "903-Shadow": [
+   "Poison Jab",
+   "Close Combat"
+  ],
+  "545": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "34-Shadow": [
+   "Poison Jab",
+   "Sludge Wave"
+  ],
+  "452-Shadow": [
+   "Poison Sting",
+   "Sludge Bomb"
+  ],
+  "454": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "3-Shadow": [
+   "Vine Whip",
+   "Sludge Bomb"
+  ],
+  "721": [
+   "Incinerate",
+   "Sludge Bomb"
+  ],
+  "71": [
+   "Acid",
+   "Sludge Bomb"
+  ],
+  "45": [
+   "Acid",
+   "Sludge Bomb"
+  ],
+  "89": [
+   "Poison Jab",
+   "Gunk Shot"
+  ],
+  "491": [
+   "Snarl",
+   "Sludge Bomb"
+  ],
+  "647-Resolute": [
+   "Poison Jab",
+   "Secret Sword"
+  ],
+  "80-Galarian": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "89-Alola": [
+   "Poison Jab",
+   "Gunk Shot"
+  ],
+  "945": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "435": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "758": [
+   "Poison Jab",
+   "Sludge Wave"
+  ],
+  "31-Shadow": [
+   "Poison Jab",
+   "Sludge Wave"
+  ],
+  "169": [
+   "Gust",
+   "Sludge Bomb"
+  ],
+  "465-Shadow": [
+   "Vine Whip",
+   "Sludge Bomb"
+  ],
+  "15-Shadow": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "260-Mega": [
+   "Mud Shot",
+   "Sludge"
+  ],
+  "642-Therian_Shadow": [
+   "Volt Switch",
+   "Sludge Wave"
+  ],
+  "73-Shadow": [
+   "Poison Jab",
+   "Sludge Wave"
+  ],
+  "211-Hisuian": [
+   "Poison Jab",
+   "Sludge Bomb"
+  ],
+  "34": [
+   "Poison Jab",
+   "Sludge Wave"
+  ],
+  "534-Shadow": [
+   "Poison Jab",
+   "Stone Edge"
+  ],
+  "903": [
+   "Poison Jab",
+   "Close Combat"
+  ]
+ },
+ "ground": {
+  "445-Mega": [
+   "Mud Shot",
+   "Earthquake+"
+  ],
+  "383-Primal": [
+   "Mud Shot",
+   "Precipice Blades"
+  ],
+  "383-Shadow": [
+   "Mud Shot",
+   "Precipice Blades"
+  ],
+  "260-Mega": [
+   "Mud Shot",
+   "Muddy Water+"
+  ],
+  "445-Shadow": [
+   "Mud Shot",
+   "Earth Power"
+  ],
+  "645-Therian": [
+   "Mud Shot",
+   "Sandsear Storm"
+  ],
+  "645-Incarnate_Shadow": [
+   "Mud Shot",
+   "Earth Power"
+  ],
+  "530-Shadow": [
+   "Mud-Slap",
+   "Scorching Sands"
+  ],
+  "464-Shadow": [
+   "Mud-Slap",
+   "Drill Run"
+  ],
+  "383": [
+   "Mud Shot",
+   "Precipice Blades"
+  ],
+  "445": [
+   "Mud Shot",
+   "Earth Power"
+  ],
+  "623-Shadow": [
+   "Mud-Slap",
+   "Earth Power"
+  ],
+  "645-Incarnate": [
+   "Mud Shot",
+   "Earth Power"
+  ],
+  "530": [
+   "Mud-Slap",
+   "Scorching Sands"
+  ],
+  "473-Shadow": [
+   "Mud-Slap",
+   "High Horsepower"
+  ],
+  "214-Mega": [
+   "Counter",
+   "Earthquake"
+  ],
+  "112-Shadow": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "450-Shadow": [
+   "Sand Attack",
+   "Earth Power"
+  ],
+  "464": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "232-Shadow": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "330-Shadow": [
+   "Sand Attack",
+   "Earth Power"
+  ],
+  "76-Shadow": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "260-Shadow": [
+   "Mud Shot",
+   "Earthquake"
+  ],
+  "389-Shadow": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "485-Shadow": [
+   "Fire Spin",
+   "Earth Power"
+  ],
+  "473": [
+   "Mud-Slap",
+   "High Horsepower"
+  ],
+  "376-Mega": [
+   "Fury Cutter",
+   "Earthquake"
+  ],
+  "623": [
+   "Mud-Slap",
+   "Earth Power"
+  ],
+  "398-Mega": [
+   "Sand Attack",
+   "Brave Bird+"
+  ],
+  "112": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "553": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "901-Shadow": [
+   "Tackle",
+   "High Horsepower"
+  ],
+  "31-Shadow": [
+   "Mud-Slap",
+   "Earth Power"
+  ],
+  "244-Shadow": [
+   "Fire Spin",
+   "Scorching Sands"
+  ],
+  "450": [
+   "Sand Attack",
+   "Earth Power"
+  ],
+  "750": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "770-Shadow": [
+   "Sand Attack",
+   "Earth Power"
+  ],
+  "472-Shadow": [
+   "Sand Attack",
+   "Earthquake"
+  ],
+  "323-Mega": [
+   "Ember",
+   "Earth Power"
+  ],
+  "254-Mega": [
+   "Fury Cutter",
+   "Earthquake"
+  ],
+  "142-Mega": [
+   "Rock Throw",
+   "Earth Power"
+  ],
+  "232": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "376-Shadow": [
+   "Fury Cutter",
+   "Earthquake"
+  ],
+  "115-Mega": [
+   "Mud-Slap",
+   "Earthquake"
+  ],
+  "34-Shadow": [
+   "Fury Cutter",
+   "Earth Power"
+  ],
+  "612-Shadow": [
+   "Counter",
+   "Earthquake"
+  ],
+  "28-Shadow": [
+   "Sand Attack",
+   "Scorching Sands"
+  ],
+  "467-Shadow": [
+   "Karate Chop",
+   "Scorching Sands"
+  ],
+  "330": [
+   "Sand Attack",
+   "Earth Power"
+  ],
+  "844": [
+   "Mud-Slap",
+   "Earth Power"
+  ]
+ },
+ "flying": {
+  "384-Mega": [
+   "Air Slash",
+   "Dragon Ascent+"
+  ],
+  "127-Mega": [
+   "Fury Cutter",
+   "Aerial Ace+"
+  ],
+  "398-Mega": [
+   "Gust",
+   "Brave Bird+"
+  ],
+  "373-Mega": [
+   "Fire Fang",
+   "Fly+"
+  ],
+  "384": [
+   "Air Slash",
+   "Dragon Ascent"
+  ],
+  "227-Mega": [
+   "Air Slash",
+   "Drill Peck+"
+  ],
+  "146-Shadow": [
+   "Wing Attack",
+   "Fly"
+  ],
+  "18-Mega": [
+   "Gust",
+   "Hurricane+"
+  ],
+  "6-Mega_Y": [
+   "Wing Attack",
+   "Blast Burn+"
+  ],
+  "373-Shadow": [
+   "Fire Fang",
+   "Fly"
+  ],
+  "905-Incarnate": [
+   "Fairy Wind",
+   "Fly"
+  ],
+  "733-Shadow": [
+   "Peck",
+   "Beak Blast"
+  ],
+  "717": [
+   "Gust",
+   "Oblivion Wing"
+  ],
+  "146": [
+   "Wing Attack",
+   "Fly"
+  ],
+  "398-Shadow": [
+   "Gust",
+   "Fly"
+  ],
+  "144-Galarian": [
+   "Psycho Cut",
+   "Fly"
+  ],
+  "145-Shadow": [
+   "Thunder Shock",
+   "Drill Peck"
+  ],
+  "905-Therian": [
+   "Fairy Wind",
+   "Fly"
+  ],
+  "373": [
+   "Fire Fang",
+   "Fly"
+  ],
+  "249-Shadow": [
+   "Extrasensory",
+   "Fly"
+  ],
+  "250-Shadow": [
+   "Extrasensory",
+   "Brave Bird"
+  ],
+  "733": [
+   "Peck",
+   "Beak Blast"
+  ],
+  "888-Crowned_Sword": [
+   "Air Slash",
+   "Play Rough"
+  ],
+  "641-Therian": [
+   "Gust",
+   "Bleakwind Storm"
+  ],
+  "257-Mega": [
+   "Fire Spin",
+   "Brave Bird"
+  ],
+  "398": [
+   "Gust",
+   "Fly"
+  ],
+  "628": [
+   "Air Slash",
+   "Fly"
+  ],
+  "521-Shadow": [
+   "Air Slash",
+   "Sky Attack"
+  ],
+  "628-Hisuian": [
+   "Air Slash",
+   "Fly"
+  ],
+  "430-Shadow": [
+   "Peck",
+   "Sky Attack"
+  ],
+  "145": [
+   "Thunder Shock",
+   "Drill Peck"
+  ],
+  "738-Shadow": [
+   "Volt Switch",
+   "Fly"
+  ],
+  "145-Galarian": [
+   "Low Kick",
+   "Fly"
+  ],
+  "146-Galarian": [
+   "Wing Attack",
+   "Fly"
+  ],
+  "6-Mega_X": [
+   "Wing Attack",
+   "Dragon Claw+"
+  ],
+  "6-Shadow": [
+   "Air Slash",
+   "Blast Burn"
+  ],
+  "250": [
+   "Extrasensory",
+   "Brave Bird"
+  ],
+  "334-Mega": [
+   "Peck",
+   "Disarming Voice+"
+  ],
+  "249": [
+   "Extrasensory",
+   "Fly"
+  ],
+  "641-Incarnate": [
+   "Air Slash",
+   "Hurricane"
+  ],
+  "663-Shadow": [
+   "Peck",
+   "Fly"
+  ],
+  "581-Shadow": [
+   "Gust",
+   "Fly"
+  ],
+  "635-Shadow": [
+   "Dragon Breath",
+   "Fly"
+  ],
+  "149-Mega": [
+   "Dragon Tail",
+   "Hurricane"
+  ],
+  "430": [
+   "Peck",
+   "Sky Attack"
+  ],
+  "149-Shadow": [
+   "Dragon Tail",
+   "Hurricane"
+  ],
+  "521": [
+   "Air Slash",
+   "Sky Attack"
+  ],
+  "792": [
+   "Air Slash",
+   "Psychic"
+  ],
+  "973": [
+   "Wing Attack",
+   "Brave Bird"
+  ],
+  "123-Shadow": [
+   "Air Slash",
+   "Aerial Ace"
+  ]
+ },
+ "psychic": {
+  "150-Mega_Y": [
+   "Psycho Cut",
+   "Future Sight+"
+  ],
+  "150-Mega_X": [
+   "Confusion",
+   "Psystrike"
+  ],
+  "65-Mega": [
+   "Psycho Cut",
+   "Psyshock+"
+  ],
+  "381-Mega": [
+   "Zen Headbutt",
+   "Luster Purge+"
+  ],
+  "150-Shadow": [
+   "Psycho Cut",
+   "Psystrike"
+  ],
+  "380-Mega": [
+   "Zen Headbutt",
+   "Mist Ball+"
+  ],
+  "282-Mega": [
+   "Confusion",
+   "Dazzling Gleam+"
+  ],
+  "475-Mega": [
+   "Confusion",
+   "Psychic"
+  ],
+  "150": [
+   "Psycho Cut",
+   "Psystrike"
+  ],
+  "655-Mega": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "376-Mega": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "381-Shadow": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "144-Galarian": [
+   "Psycho Cut",
+   "Fly"
+  ],
+  "376-Shadow": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "386-Normal": [
+   "Zen Headbutt",
+   "Psycho Boost"
+  ],
+  "687-Mega": [
+   "Psywave",
+   "Psybeam+"
+  ],
+  "249-Shadow": [
+   "Extrasensory",
+   "Fly"
+  ],
+  "250-Shadow": [
+   "Extrasensory",
+   "Brave Bird"
+  ],
+  "720-Unbound": [
+   "Confusion",
+   "Psychic"
+  ],
+  "800-Dusk_Mane": [
+   "Psycho Cut",
+   "Sunsteel Strike"
+  ],
+  "800-Dawn_Wings": [
+   "Psycho Cut",
+   "Moongeist Beam"
+  ],
+  "792": [
+   "Confusion",
+   "Psychic"
+  ],
+  "94-Mega": [
+   "Lick",
+   "Psychic"
+  ],
+  "486-Shadow": [
+   "Zen Headbutt",
+   "Crush Grip"
+  ],
+  "905-Incarnate": [
+   "Zen Headbutt",
+   "Fly"
+  ],
+  "905-Therian": [
+   "Extrasensory",
+   "Fly"
+  ],
+  "282-Shadow": [
+   "Confusion",
+   "Psychic"
+  ],
+  "65-Shadow": [
+   "Confusion",
+   "Psychic"
+  ],
+  "121-Mega": [
+   "Psywave",
+   "Psychic"
+  ],
+  "475-Shadow": [
+   "Confusion",
+   "Psychic"
+  ],
+  "380-Shadow": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "720-Confined": [
+   "Confusion",
+   "Psychic"
+  ],
+  "381": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "386-Speed": [
+   "Zen Headbutt",
+   "Psycho Boost"
+  ],
+  "655-Shadow": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "376": [
+   "Zen Headbutt",
+   "Psychic"
+  ],
+  "786": [
+   "Confusion",
+   "Nature's Madness"
+  ],
+  "103-Shadow": [
+   "Confusion",
+   "Psychic"
+  ],
+  "250": [
+   "Extrasensory",
+   "Brave Bird"
+  ],
+  "196": [
+   "Confusion",
+   "Psychic"
+  ],
+  "249": [
+   "Extrasensory",
+   "Fly"
+  ],
+  "486": [
+   "Zen Headbutt",
+   "Crush Grip"
+  ],
+  "65": [
+   "Confusion",
+   "Psychic"
+  ],
+  "80-Mega": [
+   "Confusion",
+   "Psychic"
+  ],
+  "628-Hisuian": [
+   "Zen Headbutt",
+   "Fly"
+  ],
+  "717": [
+   "Gust",
+   "Psychic"
+  ],
+  "282": [
+   "Confusion",
+   "Psychic"
+  ],
+  "648-Aria": [
+   "Confusion",
+   "Psyshock"
+  ],
+  "475": [
+   "Confusion",
+   "Psychic"
+  ],
+  "645-Therian": [
+   "Extrasensory",
+   "Sandsear Storm"
+  ]
+ },
+ "bug": {
+  "214-Mega": [
+   "Fury Cutter",
+   "Lunge+"
+  ],
+  "212-Mega": [
+   "Fury Cutter",
+   "X-Scissor+"
+  ],
+  "15-Mega": [
+   "Bug Bite",
+   "Fell Stinger+"
+  ],
+  "127-Mega": [
+   "Fury Cutter",
+   "Aerial Ace+"
+  ],
+  "376-Mega": [
+   "Fury Cutter",
+   "Meteor Mash+"
+  ],
+  "254-Mega": [
+   "Fury Cutter",
+   "Leaf Blade+"
+  ],
+  "738-Shadow": [
+   "Bug Bite",
+   "X-Scissor"
+  ],
+  "212-Shadow": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "637": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "127-Shadow": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "768-Shadow": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "589-Shadow": [
+   "Bug Bite",
+   "Megahorn"
+  ],
+  "376-Shadow": [
+   "Fury Cutter",
+   "Meteor Mash"
+  ],
+  "649-Normal": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "798": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "359-Mega": [
+   "Snarl",
+   "Megahorn"
+  ],
+  "738": [
+   "Bug Bite",
+   "X-Scissor"
+  ],
+  "123-Shadow": [
+   "Fury Cutter",
+   "Bug Buzz"
+  ],
+  "900": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "212": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "127": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "469": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "851": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "214": [
+   "Fury Cutter",
+   "Megahorn"
+  ],
+  "589": [
+   "Bug Bite",
+   "Megahorn"
+  ],
+  "768": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "716": [
+   "Geomancy",
+   "Megahorn"
+  ],
+  "617-Shadow": [
+   "Infestation",
+   "Bug Buzz"
+  ],
+  "376": [
+   "Fury Cutter",
+   "Meteor Mash"
+  ],
+  "558-Shadow": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "873": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "485-Shadow": [
+   "Bug Bite",
+   "Magma Storm"
+  ],
+  "983": [
+   "Snarl",
+   "X-Scissor"
+  ],
+  "632": [
+   "Bug Bite",
+   "X-Scissor"
+  ],
+  "123": [
+   "Fury Cutter",
+   "Bug Buzz"
+  ],
+  "795": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "596-Shadow": [
+   "Fury Cutter",
+   "Bug Buzz"
+  ],
+  "545-Shadow": [
+   "Bug Bite",
+   "X-Scissor"
+  ],
+  "503-Shadow": [
+   "Fury Cutter",
+   "Megahorn"
+  ],
+  "359-Shadow": [
+   "Snarl",
+   "Megahorn"
+  ],
+  "254-Shadow": [
+   "Fury Cutter",
+   "Frenzy Plant"
+  ],
+  "920": [
+   "Bug Bite",
+   "Bug Buzz"
+  ],
+  "542": [
+   "Bug Bite",
+   "X-Scissor"
+  ],
+  "617": [
+   "Infestation",
+   "Bug Buzz"
+  ],
+  "625": [
+   "Snarl",
+   "X-Scissor"
+  ],
+  "503-Hisuian": [
+   "Snarl",
+   "X-Scissor"
+  ],
+  "558": [
+   "Fury Cutter",
+   "X-Scissor"
+  ],
+  "596": [
+   "Fury Cutter",
+   "Bug Buzz"
+  ],
+  "903-Shadow": [
+   "Shadow Claw",
+   "X-Scissor"
+  ],
+  "545": [
+   "Bug Bite",
+   "X-Scissor"
+  ]
+ },
+ "rock": {
+  "719-Mega": [
+   "Rock Throw",
+   "Power Gem+"
+  ],
+  "248-Mega": [
+   "Smack Down",
+   "Stone Edge+"
+  ],
+  "464-Shadow": [
+   "Smack Down",
+   "Rock Wrecker"
+  ],
+  "142-Mega": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "526-Shadow": [
+   "Lock-On",
+   "Meteor Beam"
+  ],
+  "409-Shadow": [
+   "Smack Down",
+   "Rock Slide"
+  ],
+  "697-Shadow": [
+   "Rock Throw",
+   "Meteor Beam"
+  ],
+  "248-Shadow": [
+   "Smack Down",
+   "Stone Edge"
+  ],
+  "464": [
+   "Smack Down",
+   "Rock Wrecker"
+  ],
+  "384-Mega": [
+   "Dragon Tail",
+   "Ancient Power"
+  ],
+  "970": [
+   "Rock Throw",
+   "Meteor Beam"
+  ],
+  "409": [
+   "Smack Down",
+   "Rock Slide"
+  ],
+  "526": [
+   "Lock-On",
+   "Meteor Beam"
+  ],
+  "639": [
+   "Smack Down",
+   "Rock Slide"
+  ],
+  "9-Mega": [
+   "Rollout",
+   "Hydro Cannon+"
+  ],
+  "306-Shadow": [
+   "Smack Down",
+   "Meteor Beam"
+  ],
+  "697": [
+   "Rock Throw",
+   "Meteor Beam"
+  ],
+  "699-Shadow": [
+   "Rock Throw",
+   "Meteor Beam"
+  ],
+  "645-Incarnate_Shadow": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "142-Shadow": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "248": [
+   "Smack Down",
+   "Stone Edge"
+  ],
+  "76-Alola_Shadow": [
+   "Rock Throw",
+   "Rock Blast"
+  ],
+  "139-Shadow": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "76-Shadow": [
+   "Rock Throw",
+   "Rock Blast"
+  ],
+  "306-Mega": [
+   "Smack Down",
+   "Meteor Beam"
+  ],
+  "874": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "558-Shadow": [
+   "Smack Down",
+   "Rock Wrecker"
+  ],
+  "567-Shadow": [
+   "Wing Attack",
+   "Ancient Power"
+  ],
+  "181-Mega": [
+   "Volt Switch",
+   "Power Gem"
+  ],
+  "214-Mega": [
+   "Fury Cutter",
+   "Rock Blast"
+  ],
+  "306": [
+   "Smack Down",
+   "Meteor Beam"
+  ],
+  "793": [
+   "Poison Jab",
+   "Rock Slide"
+  ],
+  "646-Black": [
+   "Dragon Tail",
+   "Stone Edge"
+  ],
+  "377-Shadow": [
+   "Rock Throw",
+   "Stone Edge"
+  ],
+  "699": [
+   "Rock Throw",
+   "Meteor Beam"
+  ],
+  "646-White": [
+   "Ice Fang",
+   "Ancient Power"
+  ],
+  "643-Shadow": [
+   "Dragon Breath",
+   "Stone Edge"
+  ],
+  "142": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "645-Incarnate": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "450-Shadow": [
+   "Thunder Fang",
+   "Weather Ball"
+  ],
+  "805": [
+   "Rock Throw",
+   "Stone Edge"
+  ],
+  "530-Shadow": [
+   "Metal Claw",
+   "Rock Slide"
+  ],
+  "139": [
+   "Rock Throw",
+   "Rock Slide"
+  ],
+  "145-Shadow": [
+   "Thunder Shock",
+   "Ancient Power"
+  ],
+  "76-Alola": [
+   "Rock Throw",
+   "Rock Blast"
+  ],
+  "565-Shadow": [
+   "Rock Throw",
+   "Ancient Power"
+  ],
+  "76": [
+   "Rock Throw",
+   "Rock Blast"
+  ],
+  "901-Shadow": [
+   "Smack Down",
+   "High Horsepower"
+  ],
+  "59-Hisuian": [
+   "Snarl",
+   "Rock Slide"
+  ],
+  "567": [
+   "Wing Attack",
+   "Ancient Power"
+  ]
+ },
+ "ghost": {
+  "94-Mega": [
+   "Lick",
+   "Shadow Ball+"
+  ],
+  "800-Dawn_Wings": [
+   "Psycho Cut",
+   "Moongeist Beam"
+  ],
+  "354-Mega": [
+   "Hex",
+   "Shadow Punch+"
+  ],
+  "150-Mega_Y": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "150-Mega_X": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "491-Shadow": [
+   "Snarl",
+   "Shadow Ball"
+  ],
+  "609-Shadow": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "792": [
+   "Shadow Claw",
+   "Shadow Ball"
+  ],
+  "150-Shadow": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "65-Mega": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "646-Black": [
+   "Shadow Claw",
+   "Freeze Shock"
+  ],
+  "491": [
+   "Snarl",
+   "Shadow Ball"
+  ],
+  "376-Mega": [
+   "Shadow Claw",
+   "Meteor Mash+"
+  ],
+  "1000": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "487-Altered_Shadow": [
+   "Shadow Claw",
+   "Shadow Force"
+  ],
+  "282-Mega": [
+   "Charm",
+   "Shadow Ball"
+  ],
+  "887": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "487-Origin": [
+   "Shadow Claw",
+   "Shadow Force"
+  ],
+  "806": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "609": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "720-Unbound": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "800-Dusk_Mane": [
+   "Shadow Claw",
+   "Sunsteel Strike"
+  ],
+  "720-Confined": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "94-Shadow": [
+   "Lick",
+   "Shadow Ball"
+  ],
+  "150": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "243-Shadow": [
+   "Thunder Shock",
+   "Shadow Ball"
+  ],
+  "448-Mega": [
+   "Force Palm",
+   "Shadow Ball"
+  ],
+  "376-Shadow": [
+   "Shadow Claw",
+   "Meteor Mash"
+  ],
+  "855-Phony": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "855-Antique": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "855": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "157-Hisuian": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "94": [
+   "Lick",
+   "Shadow Ball"
+  ],
+  "781": [
+   "Shadow Claw",
+   "Shadow Ball"
+  ],
+  "709-Shadow": [
+   "Shadow Claw",
+   "Shadow Ball"
+  ],
+  "429-Shadow": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "571-Hisuian": [
+   "Shadow Claw",
+   "Shadow Ball"
+  ],
+  "487-Altered": [
+   "Shadow Claw",
+   "Shadow Force"
+  ],
+  "911": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "426-Shadow": [
+   "Hex",
+   "Shadow Ball"
+  ],
+  "1013-Unremarkable": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "1013-Masterpiece": [
+   "Astonish",
+   "Shadow Ball"
+  ],
+  "979-Shadow": [
+   "Low Kick",
+   "Rage Fist"
+  ],
+  "65-Shadow": [
+   "Psycho Cut",
+   "Shadow Ball"
+  ],
+  "282-Shadow": [
+   "Charm",
+   "Shadow Ball"
+  ],
+  "428-Mega": [
+   "Pound",
+   "Shadow Ball"
+  ],
+  "243": [
+   "Thunder Shock",
+   "Shadow Ball"
+  ],
+  "904-Shadow": [
+   "Poison Sting",
+   "Shadow Ball"
+  ],
+  "937": [
+   "Ember",
+   "Shadow Ball"
+  ],
+  "770-Shadow": [
+   "Astonish",
+   "Shadow Ball"
+  ]
+ },
+ "dragon": {
+  "384-Mega": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "890": [
+   "Dragon Tail",
+   "Dynamax Cannon"
+  ],
+  "149-Mega": [
+   "Dragon Tail",
+   "Outrage+"
+  ],
+  "445-Mega": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "646-Black": [
+   "Dragon Tail",
+   "Freeze Shock"
+  ],
+  "646-White": [
+   "Dragon Breath",
+   "Ice Burn"
+  ],
+  "445-Shadow": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "373-Mega": [
+   "Dragon Tail",
+   "Draco Meteor"
+  ],
+  "612-Shadow": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "6-Mega_X": [
+   "Dragon Breath",
+   "Dragon Claw+"
+  ],
+  "381-Mega": [
+   "Dragon Breath",
+   "Luster Purge+"
+  ],
+  "483-Shadow": [
+   "Dragon Breath",
+   "Draco Meteor"
+  ],
+  "484-Shadow": [
+   "Dragon Tail",
+   "Draco Meteor"
+  ],
+  "484-Origin": [
+   "Dragon Tail",
+   "Spacial Rend"
+  ],
+  "998": [
+   "Ice Fang",
+   "Glaive Rush"
+  ],
+  "483-Origin": [
+   "Dragon Breath",
+   "Roar of Time"
+  ],
+  "373-Shadow": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "130-Mega": [
+   "Dragon Tail",
+   "Payback+"
+  ],
+  "149-Shadow": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "383-Primal": [
+   "Dragon Tail",
+   "Precipice Blades"
+  ],
+  "895": [
+   "Dragon Breath",
+   "Dragon Energy"
+  ],
+  "248-Mega": [
+   "Dragon Breath",
+   "Stone Edge+"
+  ],
+  "384": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "643-Shadow": [
+   "Dragon Breath",
+   "Draco Meteor"
+  ],
+  "380-Mega": [
+   "Dragon Breath",
+   "Outrage"
+  ],
+  "445": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "612": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "254-Mega": [
+   "Fury Cutter",
+   "Breaking Swipe"
+  ],
+  "381-Shadow": [
+   "Dragon Breath",
+   "Dragon Claw"
+  ],
+  "887": [
+   "Dragon Tail",
+   "Breaking Swipe"
+  ],
+  "484": [
+   "Dragon Tail",
+   "Draco Meteor"
+  ],
+  "334-Mega": [
+   "Dragon Breath",
+   "Disarming Voice+"
+  ],
+  "483": [
+   "Dragon Breath",
+   "Draco Meteor"
+  ],
+  "373": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "646": [
+   "Dragon Breath",
+   "Glaciate"
+  ],
+  "644": [
+   "Dragon Breath",
+   "Outrage"
+  ],
+  "635-Shadow": [
+   "Dragon Breath",
+   "Dragon Pulse"
+  ],
+  "149": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "643": [
+   "Dragon Breath",
+   "Draco Meteor"
+  ],
+  "380-Shadow": [
+   "Dragon Breath",
+   "Outrage"
+  ],
+  "383-Shadow": [
+   "Dragon Tail",
+   "Precipice Blades"
+  ],
+  "697-Shadow": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "6-Mega_Y": [
+   "Dragon Breath",
+   "Dragon Claw"
+  ],
+  "381": [
+   "Dragon Breath",
+   "Dragon Claw"
+  ],
+  "306-Mega": [
+   "Dragon Tail",
+   "Heavy Slam+"
+  ],
+  "248-Shadow": [
+   "Dragon Breath",
+   "Brutal Swing"
+  ],
+  "130-Shadow": [
+   "Dragon Tail",
+   "Outrage"
+  ],
+  "635": [
+   "Dragon Breath",
+   "Dragon Pulse"
+  ],
+  "103-Alola_Shadow": [
+   "Dragon Tail",
+   "Dragon Pulse"
+  ],
+  "487-Origin": [
+   "Dragon Tail",
+   "Shadow Force"
+  ]
+ },
+ "dark": {
+  "130-Mega": [
+   "Bite",
+   "Payback+"
+  ],
+  "229-Mega": [
+   "Snarl",
+   "Dark Pulse+"
+  ],
+  "359-Mega": [
+   "Snarl",
+   "Night Slash+"
+  ],
+  "94-Mega": [
+   "Sucker Punch",
+   "Shadow Ball+"
+  ],
+  "248-Mega": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "491-Shadow": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "319-Mega": [
+   "Bite",
+   "Crunch+"
+  ],
+  "635-Shadow": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "248-Shadow": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "658-Mega": [
+   "Feint Attack",
+   "Brutal Swing"
+  ],
+  "491": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "373-Mega": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "373-Shadow": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "635": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "359-Shadow": [
+   "Snarl",
+   "Brutal Swing"
+  ],
+  "248": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "461-Shadow": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "658-Shadow": [
+   "Feint Attack",
+   "Brutal Swing"
+  ],
+  "89-Alola_Shadow": [
+   "Snarl",
+   "Brutal Swing"
+  ],
+  "229-Shadow": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "983": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "142-Mega": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "310-Mega": [
+   "Snarl",
+   "Discharge+"
+  ],
+  "430-Shadow": [
+   "Snarl",
+   "Dark Pulse"
+  ],
+  "727": [
+   "Snarl",
+   "Darkest Lariat"
+  ],
+  "717": [
+   "Snarl",
+   "Dark Pulse"
+  ],
+  "720-Unbound": [
+   "Astonish",
+   "Dark Pulse"
+  ],
+  "181-Mega": [
+   "Volt Switch",
+   "Brutal Swing"
+  ],
+  "359": [
+   "Snarl",
+   "Brutal Swing"
+  ],
+  "373": [
+   "Bite",
+   "Brutal Swing"
+  ],
+  "799": [
+   "Snarl",
+   "Brutal Swing"
+  ],
+  "642-Therian_Shadow": [
+   "Bite",
+   "Wildbolt Storm"
+  ],
+  "461": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "855-Phony": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "855-Antique": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "855": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "893": [
+   "Bite",
+   "Dark Pulse"
+  ],
+  "892-Single_Strike": [
+   "Sucker Punch",
+   "Payback"
+  ],
+  "800-Dawn_Wings": [
+   "Shadow Claw",
+   "Dark Pulse"
+  ],
+  "571": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "429-Shadow": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "861": [
+   "Sucker Punch",
+   "Foul Play"
+  ],
+  "9-Mega": [
+   "Bite",
+   "Hydro Cannon+"
+  ],
+  "658": [
+   "Feint Attack",
+   "Brutal Swing"
+  ],
+  "94-Shadow": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "275-Shadow": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "571-Hisuian": [
+   "Snarl",
+   "Shadow Ball"
+  ],
+  "229": [
+   "Snarl",
+   "Foul Play"
+  ],
+  "709-Shadow": [
+   "Sucker Punch",
+   "Shadow Ball"
+  ],
+  "643-Shadow": [
+   "Dragon Breath",
+   "Crunch"
+  ]
+ },
+ "steel": {
+  "888-Crowned_Sword": [
+   "Metal Claw",
+   "Behemoth Blade"
+  ],
+  "889-Crowned_Shield": [
+   "Metal Claw",
+   "Behemoth Bash"
+  ],
+  "800-Dusk_Mane": [
+   "Metal Claw",
+   "Sunsteel Strike"
+  ],
+  "376-Mega": [
+   "Fury Cutter",
+   "Meteor Mash+"
+  ],
+  "448-Mega": [
+   "Force Palm",
+   "Meteor Mash"
+  ],
+  "376-Shadow": [
+   "Bullet Punch",
+   "Meteor Mash"
+  ],
+  "306-Mega": [
+   "Iron Tail",
+   "Heavy Slam+"
+  ],
+  "248-Mega": [
+   "Iron Tail",
+   "Stone Edge+"
+  ],
+  "483-Shadow": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "376": [
+   "Bullet Punch",
+   "Meteor Mash"
+  ],
+  "227-Mega": [
+   "Steel Wing",
+   "Drill Peck+"
+  ],
+  "530-Shadow": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "800-Dawn_Wings": [
+   "Metal Claw",
+   "Moongeist Beam"
+  ],
+  "959": [
+   "Fairy Wind",
+   "Gigaton Hammer"
+  ],
+  "208-Mega": [
+   "Iron Tail",
+   "Gyro Ball+"
+  ],
+  "646-White": [
+   "Steel Wing",
+   "Ice Burn"
+  ],
+  "483": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "483-Origin": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "212-Mega": [
+   "Bullet Punch",
+   "X-Scissor+"
+  ],
+  "448": [
+   "Force Palm",
+   "Meteor Mash"
+  ],
+  "809": [
+   "Thunder Shock",
+   "Double Iron Bash"
+  ],
+  "649-Normal": [
+   "Metal Claw",
+   "Magnet Bomb"
+  ],
+  "149-Mega": [
+   "Steel Wing",
+   "Outrage+"
+  ],
+  "530": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "395-Shadow": [
+   "Steel Wing",
+   "Hydro Cannon"
+  ],
+  "485-Shadow": [
+   "Fire Spin",
+   "Iron Head"
+  ],
+  "385": [
+   "Charge Beam",
+   "Doom Desire"
+  ],
+  "142-Mega": [
+   "Steel Wing",
+   "Rock Slide"
+  ],
+  "212-Shadow": [
+   "Bullet Punch",
+   "Iron Head"
+  ],
+  "306-Shadow": [
+   "Iron Tail",
+   "Heavy Slam"
+  ],
+  "983": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "18-Mega": [
+   "Steel Wing",
+   "Hurricane+"
+  ],
+  "250-Shadow": [
+   "Steel Wing",
+   "Brave Bird"
+  ],
+  "462-Shadow": [
+   "Metal Sound",
+   "Flash Cannon"
+  ],
+  "82-Shadow": [
+   "Metal Sound",
+   "Magnet Bomb"
+  ],
+  "248-Shadow": [
+   "Iron Tail",
+   "Stone Edge"
+  ],
+  "567-Shadow": [
+   "Steel Wing",
+   "Ancient Power"
+  ],
+  "884": [
+   "Metal Claw",
+   "Flash Cannon"
+  ],
+  "863-Shadow": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "99-Shadow": [
+   "Metal Claw",
+   "Crabhammer"
+  ],
+  "625": [
+   "Metal Claw",
+   "Iron Head"
+  ],
+  "526-Shadow": [
+   "Smack Down",
+   "Heavy Slam"
+  ],
+  "646": [
+   "Steel Wing",
+   "Glaciate"
+  ],
+  "395": [
+   "Steel Wing",
+   "Hydro Cannon"
+  ],
+  "768-Shadow": [
+   "Metal Claw",
+   "Razor Shell"
+  ],
+  "149-Shadow": [
+   "Steel Wing",
+   "Draco Meteor"
+  ],
+  "297-Shadow": [
+   "Force Palm",
+   "Heavy Slam"
+  ],
+  "68-Shadow": [
+   "Bullet Punch",
+   "Heavy Slam"
+  ],
+  "485": [
+   "Fire Spin",
+   "Iron Head"
+  ],
+  "888-Hero": [
+   "Metal Claw",
+   "Iron Head"
+  ]
+ },
+ "fairy": {
+  "282-Mega": [
+   "Charm",
+   "Dazzling Gleam+"
+  ],
+  "888-Crowned_Sword": [
+   "Metal Claw",
+   "Play Rough"
+  ],
+  "282-Shadow": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "905-Incarnate": [
+   "Fairy Wind",
+   "Dazzling Gleam"
+  ],
+  "334-Mega": [
+   "Dragon Breath",
+   "Disarming Voice+"
+  ],
+  "65-Mega": [
+   "Psycho Cut",
+   "Dazzling Gleam"
+  ],
+  "380-Mega": [
+   "Charm",
+   "Mist Ball+"
+  ],
+  "475-Mega": [
+   "Charm",
+   "Sacred Sword"
+  ],
+  "786": [
+   "Astonish",
+   "Nature's Madness"
+  ],
+  "785": [
+   "Quick Attack",
+   "Nature's Madness"
+  ],
+  "716": [
+   "Geomancy",
+   "Moonblast"
+  ],
+  "303-Mega": [
+   "Fairy Wind",
+   "Play Rough+"
+  ],
+  "787": [
+   "Bullet Seed",
+   "Nature's Madness"
+  ],
+  "905-Therian": [
+   "Fairy Wind",
+   "Fly"
+  ],
+  "210-Shadow": [
+   "Charm",
+   "Play Rough"
+  ],
+  "282": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "468": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "796": [
+   "Thunder Shock",
+   "Dazzling Gleam"
+  ],
+  "888-Hero": [
+   "Snarl",
+   "Play Rough"
+  ],
+  "26-Mega_Y": [
+   "Charm",
+   "Zap Cannon+"
+  ],
+  "858": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "719-Mega": [
+   "Rock Throw",
+   "Moonblast"
+  ],
+  "901-Shadow": [
+   "Tackle",
+   "Play Rough"
+  ],
+  "380-Shadow": [
+   "Charm",
+   "Outrage"
+  ],
+  "354-Mega": [
+   "Hex",
+   "Dazzling Gleam"
+  ],
+  "730": [
+   "Charm",
+   "Moonblast"
+  ],
+  "700": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "475-Shadow": [
+   "Charm",
+   "Sacred Sword"
+  ],
+  "26-Mega_X": [
+   "Charm",
+   "Volt Tackle+"
+  ],
+  "210": [
+   "Charm",
+   "Play Rough"
+  ],
+  "232-Shadow": [
+   "Charm",
+   "Play Rough"
+  ],
+  "861": [
+   "Sucker Punch",
+   "Play Rough"
+  ],
+  "648-Aria": [
+   "Quick Attack",
+   "Dazzling Gleam"
+  ],
+  "65-Shadow": [
+   "Psycho Cut",
+   "Dazzling Gleam"
+  ],
+  "110-Galarian_Shadow": [
+   "Fairy Wind",
+   "Play Rough"
+  ],
+  "697-Shadow": [
+   "Charm",
+   "Outrage"
+  ],
+  "959": [
+   "Fairy Wind",
+   "Gigaton Hammer"
+  ],
+  "38-Alola_Shadow": [
+   "Charm",
+   "Weather Ball"
+  ],
+  "1000": [
+   "Hex",
+   "Dazzling Gleam"
+  ],
+  "78-Galarian": [
+   "Fairy Wind",
+   "Play Rough"
+  ],
+  "671": [
+   "Fairy Wind",
+   "Moonblast"
+  ],
+  "901": [
+   "Tackle",
+   "Play Rough"
+  ],
+  "380": [
+   "Charm",
+   "Outrage"
+  ],
+  "531-Mega": [
+   "Pound",
+   "Draining Kiss+"
+  ],
+  "788": [
+   "Water Gun",
+   "Nature's Madness"
+  ],
+  "36": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "289-Shadow": [
+   "Yawn",
+   "Play Rough"
+  ],
+  "65": [
+   "Psycho Cut",
+   "Dazzling Gleam"
+  ],
+  "743": [
+   "Charm",
+   "Dazzling Gleam"
+  ],
+  "614": [
+   "Charm",
+   "Play Rough"
+  ]
+ }
+}

@@ -34,6 +34,8 @@ gracefully and you fall back to editing the board by hand (also step 2).
 | `rankings-ultra.json` | Ultra League (CP 2500) | pvpoke `rankings/all/overall/rankings-2500.json` | ✅ |
 | `rankings-master.json` | Master League (CP 10000) | pvpoke `rankings/all/overall/rankings-10000.json` | ✅ |
 | `pve_type_ranks_raw.json` | **PvE raid-attacker rank per type** | db.pokemongohub.net best-per-type boards | ✅ (Playwright) |
+| `pve_type_moves.json` | best fast/charged move per PvE board entry (dex.html moves column) | same PGHub raid boards | ✅ (Playwright) |
+| `max_type_ranks.json` | **Max Battle (Dynamax/G-Max) attacker rank per type** (dex.html `Max` lines) | db.pokemongohub.net best-dynamax-per-type boards | ✅ (Playwright) |
 | `pve_type_ranks.json` | derived from the raw board by `pve_ranks.py` | *(generated)* | ✅ |
 
 pvpoke lives on `raw.githubusercontent.com` and is public + reachable, so
@@ -59,7 +61,7 @@ isn't truncated, and only then atomically replaces the committed copy — a fail
 or blocked fetch leaves the old file untouched. Then it runs, in order:
 
 ```
-pve_ranks.py → build_dex.py → build_pokedex.py → build_rankings.py → build_tables.py → build_max.py
+pve_ranks.py → build_dex.py → build_pokedex.py → build_rankings.py → build_tables.py → build_max.py → build_types.py
 ```
 
 ## Step 2 — Refresh the PvE per-type raid boards (PGHub)

@@ -1,14 +1,14 @@
 Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
-1,Bulbasaur,PvE,"PvE: Mega Venusaur — Grass #3, #3, #3 | PvE: Shadow Venusaur — Grass #9, #6",Bulbasaur #1 · Ivysaur #2 · Venusaur #3,2
-4,Charmander,PvE,"PvE: Mega Y Charizard — Fire #2, #2, #2 | PvE: Mega Y Charizard — Flying #13, #7, #4",Charmander #4 · Charmeleon #5 · Charizard #6,2
-7,Squirtle,GL PvE UL,"GL: Blastoise #57 | UL: Blastoise #34 | UL: Shadow Blastoise #89 | PvE: Mega Blastoise — Water #6, #4, #4",Squirtle #7 · Wartortle #8 · Blastoise #9,4
-10,Caterpie,Collection only,,Caterpie #10 · Metapod #11 · Butterfree #12,
-13,Weedle,PvE,"PvE: Mega Beedrill — Bug #1, #1, #1 | PvE: Mega Beedrill — Poison #4, #3, #3",Weedle #13 · Kakuna #14 · Beedrill #15,2
-16,Pidgey,PvE,"PvE: Mega Pidgeot — Flying #14, #8, #5",Pidgey #16 · Pidgeotto #17 · Pidgeot #18,1
+1,Bulbasaur,Max PvE,"PvE: Mega Venusaur — Grass #3, #3, #3 | Max: Gigantamax Venusaur — Grass Max #2 (S)",Bulbasaur #1 · Ivysaur #2 · Venusaur #3,2
+4,Charmander,Max PvE,"PvE: Mega Y Charizard — Fire #3, #3, #3 | PvE: Mega Y Charizard — Flying #9, #6, #6 | PvE: Mega X Charizard — Dragon #10, #6, #4 | Max: Gigantamax Charizard — Fire Max #2 (S) | Max: Dynamax Charizard — Flying Max #3 (S)",Charmander #4 · Charmeleon #5 · Charizard #6,5
+7,Squirtle,GL Max PvE UL,"GL: Blastoise #57 | UL: Blastoise #34 | UL: Shadow Blastoise #89 | PvE: Mega Blastoise — Water #5, #4, #4 | Max: Gigantamax Blastoise — Water Max #7 (C)",Squirtle #7 · Wartortle #8 · Blastoise #9,5
+10,Caterpie,Max,Max: Gigantamax Butterfree — Bug Max #2 (SS),Caterpie #10 · Metapod #11 · Butterfree #12,1
+13,Weedle,PvE,"PvE: Mega Beedrill — Bug #3, #3, #3 | PvE: Mega Beedrill — Poison #4, #3, #3",Weedle #13 · Kakuna #14 · Beedrill #15,2
+16,Pidgey,PvE,"PvE: Mega Pidgeot — Flying #8, #5, #5",Pidgey #16 · Pidgeotto #17 · Pidgeot #18,1
 19,Rattata,Collection only,,Rattata #19 · Rattata (Alolan) #19 · Raticate #20 · Raticate (Alolan) #20,
 21,Spearow,GL,GL: Fearow #26,Spearow #21 · Fearow #22,1
 23,Ekans,Collection only,,Ekans #23 · Arbok #24,
-25,Pikachu,PvE,"PvE: Mega Y Raichu — Electric #1, #1, #1 | PvE: Mega Y Raichu — Fairy #18, #6, #4",Pikachu #25 · Raichu #26 · Raichu (Alolan) #26 · Pichu #172,2
+25,Pikachu,PvE,"PvE: Mega Y Raichu — Electric #2, #2, #2 | PvE: Mega Y Raichu — Fairy #20, #8, #6",Pikachu #25 · Raichu #26 · Raichu (Alolan) #26 · Pichu #172,2
 27,Sandshrew,Collection only,,Sandshrew #27 · Sandshrew (Alolan) #27 · Sandslash #28 · Sandslash (Alolan) #28,
 29,Nidoran Female,Collection only,,Nidoran Female #29 · Nidorina #30 · Nidoqueen #31,
 32,Nidoran Male,Collection only,,Nidoran Male #32 · Nidorino #33 · Nidoking #34,
@@ -25,64 +25,64 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 56,Mankey,GL UL,GL: Annihilape #25 | GL: Shadow Annihilape #34 | UL: Annihilape #57 | UL: Shadow Annihilape #73,Mankey #56 · Primeape #57 · Annihilape #979,4
 58,Growlithe,Collection only,,Growlithe #58 · Growlithe (Hisuian) #58 · Arcanine #59 · Arcanine (Hisuian) #59,
 60,Poliwag,UL,UL: Shadow Politoed #95,Poliwag #60 · Poliwhirl #61 · Poliwrath #62 · Politoed #186,1
-63,Abra,PvE,"PvE: Mega Alakazam — Psychic #4, #1, #1 | PvE: Mega Alakazam — Fairy #5, #3, #2 | PvE: Mega Alakazam — Ghost #10, #4, #3 | PvE: Mega Alakazam — Fighting #21, #11, #6",Abra #63 · Kadabra #64 · Alakazam #65,4
-66,Machop,Collection only,,Machop #66 · Machoke #67 · Machamp #68,
-69,Bellsprout,PvE,"PvE: Mega Victreebel — Poison #1, #1, #1 | PvE: Mega Victreebel — Grass #10, #7, #4",Bellsprout #69 · Weepinbell #70 · Victreebel #71,2
+63,Abra,Max PvE,"PvE: Mega Alakazam — Psychic #3, #1, #1 | PvE: Mega Alakazam — Fairy #6, #4, #3 | PvE: Mega Alakazam — Ghost #10, #4, #3 | Max: Dynamax Alakazam — Psychic Max #1 (SS) | Max: Dynamax Alakazam — Fighting Max #7 (A)",Abra #63 · Kadabra #64 · Alakazam #65,5
+66,Machop,Max,Max: Gigantamax Machamp — Fighting Max #1 (SS),Machop #66 · Machoke #67 · Machamp #68,1
+69,Bellsprout,PvE,"PvE: Mega Victreebel — Poison #1, #1, #1 | PvE: Mega Victreebel — Grass #11, #8, #5",Bellsprout #69 · Weepinbell #70 · Victreebel #71,2
 72,Tentacool,LC UL,LC: Tentacool #20 | LC: Shadow Tentacool #25 | UL: Tentacruel #82 | UL: Shadow Tentacruel #96,Tentacool #72 · Tentacruel #73,4
 74,Geodude,Collection only,,Geodude #74 · Geodude (Alolan) #74 · Graveler #75 · Graveler (Alolan) #75 · Golem #76 · Golem (Alolan) #76,
 77,Ponyta,Collection only,,Ponyta #77 · Ponyta (Galarian) #77 · Rapidash #78 · Rapidash (Galarian) #78,
 79,Slowpoke,LC,LC: Shadow Slowpoke #37 | LC: Slowpoke #47,Slowpoke #79 · Slowpoke (Galarian) #79 · Slowbro #80 · Slowbro (Galarian) #80 · Slowking #199 · Slowking (Galarian) #199,2
-81,Magnemite,PvE,"PvE: Shadow Magnezone — Electric #15, #4 | PvE: Magnezone — Electric #25, #10, #5",Magnemite #81 · Magneton #82 · Magnezone #462,2
+81,Magnemite,PvE,"PvE: Shadow Magnezone — Electric #16, #5 | PvE: Magnezone — Electric #26, #11, #6",Magnemite #81 · Magneton #82 · Magnezone #462,2
 83,Farfetch'd,Collection only,,Farfetch'd #83,
 83,Farfetch'd,Collection only,,Farfetch'd (Galarian) #83 · Sirfetch'd #865,
 84,Doduo,Collection only,,Doduo #84 · Dodrio #85,
 86,Seel,GL LC,LC: Seel #27 | GL: Dewgong #70,Seel #86 · Dewgong #87,2
 88,Grimer,UL,UL: Muk (Alolan) #35 | UL: Shadow Muk (Alolan) #67,Grimer #88 · Grimer (Alolan) #88 · Muk #89 · Muk (Alolan) #89,2
 90,Shellder,Collection only,,Shellder #90 · Cloyster #91,
-92,Gastly,PvE,"PvE: Mega Gengar — Poison #2, #2, #2 | PvE: Mega Gengar — Ghost #3, #1, #1 | PvE: Mega Gengar — Dark #4, #3, #3 | PvE: Shadow Gengar — Poison #8, #5 | PvE: Mega Gengar — Psychic #24, #7, #6",Gastly #92 · Haunter #93 · Gengar #94,5
+92,Gastly,Max PvE,"PvE: Mega Gengar — Ghost #1, #1, #1 | PvE: Mega Gengar — Poison #2, #2, #2 | PvE: Mega Gengar — Dark #4, #4, #4 | PvE: Shadow Gengar — Poison #8, #5 | PvE: Mega Gengar — Psychic #23, #7, #6 | Max: Gigantamax Gengar — Ghost Max #1 (SS) | Max: Dynamax Gengar — Dark Max #5 (A)",Gastly #92 · Haunter #93 · Gengar #94,7
 95,Onix,GL UL,GL: Shadow Steelix #90 | UL: Steelix #45 | UL: Shadow Steelix #47,Onix #95 · Steelix #208,3
 96,Drowzee,Collection only,,Drowzee #96 · Hypno #97,
-98,Krabby,Collection only,,Krabby #98 · Kingler #99,
+98,Krabby,Max,Max: Gigantamax Kingler — Water Max #2 (S) | Max: Dynamax Kingler — Ground Max #5 (A),Krabby #98 · Kingler #99,2
 100,Voltorb,GL,GL: Electrode (Hisuian) #30,Voltorb #100 · Voltorb (Hisuian) #100 · Electrode #101 · Electrode (Hisuian) #101,1
 102,Exeggcute,Collection only,,Exeggcute #102 · Exeggutor #103 · Exeggutor (Alolan) #103,
 104,Cubone,GL,GL: Marowak #23 | GL: Shadow Marowak #79,Cubone #104 · Marowak #105 · Marowak (Alolan) #105,2
-106,Hitmonlee,Collection only,,Hitmonlee #106 · Hitmonchan #107 · Tyrogue #236 · Hitmontop #237,
+106,Hitmonlee,Max,Max: Dynamax Hitmonlee — Fighting Max #6 (A),Hitmonlee #106 · Hitmonchan #107 · Tyrogue #236 · Hitmontop #237,1
 108,Lickitung,UL,UL: Lickilicky #100,Lickitung #108 · Lickilicky #463,1
 109,Koffing,Collection only,,Koffing #109 · Weezing #110 · Weezing (Galarian) #110,
-111,Rhyhorn,ML PvE,"ML: Shadow Rhyperior #68 | ML: Rhyperior #69 | PvE: Shadow Rhyperior — Rock #2, #1 | PvE: Shadow Rhyperior — Ground #8, #4 | PvE: Rhyperior — Rock #9, #8, #3 | PvE: Rhyperior — Ground #19, #11, #5",Rhyhorn #111 · Rhydon #112 · Rhyperior #464,6
+111,Rhyhorn,ML Max PvE,"ML: Shadow Rhyperior #68 | ML: Rhyperior #69 | PvE: Shadow Rhyperior — Rock #3, #2 | PvE: Shadow Rhyperior — Ground #9, #5 | PvE: Rhyperior — Rock #9, #8, #3 | PvE: Rhyperior — Ground #19, #11, #5 | Max: Dynamax Rhyperior — Rock Max #1 (SS) | Max: Dynamax Rhyperior — Ground Max #2 (SS)",Rhyhorn #111 · Rhydon #112 · Rhyperior #464,8
 113,Chansey,Collection only,,Chansey #113 · Blissey #242 · Happiny #440,
-114,Tangela,PvE,"PvE: Shadow Tangrowth — Grass #8, #5",Tangela #114 · Tangrowth #465,1
+114,Tangela,PvE,"PvE: Shadow Tangrowth — Grass #9, #6",Tangela #114 · Tangrowth #465,1
 115,Kangaskhan,Collection only,,Kangaskhan #115,
 116,Horsea,GL UL,GL: Kingdra #53 | GL: Shadow Kingdra #58 | UL: Kingdra #59 | UL: Shadow Kingdra #64,Horsea #116 · Seadra #117 · Kingdra #230,4
 118,Goldeen,UL,UL: Seaking #49,Goldeen #118 · Seaking #119,1
-120,Staryu,PvE,"PvE: Mega Starmie — Water #3, #2, #2 | PvE: Mega Starmie — Normal #7, #3, #3",Staryu #120 · Starmie #121,2
+120,Staryu,PvE,"PvE: Mega Starmie — Water #4, #3, #3 | PvE: Mega Starmie — Normal #8, #3, #3",Staryu #120 · Starmie #121,2
 122,Mr. Mime,Collection only,,Mr. Mime #122 · Mr. Mime (Galarian) #122 · Mime (Jr) #439 · Mr. Rime #866,
-123,Scyther,PvE,"PvE: Mega Scizor — Bug #4, #4, #4 | PvE: Shadow Scizor — Bug #6, #6",Scyther #123 · Scizor #212 · Kleavor #900,2
+123,Scyther,PvE,"PvE: Mega Scizor — Bug #2, #2, #2",Scyther #123 · Scizor #212 · Kleavor #900,1
 124,Jynx,Collection only,,Jynx #124 · Smoochum #238,
-125,Electabuzz,PvE,"PvE: Shadow Electivire — Electric #12, #3 | PvE: Electivire — Electric #21, #8, #4",Electabuzz #125 · Elekid #239 · Electivire #466,2
+125,Electabuzz,Max PvE,"PvE: Shadow Electivire — Electric #14, #4 | PvE: Electivire — Electric #22, #9, #5 | Max: Dynamax Electivire — Electric Max #3 (S)",Electabuzz #125 · Elekid #239 · Electivire #466,3
 126,Magmar,Collection only,,Magmar #126 · Magby #240 · Magmortar #467,
-127,Pinsir,PvE,"PvE: Mega Pinsir — Bug #3, #3, #3",Pinsir #127,1
+127,Pinsir,PvE,"PvE: Mega Pinsir — Flying #2, #1, #1 | PvE: Mega Pinsir — Bug #4, #4, #4",Pinsir #127,2
 128,Tauros,Collection only,,Tauros #128,
 128,Tauros,Collection only,,Tauros (Aqua) #128,
 128,Tauros,Collection only,,Tauros (Blaze) #128,
 128,Tauros,Collection only,,Tauros (Combat) #128,
-129,Magikarp,ML PvE UL,"UL: Shadow Gyarados #69 | UL: Gyarados #78 | ML: Shadow Gyarados #32 | ML: Gyarados #58 | PvE: Mega Gyarados — Water #7, #5, #5",Magikarp #129 · Gyarados #130,5
-131,Lapras,GL UL,GL: Lapras #39 | GL: Shadow Lapras #62 | UL: Lapras #21 | UL: Shadow Lapras #22,Lapras #131,4
-133,Eevee,GL ML UL,GL: Umbreon #24 | UL: Sylveon #99 | ML: Sylveon #70,Eevee #133 · Vaporeon #134 · Jolteon #135 · Flareon #136 · Espeon #196 · Umbreon #197 · Leafeon #470 · Glaceon #471 · Sylveon #700,3
+129,Magikarp,ML Max PvE UL,"UL: Shadow Gyarados #69 | UL: Gyarados #78 | ML: Shadow Gyarados #32 | ML: Gyarados #58 | PvE: Mega Gyarados — Dark #1, #1, #1 | PvE: Mega Gyarados — Water #7, #5, #5 | PvE: Mega Gyarados — Dragon #18, #9, #6 | Max: Dynamax Gyarados — Water Max #6 (B)",Magikarp #129 · Gyarados #130,8
+131,Lapras,GL Max UL,GL: Lapras #39 | GL: Shadow Lapras #62 | UL: Lapras #21 | UL: Shadow Lapras #22 | Max: Gigantamax Lapras — Ice Max #3 (A),Lapras #131,5
+133,Eevee,GL ML Max UL,GL: Umbreon #24 | UL: Sylveon #99 | ML: Sylveon #70 | Max: Dynamax Glaceon — Ice Max #2 (S) | Max: Dynamax Sylveon — Fairy Max #3 (S) | Max: Dynamax Espeon — Psychic Max #4 (SS) | Max: Dynamax Jolteon — Electric Max #5 (B) | Max: Dynamax Flareon — Fire Max #5 (B) | Max: Dynamax Leafeon — Grass Max #5 (B),Eevee #133 · Vaporeon #134 · Jolteon #135 · Flareon #136 · Espeon #196 · Umbreon #197 · Leafeon #470 · Glaceon #471 · Sylveon #700,9
 137,Porygon,Collection only,,Porygon #137 · Porygon2 #233 · Porygon-Z #474,
-138,Omanyte,LC,LC: Omanyte #49,Omanyte #138 · Omastar #139,1
-140,Kabuto,Collection only,,Kabuto #140 · Kabutops #141,
+138,Omanyte,LC Max,LC: Omanyte #49 | Max: Dynamax Omastar — Rock Max #3 (A),Omanyte #138 · Omastar #139,2
+140,Kabuto,Max,Max: Dynamax Kabutops — Bug Max #4 (A),Kabuto #140 · Kabutops #141,1
 142,Aerodactyl,PvE,"PvE: Mega Aerodactyl — Rock #4, #3, #2",Aerodactyl #142,1
-143,Snorlax,GL UL,GL: Snorlax #28 | GL: Shadow Snorlax #46 | UL: Shadow Snorlax #3 | UL: Snorlax #13,Snorlax #143 · Munchlax #446,4
-144,Articuno,PvE UL,UL: Articuno #80 | PvE: Galarian Articuno — Psychic #12 | PvE: Galarian Articuno — Flying #15 | PvE: Shadow Articuno — Ice #16,Articuno #144,4
-144,Articuno,PvE,PvE: Galarian Articuno — Psychic #12 | PvE: Galarian Articuno — Flying #15 | PvE: Shadow Articuno — Ice #16,Articuno (Galarian) #144,3
-145,Zapdos,PvE UL,UL: Zapdos #88 | PvE: Shadow Zapdos — Electric #13 | PvE: Shadow Zapdos — Flying #16,Zapdos #145,3
-145,Zapdos,PvE,PvE: Shadow Zapdos — Electric #13 | PvE: Shadow Zapdos — Flying #16,Zapdos (Galarian) #145,2
-146,Moltres,PvE,PvE: Shadow Moltres — Flying #5 | PvE: Shadow Moltres — Fire #10 | PvE: Moltres — Flying #12,Moltres #146,3
-146,Moltres,GL PvE UL,GL: Moltres (Galarian) #69 | UL: Moltres (Galarian) #10 | PvE: Shadow Moltres — Flying #5 | PvE: Shadow Moltres — Fire #10 | PvE: Moltres — Flying #12,Moltres (Galarian) #146,5
-147,Dratini,GL ML PvE,"GL: Shadow Dragonair #60 | GL: Dragonair #82 | ML: Shadow Dragonite #50 | ML: Dragonite #67 | PvE: Mega Dragonite — Dragon #3, #1, #1 | PvE: Mega Dragonite — Normal #13, #5, #4 | PvE: Mega Dragonite — Steel #20, #8, #6",Dratini #147 · Dragonair #148 · Dragonite #149,7
-150,Mewtwo,ML PvE,ML: Shadow Mewtwo #51 | ML: Mewtwo #65 | PvE: Mega X Mewtwo — Fighting #1 | PvE: Mega Y Mewtwo — Psychic #1 | PvE: Mega Y Mewtwo — Ghost #2 | PvE: Mega Y Mewtwo — Ice #3 | PvE: Shadow Mewtwo — Psychic #3 | PvE: Mega Y Mewtwo — Normal #4 | PvE: Mega Y Mewtwo — Electric #5 | PvE: Shadow Mewtwo — Ice #7 | PvE: Shadow Mewtwo — Ghost #8 | PvE: Mega X Mewtwo — Fire #15 | PvE: Shadow Mewtwo — Normal #17 | PvE: Shadow Mewtwo — Fighting #17 | PvE: Shadow Mewtwo — Electric #19,Mewtwo #150,15
-150,Mewtwo,PvE,PvE: Mega X Mewtwo — Fighting #1 | PvE: Mega Y Mewtwo — Psychic #1 | PvE: Mega Y Mewtwo — Ghost #2 | PvE: Mega Y Mewtwo — Ice #3 | PvE: Shadow Mewtwo — Psychic #3 | PvE: Mega Y Mewtwo — Normal #4 | PvE: Mega Y Mewtwo — Electric #5 | PvE: Shadow Mewtwo — Ice #7 | PvE: Shadow Mewtwo — Ghost #8 | PvE: Mega X Mewtwo — Fire #15 | PvE: Shadow Mewtwo — Normal #17 | PvE: Shadow Mewtwo — Fighting #17 | PvE: Shadow Mewtwo — Electric #19,Mewtwo (Armored) #150,13
+143,Snorlax,GL Max UL,GL: Snorlax #28 | GL: Shadow Snorlax #46 | UL: Shadow Snorlax #3 | UL: Snorlax #13 | Max: Gigantamax Snorlax — Normal Max #1 (SS),Snorlax #143 · Munchlax #446,5
+144,Articuno,Max PvE UL,UL: Articuno #80 | PvE: Galarian Articuno — Psychic #13 | PvE: Shadow Articuno — Ice #16 | PvE: Galarian Articuno — Flying #16 | Max: Dynamax Articuno — Ice Max #4 (B),Articuno #144,5
+144,Articuno,Max PvE,PvE: Galarian Articuno — Psychic #13 | PvE: Shadow Articuno — Ice #16 | PvE: Galarian Articuno — Flying #16 | Max: Dynamax Articuno — Ice Max #4 (B),Articuno (Galarian) #144,4
+145,Zapdos,Max PvE UL,UL: Zapdos #88 | PvE: Shadow Zapdos — Electric #13 | PvE: Shadow Zapdos — Flying #17 | Max: Dynamax Zapdos — Electric Max #2 (S),Zapdos #145,4
+145,Zapdos,Max PvE,PvE: Shadow Zapdos — Electric #13 | PvE: Shadow Zapdos — Flying #17 | Max: Dynamax Zapdos — Electric Max #2 (S),Zapdos (Galarian) #145,3
+146,Moltres,Max PvE,PvE: Shadow Moltres — Flying #7 | PvE: Shadow Moltres — Fire #11 | PvE: Moltres — Flying #14 | Max: Dynamax Moltres — Flying Max #1 (SS) | Max: Dynamax Moltres — Fire Max #4 (B),Moltres #146,5
+146,Moltres,GL Max PvE UL,GL: Moltres (Galarian) #69 | UL: Moltres (Galarian) #10 | PvE: Shadow Moltres — Flying #7 | PvE: Shadow Moltres — Fire #11 | PvE: Moltres — Flying #14 | Max: Dynamax Moltres — Flying Max #1 (SS) | Max: Dynamax Moltres — Fire Max #4 (B),Moltres (Galarian) #146,7
+147,Dratini,GL ML PvE,"GL: Shadow Dragonair #60 | GL: Dragonair #82 | ML: Shadow Dragonite #50 | ML: Dragonite #67 | PvE: Mega Dragonite — Dragon #3, #1, #1 | PvE: Mega Dragonite — Normal #14, #6, #5",Dratini #147 · Dragonair #148 · Dragonite #149,6
+150,Mewtwo,ML PvE,ML: Shadow Mewtwo #51 | ML: Mewtwo #65 | PvE: Mega X Mewtwo — Fighting #1 | PvE: Mega Y Mewtwo — Psychic #1 | PvE: Mega Y Mewtwo — Ice #3 | PvE: Mega Y Mewtwo — Ghost #4 | PvE: Mega Y Mewtwo — Normal #5 | PvE: Shadow Mewtwo — Psychic #5 | PvE: Mega Y Mewtwo — Electric #6 | PvE: Shadow Mewtwo — Ice #8 | PvE: Shadow Mewtwo — Ghost #9 | PvE: Mega X Mewtwo — Fire #16 | PvE: Shadow Mewtwo — Normal #19 | PvE: Shadow Mewtwo — Electric #20 | PvE: Shadow Mewtwo — Fighting #20,Mewtwo #150,15
+150,Mewtwo,PvE,PvE: Mega X Mewtwo — Fighting #1 | PvE: Mega Y Mewtwo — Psychic #1 | PvE: Mega Y Mewtwo — Ice #3 | PvE: Mega Y Mewtwo — Ghost #4 | PvE: Mega Y Mewtwo — Normal #5 | PvE: Shadow Mewtwo — Psychic #5 | PvE: Mega Y Mewtwo — Electric #6 | PvE: Shadow Mewtwo — Ice #8 | PvE: Shadow Mewtwo — Ghost #9 | PvE: Mega X Mewtwo — Fire #16 | PvE: Shadow Mewtwo — Normal #19 | PvE: Shadow Mewtwo — Electric #20 | PvE: Shadow Mewtwo — Fighting #20,Mewtwo (Armored) #150,13
 151,Mew,Collection only,,Mew #151,
 152,Chikorita,LC,LC: Shadow Chikorita #30 | LC: Chikorita #35,Chikorita #152 · Bayleef #153 · Meganium #154,2
 155,Cyndaquil,LC,LC: Shadow Cyndaquil #36,Cyndaquil #155 · Quilava #156 · Typhlosion #157 · Typhlosion (Hisuian) #157,1
@@ -92,9 +92,9 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 165,Ledyba,Collection only,,Ledyba #165 · Ledian #166,
 167,Spinarak,Collection only,,Spinarak #167 · Ariados #168,
 170,Chinchou,LC,LC: Chinchou #39,Chinchou #170 · Lanturn #171,1
-175,Togepi,ML PvE UL,"UL: Togekiss #62 | ML: Togekiss #59 | PvE: Togekiss — Fairy #16, #5, #3",Togepi #175 · Togetic #176 · Togekiss #468,3
+175,Togepi,ML PvE UL,"UL: Togekiss #62 | ML: Togekiss #59 | PvE: Togekiss — Fairy #17, #7, #5",Togepi #175 · Togetic #176 · Togekiss #468,3
 177,Natu,Collection only,,Natu #177 · Xatu #178,
-179,Mareep,PvE UL,"UL: Ampharos #51 | UL: Shadow Ampharos #53 | PvE: Mega Ampharos — Electric #16, #5, #3",Mareep #179 · Flaaffy #180 · Ampharos #181,3
+179,Mareep,PvE UL,"UL: Ampharos #51 | UL: Shadow Ampharos #53 | PvE: Mega Ampharos — Electric #1, #1, #1",Mareep #179 · Flaaffy #180 · Ampharos #181,3
 183,Marill,GL,GL: Azumarill #29,Marill #183 · Azumarill #184 · Azurill #298,1
 185,Sudowoodo,Collection only,,Sudowoodo #185 · Bonsly #438,
 187,Hoppip,GL,GL: Jumpluff #56 | GL: Shadow Jumpluff #86,Hoppip #187 · Skiploom #188 · Jumpluff #189,2
@@ -111,36 +111,36 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 204,Pineco,GL UL,GL: Shadow Forretress #55 | GL: Forretress #66 | UL: Forretress #32 | UL: Shadow Forretress #43,Pineco #204 · Forretress #205,4
 206,Dunsparce,GL,GL: Dunsparce #98,Dunsparce #206 · Dudunsparce #982,1
 207,Gligar,Collection only,,Gligar #207 · Gliscor #472,
-209,Snubbull,PvE,"PvE: Shadow Granbull — Fairy #13, #4",Snubbull #209 · Granbull #210,1
+209,Snubbull,PvE,"PvE: Shadow Granbull — Fairy #15, #6",Snubbull #209 · Granbull #210,1
 211,Qwilfish,PvE,"PvE: Shadow Overqwil — Poison #6, #4 | PvE: Overqwil — Poison #13, #10, #6",Qwilfish (Hisuian) #211 · Overqwil #904,2
 211,Qwilfish,Collection only,,Qwilfish #211,
 213,Shuckle,Collection only,,Shuckle #213,
-214,Heracross,PvE,"PvE: Mega Heracross — Bug #2, #2, #2 | PvE: Mega Heracross — Fighting #8, #5, #5 | PvE: Mega Heracross — Ground #16, #9, #4",Heracross #214,3
-215,Sneasel,PvE,"PvE: Shadow Weavile — Ice #12, #5",Sneasel #215 · Sneasel (Hisuian) #215 · Weavile #461 · Sneasler #903,1
-216,Teddiursa,ML PvE,"ML: Ursaluna #11 | ML: Shadow Ursaluna #17 | PvE: Shadow Ursaluna — Normal #14, #6",Teddiursa #216 · Ursaring #217 · Ursaluna #901,3
+214,Heracross,PvE,"PvE: Mega Heracross — Bug #1, #1, #1 | PvE: Mega Heracross — Fighting #9, #6, #6 | PvE: Mega Heracross — Ground #16, #9, #4",Heracross #214,3
+215,Sneasel,Max PvE,"PvE: Shadow Weavile — Ice #12, #5 | Max: Dynamax Weavile — Ice Max #1 (SS) | Max: Dynamax Weavile — Dark Max #4 (S)",Sneasel #215 · Sneasel (Hisuian) #215 · Weavile #461 · Sneasler #903,3
+216,Teddiursa,ML,ML: Ursaluna #11 | ML: Shadow Ursaluna #17,Teddiursa #216 · Ursaring #217 · Ursaluna #901,2
 218,Slugma,Collection only,,Slugma #218 · Magcargo #219,
-220,Swinub,PvE UL,"UL: Shadow Piloswine #93 | PvE: Shadow Mamoswine — Ice #5, #1 | PvE: Mamoswine — Ice #13, #6, #4 | PvE: Mamoswine — Ground #25, #17, #6",Swinub #220 · Piloswine #221 · Mamoswine #473,4
+220,Swinub,PvE UL,"UL: Shadow Piloswine #93 | PvE: Shadow Mamoswine — Ice #6, #2 | PvE: Mamoswine — Ice #13, #6, #4 | PvE: Mamoswine — Ground #26, #17, #6",Swinub #220 · Piloswine #221 · Mamoswine #473,4
 222,Corsola,Collection only,,Corsola #222,
 222,Corsola,GL,GL: Corsola (Galarian) #8,Corsola (Galarian) #222,1
 223,Remoraid,Collection only,,Remoraid #223 · Octillery #224,
 225,Delibird,Collection only,,Delibird #225,
 226,Mantine,GL LC,LC: Mantyke #48 | GL: Mantine #27,Mantine #226 · Mantyke #458,2
-227,Skarmory,PvE,"PvE: Mega Skarmory — Flying #4, #2, #2 | PvE: Mega Skarmory — Steel #9, #4, #3",Skarmory #227,2
-228,Houndour,PvE,"PvE: Mega Houndoom — Dark #1, #1, #1 | PvE: Mega Houndoom — Fire #26, #14, #5",Houndour #228 · Houndoom #229,2
+227,Skarmory,PvE,"PvE: Mega Skarmory — Flying #6, #4, #4 | PvE: Mega Skarmory — Steel #11, #6, #5",Skarmory #227,2
+228,Houndour,PvE,"PvE: Mega Houndoom — Dark #2, #2, #2 | PvE: Mega Houndoom — Fire #27, #15, #6",Houndour #228 · Houndoom #229,2
 231,Phanpy,Collection only,,Phanpy #231 · Donphan #232,
 234,Stantler,Collection only,,Stantler #234 · Wyrdeer #899,
 235,Smeargle,Collection only,,Smeargle #235,
 241,Miltank,UL,UL: Miltank #66,Miltank #241,1
-243,Raikou,ML PvE UL,UL: Shadow Raikou #98 | ML: Shadow Raikou #74 | PvE: Shadow Raikou — Electric #7 | PvE: Shadow Raikou — Fighting #16 | PvE: Raikou — Electric #17,Raikou #243,5
-244,Entei,PvE,PvE: Shadow Entei — Fire #16,Entei #244,1
+243,Raikou,ML Max PvE UL,UL: Shadow Raikou #98 | ML: Shadow Raikou #74 | PvE: Shadow Raikou — Electric #8 | PvE: Shadow Raikou — Fighting #17 | PvE: Raikou — Electric #18 | Max: Dynamax Raikou — Electric Max #4 (A),Raikou #243,6
+244,Entei,PvE,PvE: Shadow Entei — Fire #17,Entei #244,1
 245,Suicune,Collection only,,Suicune #245,
-246,Larvitar,ML PvE,"ML: Shadow Tyranitar #64 | PvE: Mega Tyranitar — Dark #2, #2, #2 | PvE: Mega Tyranitar — Rock #3, #2, #1 | PvE: Shadow Tyranitar — Dark #6, #5",Larvitar #246 · Pupitar #247 · Tyranitar #248,4
-249,Lugia,ML PvE,ML: Lugia #14 | ML: Shadow Lugia #23 | PvE: Shadow Lugia — Psychic #18 | PvE: Shadow Lugia — Flying #19,Lugia #249,4
-250,Ho-Oh,ML,ML: Ho-Oh #25 | ML: Shadow Ho-Oh #56,Ho-Oh #250,2
+246,Larvitar,ML PvE,"ML: Shadow Tyranitar #64 | PvE: Mega Tyranitar — Rock #2, #1, #1 | PvE: Mega Tyranitar — Dark #5, #5, #5 | PvE: Mega Tyranitar — Steel #8, #5, #4",Larvitar #246 · Pupitar #247 · Tyranitar #248,4
+249,Lugia,ML PvE,ML: Lugia #14 | ML: Shadow Lugia #23 | PvE: Shadow Lugia — Psychic #17 | PvE: Shadow Lugia — Flying #20,Lugia #249,4
+250,Ho-Oh,ML Max PvE,ML: Ho-Oh #25 | ML: Shadow Ho-Oh #56 | PvE: Shadow Ho-Oh — Psychic #18 | Max: Dynamax Ho-Oh — Normal Max #5 (A),Ho-Oh #250,4
 251,Celebi,Collection only,,Celebi #251,
-252,Treecko,PvE,"PvE: Mega Sceptile — Grass #2, #2, #2 | PvE: Mega Sceptile — Bug #8, #8, #6 | PvE: Mega Sceptile — Dragon #25, #10, #6",Treecko #252 · Grovyle #253 · Sceptile #254,3
-255,Torchic,PvE,"PvE: Mega Blaziken — Fire #3, #3, #3 | PvE: Mega Blaziken — Fighting #3, #2, #2 | PvE: Shadow Blaziken — Fighting #9, #6 | PvE: Shadow Blaziken — Fire #12, #6",Torchic #255 · Combusken #256 · Blaziken #257,4
-258,Mudkip,GL PvE UL,"GL: Swampert #76 | GL: Shadow Swampert #77 | UL: Swampert #63 | UL: Shadow Swampert #94 | PvE: Mega Swampert — Water #4, #3, #3 | PvE: Shadow Swampert — Water #8, #6 | PvE: Mega Swampert — Ground #10, #5, #2",Mudkip #258 · Marshtomp #259 · Swampert #260,7
+252,Treecko,PvE,"PvE: Mega Sceptile — Grass #1, #1, #1 | PvE: Mega Sceptile — Bug #6, #6, #6",Treecko #252 · Grovyle #253 · Sceptile #254,2
+255,Torchic,PvE,"PvE: Mega Blaziken — Fire #1, #1, #1 | PvE: Mega Blaziken — Fighting #3, #2, #2",Torchic #255 · Combusken #256 · Blaziken #257,2
+258,Mudkip,GL PvE UL,"GL: Swampert #76 | GL: Shadow Swampert #77 | UL: Swampert #63 | UL: Shadow Swampert #94 | PvE: Mega Swampert — Water #1, #1, #1 | PvE: Mega Swampert — Ground #4, #2, #2 | PvE: Shadow Swampert — Water #8, #6",Mudkip #258 · Marshtomp #259 · Swampert #260,7
 261,Poochyena,Collection only,,Poochyena #261 · Mightyena #262,
 263,Zigzagoon,Collection only,,Zigzagoon #263 · Zigzagoon (Galarian) #263 · Linoone #264 · Linoone (Galarian) #264 · Obstagoon #862,
 265,Wurmple,Collection only,,Wurmple #265 · Silcoon #266 · Beautifly #267 · Cascoon #268 · Dustox #269,
@@ -148,7 +148,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 273,Seedot,Collection only,,Seedot #273 · Nuzleaf #274 · Shiftry #275,
 276,Taillow,Collection only,,Taillow #276 · Swellow #277,
 278,Wingull,Collection only,,Wingull #278 · Pelipper #279,
-280,Ralts,PvE,"PvE: Mega Gardevoir — Fairy #1, #1, #1 | PvE: Shadow Gardevoir — Fairy #3, #2 | PvE: Mega Gardevoir — Psychic #5, #2, #2 | PvE: Mega Gardevoir — Ice #6, #2, #1 | PvE: Mega Gallade — Fighting #7, #4, #4 | PvE: Mega Gardevoir — Ghost #16, #7, #6 | PvE: Mega Gallade — Grass #16, #11, #6",Ralts #280 · Kirlia #281 · Gardevoir #282 · Gallade #475,7
+280,Ralts,Max PvE,"PvE: Mega Gardevoir — Fairy #1, #1, #1 | PvE: Shadow Gardevoir — Fairy #3, #2 | PvE: Mega Gardevoir — Grass #4, #4, #4 | PvE: Mega Gardevoir — Ice #7, #3, #2 | PvE: Mega Gardevoir — Psychic #7, #2, #2 | PvE: Mega Gallade — Fighting #7, #4, #4 | PvE: Mega Gardevoir — Ghost #16, #7, #6 | PvE: Mega Gardevoir — Electric #17, #6, #4 | Max: Dynamax Gardevoir — Fairy Max #1 (SS) | Max: Dynamax Gallade — Fighting Max #4 (A) | Max: Dynamax Gardevoir — Grass Max #7 (C)",Ralts #280 · Kirlia #281 · Gardevoir #282 · Gallade #475,11
 283,Surskit,LC,LC: Surskit #46,Surskit #283 · Masquerain #284,1
 285,Shroomish,Collection only,,Shroomish #285 · Breloom #286,
 287,Slakoth,GL,GL: Vigoroth #22 | GL: Shadow Vigoroth #42,Slakoth #287 · Vigoroth #288 · Slaking #289,2
@@ -157,26 +157,26 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 296,Makuhita,Collection only,,Makuhita #296 · Hariyama #297,
 299,Nosepass,Collection only,,Nosepass #299 · Probopass #476,
 300,Skitty,Collection only,,Skitty #300 · Delcatty #301,
-302,Sableye,GL,GL: Shadow Sableye #19 | GL: Sableye #40,Sableye #302,2
-303,Mawile,Collection only,,Mawile #303,
-304,Aron,PvE,"PvE: Mega Aggron — Steel #17, #7, #5",Aron #304 · Lairon #305 · Aggron #306,1
+302,Sableye,GL Max,GL: Shadow Sableye #19 | GL: Sableye #40 | Max: Dynamax Sableye — Ghost Max #6 (D),Sableye #302,3
+303,Mawile,PvE,"PvE: Mega Mawile — Fairy #12, #5, #4",Mawile #303,1
+304,Aron,PvE,"PvE: Mega Aggron — Steel #7, #4, #3",Aron #304 · Lairon #305 · Aggron #306,1
 307,Meditite,GL,GL: Medicham #54,Meditite #307 · Medicham #308,1
-309,Electrike,PvE,"PvE: Mega Manectric — Electric #2, #2, #2",Electrike #309 · Manectric #310,1
+309,Electrike,PvE,"PvE: Mega Manectric — Electric #3, #3, #3",Electrike #309 · Manectric #310,1
 311,Plusle,Collection only,,Plusle #311,
 312,Minun,Collection only,,Minun #312,
 313,Volbeat,Collection only,,Volbeat #313,
 314,Illumise,Collection only,,Illumise #314,
 315,Roselia,LC PvE,"LC: Budew #26 | PvE: Roserade — Poison #9, #6, #4",Roselia #315 · Budew #406 · Roserade #407,2
 316,Gulpin,Collection only,,Gulpin #316 · Swalot #317,
-318,Carvanha,LC,LC: Shadow Carvanha #3 | LC: Carvanha #17,Carvanha #318 · Sharpedo #319,2
-320,Wailmer,LC,LC: Shadow Wailmer #33,Wailmer #320 · Wailord #321,1
-322,Numel,LC,LC: Shadow Numel #50,Numel #322 · Camerupt #323,1
+318,Carvanha,LC PvE,"LC: Shadow Carvanha #3 | LC: Carvanha #17 | PvE: Mega Sharpedo — Dark #7, #6, #6",Carvanha #318 · Sharpedo #319,3
+320,Wailmer,LC Max,LC: Shadow Wailmer #33 | Max: Dynamax Wailord — Rock Max #6 (C),Wailmer #320 · Wailord #321,2
+322,Numel,LC PvE,"LC: Shadow Numel #50 | PvE: Mega Camerupt — Fire #14, #8, #5",Numel #322 · Camerupt #323,2
 324,Torkoal,Collection only,,Torkoal #324,
 325,Spoink,GL,GL: Grumpig #85,Spoink #325 · Grumpig #326,1
 327,Spinda,Collection only,,Spinda #327,
-328,Trapinch,Collection only,,Trapinch #328 · Vibrava #329 · Flygon #330,
+328,Trapinch,Max,Max: Dynamax Flygon — Ground Max #4 (A),Trapinch #328 · Vibrava #329 · Flygon #330,1
 331,Cacnea,Collection only,,Cacnea #331 · Cacturne #332,
-333,Swablu,GL,GL: Altaria #2 | GL: Shadow Altaria #7,Swablu #333 · Altaria #334,2
+333,Swablu,GL PvE,"GL: Altaria #2 | GL: Shadow Altaria #7 | PvE: Mega Altaria — Fairy #5, #3, #2",Swablu #333 · Altaria #334,3
 335,Zangoose,Collection only,,Zangoose #335,
 336,Seviper,Collection only,,Seviper #336,
 337,Lunatone,Collection only,,Lunatone #337,
@@ -192,38 +192,38 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 351,Castform,Collection only,,Castform (Snowy) #351,
 351,Castform,Collection only,,Castform (Sunny) #351,
 352,Kecleon,Collection only,,Kecleon #352,
-353,Shuppet,PvE,"PvE: Mega Banette — Ghost #6, #2, #2 | PvE: Mega Banette — Fairy #23, #9, #6",Shuppet #353 · Banette #354,2
+353,Shuppet,PvE,"PvE: Mega Banette — Ghost #3, #2, #2",Shuppet #353 · Banette #354,1
 355,Duskull,GL UL,GL: Shadow Dusclops #65 | GL: Dusclops #75 | GL: Shadow Dusknoir #81 | UL: Dusknoir #25 | UL: Shadow Dusknoir #26,Duskull #355 · Dusclops #356 · Dusknoir #477,5
 357,Tropius,Collection only,,Tropius #357,
 358,Chimecho,Collection only,,Chimecho #358 · Chingling #433,
-359,Absol,PvE,"PvE: Mega Absol — Dark #7, #6, #4",Absol #359,1
+359,Absol,PvE,"PvE: Mega Absol — Dark #3, #3, #3",Absol #359,1
 361,Snorunt,PvE,"PvE: Mega Glalie — Ice #14, #7, #5",Snorunt #361 · Glalie #362 · Froslass #478,1
 363,Spheal,UL,UL: Shadow Walrein #39 | UL: Walrein #42,Spheal #363 · Sealeo #364 · Walrein #365,2
 366,Clamperl,Collection only,,Clamperl #366 · Huntail #367 · Gorebyss #368,
 369,Relicanth,Collection only,,Relicanth #369,
 370,Luvdisc,Collection only,,Luvdisc #370,
-371,Bagon,GL PvE,"GL: Shadow Shelgon #87 | PvE: Shadow Salamence — Flying #6, #3 | PvE: Mega Salamence — Flying #7, #4, #3 | PvE: Mega Salamence — Dragon #8, #4, #3 | PvE: Mega Salamence — Dark #10, #8, #6 | PvE: Mega Salamence — Fire #19, #10, #4",Bagon #371 · Shelgon #372 · Salamence #373,6
-374,Beldum,ML PvE,"ML: Metagross #4 | ML: Shadow Metagross #27 | PvE: Mega Metagross — Steel #4, #1, #1 | PvE: Shadow Metagross — Steel #6, #3 | PvE: Mega Metagross — Psychic #10, #4, #4 | PvE: Shadow Metagross — Psychic #14, #5",Beldum #374 · Metang #375 · Metagross #376,6
-377,Regirock,Collection only,,Regirock #377,
+371,Bagon,GL PvE,"GL: Shadow Shelgon #87 | PvE: Mega Salamence — Flying #4, #3, #3 | PvE: Mega Salamence — Fire #7, #4, #4 | PvE: Mega Salamence — Dragon #8, #4, #3",Bagon #371 · Shelgon #372 · Salamence #373,4
+374,Beldum,ML Max PvE,"ML: Metagross #4 | ML: Shadow Metagross #27 | PvE: Mega Metagross — Steel #4, #1, #1 | PvE: Mega Metagross — Bug #5, #5, #5 | PvE: Shadow Metagross — Steel #6, #3 | PvE: Mega Metagross — Psychic #11, #4, #4 | PvE: Mega Metagross — Ghost #13, #5, #4 | PvE: Shadow Metagross — Psychic #14, #5 | Max: Dynamax Metagross — Steel Max #2 (S) | Max: Dynamax Metagross — Bug Max #3 (S) | Max: Dynamax Metagross — Ghost Max #4 (B) | Max: Dynamax Metagross — Psychic Max #5 (SS)",Beldum #374 · Metang #375 · Metagross #376,12
+377,Regirock,Max,Max: Dynamax Regirock — Rock Max #4 (B),Regirock #377,1
 378,Regice,Collection only,,Regice #378,
 379,Registeel,GL UL,GL: Registeel #92 | UL: Registeel #30,Registeel #379,2
-380,Latias,ML PvE,ML: Shadow Latias #57 | ML: Latias #62 | PvE: Mega Latias — Fairy #11 | PvE: Mega Latias — Psychic #16,Latias #380,4
-381,Latios,ML PvE,ML: Shadow Latios #35 | ML: Latios #49 | PvE: Mega Latios — Psychic #6 | PvE: Shadow Latios — Psychic #11 | PvE: Mega Latios — Fighting #13 | PvE: Mega Latios — Dragon #14,Latios #381,6
-382,Kyogre,ML PvE,ML: Kyogre #8 | ML: Shadow Kyogre #33 | PvE: Primal Kyogre — Water #1 | PvE: Shadow Kyogre — Water #5 | PvE: Primal Kyogre — Ice #9,Kyogre #382,5
-383,Groudon,ML PvE,ML: Groudon #28 | ML: Shadow Groudon #53 | PvE: Primal Groudon — Ground #1 | PvE: Shadow Groudon — Ground #3 | PvE: Primal Groudon — Grass #13 | PvE: Primal Groudon — Dragon #18 | PvE: Primal Groudon — Fire #20,Groudon #383,7
+380,Latias,ML Max PvE,ML: Shadow Latias #57 | ML: Latias #62 | PvE: Mega Latias — Psychic #6 | PvE: Mega Latias — Fairy #7 | Max: Dynamax Latias — Fairy Max #5 (B),Latias #380,5
+381,Latios,ML Max PvE,ML: Shadow Latios #35 | ML: Latios #49 | PvE: Mega Latios — Psychic #4 | PvE: Mega Latios — Dragon #11 | PvE: Shadow Latios — Psychic #12 | PvE: Mega Latios — Fighting #14 | Max: Dynamax Latios — Dragon Max #2 (S) | Max: Dynamax Latios — Psychic Max #3 (SS),Latios #381,8
+382,Kyogre,ML PvE,ML: Kyogre #8 | ML: Shadow Kyogre #33 | PvE: Primal Kyogre — Water #2 | PvE: Shadow Kyogre — Water #6 | PvE: Primal Kyogre — Ice #10,Kyogre #382,5
+383,Groudon,ML PvE,ML: Groudon #28 | ML: Shadow Groudon #53 | PvE: Primal Groudon — Ground #2 | PvE: Shadow Groudon — Ground #3 | PvE: Primal Groudon — Grass #14 | PvE: Primal Groudon — Dragon #20,Groudon #383,6
 384,Rayquaza,PvE,PvE: Mega Rayquaza — Flying #1 | PvE: Mega Rayquaza — Dragon #1 | PvE: Mega Rayquaza — Rock #10,Rayquaza #384,3
 385,Jirachi,ML,ML: Jirachi #61,Jirachi #385,1
-386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #13,Deoxys #386,1
-386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #13,Deoxys (Speed) #386,1
-386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #13,Deoxys (Attack) #386,1
-386,Deoxys,GL PvE UL,GL: Deoxys (Defense) #37 | UL: Deoxys (Defense) #40 | PvE: Normal Deoxys — Psychic #13,Deoxys (Defense) #386,3
+386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #15,Deoxys #386,1
+386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #15,Deoxys (Speed) #386,1
+386,Deoxys,PvE,PvE: Normal Deoxys — Psychic #15,Deoxys (Attack) #386,1
+386,Deoxys,GL PvE UL,GL: Deoxys (Defense) #37 | UL: Deoxys (Defense) #40 | PvE: Normal Deoxys — Psychic #15,Deoxys (Defense) #386,3
 387,Turtwig,LC,LC: Shadow Turtwig #29,Turtwig #387 · Grotle #388 · Torterra #389,1
 390,Chimchar,Collection only,,Chimchar #390 · Monferno #391 · Infernape #392,
 393,Piplup,GL UL,GL: Empoleon #31 | GL: Shadow Empoleon #32 | UL: Empoleon #9 | UL: Shadow Empoleon #11,Piplup #393 · Prinplup #394 · Empoleon #395,4
-396,Starly,PvE,"PvE: Mega Staraptor — Normal #2, #1, #1 | PvE: Mega Staraptor — Flying #2, #1, #1 | PvE: Shadow Staraptor — Flying #11, #6",Starly #396 · Staravia #397 · Staraptor #398,3
+396,Starly,PvE,"PvE: Mega Staraptor — Normal #3, #1, #1 | PvE: Mega Staraptor — Flying #3, #2, #2",Starly #396 · Staravia #397 · Staraptor #398,2
 399,Bidoof,Collection only,,Bidoof #399 · Bibarel #400,
 401,Kricketot,Collection only,,Kricketot #401 · Kricketune #402,
-403,Shinx,PvE,"PvE: Shadow Luxray — Electric #18, #6 | PvE: Luxray — Electric #29, #13, #6",Shinx #403 · Luxio #404 · Luxray #405,2
+403,Shinx,Collection only,,Shinx #403 · Luxio #404 · Luxray #405,
 408,Cranidos,PvE,"PvE: Shadow Rampardos — Rock #6, #5 | PvE: Rampardos — Rock #12, #10, #5",Cranidos #408 · Rampardos #409,2
 410,Shieldon,Collection only,,Shieldon #410 · Bastiodon #411,
 412,Burmy,Collection only,,Burmy (Plant) #412 · Wormadam (Plant) #413 · Wormadam (Sandy) #413 · Wormadam (Trash) #413 · Mothim #414,
@@ -234,20 +234,20 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 422,Shellos,LC,LC: Shellos #22,Shellos #422,1
 423,Gastrodon,Collection only,,Gastrodon #423,
 425,Drifloon,Collection only,,Drifloon #425 · Drifblim #426,
-427,Buneary,PvE,"PvE: Mega Lopunny — Normal #19, #10, #6",Buneary #427 · Lopunny #428,1
+427,Buneary,PvE,"PvE: Mega Lopunny — Fighting #8, #5, #5 | PvE: Mega Lopunny — Normal #11, #5, #4",Buneary #427 · Lopunny #428,2
 431,Glameow,Collection only,,Glameow #431 · Purugly #432,
 434,Stunky,Collection only,,Stunky #434 · Skuntank #435,
 436,Bronzor,Collection only,,Bronzor #436 · Bronzong #437,
 441,Chatot,Collection only,,Chatot #441,
 442,Spiritomb,Collection only,,Spiritomb #442,
-443,Gible,ML PvE,"ML: Shadow Garchomp #26 | ML: Garchomp #31 | PvE: Mega Garchomp — Ground #2, #1, #1 | PvE: Shadow Garchomp — Ground #4, #2 | PvE: Mega Garchomp — Dragon #4, #2, #2 | PvE: Shadow Garchomp — Dragon #7, #3",Gible #443 · Gabite #444 · Garchomp #445,6
+443,Gible,ML PvE,"ML: Shadow Garchomp #26 | ML: Garchomp #31 | PvE: Mega Garchomp — Ground #1, #1, #1 | PvE: Mega Garchomp — Dragon #4, #2, #2 | PvE: Shadow Garchomp — Ground #5, #3 | PvE: Shadow Garchomp — Dragon #7, #3",Gible #443 · Gabite #444 · Garchomp #445,6
 447,Riolu,PvE,"PvE: Mega Lucario — Fighting #2, #1, #1 | PvE: Mega Lucario — Steel #5, #2, #2",Riolu #447 · Lucario #448,2
 449,Hippopotas,GL,GL: Hippowdon #50 | GL: Shadow Hippowdon #59,Hippopotas #449 · Hippowdon #450,2
 451,Skorupi,GL UL,GL: Shadow Drapion #97 | UL: Drapion #90,Skorupi #451 · Drapion #452,2
 453,Croagunk,Collection only,,Croagunk #453 · Toxicroak #454,
 455,Carnivine,Collection only,,Carnivine #455,
 456,Finneon,Collection only,,Finneon #456 · Lumineon #457,
-459,Snover,PvE,"PvE: Mega Abomasnow — Ice #11, #4, #3",Snover #459 · Abomasnow #460,1
+459,Snover,PvE,"PvE: Mega Abomasnow — Ice #4, #1, #1",Snover #459 · Abomasnow #460,1
 479,Rotom,Collection only,,Rotom #479,
 479,Rotom,Collection only,,Rotom (Fan) #479,
 479,Rotom,Collection only,,Rotom (Mow) #479,
@@ -256,19 +256,19 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 479,Rotom,Collection only,,Rotom (Frost) #479,
 480,Uxie,Collection only,,Uxie #480,
 481,Mesprit,Collection only,,Mesprit #481,
-482,Azelf,Collection only,,Azelf #482,
-483,Dialga,ML PvE,ML: Shadow Dialga #43 | ML: Dialga #46 | PvE: Shadow Dialga — Steel #7 | PvE: Shadow Dialga — Dragon #11 | PvE: Dialga — Steel #14 | PvE: Origin Dialga — Dragon #15,Dialga #483,6
-483,Dialga,ML PvE,ML: Dialga (Origin) #9 | PvE: Shadow Dialga — Steel #7 | PvE: Shadow Dialga — Dragon #11 | PvE: Dialga — Steel #14 | PvE: Origin Dialga — Dragon #15,Dialga (Origin) #483,5
-484,Palkia,ML PvE,ML: Shadow Palkia #24 | ML: Palkia #34 | PvE: Shadow Palkia — Dragon #10 | PvE: Origin Palkia — Dragon #12 | PvE: Shadow Palkia — Water #20,Palkia #484,5
-484,Palkia,ML PvE,ML: Palkia (Origin) #1 | PvE: Shadow Palkia — Dragon #10 | PvE: Origin Palkia — Dragon #12 | PvE: Shadow Palkia — Water #20,Palkia (Origin) #484,4
+482,Azelf,Max,Max: Dynamax Azelf — Psychic Max #2 (SS),Azelf #482,1
+483,Dialga,ML PvE,ML: Shadow Dialga #43 | ML: Dialga #46 | PvE: Shadow Dialga — Steel #9 | PvE: Shadow Dialga — Dragon #12 | PvE: Origin Dialga — Dragon #16 | PvE: Dialga — Steel #17,Dialga #483,6
+483,Dialga,ML PvE,ML: Dialga (Origin) #9 | PvE: Shadow Dialga — Steel #9 | PvE: Shadow Dialga — Dragon #12 | PvE: Origin Dialga — Dragon #16 | PvE: Dialga — Steel #17,Dialga (Origin) #483,5
+484,Palkia,ML PvE,ML: Shadow Palkia #24 | ML: Palkia #34 | PvE: Shadow Palkia — Dragon #13 | PvE: Origin Palkia — Dragon #14 | PvE: Shadow Palkia — Water #20,Palkia #484,5
+484,Palkia,ML PvE,ML: Palkia (Origin) #1 | PvE: Shadow Palkia — Dragon #13 | PvE: Origin Palkia — Dragon #14 | PvE: Shadow Palkia — Water #20,Palkia (Origin) #484,4
 485,Heatran,ML PvE,ML: Shadow Heatran #71 | PvE: Shadow Heatran — Fire #6,Heatran #485,2
-486,Regigigas,PvE,PvE: Shadow Regigigas — Normal #1 | PvE: Regigigas — Normal #8,Regigigas #486,2
-487,Giratina,PvE,PvE: Altered Shadow Giratina — Ghost #14 | PvE: Origin Giratina — Ghost #18,Giratina (Origin) #487,2
-487,Giratina,ML PvE UL,UL: Giratina (Altered) #16 | UL: Shadow Giratina (Altered) #28 | ML: Shadow Giratina (Altered) #39 | ML: Giratina (Altered) #52 | PvE: Altered Shadow Giratina — Ghost #14 | PvE: Origin Giratina — Ghost #18,Giratina (Altered) #487,6
+486,Regigigas,PvE,PvE: Shadow Regigigas — Normal #2 | PvE: Regigigas — Normal #9,Regigigas #486,2
+487,Giratina,PvE,PvE: Altered Shadow Giratina — Ghost #15 | PvE: Origin Giratina — Ghost #18,Giratina (Origin) #487,2
+487,Giratina,ML PvE UL,UL: Giratina (Altered) #16 | UL: Shadow Giratina (Altered) #28 | ML: Shadow Giratina (Altered) #39 | ML: Giratina (Altered) #52 | PvE: Altered Shadow Giratina — Ghost #15 | PvE: Origin Giratina — Ghost #18,Giratina (Altered) #487,6
 488,Cresselia,UL,UL: Cresselia #33 | UL: Shadow Cresselia #46,Cresselia #488,2
-491,Darkrai,PvE,PvE: Shadow Darkrai — Dark #3 | PvE: Shadow Darkrai — Ghost #5 | PvE: Darkrai — Dark #9 | PvE: Darkrai — Ghost #12 | PvE: Shadow Darkrai — Poison #18,Darkrai #491,5
-492,Shaymin,PvE,PvE: Sky Shaymin — Grass #6,Shaymin (Sky) #492,1
-492,Shaymin,PvE,PvE: Sky Shaymin — Grass #6,Shaymin (Land) #492,1
+491,Darkrai,PvE,PvE: Shadow Darkrai — Ghost #6 | PvE: Shadow Darkrai — Dark #6 | PvE: Darkrai — Dark #11 | PvE: Darkrai — Ghost #12 | PvE: Shadow Darkrai — Poison #18,Darkrai #491,5
+492,Shaymin,PvE,PvE: Sky Shaymin — Grass #7,Shaymin (Sky) #492,1
+492,Shaymin,PvE,PvE: Sky Shaymin — Grass #7,Shaymin (Land) #492,1
 494,Victini,Collection only,,Victini #494,
 495,Snivy,Collection only,,Snivy #495 · Servine #496 · Serperior #497,
 498,Tepig,Collection only,,Tepig #498 · Pignite #499 · Emboar #500,
@@ -280,11 +280,11 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 513,Pansear,Collection only,,Pansear #513 · Simisear #514,
 515,Panpour,Collection only,,Panpour #515 · Simipour #516,
 517,Munna,Collection only,,Munna #517 · Musharna #518,
-519,Pidove,Collection only,,Pidove #519 · Tranquill #520 · Unfezant #521,
+519,Pidove,Max,Max: Dynamax Unfezant — Flying Max #2 (S),Pidove #519 · Tranquill #520 · Unfezant #521,1
 522,Blitzle,Collection only,,Blitzle #522 · Zebstrika #523,
-524,Roggenrola,PvE,"PvE: Shadow Gigalith — Rock #5, #4 | PvE: Shadow Gigalith — Normal #9, #4 | PvE: Gigalith — Rock #13, #11, #6 | PvE: Gigalith — Normal #18, #9, #5",Roggenrola #524 · Boldore #525 · Gigalith #526,4
-527,Woobat,Collection only,,Woobat #527 · Swoobat #528,
-529,Drilbur,PvE,"PvE: Shadow Excadrill — Ground #7, #3 | PvE: Shadow Excadrill — Steel #10, #5 | PvE: Excadrill — Ground #15, #8, #3",Drilbur #529 · Excadrill #530,3
+524,Roggenrola,Max PvE,"PvE: Shadow Gigalith — Rock #5, #4 | PvE: Shadow Gigalith — Normal #10, #4 | PvE: Gigalith — Rock #13, #11, #6 | PvE: Gigalith — Normal #18, #10, #6 | Max: Dynamax Gigalith — Rock Max #2 (S) | Max: Dynamax Gigalith — Ground Max #6 (B)",Roggenrola #524 · Boldore #525 · Gigalith #526,6
+527,Woobat,Max,Max: Dynamax Swoobat — Flying Max #5 (A),Woobat #527 · Swoobat #528,1
+529,Drilbur,Max PvE,"PvE: Shadow Excadrill — Ground #8, #4 | PvE: Excadrill — Ground #14, #7, #3 | Max: Dynamax Excadrill — Ground Max #1 (SS) | Max: Dynamax Excadrill — Steel Max #3 (S)",Drilbur #529 · Excadrill #530,4
 531,Audino,Collection only,,Audino #531,
 532,Timburr,ML,ML: Shadow Conkeldurr #66,Timburr #532 · Gurdurr #533 · Conkeldurr #534,1
 535,Tympole,GL UL,GL: Seismitoad #83 | UL: Seismitoad #65,Tympole #535 · Palpitoad #536 · Seismitoad #537,2
@@ -296,7 +296,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 548,Petilil,Collection only,,Petilil #548 · Lilligant #549 · Lilligant (Hisuian) #549,
 550,Basculin,Collection only,,Basculin #550,
 551,Sandile,Collection only,,Sandile #551 · Krokorok #552 · Krookodile #553,
-554,Darumaka,PvE,"PvE: Galarian Darmanitan — Ice #15, #8, #6",Darumaka #554 · Darumaka (Galarian) #554 · Darmanitan (Standard) #555 · Darmanitan (Galarian) #555,1
+554,Darumaka,Max PvE,"PvE: Galarian Darmanitan — Ice #15, #8, #6 | Max: Dynamax Darmanitan — Normal Max #2 (S) | Max: Dynamax Darmanitan — Fire Max #3 (A)",Darumaka #554 · Darumaka (Galarian) #554 · Darmanitan (Standard) #555 · Darmanitan (Galarian) #555,3
 556,Maractus,Collection only,,Maractus #556,
 557,Dwebble,UL,UL: Crustle #84,Dwebble #557 · Crustle #558,1
 559,Scraggy,Collection only,,Scraggy #559 · Scrafty #560,
@@ -304,7 +304,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 562,Yamask,UL,UL: Runerigus #41 | UL: Cofagrigus #83,Yamask #562 · Yamask (Galarian) #562 · Cofagrigus #563 · Runerigus #867,2
 564,Tirtouga,LC,LC: Tirtouga #40,Tirtouga #564 · Carracosta #565,1
 566,Archen,Collection only,,Archen #566 · Archeops #567,
-568,Trubbish,Collection only,,Trubbish #568 · Garbodor #569,
+568,Trubbish,Max,Max: Gigantamax Garbodor — Poison Max #1 (S) | Max: Dynamax Garbodor — Bug Max #6 (C),Trubbish #568 · Garbodor #569,2
 570,Zorua,Collection only,,Zorua #570 · Zorua (Hisuian) #570 · Zoroark #571 · Zoroark (Hisuian) #571,
 572,Minccino,Collection only,,Minccino #572 · Cinccino #573,
 574,Gothita,Collection only,,Gothita #574 · Gothorita #575 · Gothitelle #576,
@@ -322,10 +322,10 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 599,Klink,Collection only,,Klink #599 · Klang #600 · Klinklang #601,
 602,Tynamo,Collection only,,Tynamo #602 · Eelektrik #603 · Eelektross #604,
 605,Elgyem,Collection only,,Elgyem #605 · Beheeyem #606,
-607,Litwick,LC PvE,"LC: Litwick #16 | LC: Shadow Litwick #19 | PvE: Shadow Chandelure — Ghost #7, #3 | PvE: Shadow Chandelure — Fire #8, #4",Litwick #607 · Lampent #608 · Chandelure #609,4
-610,Axew,PvE,"PvE: Shadow Haxorus — Dragon #9, #5 | PvE: Haxorus — Dragon #24, #9, #5",Axew #610 · Fraxure #611 · Haxorus #612,2
+607,Litwick,LC PvE,"LC: Litwick #16 | LC: Shadow Litwick #19 | PvE: Shadow Chandelure — Ghost #7, #3 | PvE: Shadow Chandelure — Fire #9, #5",Litwick #607 · Lampent #608 · Chandelure #609,4
+610,Axew,PvE,"PvE: Shadow Haxorus — Dragon #9, #5",Axew #610 · Fraxure #611 · Haxorus #612,1
 613,Cubchoo,Collection only,,Cubchoo #613 · Beartic #614,
-615,Cryogonal,Collection only,,Cryogonal #615,
+615,Cryogonal,Max,Max: Dynamax Cryogonal — Ice Max #5 (B),Cryogonal #615,1
 616,Shelmet,Collection only,,Shelmet #616 · Accelgor #617,
 618,Stunfisk,GL,GL: Stunfisk #21,Stunfisk #618,1
 618,Stunfisk,GL,GL: Stunfisk (Galarian) #96,Stunfisk (Galarian) #618,1
@@ -338,27 +338,27 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 629,Vullaby,GL,GL: Mandibuzz #51,Vullaby #629 · Mandibuzz #630,1
 631,Heatmor,Collection only,,Heatmor #631,
 632,Durant,Collection only,,Durant #632,
-633,Deino,GL ML PvE UL,"GL: Shadow Hydreigon #15 | GL: Hydreigon #72 | UL: Shadow Hydreigon #92 | ML: Shadow Hydreigon #54 | PvE: Shadow Hydreigon — Dark #5, #4",Deino #633 · Zweilous #634 · Hydreigon #635,5
-636,Larvesta,PvE,"PvE: Volcarona — Bug #7, #7, #5 | PvE: Volcarona — Fire #27, #15, #6",Larvesta #636 · Volcarona #637,2
+633,Deino,GL ML Max UL,GL: Shadow Hydreigon #15 | GL: Hydreigon #72 | UL: Shadow Hydreigon #92 | ML: Shadow Hydreigon #54 | Max: Dynamax Hydreigon — Dark Max #2 (S) | Max: Dynamax Hydreigon — Dragon Max #3 (A),Deino #633 · Zweilous #634 · Hydreigon #635,6
+636,Larvesta,Collection only,,Larvesta #636 · Volcarona #637,
 638,Cobalion,Collection only,,Cobalion #638,
-639,Terrakion,PvE,PvE: Terrakion — Fighting #11 | PvE: Terrakion — Rock #14,Terrakion #639,2
+639,Terrakion,PvE,PvE: Terrakion — Fighting #12 | PvE: Terrakion — Rock #14,Terrakion #639,2
 640,Virizion,UL,UL: Virizion #6,Virizion #640,1
 641,Tornadus,Collection only,,Tornadus (Therian) #641,
 641,Tornadus,Collection only,,Tornadus (Incarnate) #641,
-642,Thundurus,PvE,PvE: Shadow Therian Thundurus — Electric #4 | PvE: Therian Thundurus — Electric #14,Thundurus (Therian) #642,2
-642,Thundurus,PvE,PvE: Shadow Therian Thundurus — Electric #4 | PvE: Therian Thundurus — Electric #14,Thundurus (Incarnate) #642,2
-643,Reshiram,ML PvE,ML: Reshiram #6 | ML: Shadow Reshiram #13 | PvE: Shadow Reshiram — Fire #4 | PvE: Reshiram — Fire #9,Reshiram #643,4
-644,Zekrom,ML PvE,ML: Zekrom #20 | ML: Shadow Zekrom #21 | PvE: Zekrom — Electric #11,Zekrom #644,3
-645,Landorus,ML PvE,ML: Landorus (Therian) #41 | PvE: Therian Landorus — Ground #5 | PvE: Shadow Incarnate Landorus — Ground #6 | PvE: Shadow Incarnate Landorus — Rock #18,Landorus (Therian) #645,4
-645,Landorus,PvE,PvE: Therian Landorus — Ground #5 | PvE: Shadow Incarnate Landorus — Ground #6 | PvE: Shadow Incarnate Landorus — Rock #18,Landorus (Incarnate) #645,3
-646,Kyurem,ML PvE UL,UL: Kyurem #86 | ML: Kyurem #48 | PvE: White Kyurem — Ice #1 | PvE: Black Kyurem — Dragon #5 | PvE: Black Kyurem — Ghost #11 | PvE: White Kyurem — Steel #13,Kyurem #646,6
-646,Kyurem,ML PvE,ML: Kyurem (Black) #12 | PvE: White Kyurem — Ice #1 | PvE: Black Kyurem — Dragon #5 | PvE: Black Kyurem — Ghost #11 | PvE: White Kyurem — Steel #13,Kyurem (Black) #646,5
+642,Thundurus,PvE,PvE: Shadow Therian Thundurus — Electric #5 | PvE: Therian Thundurus — Electric #15,Thundurus (Therian) #642,2
+642,Thundurus,PvE,PvE: Shadow Therian Thundurus — Electric #5 | PvE: Therian Thundurus — Electric #15,Thundurus (Incarnate) #642,2
+643,Reshiram,ML PvE,ML: Reshiram #6 | ML: Shadow Reshiram #13 | PvE: Shadow Reshiram — Fire #4 | PvE: Reshiram — Fire #10,Reshiram #643,4
+644,Zekrom,ML PvE,ML: Zekrom #20 | ML: Shadow Zekrom #21 | PvE: Zekrom — Electric #12,Zekrom #644,3
+645,Landorus,ML PvE,ML: Landorus (Therian) #41 | PvE: Therian Landorus — Ground #6 | PvE: Shadow Incarnate Landorus — Ground #7 | PvE: Shadow Incarnate Landorus — Rock #19,Landorus (Therian) #645,4
+645,Landorus,PvE,PvE: Therian Landorus — Ground #6 | PvE: Shadow Incarnate Landorus — Ground #7 | PvE: Shadow Incarnate Landorus — Rock #19,Landorus (Incarnate) #645,3
+646,Kyurem,ML PvE UL,UL: Kyurem #86 | ML: Kyurem #48 | PvE: White Kyurem — Ice #1 | PvE: Black Kyurem — Dragon #5 | PvE: Black Kyurem — Ghost #11 | PvE: White Kyurem — Steel #16,Kyurem #646,6
+646,Kyurem,ML PvE,ML: Kyurem (Black) #12 | PvE: White Kyurem — Ice #1 | PvE: Black Kyurem — Dragon #5 | PvE: Black Kyurem — Ghost #11 | PvE: White Kyurem — Steel #16,Kyurem (Black) #646,5
 647,Keldeo,ML PvE,ML: Keldeo (Ordinary) #36 | PvE: Resolute Keldeo — Fighting #4,Keldeo (Ordinary) #647,2
 648,Meloetta,ML,ML: Meloetta (Aria) #44,Meloetta (Aria) #648,1
-649,Genesect,PvE,PvE: Normal Genesect — Bug #14 | PvE: Normal Genesect — Steel #19,Genesect #649,2
-650,Chespin,PvE,"PvE: Mega Chesnaught — Grass #1, #1, #1 | PvE: Shadow Chesnaught — Grass #5, #4",Chespin #650 · Quilladin #651 · Chesnaught #652,2
-653,Fennekin,LC PvE,"LC: Fennekin #38 | PvE: Mega Delphox — Fire #1, #1, #1 | PvE: Mega Delphox — Normal #3, #2, #2 | PvE: Mega Delphox — Psychic #9, #3, #3 | PvE: Shadow Delphox — Fire #11, #5",Fennekin #653 · Braixen #654 · Delphox #655,5
-656,Froakie,PvE,"PvE: Mega Greninja — Water #2, #1, #1 | PvE: Mega Greninja — Dark #8, #7, #5",Froakie #656 · Frogadier #657 · Greninja #658,2
+649,Genesect,PvE,PvE: Normal Genesect — Bug #14,Genesect #649,1
+650,Chespin,PvE,"PvE: Mega Chesnaught — Grass #2, #2, #2 | PvE: Shadow Chesnaught — Grass #6, #5",Chespin #650 · Quilladin #651 · Chesnaught #652,2
+653,Fennekin,LC PvE,"LC: Fennekin #38 | PvE: Mega Delphox — Fire #2, #2, #2 | PvE: Mega Delphox — Normal #4, #2, #2 | PvE: Mega Delphox — Psychic #10, #3, #3 | PvE: Shadow Delphox — Fire #12, #6",Fennekin #653 · Braixen #654 · Delphox #655,5
+656,Froakie,PvE,"PvE: Mega Greninja — Water #3, #2, #2",Froakie #656 · Frogadier #657 · Greninja #658,1
 659,Bunnelby,GL,GL: Diggersby #71,Bunnelby #659 · Diggersby #660,1
 661,Fletchling,GL UL,GL: Talonflame #80 | GL: Shadow Talonflame #100 | UL: Talonflame #37 | UL: Shadow Talonflame #56,Fletchling #661 · Fletchinder #662 · Talonflame #663,4
 664,Scatterbug,Collection only,,Scatterbug #664 · Vivillon #666,
@@ -371,7 +371,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 679,Honedge,GL UL,GL: Aegislash (Shield) #74 | GL: Doublade #78 | UL: Doublade #85,Honedge #679 · Doublade #680 · Aegislash (Shield) #681,3
 682,Spritzee,UL,UL: Aromatisse #76,Spritzee #682 · Aromatisse #683,1
 684,Swirlix,Collection only,,Swirlix #684 · Slurpuff #685,
-686,Inkay,GL PvE UL,"GL: Malamar #43 | GL: Shadow Malamar #44 | UL: Shadow Malamar #52 | UL: Malamar #60 | PvE: Mega Malamar — Psychic #15, #6, #5",Inkay #686 · Malamar #687,5
+686,Inkay,GL PvE UL,"GL: Malamar #43 | GL: Shadow Malamar #44 | UL: Shadow Malamar #52 | UL: Malamar #60 | PvE: Mega Malamar — Psychic #16, #6, #5",Inkay #686 · Malamar #687,5
 688,Binacle,LC,LC: Binacle #15,Binacle #688 · Barbaracle #689,1
 690,Skrelp,LC,LC: Skrelp #1,Skrelp #690 · Dragalge #691,1
 692,Clauncher,Collection only,,Clauncher #692 · Clawitzer #693,
@@ -387,21 +387,21 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 710,Pumpkaboo,GL LC,LC: Pumpkaboo (Super) #5 | LC: Pumpkaboo (Average) #9 | LC: Pumpkaboo (Large) #11 | LC: Pumpkaboo (Small) #12 | GL: Gourgeist (Large) #88 | GL: Gourgeist (Super) #91 | GL: Gourgeist (Average) #94 | GL: Gourgeist (Small) #99,Pumpkaboo (Large) #710 · Pumpkaboo (Small) #710 · Pumpkaboo (Super) #710 · Pumpkaboo (Average) #710 · Gourgeist (Large) #711 · Gourgeist (Small) #711 · Gourgeist (Super) #711 · Gourgeist (Average) #711,8
 712,Bergmite,Collection only,,Bergmite #712 · Avalugg #713 · Avalugg (Hisuian) #713,
 714,Noibat,Collection only,,Noibat #714 · Noivern #715,
-716,Xerneas,ML PvE,ML: Xerneas #7 | PvE: Xerneas — Fairy #9 | PvE: Xerneas — Normal #20,Xerneas #716,3
-717,Yveltal,ML PvE,ML: Yveltal #38 | PvE: Yveltal — Flying #10,Yveltal #717,2
+716,Xerneas,ML PvE,ML: Xerneas #7 | PvE: Xerneas — Fairy #11 | PvE: Xerneas — Normal #20,Xerneas #716,3
+717,Yveltal,ML PvE,ML: Yveltal #38 | PvE: Yveltal — Flying #13,Yveltal #717,2
 718,Zygarde,Collection only,,Zygarde (50% Forme) #718,
 718,Zygarde,Collection only,,Zygarde (10% Forme) #718,
 718,Zygarde,ML UL,UL: Zygarde (Complete Forme) #5 | ML: Zygarde (Complete Forme) #3,Zygarde (Complete Forme) #718,2
-719,Diancie,PvE,PvE: Mega Diancie — Rock #1 | PvE: Mega Diancie — Normal #12 | PvE: Mega Diancie — Fairy #20,Diancie #719,3
-720,Hoopa,PvE,PvE: Unbound Hoopa — Psychic #17 | PvE: Unbound Hoopa — Ghost #20,Hoopa #720,2
-720,Hoopa,PvE,PvE: Unbound Hoopa — Psychic #17 | PvE: Unbound Hoopa — Ghost #20,Hoopa (Unbound) #720,2
+719,Diancie,PvE,PvE: Mega Diancie — Normal #1 | PvE: Mega Diancie — Rock #1,Diancie #719,2
+720,Hoopa,PvE,PvE: Unbound Hoopa — Psychic #19,Hoopa #720,1
+720,Hoopa,PvE,PvE: Unbound Hoopa — Psychic #19,Hoopa (Unbound) #720,1
 721,Volcanion,Collection only,,Volcanion #721,
 722,Rowlet,Collection only,,Rowlet #722 · Dartrix #723 · Decidueye #724 · Decidueye (Hisuian) #724,
 725,Litten,Collection only,,Litten #725 · Torracat #726 · Incineroar #727,
 728,Popplio,ML UL,UL: Primarina #48 | ML: Primarina #45,Popplio #728 · Brionne #729 · Primarina #730,2
-731,Pikipek,PvE UL,"UL: Toucannon #44 | UL: Shadow Toucannon #50 | PvE: Shadow Toucannon — Flying #8, #5 | PvE: Toucannon — Flying #20, #9, #6",Pikipek #731 · Trumbeak #732 · Toucannon #733,4
+731,Pikipek,UL,UL: Toucannon #44 | UL: Shadow Toucannon #50,Pikipek #731 · Trumbeak #732 · Toucannon #733,2
 734,Yungoos,Collection only,,Yungoos #734 · Gumshoos #735,
-736,Grubbin,GL PvE,"GL: Charjabug #45 | GL: Shadow Charjabug #48 | PvE: Shadow Vikavolt — Bug #5, #5",Grubbin #736 · Charjabug #737 · Vikavolt #738,3
+736,Grubbin,GL,GL: Charjabug #45 | GL: Shadow Charjabug #48,Grubbin #736 · Charjabug #737 · Vikavolt #738,2
 739,Crabrawler,Collection only,,Crabrawler #739 · Crabominable #740,
 741,Oricorio,Collection only,,Oricorio (Pa'u) #741,
 741,Oricorio,Collection only,,Oricorio (Baile) #741,
@@ -416,7 +416,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 755,Morelull,Collection only,,Morelull #755 · Shiinotic #756,
 757,Salandit,Collection only,,Salandit #757 · Salazzle #758,
 759,Stufful,Collection only,,Stufful #759 · Bewear #760,
-761,Bounsweet,Collection only,,Bounsweet #761 · Steenee #762 · Tsareena #763,
+761,Bounsweet,Max,Max: Dynamax Tsareena — Grass Max #4 (B) | Max: Dynamax Tsareena — Fairy Max #6 (B),Bounsweet #761 · Steenee #762 · Tsareena #763,2
 764,Comfey,Collection only,,Comfey #764,
 765,Oranguru,GL UL,GL: Oranguru #95 | UL: Oranguru #70,Oranguru #765,2
 766,Passimian,Collection only,,Passimian #766,
@@ -428,35 +428,35 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 777,Togedemaru,Collection only,,Togedemaru #777,
 778,Mimikyu,GL UL,GL: Mimikyu #5 | UL: Mimikyu #7,Mimikyu #778,2
 779,Bruxish,Collection only,,Bruxish #779,
-780,Drampa,Collection only,,Drampa #780,
+780,Drampa,Max,Max: Dynamax Drampa — Dragon Max #5 (B),Drampa #780,1
 781,Dhelmise,Collection only,,Dhelmise #781,
 782,Jangmo-o,UL,UL: Kommo-o #91,Jangmo-o #782 · Hakamo-o #783 · Kommo-o #784,1
-785,Tapu Koko,PvE,PvE: Tapu Koko — Fairy #8 | PvE: Tapu Koko — Normal #11,Tapu Koko #785,2
-786,Tapu Lele,ML PvE,ML: Tapu Lele #60 | PvE: Tapu Lele — Fairy #7,Tapu Lele #786,2
-787,Tapu Bulu,PvE,PvE: Tapu Bulu — Fairy #10 | PvE: Tapu Bulu — Grass #18,Tapu Bulu #787,2
+785,Tapu Koko,PvE,PvE: Tapu Koko — Fairy #10 | PvE: Tapu Koko — Normal #13,Tapu Koko #785,2
+786,Tapu Lele,ML PvE,ML: Tapu Lele #60 | PvE: Tapu Lele — Fairy #9,Tapu Lele #786,2
+787,Tapu Bulu,PvE,PvE: Tapu Bulu — Fairy #13 | PvE: Tapu Bulu — Grass #18,Tapu Bulu #787,2
 788,Tapu Fini,Collection only,,Tapu Fini #788,
-791,Solgaleo,ML PvE,ML: Lunala #15 | ML: Solgaleo #42 | PvE: Lunala — Ghost #9,Solgaleo #791 · Lunala #792,3
+791,Solgaleo,ML PvE,ML: Lunala #15 | ML: Solgaleo #42 | PvE: Lunala — Ghost #8,Solgaleo #791 · Lunala #792,3
 793,Nihilego,PvE,PvE: Nihilego — Poison #5,Nihilego #793,1
 794,Buzzwole,Collection only,,Buzzwole #794,
 795,Pheromosa,Collection only,,Pheromosa #795,
-796,Xurkitree,PvE,PvE: Xurkitree — Electric #10 | PvE: Xurkitree — Grass #14 | PvE: Xurkitree — Fairy #15,Xurkitree #796,3
+796,Xurkitree,PvE,PvE: Xurkitree — Electric #11 | PvE: Xurkitree — Grass #15 | PvE: Xurkitree — Fairy #18,Xurkitree #796,3
 797,Celesteela,Collection only,,Celesteela #797,
-798,Kartana,PvE,PvE: Kartana — Grass #4 | PvE: Kartana — Bug #15,Kartana #798,2
+798,Kartana,PvE,PvE: Kartana — Grass #5 | PvE: Kartana — Bug #15,Kartana #798,2
 799,Guzzlord,GL UL,GL: Guzzlord #41 | UL: Guzzlord #18,Guzzlord #799,2
-800,Necrozma,PvE,PvE: Dawn Wings Necrozma — Ghost #1 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #19,Necrozma #800,3
-800,Necrozma,ML PvE,ML: Necrozma (Dusk Mane) #22 | PvE: Dawn Wings Necrozma — Ghost #1 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #19,Necrozma (Dusk Mane) #800,4
-800,Necrozma,ML PvE,ML: Necrozma (Dawn Wings) #18 | PvE: Dawn Wings Necrozma — Ghost #1 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #19,Necrozma (Dawn Wings) #800,4
+800,Necrozma,PvE,PvE: Dawn Wings Necrozma — Ghost #2 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #20,Necrozma #800,3
+800,Necrozma,ML PvE,ML: Necrozma (Dusk Mane) #22 | PvE: Dawn Wings Necrozma — Ghost #2 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #20,Necrozma (Dusk Mane) #800,4
+800,Necrozma,ML PvE,ML: Necrozma (Dawn Wings) #18 | PvE: Dawn Wings Necrozma — Ghost #2 | PvE: Dusk Mane Necrozma — Steel #3 | PvE: Dusk Mane Necrozma — Psychic #20,Necrozma (Dawn Wings) #800,4
 802,Marshadow,ML,ML: Marshadow #19,Marshadow #802,1
 803,Poipole,PvE,PvE: Naganadel — Poison #7,Poipole #803 · Naganadel #804,1
 805,Stakataka,Collection only,,Stakataka #805,
-806,Blacephalon,PvE,PvE: Blacephalon — Fire #5 | PvE: Blacephalon — Ghost #17,Blacephalon #806,2
-807,Zeraora,PvE,PvE: Zeraora — Electric #6,Zeraora #807,1
-808,Meltan,GL ML PvE UL,GL: Melmetal #1 | UL: Melmetal #12 | ML: Melmetal #29 | PvE: Melmetal — Steel #18,Meltan #808 · Melmetal #809,4
-810,Grookey,GL LC ML PvE UL,"LC: Grookey #34 | GL: Rillaboom #33 | UL: Rillaboom #24 | ML: Rillaboom #37 | PvE: Rillaboom — Grass #12, #9, #5",Grookey #810 · Thwackey #811 · Rillaboom #812,5
-813,Scorbunny,Collection only,,Scorbunny #813 · Raboot #814 · Cinderace #815,
-816,Sobble,PvE,"PvE: Inteleon — Water #16, #13, #6",Sobble #816 · Drizzile #817 · Inteleon #818,1
+806,Blacephalon,PvE,PvE: Blacephalon — Fire #5 | PvE: Blacephalon — Ghost #19,Blacephalon #806,2
+807,Zeraora,PvE,PvE: Zeraora — Electric #7,Zeraora #807,1
+808,Meltan,GL ML UL,GL: Melmetal #1 | UL: Melmetal #12 | ML: Melmetal #29,Meltan #808 · Melmetal #809,3
+810,Grookey,GL LC ML Max PvE UL,"LC: Grookey #34 | GL: Rillaboom #33 | UL: Rillaboom #24 | ML: Rillaboom #37 | PvE: Rillaboom — Grass #13, #10, #6 | Max: Gigantamax Rillaboom — Grass Max #1 (SS) | Max: Dynamax Rillaboom — Normal Max #4 (A)",Grookey #810 · Thwackey #811 · Rillaboom #812,7
+813,Scorbunny,Max,Max: Gigantamax Cinderace — Fire Max #1 (SS),Scorbunny #813 · Raboot #814 · Cinderace #815,1
+816,Sobble,Max PvE,"PvE: Inteleon — Water #16, #13, #6 | Max: Gigantamax Inteleon — Water Max #1 (SS) | Max: Dynamax Inteleon — Normal Max #3 (S)",Sobble #816 · Drizzile #817 · Inteleon #818,3
 819,Skwovet,Collection only,,Skwovet #819 · Greedent #820,
-821,Rookidee,GL UL,GL: Corviknight #9 | GL: Shadow Corviknight #13 | UL: Corviknight #2 | UL: Shadow Corviknight #4,Rookidee #821 · Corvisquire #822 · Corviknight #823,4
+821,Rookidee,GL Max UL,GL: Corviknight #9 | GL: Shadow Corviknight #13 | UL: Corviknight #2 | UL: Shadow Corviknight #4 | Max: Dynamax Corviknight — Flying Max #4 (A),Rookidee #821 · Corvisquire #822 · Corviknight #823,5
 824,Blipbug,Collection only,,Blipbug #824 · Dottler #825 · Orbeetle #826,
 827,Nickit,GL,GL: Thievul #18,Nickit #827 · Thievul #828,1
 829,Gossifleur,Collection only,,Gossifleur #829 · Eldegoss #830,
@@ -467,12 +467,12 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 843,Silicobra,Collection only,,Silicobra #843 · Sandaconda #844,
 845,Cramorant,GL UL,GL: Cramorant #4 | UL: Cramorant #19,Cramorant #845,2
 846,Arrokuda,Collection only,,Arrokuda #846 · Barraskewda #847,
-848,Toxel,Collection only,,Toxel #848 · Toxtricity #849,
-850,Sizzlipede,Collection only,,Sizzlipede #850 · Centiskorch #851,
+848,Toxel,Max,Max: Gigantamax Toxtricity — Electric Max #1 (SS) | Max: Dynamax Toxtricity (Amped Form) — Poison Max #2 (A),Toxel #848 · Toxtricity #849,2
+850,Sizzlipede,Max,Max: Dynamax Centiskorch — Bug Max #1 (SS),Sizzlipede #850 · Centiskorch #851,1
 852,Clobbopus,Collection only,,Clobbopus #852 · Grapploct #853,
 854,Sinistea,Collection only,,Sinistea #854 · Polteageist #855,
-856,Hatenna,PvE,"PvE: Hatterene — Fairy #19, #7, #5",Hatenna #856 · Hattrem #857 · Hatterene #858,1
-859,Impidimp,Collection only,,Impidimp #859 · Morgrem #860 · Grimmsnarl #861,
+856,Hatenna,Max,Max: Dynamax Hatterene — Fairy Max #2 (SS),Hatenna #856 · Hattrem #857 · Hatterene #858,1
+859,Impidimp,Max,Max: Gigantamax Grimmsnarl — Dark Max #1 (SS),Impidimp #859 · Morgrem #860 · Grimmsnarl #861,1
 864,Cursola,Collection only,,Cursola #864,
 870,Falinks,PvE,"PvE: Mega Falinks — Fighting #5, #3, #3",Falinks #870,1
 872,Snom,Collection only,,Snom #872 · Frosmoth #873,
@@ -480,19 +480,19 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 876,Indeedee,Collection only,,Indeedee (Male) #876,
 876,Indeedee,Collection only,,Indeedee (Female) #876,
 877,Morpeko,GL,GL: Morpeko (Full Belly) #52,Morpeko (Full Belly) #877,1
-884,Duraludon,Collection only,,Duraludon #884,
-885,Dreepy,PvE,"PvE: Dragapult — Ghost #15, #6, #5",Dreepy #885 · Drakloak #886 · Dragapult #887,1
-888,Zacian,PvE,PvE: Crowned Sword Zacian — Steel #1 | PvE: Crowned Sword Zacian — Fairy #2 | PvE: Crowned Sword Zacian — Normal #6,Zacian (Hero) #888,3
-888,Zacian,ML PvE,ML: Zacian (Crowned Sword) #2 | PvE: Crowned Sword Zacian — Steel #1 | PvE: Crowned Sword Zacian — Fairy #2 | PvE: Crowned Sword Zacian — Normal #6,Zacian (Crowned Sword) #888,4
-889,Zamazenta,PvE,PvE: Crowned Shield Zamazenta — Steel #2 | PvE: Crowned Shield Zamazenta — Ice #8,Zamazenta (Hero) #889,2
-889,Zamazenta,ML PvE,ML: Zamazenta (Crowned Shield) #16 | PvE: Crowned Shield Zamazenta — Steel #2 | PvE: Crowned Shield Zamazenta — Ice #8,Zamazenta (Crowned Shield) #889,3
-890,Eternatus,ML PvE,ML: Eternatus #10 | PvE: Eternatus — Dragon #2 | PvE: Eternatus — Poison #3,Eternatus #890,3
-891,Kubfu,Collection only,,Kubfu #891 · Urshifu (Rapid Strike) #892 · Urshifu (Single Strike) #892,
-893,Zarude,PvE,PvE: Zarude — Grass #7,Zarude #893,1
-894,Regieleki,PvE,PvE: Regieleki — Electric #9 | PvE: Regieleki — Normal #10,Regieleki #894,2
-895,Regidrago,GL PvE UL,GL: Regidrago #89 | UL: Regidrago #29 | PvE: Regidrago — Dragon #19,Regidrago #895,3
-905,Enamorus,ML PvE,ML: Enamorus (Therian) #63 | PvE: Incarnate Enamorus — Fairy #4 | PvE: Incarnate Enamorus — Flying #9,Enamorus (Therian) #905,3
-905,Enamorus,PvE,PvE: Incarnate Enamorus — Fairy #4 | PvE: Incarnate Enamorus — Flying #9,Enamorus (Incarnate) #905,2
+884,Duraludon,Max,Max: Dynamax Duraludon — Dragon Max #4 (B) | Max: Dynamax Duraludon — Steel Max #5 (A),Duraludon #884,2
+885,Dreepy,Collection only,,Dreepy #885 · Drakloak #886 · Dragapult #887,
+888,Zacian,Max PvE,PvE: Crowned Sword Zacian — Steel #1 | PvE: Crowned Sword Zacian — Fairy #2 | PvE: Crowned Sword Zacian — Normal #7 | Max: Crowned Sword Zacian — Steel Max #1 (SS),Zacian (Hero) #888,4
+888,Zacian,ML Max PvE,ML: Zacian (Crowned Sword) #2 | PvE: Crowned Sword Zacian — Steel #1 | PvE: Crowned Sword Zacian — Fairy #2 | PvE: Crowned Sword Zacian — Normal #7 | Max: Crowned Sword Zacian — Steel Max #1 (SS),Zacian (Crowned Sword) #888,5
+889,Zamazenta,Max PvE,PvE: Crowned Shield Zamazenta — Steel #2 | PvE: Crowned Shield Zamazenta — Ice #9 | Max: Crowned Shield Zamazenta — Steel Max #4 (S),Zamazenta (Hero) #889,3
+889,Zamazenta,ML Max PvE,ML: Zamazenta (Crowned Shield) #16 | PvE: Crowned Shield Zamazenta — Steel #2 | PvE: Crowned Shield Zamazenta — Ice #9 | Max: Crowned Shield Zamazenta — Steel Max #4 (S),Zamazenta (Crowned Shield) #889,4
+890,Eternatus,ML Max PvE,ML: Eternatus #10 | PvE: Eternatus — Dragon #2 | PvE: Eternatus — Poison #3 | Max: Eternatus — Dragon Max #1 (SS),Eternatus #890,4
+891,Kubfu,Max,Max: Dynamax Urshifu (Rapid Strike Style) — Fighting Max #2 (S) | Max: Dynamax Urshifu (Single Strike Style) — Dark Max #3 (S) | Max: Dynamax Urshifu (Rapid Strike Style) — Water Max #4 (A),Kubfu #891 · Urshifu (Rapid Strike) #892 · Urshifu (Single Strike) #892,3
+893,Zarude,PvE,PvE: Zarude — Grass #8,Zarude #893,1
+894,Regieleki,PvE,PvE: Regieleki — Electric #10 | PvE: Regieleki — Normal #12,Regieleki #894,2
+895,Regidrago,GL UL,GL: Regidrago #89 | UL: Regidrago #29,Regidrago #895,2
+905,Enamorus,ML PvE,ML: Enamorus (Therian) #63 | PvE: Incarnate Enamorus — Fairy #4 | PvE: Incarnate Enamorus — Flying #11,Enamorus (Therian) #905,3
+905,Enamorus,PvE,PvE: Incarnate Enamorus — Fairy #4 | PvE: Incarnate Enamorus — Flying #11,Enamorus (Incarnate) #905,2
 906,Sprigatito,Collection only,,Sprigatito #906 · Floragato #907 · Meowscarada #908,
 909,Fuecoco,UL,UL: Skeledirge #20,Fuecoco #909 · Crocalor #910 · Skeledirge #911,1
 912,Quaxly,Collection only,,Quaxly #912 · Quaxwell #913 · Quaquaval #914,
@@ -514,7 +514,7 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 948,Toedscool,Collection only,,Toedscool #948 · Toedscruel #949,
 950,Klawf,Collection only,,Klawf #950,
 955,Flittle,Collection only,,Flittle #955 · Espathra #956,
-957,Tinkatink,GL PvE UL,"GL: Tinkaton #6 | UL: Tinkaton #1 | PvE: Tinkaton — Steel #12, #6, #4",Tinkatink #957 · Tinkatuff #958 · Tinkaton #959,3
+957,Tinkatink,GL PvE UL,"GL: Tinkaton #6 | UL: Tinkaton #1 | PvE: Tinkaton — Steel #14, #8, #6",Tinkatink #957 · Tinkatuff #958 · Tinkaton #959,3
 960,Wiglett,Collection only,,Wiglett #960 · Wugtrio #961,
 962,Bombirdier,UL,UL: Bombirdier #74,Bombirdier #962,1
 965,Varoom,PvE,"PvE: Revavroom — Poison #11, #8, #5",Varoom #965 · Revavroom #966,1
@@ -525,6 +525,6 @@ Dex,Spawn,League / Purpose,Best form & rank,Folded forms,Total
 974,Cetoddle,Collection only,,Cetoddle #974 · Cetitan #975,
 977,Dondozo,GL UL,GL: Dondozo #47 | UL: Dondozo #27,Dondozo #977,2
 978,Tatsugiri,Collection only,,Tatsugiri (Curly) #978,
-996,Frigibax,ML PvE,"ML: Baxcalibur #75 | PvE: Baxcalibur — Ice #10, #3, #2 | PvE: Baxcalibur — Dragon #13, #6, #4",Frigibax #996 · Arctibax #997 · Baxcalibur #998,3
-999,Gimmighoul,ML PvE,"ML: Gholdengo #47 | PvE: Gholdengo — Ghost #13, #5, #4",Gimmighoul #999 · Gholdengo #1000,2
+996,Frigibax,ML PvE,"ML: Baxcalibur #75 | PvE: Baxcalibur — Ice #11, #4, #3 | PvE: Baxcalibur — Dragon #15, #7, #5",Frigibax #996 · Arctibax #997 · Baxcalibur #998,3
+999,Gimmighoul,ML PvE,"ML: Gholdengo #47 | PvE: Gholdengo — Ghost #14, #6, #5",Gimmighoul #999 · Gholdengo #1000,2
 1012,Poltchageist,Collection only,,Poltchageist #1012 · Sinistcha #1013,

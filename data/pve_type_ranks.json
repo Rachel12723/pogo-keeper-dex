@@ -1,180 +1,184 @@
 {
  "normal": [
   {
-   "fam": "regigigas",
-   "rank": 1,
-   "dex": 486,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Regigigas",
-   "base": "Regigigas",
-   "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_STARLY",
-   "rank": 2,
-   "dex": 398,
-   "crank": 1,
-   "trank": 1,
-   "form": "Mega Staraptor",
-   "base": "Staraptor",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_FENNEKIN",
-   "rank": 3,
-   "dex": 655,
-   "crank": 2,
-   "trank": 2,
-   "form": "Mega Delphox",
-   "base": "Delphox",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "mewtwo",
-   "rank": 4,
-   "dex": 150,
-   "crank": null,
-   "trank": null,
-   "form": "Mega Y Mewtwo",
-   "base": "Mewtwo",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "zacian_hero",
-   "rank": 6,
-   "dex": 888,
-   "crank": null,
-   "trank": null,
-   "form": "Crowned Sword Zacian",
-   "base": "Zacian",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_STARYU",
-   "rank": 7,
-   "dex": 121,
-   "crank": 3,
-   "trank": 3,
-   "form": "Mega Starmie",
-   "base": "Starmie",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "regigigas",
-   "rank": 8,
-   "dex": 486,
-   "crank": null,
-   "trank": null,
-   "form": "Regigigas",
-   "base": "Regigigas",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_ROGGENROLA",
-   "rank": 9,
-   "dex": 526,
-   "crank": 4,
-   "trank": null,
-   "form": "Shadow Gigalith",
-   "base": "Gigalith",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "regieleki",
-   "rank": 10,
-   "dex": 894,
-   "crank": null,
-   "trank": null,
-   "form": "Regieleki",
-   "base": "Regieleki",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "tapu_koko",
-   "rank": 11,
-   "dex": 785,
-   "crank": null,
-   "trank": null,
-   "form": "Tapu Koko",
-   "base": "Tapu Koko",
-   "locked": true,
-   "shadow": false
-  },
-  {
    "fam": "diancie",
-   "rank": 12,
+   "rank": 1,
    "dex": 719,
    "crank": null,
    "trank": null,
    "form": "Mega Diancie",
    "base": "Diancie",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Tackle / Power Gem+"
   },
   {
-   "fam": "FAMILY_DRATINI",
-   "rank": 13,
-   "dex": 149,
-   "crank": 5,
-   "trank": 4,
-   "form": "Mega Dragonite",
-   "base": "Dragonite",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TEDDIURSA",
-   "rank": 14,
-   "dex": 901,
-   "crank": 6,
+   "fam": "regigigas",
+   "rank": 2,
+   "dex": 486,
+   "crank": null,
    "trank": null,
-   "form": "Shadow Ursaluna",
-   "base": "Ursaluna",
+   "form": "Shadow Regigigas",
+   "base": "Regigigas",
+   "locked": true,
+   "shadow": true,
+   "moves": "Zen Headbutt / Crush Grip"
+  },
+  {
+   "fam": "FAMILY_STARLY",
+   "rank": 3,
+   "dex": 398,
+   "crank": 1,
+   "trank": 1,
+   "form": "Mega Staraptor",
+   "base": "Staraptor",
    "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Quick Attack / Brave Bird+"
+  },
+  {
+   "fam": "FAMILY_FENNEKIN",
+   "rank": 4,
+   "dex": 655,
+   "crank": 2,
+   "trank": 2,
+   "form": "Mega Delphox",
+   "base": "Delphox",
+   "locked": false,
+   "shadow": false,
+   "moves": "Scratch / Mystical Fire+"
   },
   {
    "fam": "mewtwo",
-   "rank": 17,
+   "rank": 5,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Mega Y Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": false,
+   "moves": "Confusion / Hyper Beam"
+  },
+  {
+   "fam": "zacian_hero",
+   "rank": 7,
+   "dex": 888,
+   "crank": null,
+   "trank": null,
+   "form": "Crowned Sword Zacian",
+   "base": "Zacian",
+   "locked": true,
+   "shadow": false,
+   "moves": "Metal Claw / Giga Impact"
+  },
+  {
+   "fam": "FAMILY_STARYU",
+   "rank": 8,
+   "dex": 121,
+   "crank": 3,
+   "trank": 3,
+   "form": "Mega Starmie",
+   "base": "Starmie",
+   "locked": false,
+   "shadow": false,
+   "moves": "Tackle / Liquidation+"
+  },
+  {
+   "fam": "regigigas",
+   "rank": 9,
+   "dex": 486,
+   "crank": null,
+   "trank": null,
+   "form": "Regigigas",
+   "base": "Regigigas",
+   "locked": true,
+   "shadow": false,
+   "moves": "Zen Headbutt / Crush Grip"
+  },
+  {
+   "fam": "FAMILY_ROGGENROLA",
+   "rank": 10,
+   "dex": 526,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Gigalith",
+   "base": "Gigalith",
+   "locked": false,
+   "shadow": true,
+   "moves": "Lock-On / Meteor Beam"
+  },
+  {
+   "fam": "FAMILY_BUNEARY",
+   "rank": 11,
+   "dex": 428,
+   "crank": 5,
+   "trank": 4,
+   "form": "Mega Lopunny",
+   "base": "Lopunny",
+   "locked": false,
+   "shadow": false,
+   "moves": "Pound / Close Combat+"
+  },
+  {
+   "fam": "regieleki",
+   "rank": 12,
+   "dex": 894,
+   "crank": null,
+   "trank": null,
+   "form": "Regieleki",
+   "base": "Regieleki",
+   "locked": true,
+   "shadow": false,
+   "moves": "Lock-On / Thunder Cage"
+  },
+  {
+   "fam": "tapu_koko",
+   "rank": 13,
+   "dex": 785,
+   "crank": null,
+   "trank": null,
+   "form": "Tapu Koko",
+   "base": "Tapu Koko",
+   "locked": true,
+   "shadow": false,
+   "moves": "Quick Attack / Nature's Madness"
+  },
+  {
+   "fam": "FAMILY_DRATINI",
+   "rank": 14,
+   "dex": 149,
+   "crank": 6,
+   "trank": 5,
+   "form": "Mega Dragonite",
+   "base": "Dragonite",
+   "locked": false,
+   "shadow": false,
+   "moves": "Dragon Tail / Hyper Beam"
+  },
+  {
+   "fam": "FAMILY_ROGGENROLA",
+   "rank": 18,
+   "dex": 526,
+   "crank": 10,
+   "trank": 6,
+   "form": "Gigalith",
+   "base": "Gigalith",
+   "locked": false,
+   "shadow": false,
+   "moves": "Lock-On / Meteor Beam"
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 19,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Shadow Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_ROGGENROLA",
-   "rank": 18,
-   "dex": 526,
-   "crank": 9,
-   "trank": 5,
-   "form": "Gigalith",
-   "base": "Gigalith",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_BUNEARY",
-   "rank": 19,
-   "dex": 428,
-   "crank": 10,
-   "trank": 6,
-   "form": "Mega Lopunny",
-   "base": "Lopunny",
-   "locked": false,
-   "shadow": false
+   "shadow": true,
+   "moves": "Confusion / Hyper Beam"
   },
   {
    "fam": "xerneas",
@@ -185,42 +189,46 @@
    "form": "Xerneas",
    "base": "Xerneas",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Geomancy / Giga Impact"
   }
  ],
  "fire": [
   {
-   "fam": "FAMILY_FENNEKIN",
+   "fam": "FAMILY_TORCHIC",
    "rank": 1,
-   "dex": 655,
+   "dex": 257,
    "crank": 1,
    "trank": 1,
-   "form": "Mega Delphox",
-   "base": "Delphox",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_CHARMANDER",
-   "rank": 2,
-   "dex": 6,
-   "crank": 2,
-   "trank": 2,
-   "form": "Mega Y Charizard",
-   "base": "Charizard",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TORCHIC",
-   "rank": 3,
-   "dex": 257,
-   "crank": 3,
-   "trank": 3,
    "form": "Mega Blaziken",
    "base": "Blaziken",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fire Spin / Blaze Kick+"
+  },
+  {
+   "fam": "FAMILY_FENNEKIN",
+   "rank": 2,
+   "dex": 655,
+   "crank": 2,
+   "trank": 2,
+   "form": "Mega Delphox",
+   "base": "Delphox",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fire Spin / Mystical Fire+"
+  },
+  {
+   "fam": "FAMILY_CHARMANDER",
+   "rank": 3,
+   "dex": 6,
+   "crank": 3,
+   "trank": 3,
+   "form": "Mega Y Charizard",
+   "base": "Charizard",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fire Spin / Blast Burn+"
   },
   {
    "fam": "reshiram",
@@ -231,7 +239,8 @@
    "form": "Shadow Reshiram",
    "base": "Reshiram",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Fire Fang / Fusion Flare"
   },
   {
    "fam": "blacephalon",
@@ -242,7 +251,8 @@
    "form": "Blacephalon",
    "base": "Blacephalon",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Incinerate / Mind Blown"
   },
   {
    "fam": "heatran",
@@ -253,196 +263,190 @@
    "form": "Shadow Heatran",
    "base": "Heatran",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Fire Spin / Magma Storm"
+  },
+  {
+   "fam": "FAMILY_BAGON",
+   "rank": 7,
+   "dex": 373,
+   "crank": 4,
+   "trank": 4,
+   "form": "Mega Salamence",
+   "base": "Salamence",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fire Fang / Fly+"
   },
   {
    "fam": "FAMILY_LITWICK",
-   "rank": 8,
+   "rank": 9,
    "dex": 609,
-   "crank": 4,
+   "crank": 5,
    "trank": null,
    "form": "Shadow Chandelure",
    "base": "Chandelure",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Fire Spin / Overheat"
   },
   {
    "fam": "reshiram",
-   "rank": 9,
+   "rank": 10,
    "dex": 643,
    "crank": null,
    "trank": null,
    "form": "Reshiram",
    "base": "Reshiram",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fire Fang / Fusion Flare"
   },
   {
    "fam": "moltres",
-   "rank": 10,
+   "rank": 11,
    "dex": 146,
    "crank": null,
    "trank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Fire Spin / Overheat"
   },
   {
    "fam": "FAMILY_FENNEKIN",
-   "rank": 11,
+   "rank": 12,
    "dex": 655,
-   "crank": 5,
+   "crank": 6,
    "trank": null,
    "form": "Shadow Delphox",
    "base": "Delphox",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Fire Spin / Blast Burn"
   },
   {
-   "fam": "FAMILY_TORCHIC",
-   "rank": 12,
-   "dex": 257,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Blaziken",
-   "base": "Blaziken",
+   "fam": "FAMILY_NUMEL",
+   "rank": 14,
+   "dex": 323,
+   "crank": 8,
+   "trank": 5,
+   "form": "Mega Camerupt",
+   "base": "Camerupt",
    "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Ember / Heat Wave+"
   },
   {
    "fam": "mewtwo",
-   "rank": 15,
+   "rank": 16,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Counter / Flamethrower"
   },
   {
    "fam": "entei",
-   "rank": 16,
+   "rank": 17,
    "dex": 244,
    "crank": null,
    "trank": null,
    "form": "Shadow Entei",
    "base": "Entei",
    "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_BAGON",
-   "rank": 19,
-   "dex": 373,
-   "crank": 10,
-   "trank": 4,
-   "form": "Mega Salamence",
-   "base": "Salamence",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "groudon",
-   "rank": 20,
-   "dex": 383,
-   "crank": null,
-   "trank": null,
-   "form": "Primal Groudon",
-   "base": "Groudon",
-   "locked": true,
-   "shadow": false
+   "shadow": true,
+   "moves": "Fire Spin / Overheat"
   },
   {
    "fam": "FAMILY_HOUNDOUR",
-   "rank": 26,
+   "rank": 27,
    "dex": 229,
-   "crank": 14,
-   "trank": 5,
+   "crank": 15,
+   "trank": 6,
    "form": "Mega Houndoom",
    "base": "Houndoom",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_LARVESTA",
-   "rank": 27,
-   "dex": 637,
-   "crank": 15,
-   "trank": 6,
-   "form": "Volcarona",
-   "base": "Volcarona",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fire Fang / Flamethrower"
   }
  ],
  "water": [
   {
-   "fam": "kyogre",
+   "fam": "FAMILY_MUDKIP",
    "rank": 1,
+   "dex": 260,
+   "crank": 1,
+   "trank": 1,
+   "form": "Mega Swampert",
+   "base": "Swampert",
+   "locked": false,
+   "shadow": false,
+   "moves": "Water Gun / Muddy Water+"
+  },
+  {
+   "fam": "kyogre",
+   "rank": 2,
    "dex": 382,
    "crank": null,
    "trank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Waterfall / Origin Pulse"
   },
   {
    "fam": "FAMILY_FROAKIE",
-   "rank": 2,
+   "rank": 3,
    "dex": 658,
-   "crank": 1,
-   "trank": 1,
+   "crank": 2,
+   "trank": 2,
    "form": "Mega Greninja",
    "base": "Greninja",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Water Shuriken / Surf+"
   },
   {
    "fam": "FAMILY_STARYU",
-   "rank": 3,
+   "rank": 4,
    "dex": 121,
-   "crank": 2,
-   "trank": 2,
+   "crank": 3,
+   "trank": 3,
    "form": "Mega Starmie",
    "base": "Starmie",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_MUDKIP",
-   "rank": 4,
-   "dex": 260,
-   "crank": 3,
-   "trank": 3,
-   "form": "Mega Swampert",
-   "base": "Swampert",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "kyogre",
-   "rank": 5,
-   "dex": 382,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Kyogre",
-   "base": "Kyogre",
-   "locked": true,
-   "shadow": true
+   "shadow": false,
+   "moves": "Psywave / Liquidation+"
   },
   {
    "fam": "FAMILY_SQUIRTLE",
-   "rank": 6,
+   "rank": 5,
    "dex": 9,
    "crank": 4,
    "trank": 4,
    "form": "Mega Blastoise",
    "base": "Blastoise",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Water Gun / Hydro Cannon+"
+  },
+  {
+   "fam": "kyogre",
+   "rank": 6,
+   "dex": 382,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Kyogre",
+   "base": "Kyogre",
+   "locked": true,
+   "shadow": true,
+   "moves": "Waterfall / Origin Pulse"
   },
   {
    "fam": "FAMILY_MAGIKARP",
@@ -453,7 +457,8 @@
    "form": "Mega Gyarados",
    "base": "Gyarados",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Waterfall / Payback+"
   },
   {
    "fam": "FAMILY_MUDKIP",
@@ -464,7 +469,8 @@
    "form": "Shadow Swampert",
    "base": "Swampert",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Water Gun / Hydro Cannon"
   },
   {
    "fam": "FAMILY_SOBBLE",
@@ -475,7 +481,8 @@
    "form": "Inteleon",
    "base": "Inteleon",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Water Gun / Snipe Shot"
   },
   {
    "fam": "palkia",
@@ -486,119 +493,130 @@
    "form": "Shadow Palkia",
    "base": "Palkia",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Dragon Tail / Aqua Tail"
   }
  ],
  "electric": [
   {
-   "fam": "FAMILY_PIKACHU",
+   "fam": "FAMILY_MAREEP",
    "rank": 1,
-   "dex": 26,
+   "dex": 181,
    "crank": 1,
    "trank": 1,
+   "form": "Mega Ampharos",
+   "base": "Ampharos",
+   "locked": false,
+   "shadow": false,
+   "moves": "Volt Switch / Thunder Punch+"
+  },
+  {
+   "fam": "FAMILY_PIKACHU",
+   "rank": 2,
+   "dex": 26,
+   "crank": 2,
+   "trank": 2,
    "form": "Mega Y Raichu",
    "base": "Raichu",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Shock / Zap Cannon+"
   },
   {
    "fam": "FAMILY_ELECTRIKE",
-   "rank": 2,
+   "rank": 3,
    "dex": 310,
-   "crank": 2,
-   "trank": 2,
+   "crank": 3,
+   "trank": 3,
    "form": "Mega Manectric",
    "base": "Manectric",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Fang / Discharge+"
   },
   {
    "fam": "thundurus_therian",
-   "rank": 4,
+   "rank": 5,
    "dex": 642,
    "crank": null,
    "trank": null,
    "form": "Shadow Therian Thundurus",
    "base": "Thundurus",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Volt Switch / Wildbolt Storm"
   },
   {
    "fam": "mewtwo",
-   "rank": 5,
+   "rank": 6,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Thunderbolt"
   },
   {
    "fam": "zeraora",
-   "rank": 6,
+   "rank": 7,
    "dex": 807,
    "crank": null,
    "trank": null,
    "form": "Zeraora",
    "base": "Zeraora",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Volt Switch / Plasma Fists"
   },
   {
    "fam": "raikou",
-   "rank": 7,
+   "rank": 8,
    "dex": 243,
    "crank": null,
    "trank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Thunder Shock / Wild Charge"
   },
   {
    "fam": "regieleki",
-   "rank": 9,
+   "rank": 10,
    "dex": 894,
    "crank": null,
    "trank": null,
    "form": "Regieleki",
    "base": "Regieleki",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Lock-On / Thunder Cage"
   },
   {
    "fam": "xurkitree",
-   "rank": 10,
+   "rank": 11,
    "dex": 796,
    "crank": null,
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Shock / Discharge"
   },
   {
    "fam": "zekrom",
-   "rank": 11,
+   "rank": 12,
    "dex": 644,
    "crank": null,
    "trank": null,
    "form": "Zekrom",
    "base": "Zekrom",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_ELECTABUZZ",
-   "rank": 12,
-   "dex": 466,
-   "crank": 3,
-   "trank": null,
-   "form": "Shadow Electivire",
-   "base": "Electivire",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Charge Beam / Fusion Bolt"
   },
   {
    "fam": "zapdos",
@@ -609,130 +627,130 @@
    "form": "Shadow Zapdos",
    "base": "Zapdos",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Thunder Shock / Thunderbolt"
+  },
+  {
+   "fam": "FAMILY_ELECTABUZZ",
+   "rank": 14,
+   "dex": 466,
+   "crank": 4,
+   "trank": null,
+   "form": "Shadow Electivire",
+   "base": "Electivire",
+   "locked": false,
+   "shadow": true,
+   "moves": "Thunder Shock / Wild Charge"
   },
   {
    "fam": "thundurus_therian",
-   "rank": 14,
+   "rank": 15,
    "dex": 642,
    "crank": null,
    "trank": null,
    "form": "Therian Thundurus",
    "base": "Thundurus",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Volt Switch / Wildbolt Storm"
   },
   {
    "fam": "FAMILY_MAGNEMITE",
-   "rank": 15,
+   "rank": 16,
    "dex": 462,
-   "crank": 4,
+   "crank": 5,
    "trank": null,
    "form": "Shadow Magnezone",
    "base": "Magnezone",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Volt Switch / Wild Charge"
   },
   {
-   "fam": "FAMILY_MAREEP",
-   "rank": 16,
-   "dex": 181,
-   "crank": 5,
-   "trank": 3,
-   "form": "Mega Ampharos",
-   "base": "Ampharos",
+   "fam": "FAMILY_RALTS",
+   "rank": 17,
+   "dex": 282,
+   "crank": 6,
+   "trank": 4,
+   "form": "Mega Gardevoir",
+   "base": "Gardevoir",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charge Beam / Dazzling Gleam+"
   },
   {
    "fam": "raikou",
-   "rank": 17,
+   "rank": 18,
    "dex": 243,
    "crank": null,
    "trank": null,
    "form": "Raikou",
    "base": "Raikou",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_SHINX",
-   "rank": 18,
-   "dex": 405,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Luxray",
-   "base": "Luxray",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Thunder Shock / Wild Charge"
   },
   {
    "fam": "mewtwo",
-   "rank": 19,
+   "rank": 20,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Shadow Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Psycho Cut / Thunderbolt"
   },
   {
    "fam": "FAMILY_ELECTABUZZ",
-   "rank": 21,
+   "rank": 22,
    "dex": 466,
-   "crank": 8,
-   "trank": 4,
+   "crank": 9,
+   "trank": 5,
    "form": "Electivire",
    "base": "Electivire",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Shock / Wild Charge"
   },
   {
    "fam": "FAMILY_MAGNEMITE",
-   "rank": 25,
+   "rank": 26,
    "dex": 462,
-   "crank": 10,
-   "trank": 5,
+   "crank": 11,
+   "trank": 6,
    "form": "Magnezone",
    "base": "Magnezone",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_SHINX",
-   "rank": 29,
-   "dex": 405,
-   "crank": 13,
-   "trank": 6,
-   "form": "Luxray",
-   "base": "Luxray",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Volt Switch / Wild Charge"
   }
  ],
  "grass": [
   {
-   "fam": "FAMILY_CHESPIN",
+   "fam": "FAMILY_TREECKO",
    "rank": 1,
-   "dex": 652,
+   "dex": 254,
    "crank": 1,
    "trank": 1,
-   "form": "Mega Chesnaught",
-   "base": "Chesnaught",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TREECKO",
-   "rank": 2,
-   "dex": 254,
-   "crank": 2,
-   "trank": 2,
    "form": "Mega Sceptile",
    "base": "Sceptile",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / Leaf Blade+"
+  },
+  {
+   "fam": "FAMILY_CHESPIN",
+   "rank": 2,
+   "dex": 652,
+   "crank": 2,
+   "trank": 2,
+   "form": "Mega Chesnaught",
+   "base": "Chesnaught",
+   "locked": false,
+   "shadow": false,
+   "moves": "Vine Whip / Seed Bomb+"
   },
   {
    "fam": "FAMILY_BULBASAUR",
@@ -743,128 +761,128 @@
    "form": "Mega Venusaur",
    "base": "Venusaur",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Vine Whip / Frenzy Plant+"
+  },
+  {
+   "fam": "FAMILY_RALTS",
+   "rank": 4,
+   "dex": 282,
+   "crank": 4,
+   "trank": 4,
+   "form": "Mega Gardevoir",
+   "base": "Gardevoir",
+   "locked": false,
+   "shadow": false,
+   "moves": "Magical Leaf / Dazzling Gleam+"
   },
   {
    "fam": "kartana",
-   "rank": 4,
+   "rank": 5,
    "dex": 798,
    "crank": null,
    "trank": null,
    "form": "Kartana",
    "base": "Kartana",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Razor Leaf / Leaf Blade"
   },
   {
    "fam": "FAMILY_CHESPIN",
-   "rank": 5,
+   "rank": 6,
    "dex": 652,
-   "crank": 4,
+   "crank": 5,
    "trank": null,
    "form": "Shadow Chesnaught",
    "base": "Chesnaught",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Vine Whip / Frenzy Plant"
   },
   {
    "fam": "shaymin_sky",
-   "rank": 6,
+   "rank": 7,
    "dex": 492,
    "crank": null,
    "trank": null,
    "form": "Sky Shaymin",
    "base": "Shaymin",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Magical Leaf / Grass Knot"
   },
   {
    "fam": "zarude",
-   "rank": 7,
+   "rank": 8,
    "dex": 893,
    "crank": null,
    "trank": null,
    "form": "Zarude",
    "base": "Zarude",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Vine Whip / Power Whip"
   },
   {
    "fam": "FAMILY_TANGELA",
-   "rank": 8,
+   "rank": 9,
    "dex": 465,
-   "crank": 5,
+   "crank": 6,
    "trank": null,
    "form": "Shadow Tangrowth",
    "base": "Tangrowth",
    "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_BULBASAUR",
-   "rank": 9,
-   "dex": 3,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Venusaur",
-   "base": "Venusaur",
-   "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Vine Whip / Power Whip"
   },
   {
    "fam": "FAMILY_BELLSPROUT",
-   "rank": 10,
+   "rank": 11,
    "dex": 71,
-   "crank": 7,
-   "trank": 4,
+   "crank": 8,
+   "trank": 5,
    "form": "Mega Victreebel",
    "base": "Victreebel",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Magical Leaf / Leaf Blade"
   },
   {
    "fam": "FAMILY_GROOKEY",
-   "rank": 12,
+   "rank": 13,
    "dex": 812,
-   "crank": 9,
-   "trank": 5,
+   "crank": 10,
+   "trank": 6,
    "form": "Rillaboom",
    "base": "Rillaboom",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Razor Leaf / Frenzy Plant"
   },
   {
    "fam": "groudon",
-   "rank": 13,
+   "rank": 14,
    "dex": 383,
    "crank": null,
    "trank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Mud Shot / Solar Beam"
   },
   {
    "fam": "xurkitree",
-   "rank": 14,
+   "rank": 15,
    "dex": 796,
    "crank": null,
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_RALTS",
-   "rank": 16,
-   "dex": 475,
-   "crank": 11,
-   "trank": 6,
-   "form": "Mega Gallade",
-   "base": "Gallade",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Shock / Power Whip"
   },
   {
    "fam": "tapu_bulu",
@@ -875,7 +893,8 @@
    "form": "Tapu Bulu",
    "base": "Tapu Bulu",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Bullet Seed / Grass Knot"
   }
  ],
  "ice": [
@@ -888,7 +907,8 @@
    "form": "White Kyurem",
    "base": "Kyurem",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Ice Fang / Ice Burn"
   },
   {
    "fam": "mewtwo",
@@ -899,84 +919,92 @@
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Ice Beam"
+  },
+  {
+   "fam": "FAMILY_SNOVER",
+   "rank": 4,
+   "dex": 460,
+   "crank": 1,
+   "trank": 1,
+   "form": "Mega Abomasnow",
+   "base": "Abomasnow",
+   "locked": false,
+   "shadow": false,
+   "moves": "Powder Snow / Blizzard+"
   },
   {
    "fam": "FAMILY_SWINUB",
-   "rank": 5,
+   "rank": 6,
    "dex": 473,
-   "crank": 1,
+   "crank": 2,
    "trank": null,
    "form": "Shadow Mamoswine",
    "base": "Mamoswine",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Powder Snow / Avalanche"
   },
   {
    "fam": "FAMILY_RALTS",
-   "rank": 6,
+   "rank": 7,
    "dex": 282,
-   "crank": 2,
-   "trank": 1,
+   "crank": 3,
+   "trank": 2,
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charm / Triple Axel"
   },
   {
    "fam": "mewtwo",
-   "rank": 7,
+   "rank": 8,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Shadow Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Psycho Cut / Ice Beam"
   },
   {
    "fam": "zamazenta_hero",
-   "rank": 8,
+   "rank": 9,
    "dex": 889,
    "crank": null,
    "trank": null,
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Ice Fang / Behemoth Bash"
   },
   {
    "fam": "kyogre",
-   "rank": 9,
+   "rank": 10,
    "dex": 382,
    "crank": null,
    "trank": null,
    "form": "Primal Kyogre",
    "base": "Kyogre",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Waterfall / Avalanche"
   },
   {
    "fam": "FAMILY_FRIGIBAX",
-   "rank": 10,
+   "rank": 11,
    "dex": 998,
-   "crank": 3,
-   "trank": 2,
+   "crank": 4,
+   "trank": 3,
    "form": "Baxcalibur",
    "base": "Baxcalibur",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_SNOVER",
-   "rank": 11,
-   "dex": 460,
-   "crank": 4,
-   "trank": 3,
-   "form": "Mega Abomasnow",
-   "base": "Abomasnow",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Ice Fang / Avalanche"
   },
   {
    "fam": "FAMILY_SNEASEL",
@@ -987,7 +1015,8 @@
    "form": "Shadow Weavile",
    "base": "Weavile",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Ice Shard / Triple Axel"
   },
   {
    "fam": "FAMILY_SWINUB",
@@ -998,7 +1027,8 @@
    "form": "Mamoswine",
    "base": "Mamoswine",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Powder Snow / Avalanche"
   },
   {
    "fam": "FAMILY_SNORUNT",
@@ -1009,7 +1039,8 @@
    "form": "Mega Glalie",
    "base": "Glalie",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Frost Breath / Avalanche"
   },
   {
    "fam": "FAMILY_DARUMAKA",
@@ -1020,7 +1051,8 @@
    "form": "Galarian Darmanitan",
    "base": "Darmanitan",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Ice Fang / Avalanche"
   },
   {
    "fam": "articuno",
@@ -1031,7 +1063,8 @@
    "form": "Shadow Articuno",
    "base": "Articuno",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Frost Breath / Triple Axel"
   }
  ],
  "fighting": [
@@ -1044,7 +1077,8 @@
    "form": "Mega X Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Counter / Dynamic Punch+"
   },
   {
    "fam": "FAMILY_LUCARIO",
@@ -1055,7 +1089,8 @@
    "form": "Mega Lucario",
    "base": "Lucario",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Force Palm / Aura Sphere+"
   },
   {
    "fam": "FAMILY_TORCHIC",
@@ -1066,7 +1101,8 @@
    "form": "Mega Blaziken",
    "base": "Blaziken",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Counter / Aura Sphere"
   },
   {
    "fam": "keldeo_ordinary",
@@ -1077,7 +1113,8 @@
    "form": "Resolute Keldeo",
    "base": "Keldeo",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Low Kick / Secret Sword"
   },
   {
    "fam": "falinks",
@@ -1088,7 +1125,8 @@
    "form": "Mega Falinks",
    "base": "Falinks",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Counter / Brick Break+"
   },
   {
    "fam": "FAMILY_RALTS",
@@ -1099,84 +1137,80 @@
    "form": "Mega Gallade",
    "base": "Gallade",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Low Kick / Sacred Sword"
+  },
+  {
+   "fam": "FAMILY_BUNEARY",
+   "rank": 8,
+   "dex": 428,
+   "crank": 5,
+   "trank": 5,
+   "form": "Mega Lopunny",
+   "base": "Lopunny",
+   "locked": false,
+   "shadow": false,
+   "moves": "Double Kick / Close Combat+"
   },
   {
    "fam": "heracross",
-   "rank": 8,
+   "rank": 9,
    "dex": 214,
-   "crank": 5,
-   "trank": 5,
+   "crank": 6,
+   "trank": 6,
    "form": "Mega Heracross",
    "base": "Heracross",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TORCHIC",
-   "rank": 9,
-   "dex": 257,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Blaziken",
-   "base": "Blaziken",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Counter / Lunge+"
   },
   {
    "fam": "terrakion",
-   "rank": 11,
+   "rank": 12,
    "dex": 639,
    "crank": null,
    "trank": null,
    "form": "Terrakion",
    "base": "Terrakion",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Double Kick / Sacred Sword"
   },
   {
    "fam": "latios",
-   "rank": 13,
+   "rank": 14,
    "dex": 381,
    "crank": null,
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Breath / Aura Sphere"
   },
   {
    "fam": "raikou",
-   "rank": 16,
+   "rank": 17,
    "dex": 243,
    "crank": null,
    "trank": null,
    "form": "Shadow Raikou",
    "base": "Raikou",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Thunder Shock / Aura Sphere"
   },
   {
    "fam": "mewtwo",
-   "rank": 17,
+   "rank": 20,
    "dex": 150,
    "crank": null,
    "trank": null,
    "form": "Shadow Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_ABRA",
-   "rank": 21,
-   "dex": 65,
-   "crank": 11,
-   "trank": 6,
-   "form": "Mega Alakazam",
-   "base": "Alakazam",
-   "locked": false,
-   "shadow": false
+   "shadow": true,
+   "moves": "Counter / Focus Blast"
   }
  ],
  "poison": [
@@ -1189,7 +1223,8 @@
    "form": "Mega Victreebel",
    "base": "Victreebel",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Acid / Acid Spray+"
   },
   {
    "fam": "FAMILY_GASTLY",
@@ -1200,7 +1235,8 @@
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Lick / Sludge Bomb"
   },
   {
    "fam": "eternatus",
@@ -1211,7 +1247,8 @@
    "form": "Eternatus",
    "base": "Eternatus",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "FAMILY_WEEDLE",
@@ -1222,7 +1259,8 @@
    "form": "Mega Beedrill",
    "base": "Beedrill",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "nihilego",
@@ -1233,7 +1271,8 @@
    "form": "Nihilego",
    "base": "Nihilego",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "FAMILY_QWILFISH",
@@ -1244,7 +1283,8 @@
    "form": "Shadow Overqwil",
    "base": "Overqwil",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "FAMILY_POIPOLE",
@@ -1255,7 +1295,8 @@
    "form": "Naganadel",
    "base": "Naganadel",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "FAMILY_GASTLY",
@@ -1266,7 +1307,8 @@
    "form": "Shadow Gengar",
    "base": "Gengar",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Lick / Sludge Bomb"
   },
   {
    "fam": "FAMILY_ROSELIA",
@@ -1277,7 +1319,8 @@
    "form": "Roserade",
    "base": "Roserade",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "FAMILY_VAROOM",
@@ -1288,7 +1331,8 @@
    "form": "Revavroom",
    "base": "Revavroom",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Gunk Shot"
   },
   {
    "fam": "FAMILY_QWILFISH",
@@ -1299,7 +1343,8 @@
    "form": "Overqwil",
    "base": "Overqwil",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Poison Jab / Sludge Bomb"
   },
   {
    "fam": "darkrai",
@@ -1310,31 +1355,34 @@
    "form": "Shadow Darkrai",
    "base": "Darkrai",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Snarl / Sludge Bomb"
   }
  ],
  "ground": [
   {
-   "fam": "groudon",
-   "rank": 1,
-   "dex": 383,
-   "crank": null,
-   "trank": null,
-   "form": "Primal Groudon",
-   "base": "Groudon",
-   "locked": true,
-   "shadow": false
-  },
-  {
    "fam": "FAMILY_GIBLE",
-   "rank": 2,
+   "rank": 1,
    "dex": 445,
    "crank": 1,
    "trank": 1,
    "form": "Mega Garchomp",
    "base": "Garchomp",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Mud Shot / Earthquake+"
+  },
+  {
+   "fam": "groudon",
+   "rank": 2,
+   "dex": 383,
+   "crank": null,
+   "trank": null,
+   "form": "Primal Groudon",
+   "base": "Groudon",
+   "locked": true,
+   "shadow": false,
+   "moves": "Mud Shot / Precipice Blades"
   },
   {
    "fam": "groudon",
@@ -1345,29 +1393,32 @@
    "form": "Shadow Groudon",
    "base": "Groudon",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Mud Shot / Precipice Blades"
+  },
+  {
+   "fam": "FAMILY_MUDKIP",
+   "rank": 4,
+   "dex": 260,
+   "crank": 2,
+   "trank": 2,
+   "form": "Mega Swampert",
+   "base": "Swampert",
+   "locked": false,
+   "shadow": false,
+   "moves": "Mud Shot / Muddy Water+"
   },
   {
    "fam": "FAMILY_GIBLE",
-   "rank": 4,
+   "rank": 5,
    "dex": 445,
-   "crank": 2,
+   "crank": 3,
    "trank": null,
    "form": "Shadow Garchomp",
    "base": "Garchomp",
    "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "landorus_therian",
-   "rank": 5,
-   "dex": 645,
-   "crank": null,
-   "trank": null,
-   "form": "Therian Landorus",
-   "base": "Landorus",
-   "locked": true,
-   "shadow": false
+   "shadow": true,
+   "moves": "Mud Shot / Earth Power"
   },
   {
    "fam": "landorus_therian",
@@ -1375,43 +1426,47 @@
    "dex": 645,
    "crank": null,
    "trank": null,
+   "form": "Therian Landorus",
+   "base": "Landorus",
+   "locked": true,
+   "shadow": false,
+   "moves": "Mud Shot / Sandsear Storm"
+  },
+  {
+   "fam": "landorus_therian",
+   "rank": 7,
+   "dex": 645,
+   "crank": null,
+   "trank": null,
    "form": "Shadow Incarnate Landorus",
    "base": "Landorus",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Mud Shot / Earth Power"
   },
   {
    "fam": "FAMILY_DRILBUR",
-   "rank": 7,
+   "rank": 8,
    "dex": 530,
-   "crank": 3,
+   "crank": 4,
    "trank": null,
    "form": "Shadow Excadrill",
    "base": "Excadrill",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Mud-Slap / Scorching Sands"
   },
   {
    "fam": "FAMILY_RHYHORN",
-   "rank": 8,
+   "rank": 9,
    "dex": 464,
-   "crank": 4,
+   "crank": 5,
    "trank": null,
    "form": "Shadow Rhyperior",
    "base": "Rhyperior",
    "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_MUDKIP",
-   "rank": 10,
-   "dex": 260,
-   "crank": 5,
-   "trank": 2,
-   "form": "Mega Swampert",
-   "base": "Swampert",
-   "locked": false,
-   "shadow": false
+   "shadow": true,
+   "moves": "Mud-Slap / Drill Run"
   },
   {
    "fam": "FAMILY_GOLETT",
@@ -1422,18 +1477,20 @@
    "form": "Shadow Golurk",
    "base": "Golurk",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Mud-Slap / Earth Power"
   },
   {
    "fam": "FAMILY_DRILBUR",
-   "rank": 15,
+   "rank": 14,
    "dex": 530,
-   "crank": 8,
+   "crank": 7,
    "trank": 3,
    "form": "Excadrill",
    "base": "Excadrill",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Mud-Slap / Scorching Sands"
   },
   {
    "fam": "heracross",
@@ -1444,7 +1501,8 @@
    "form": "Mega Heracross",
    "base": "Heracross",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Counter / Earthquake"
   },
   {
    "fam": "FAMILY_RHYHORN",
@@ -1455,18 +1513,20 @@
    "form": "Rhyperior",
    "base": "Rhyperior",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Mud-Slap / Earthquake"
   },
   {
    "fam": "FAMILY_SWINUB",
-   "rank": 25,
+   "rank": 26,
    "dex": 473,
    "crank": 17,
    "trank": 6,
    "form": "Mamoswine",
    "base": "Mamoswine",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Mud-Slap / High Horsepower"
   }
  ],
  "flying": [
@@ -1479,183 +1539,164 @@
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Air Slash / Dragon Ascent+"
+  },
+  {
+   "fam": "pinsir",
+   "rank": 2,
+   "dex": 127,
+   "crank": 1,
+   "trank": 1,
+   "form": "Mega Pinsir",
+   "base": "Pinsir",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fury Cutter / Aerial Ace+"
   },
   {
    "fam": "FAMILY_STARLY",
-   "rank": 2,
+   "rank": 3,
    "dex": 398,
-   "crank": 1,
-   "trank": 1,
+   "crank": 2,
+   "trank": 2,
    "form": "Mega Staraptor",
    "base": "Staraptor",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Gust / Brave Bird+"
+  },
+  {
+   "fam": "FAMILY_BAGON",
+   "rank": 4,
+   "dex": 373,
+   "crank": 3,
+   "trank": 3,
+   "form": "Mega Salamence",
+   "base": "Salamence",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fire Fang / Fly+"
   },
   {
    "fam": "skarmory",
-   "rank": 4,
+   "rank": 6,
    "dex": 227,
-   "crank": 2,
-   "trank": 2,
+   "crank": 4,
+   "trank": 4,
    "form": "Mega Skarmory",
    "base": "Skarmory",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Air Slash / Drill Peck+"
   },
   {
    "fam": "moltres",
-   "rank": 5,
+   "rank": 7,
    "dex": 146,
    "crank": null,
    "trank": null,
    "form": "Shadow Moltres",
    "base": "Moltres",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Wing Attack / Fly"
   },
   {
-   "fam": "FAMILY_BAGON",
-   "rank": 6,
-   "dex": 373,
-   "crank": 3,
-   "trank": null,
-   "form": "Shadow Salamence",
-   "base": "Salamence",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_BAGON",
-   "rank": 7,
-   "dex": 373,
-   "crank": 4,
-   "trank": 3,
-   "form": "Mega Salamence",
-   "base": "Salamence",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_PIKIPEK",
+   "fam": "FAMILY_PIDGEY",
    "rank": 8,
-   "dex": 733,
+   "dex": 18,
    "crank": 5,
-   "trank": null,
-   "form": "Shadow Toucannon",
-   "base": "Toucannon",
+   "trank": 5,
+   "form": "Mega Pidgeot",
+   "base": "Pidgeot",
    "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Gust / Hurricane+"
+  },
+  {
+   "fam": "FAMILY_CHARMANDER",
+   "rank": 9,
+   "dex": 6,
+   "crank": 6,
+   "trank": 6,
+   "form": "Mega Y Charizard",
+   "base": "Charizard",
+   "locked": false,
+   "shadow": false,
+   "moves": "Wing Attack / Blast Burn+"
   },
   {
    "fam": "enamorus_therian",
-   "rank": 9,
+   "rank": 11,
    "dex": 905,
    "crank": null,
    "trank": null,
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fairy Wind / Fly"
   },
   {
    "fam": "yveltal",
-   "rank": 10,
+   "rank": 13,
    "dex": 717,
    "crank": null,
    "trank": null,
    "form": "Yveltal",
    "base": "Yveltal",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_STARLY",
-   "rank": 11,
-   "dex": 398,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Staraptor",
-   "base": "Staraptor",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Gust / Oblivion Wing"
   },
   {
    "fam": "moltres",
-   "rank": 12,
+   "rank": 14,
    "dex": 146,
    "crank": null,
    "trank": null,
    "form": "Moltres",
    "base": "Moltres",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_CHARMANDER",
-   "rank": 13,
-   "dex": 6,
-   "crank": 7,
-   "trank": 4,
-   "form": "Mega Y Charizard",
-   "base": "Charizard",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_PIDGEY",
-   "rank": 14,
-   "dex": 18,
-   "crank": 8,
-   "trank": 5,
-   "form": "Mega Pidgeot",
-   "base": "Pidgeot",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Wing Attack / Fly"
   },
   {
    "fam": "articuno",
-   "rank": 15,
+   "rank": 16,
    "dex": 144,
    "crank": null,
    "trank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Fly"
   },
   {
    "fam": "zapdos",
-   "rank": 16,
+   "rank": 17,
    "dex": 145,
    "crank": null,
    "trank": null,
    "form": "Shadow Zapdos",
    "base": "Zapdos",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Thunder Shock / Drill Peck"
   },
   {
    "fam": "lugia",
-   "rank": 19,
+   "rank": 20,
    "dex": 249,
    "crank": null,
    "trank": null,
    "form": "Shadow Lugia",
    "base": "Lugia",
    "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_PIKIPEK",
-   "rank": 20,
-   "dex": 733,
-   "crank": 9,
-   "trank": 6,
-   "form": "Toucannon",
-   "base": "Toucannon",
-   "locked": false,
-   "shadow": false
+   "shadow": true,
+   "moves": "Extrasensory / Fly"
   }
  ],
  "psychic": [
@@ -1668,106 +1709,116 @@
    "form": "Mega Y Mewtwo",
    "base": "Mewtwo",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "mewtwo",
-   "rank": 3,
-   "dex": 150,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Mewtwo",
-   "base": "Mewtwo",
-   "locked": true,
-   "shadow": true
+   "shadow": false,
+   "moves": "Psycho Cut / Future Sight+"
   },
   {
    "fam": "FAMILY_ABRA",
-   "rank": 4,
+   "rank": 3,
    "dex": 65,
    "crank": 1,
    "trank": 1,
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_RALTS",
-   "rank": 5,
-   "dex": 282,
-   "crank": 2,
-   "trank": 2,
-   "form": "Mega Gardevoir",
-   "base": "Gardevoir",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Psyshock+"
   },
   {
    "fam": "latios",
-   "rank": 6,
+   "rank": 4,
    "dex": 381,
    "crank": null,
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Zen Headbutt / Luster Purge+"
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 5,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true,
+   "moves": "Psycho Cut / Psystrike"
+  },
+  {
+   "fam": "latias",
+   "rank": 6,
+   "dex": 380,
+   "crank": null,
+   "trank": null,
+   "form": "Mega Latias",
+   "base": "Latias",
+   "locked": true,
+   "shadow": false,
+   "moves": "Zen Headbutt / Mist Ball+"
+  },
+  {
+   "fam": "FAMILY_RALTS",
+   "rank": 7,
+   "dex": 282,
+   "crank": 2,
+   "trank": 2,
+   "form": "Mega Gardevoir",
+   "base": "Gardevoir",
+   "locked": false,
+   "shadow": false,
+   "moves": "Confusion / Dazzling Gleam+"
   },
   {
    "fam": "FAMILY_FENNEKIN",
-   "rank": 9,
+   "rank": 10,
    "dex": 655,
    "crank": 3,
    "trank": 3,
    "form": "Mega Delphox",
    "base": "Delphox",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Zen Headbutt / Psychic"
   },
   {
    "fam": "FAMILY_BELDUM",
-   "rank": 10,
+   "rank": 11,
    "dex": 376,
    "crank": 4,
    "trank": 4,
    "form": "Mega Metagross",
    "base": "Metagross",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Zen Headbutt / Psychic"
   },
   {
    "fam": "latios",
-   "rank": 11,
+   "rank": 12,
    "dex": 381,
    "crank": null,
    "trank": null,
    "form": "Shadow Latios",
    "base": "Latios",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Zen Headbutt / Psychic"
   },
   {
    "fam": "articuno",
-   "rank": 12,
+   "rank": 13,
    "dex": 144,
    "crank": null,
    "trank": null,
    "form": "Galarian Articuno",
    "base": "Articuno",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "deoxys",
-   "rank": 13,
-   "dex": 386,
-   "crank": null,
-   "trank": null,
-   "form": "Normal Deoxys",
-   "base": "Deoxys",
-   "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Fly"
   },
   {
    "fam": "FAMILY_BELDUM",
@@ -1778,163 +1829,166 @@
    "form": "Shadow Metagross",
    "base": "Metagross",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Zen Headbutt / Psychic"
+  },
+  {
+   "fam": "deoxys",
+   "rank": 15,
+   "dex": 386,
+   "crank": null,
+   "trank": null,
+   "form": "Normal Deoxys",
+   "base": "Deoxys",
+   "locked": true,
+   "shadow": false,
+   "moves": "Zen Headbutt / Psycho Boost"
   },
   {
    "fam": "FAMILY_INKAY",
-   "rank": 15,
+   "rank": 16,
    "dex": 687,
    "crank": 6,
    "trank": 5,
    "form": "Mega Malamar",
    "base": "Malamar",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "latias",
-   "rank": 16,
-   "dex": 380,
-   "crank": null,
-   "trank": null,
-   "form": "Mega Latias",
-   "base": "Latias",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "hoopa",
-   "rank": 17,
-   "dex": 720,
-   "crank": null,
-   "trank": null,
-   "form": "Unbound Hoopa",
-   "base": "Hoopa",
-   "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psywave / Psybeam+"
   },
   {
    "fam": "lugia",
-   "rank": 18,
+   "rank": 17,
    "dex": 249,
    "crank": null,
    "trank": null,
    "form": "Shadow Lugia",
    "base": "Lugia",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Extrasensory / Fly"
+  },
+  {
+   "fam": "ho_oh",
+   "rank": 18,
+   "dex": 250,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Ho-Oh",
+   "base": "Ho-Oh",
+   "locked": true,
+   "shadow": true,
+   "moves": "Extrasensory / Brave Bird"
+  },
+  {
+   "fam": "hoopa",
+   "rank": 19,
+   "dex": 720,
+   "crank": null,
+   "trank": null,
+   "form": "Unbound Hoopa",
+   "base": "Hoopa",
+   "locked": true,
+   "shadow": false,
+   "moves": "Confusion / Psychic"
   },
   {
    "fam": "necrozma",
-   "rank": 19,
+   "rank": 20,
    "dex": 800,
    "crank": null,
    "trank": null,
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Sunsteel Strike"
   },
   {
    "fam": "FAMILY_GASTLY",
-   "rank": 24,
+   "rank": 23,
    "dex": 94,
    "crank": 7,
    "trank": 6,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Lick / Psychic"
   }
  ],
  "bug": [
   {
-   "fam": "FAMILY_WEEDLE",
+   "fam": "heracross",
    "rank": 1,
-   "dex": 15,
+   "dex": 214,
    "crank": 1,
    "trank": 1,
-   "form": "Mega Beedrill",
-   "base": "Beedrill",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "heracross",
-   "rank": 2,
-   "dex": 214,
-   "crank": 2,
-   "trank": 2,
    "form": "Mega Heracross",
    "base": "Heracross",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "pinsir",
-   "rank": 3,
-   "dex": 127,
-   "crank": 3,
-   "trank": 3,
-   "form": "Mega Pinsir",
-   "base": "Pinsir",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / Lunge+"
   },
   {
    "fam": "FAMILY_SCYTHER",
-   "rank": 4,
+   "rank": 2,
    "dex": 212,
-   "crank": 4,
-   "trank": 4,
+   "crank": 2,
+   "trank": 2,
    "form": "Mega Scizor",
    "base": "Scizor",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / X-Scissor+"
   },
   {
-   "fam": "FAMILY_GRUBBIN",
+   "fam": "FAMILY_WEEDLE",
+   "rank": 3,
+   "dex": 15,
+   "crank": 3,
+   "trank": 3,
+   "form": "Mega Beedrill",
+   "base": "Beedrill",
+   "locked": false,
+   "shadow": false,
+   "moves": "Bug Bite / Fell Stinger+"
+  },
+  {
+   "fam": "pinsir",
+   "rank": 4,
+   "dex": 127,
+   "crank": 4,
+   "trank": 4,
+   "form": "Mega Pinsir",
+   "base": "Pinsir",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fury Cutter / Aerial Ace+"
+  },
+  {
+   "fam": "FAMILY_BELDUM",
    "rank": 5,
-   "dex": 738,
+   "dex": 376,
    "crank": 5,
-   "trank": null,
-   "form": "Shadow Vikavolt",
-   "base": "Vikavolt",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_SCYTHER",
-   "rank": 6,
-   "dex": 212,
-   "crank": 6,
-   "trank": null,
-   "form": "Shadow Scizor",
-   "base": "Scizor",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_LARVESTA",
-   "rank": 7,
-   "dex": 637,
-   "crank": 7,
    "trank": 5,
-   "form": "Volcarona",
-   "base": "Volcarona",
+   "form": "Mega Metagross",
+   "base": "Metagross",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / Meteor Mash+"
   },
   {
    "fam": "FAMILY_TREECKO",
-   "rank": 8,
+   "rank": 6,
    "dex": 254,
-   "crank": 8,
+   "crank": 6,
    "trank": 6,
    "form": "Mega Sceptile",
    "base": "Sceptile",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / Leaf Blade+"
   },
   {
    "fam": "genesect",
@@ -1945,7 +1999,8 @@
    "form": "Normal Genesect",
    "base": "Genesect",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / X-Scissor"
   },
   {
    "fam": "kartana",
@@ -1956,7 +2011,8 @@
    "form": "Kartana",
    "base": "Kartana",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / X-Scissor"
   }
  ],
  "rock": [
@@ -1969,29 +2025,32 @@
    "form": "Mega Diancie",
    "base": "Diancie",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_RHYHORN",
-   "rank": 2,
-   "dex": 464,
-   "crank": 1,
-   "trank": null,
-   "form": "Shadow Rhyperior",
-   "base": "Rhyperior",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Rock Throw / Power Gem+"
   },
   {
    "fam": "FAMILY_LARVITAR",
-   "rank": 3,
+   "rank": 2,
    "dex": 248,
-   "crank": 2,
+   "crank": 1,
    "trank": 1,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Smack Down / Stone Edge+"
+  },
+  {
+   "fam": "FAMILY_RHYHORN",
+   "rank": 3,
+   "dex": 464,
+   "crank": 2,
+   "trank": null,
+   "form": "Shadow Rhyperior",
+   "base": "Rhyperior",
+   "locked": false,
+   "shadow": true,
+   "moves": "Smack Down / Rock Wrecker"
   },
   {
    "fam": "aerodactyl",
@@ -2002,7 +2061,8 @@
    "form": "Mega Aerodactyl",
    "base": "Aerodactyl",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Rock Throw / Rock Slide"
   },
   {
    "fam": "FAMILY_ROGGENROLA",
@@ -2013,7 +2073,8 @@
    "form": "Shadow Gigalith",
    "base": "Gigalith",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Lock-On / Meteor Beam"
   },
   {
    "fam": "FAMILY_CRANIDOS",
@@ -2024,7 +2085,8 @@
    "form": "Shadow Rampardos",
    "base": "Rampardos",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Smack Down / Rock Slide"
   },
   {
    "fam": "FAMILY_TYRUNT",
@@ -2035,7 +2097,8 @@
    "form": "Shadow Tyrantrum",
    "base": "Tyrantrum",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Rock Throw / Meteor Beam"
   },
   {
    "fam": "FAMILY_RHYHORN",
@@ -2046,7 +2109,8 @@
    "form": "Rhyperior",
    "base": "Rhyperior",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Smack Down / Rock Wrecker"
   },
   {
    "fam": "rayquaza",
@@ -2057,7 +2121,8 @@
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Ancient Power"
   },
   {
    "fam": "FAMILY_GLIMMET",
@@ -2068,7 +2133,8 @@
    "form": "Glimmora",
    "base": "Glimmora",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Rock Throw / Meteor Beam"
   },
   {
    "fam": "FAMILY_CRANIDOS",
@@ -2079,7 +2145,8 @@
    "form": "Rampardos",
    "base": "Rampardos",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Smack Down / Rock Slide"
   },
   {
    "fam": "FAMILY_ROGGENROLA",
@@ -2090,7 +2157,8 @@
    "form": "Gigalith",
    "base": "Gigalith",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Lock-On / Meteor Beam"
   },
   {
    "fam": "terrakion",
@@ -2101,75 +2169,82 @@
    "form": "Terrakion",
    "base": "Terrakion",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Smack Down / Rock Slide"
   },
   {
    "fam": "landorus_therian",
-   "rank": 18,
+   "rank": 19,
    "dex": 645,
    "crank": null,
    "trank": null,
    "form": "Shadow Incarnate Landorus",
    "base": "Landorus",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Rock Throw / Rock Slide"
   }
  ],
  "ghost": [
   {
-   "fam": "necrozma",
-   "rank": 1,
-   "dex": 800,
-   "crank": null,
-   "trank": null,
-   "form": "Dawn Wings Necrozma",
-   "base": "Necrozma",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "mewtwo",
-   "rank": 2,
-   "dex": 150,
-   "crank": null,
-   "trank": null,
-   "form": "Mega Y Mewtwo",
-   "base": "Mewtwo",
-   "locked": true,
-   "shadow": false
-  },
-  {
    "fam": "FAMILY_GASTLY",
-   "rank": 3,
+   "rank": 1,
    "dex": 94,
    "crank": 1,
    "trank": 1,
    "form": "Mega Gengar",
    "base": "Gengar",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Lick / Shadow Ball+"
   },
   {
-   "fam": "darkrai",
-   "rank": 5,
-   "dex": 491,
+   "fam": "necrozma",
+   "rank": 2,
+   "dex": 800,
    "crank": null,
    "trank": null,
-   "form": "Shadow Darkrai",
-   "base": "Darkrai",
+   "form": "Dawn Wings Necrozma",
+   "base": "Necrozma",
    "locked": true,
-   "shadow": true
+   "shadow": false,
+   "moves": "Psycho Cut / Moongeist Beam"
   },
   {
    "fam": "FAMILY_SHUPPET",
-   "rank": 6,
+   "rank": 3,
    "dex": 354,
    "crank": 2,
    "trank": 2,
    "form": "Mega Banette",
    "base": "Banette",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Hex / Shadow Punch+"
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 4,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Mega Y Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": false,
+   "moves": "Psycho Cut / Shadow Ball"
+  },
+  {
+   "fam": "darkrai",
+   "rank": 6,
+   "dex": 491,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Darkrai",
+   "base": "Darkrai",
+   "locked": true,
+   "shadow": true,
+   "moves": "Snarl / Shadow Ball"
   },
   {
    "fam": "FAMILY_LITWICK",
@@ -2180,29 +2255,32 @@
    "form": "Shadow Chandelure",
    "base": "Chandelure",
    "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "mewtwo",
-   "rank": 8,
-   "dex": 150,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Mewtwo",
-   "base": "Mewtwo",
-   "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Hex / Shadow Ball"
   },
   {
    "fam": "FAMILY_COSMOG",
-   "rank": 9,
+   "rank": 8,
    "dex": 792,
    "crank": null,
    "trank": null,
    "form": "Lunala",
    "base": "Lunala",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Shadow Claw / Shadow Ball"
+  },
+  {
+   "fam": "mewtwo",
+   "rank": 9,
+   "dex": 150,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Mewtwo",
+   "base": "Mewtwo",
+   "locked": true,
+   "shadow": true,
+   "moves": "Psycho Cut / Shadow Ball"
   },
   {
    "fam": "FAMILY_ABRA",
@@ -2213,7 +2291,8 @@
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Shadow Ball"
   },
   {
    "fam": "kyurem",
@@ -2224,7 +2303,8 @@
    "form": "Black Kyurem",
    "base": "Kyurem",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Shadow Claw / Freeze Shock"
   },
   {
    "fam": "darkrai",
@@ -2235,40 +2315,44 @@
    "form": "Darkrai",
    "base": "Darkrai",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Snarl / Shadow Ball"
+  },
+  {
+   "fam": "FAMILY_BELDUM",
+   "rank": 13,
+   "dex": 376,
+   "crank": 5,
+   "trank": 4,
+   "form": "Mega Metagross",
+   "base": "Metagross",
+   "locked": false,
+   "shadow": false,
+   "moves": "Shadow Claw / Meteor Mash+"
   },
   {
    "fam": "FAMILY_GIMMIGHOUL",
-   "rank": 13,
+   "rank": 14,
    "dex": 1000,
-   "crank": 5,
-   "trank": 4,
+   "crank": 6,
+   "trank": 5,
    "form": "Gholdengo",
    "base": "Gholdengo",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Hex / Shadow Ball"
   },
   {
    "fam": "giratina_origin",
-   "rank": 14,
+   "rank": 15,
    "dex": 487,
    "crank": null,
    "trank": null,
    "form": "Altered Shadow Giratina",
    "base": "Giratina",
    "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_DREEPY",
-   "rank": 15,
-   "dex": 887,
-   "crank": 6,
-   "trank": 5,
-   "form": "Dragapult",
-   "base": "Dragapult",
-   "locked": false,
-   "shadow": false
+   "shadow": true,
+   "moves": "Shadow Claw / Shadow Force"
   },
   {
    "fam": "FAMILY_RALTS",
@@ -2279,18 +2363,8 @@
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "blacephalon",
-   "rank": 17,
-   "dex": 806,
-   "crank": null,
-   "trank": null,
-   "form": "Blacephalon",
-   "base": "Blacephalon",
-   "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charm / Shadow Ball"
   },
   {
    "fam": "giratina_origin",
@@ -2301,18 +2375,20 @@
    "form": "Origin Giratina",
    "base": "Giratina",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Shadow Claw / Shadow Force"
   },
   {
-   "fam": "hoopa",
-   "rank": 20,
-   "dex": 720,
+   "fam": "blacephalon",
+   "rank": 19,
+   "dex": 806,
    "crank": null,
    "trank": null,
-   "form": "Unbound Hoopa",
-   "base": "Hoopa",
+   "form": "Blacephalon",
+   "base": "Blacephalon",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Astonish / Shadow Ball"
   }
  ],
  "dragon": [
@@ -2325,7 +2401,8 @@
    "form": "Mega Rayquaza",
    "base": "Rayquaza",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Breaking Swipe"
   },
   {
    "fam": "eternatus",
@@ -2336,7 +2413,8 @@
    "form": "Eternatus",
    "base": "Eternatus",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Dynamax Cannon"
   },
   {
    "fam": "FAMILY_DRATINI",
@@ -2347,7 +2425,8 @@
    "form": "Mega Dragonite",
    "base": "Dragonite",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Outrage+"
   },
   {
    "fam": "FAMILY_GIBLE",
@@ -2358,7 +2437,8 @@
    "form": "Mega Garchomp",
    "base": "Garchomp",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Breaking Swipe"
   },
   {
    "fam": "kyurem",
@@ -2369,7 +2449,8 @@
    "form": "Black Kyurem",
    "base": "Kyurem",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Freeze Shock"
   },
   {
    "fam": "FAMILY_GIBLE",
@@ -2380,7 +2461,8 @@
    "form": "Shadow Garchomp",
    "base": "Garchomp",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Dragon Tail / Breaking Swipe"
   },
   {
    "fam": "FAMILY_BAGON",
@@ -2391,7 +2473,8 @@
    "form": "Mega Salamence",
    "base": "Salamence",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Draco Meteor"
   },
   {
    "fam": "FAMILY_AXEW",
@@ -2402,229 +2485,214 @@
    "form": "Shadow Haxorus",
    "base": "Haxorus",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Dragon Tail / Breaking Swipe"
   },
   {
-   "fam": "palkia",
+   "fam": "FAMILY_CHARMANDER",
    "rank": 10,
-   "dex": 484,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Palkia",
-   "base": "Palkia",
-   "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "dialga",
-   "rank": 11,
-   "dex": 483,
-   "crank": null,
-   "trank": null,
-   "form": "Shadow Dialga",
-   "base": "Dialga",
-   "locked": true,
-   "shadow": true
-  },
-  {
-   "fam": "palkia",
-   "rank": 12,
-   "dex": 484,
-   "crank": null,
-   "trank": null,
-   "form": "Origin Palkia",
-   "base": "Palkia",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_FRIGIBAX",
-   "rank": 13,
-   "dex": 998,
+   "dex": 6,
    "crank": 6,
    "trank": 4,
-   "form": "Baxcalibur",
-   "base": "Baxcalibur",
+   "form": "Mega X Charizard",
+   "base": "Charizard",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Breath / Dragon Claw+"
   },
   {
    "fam": "latios",
-   "rank": 14,
+   "rank": 11,
    "dex": 381,
    "crank": null,
    "trank": null,
    "form": "Mega Latios",
    "base": "Latios",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Breath / Luster Purge+"
   },
   {
    "fam": "dialga",
+   "rank": 12,
+   "dex": 483,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Dialga",
+   "base": "Dialga",
+   "locked": true,
+   "shadow": true,
+   "moves": "Dragon Breath / Draco Meteor"
+  },
+  {
+   "fam": "palkia",
+   "rank": 13,
+   "dex": 484,
+   "crank": null,
+   "trank": null,
+   "form": "Shadow Palkia",
+   "base": "Palkia",
+   "locked": true,
+   "shadow": true,
+   "moves": "Dragon Tail / Draco Meteor"
+  },
+  {
+   "fam": "palkia",
+   "rank": 14,
+   "dex": 484,
+   "crank": null,
+   "trank": null,
+   "form": "Origin Palkia",
+   "base": "Palkia",
+   "locked": true,
+   "shadow": false,
+   "moves": "Dragon Tail / Spacial Rend"
+  },
+  {
+   "fam": "FAMILY_FRIGIBAX",
    "rank": 15,
+   "dex": 998,
+   "crank": 7,
+   "trank": 5,
+   "form": "Baxcalibur",
+   "base": "Baxcalibur",
+   "locked": false,
+   "shadow": false,
+   "moves": "Ice Fang / Glaive Rush"
+  },
+  {
+   "fam": "dialga",
+   "rank": 16,
    "dex": 483,
    "crank": null,
    "trank": null,
    "form": "Origin Dialga",
    "base": "Dialga",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Breath / Roar of Time"
+  },
+  {
+   "fam": "FAMILY_MAGIKARP",
+   "rank": 18,
+   "dex": 130,
+   "crank": 9,
+   "trank": 6,
+   "form": "Mega Gyarados",
+   "base": "Gyarados",
+   "locked": false,
+   "shadow": false,
+   "moves": "Dragon Tail / Payback+"
   },
   {
    "fam": "groudon",
-   "rank": 18,
+   "rank": 20,
    "dex": 383,
    "crank": null,
    "trank": null,
    "form": "Primal Groudon",
    "base": "Groudon",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "regidrago",
-   "rank": 19,
-   "dex": 895,
-   "crank": null,
-   "trank": null,
-   "form": "Regidrago",
-   "base": "Regidrago",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_AXEW",
-   "rank": 24,
-   "dex": 612,
-   "crank": 9,
-   "trank": 5,
-   "form": "Haxorus",
-   "base": "Haxorus",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TREECKO",
-   "rank": 25,
-   "dex": 254,
-   "crank": 10,
-   "trank": 6,
-   "form": "Mega Sceptile",
-   "base": "Sceptile",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Dragon Tail / Precipice Blades"
   }
  ],
  "dark": [
   {
-   "fam": "FAMILY_HOUNDOUR",
+   "fam": "FAMILY_MAGIKARP",
    "rank": 1,
-   "dex": 229,
+   "dex": 130,
    "crank": 1,
    "trank": 1,
+   "form": "Mega Gyarados",
+   "base": "Gyarados",
+   "locked": false,
+   "shadow": false,
+   "moves": "Bite / Payback+"
+  },
+  {
+   "fam": "FAMILY_HOUNDOUR",
+   "rank": 2,
+   "dex": 229,
+   "crank": 2,
+   "trank": 2,
    "form": "Mega Houndoom",
    "base": "Houndoom",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Snarl / Dark Pulse+"
+  },
+  {
+   "fam": "absol",
+   "rank": 3,
+   "dex": 359,
+   "crank": 3,
+   "trank": 3,
+   "form": "Mega Absol",
+   "base": "Absol",
+   "locked": false,
+   "shadow": false,
+   "moves": "Snarl / Night Slash+"
+  },
+  {
+   "fam": "FAMILY_GASTLY",
+   "rank": 4,
+   "dex": 94,
+   "crank": 4,
+   "trank": 4,
+   "form": "Mega Gengar",
+   "base": "Gengar",
+   "locked": false,
+   "shadow": false,
+   "moves": "Sucker Punch / Shadow Ball+"
   },
   {
    "fam": "FAMILY_LARVITAR",
-   "rank": 2,
+   "rank": 5,
    "dex": 248,
-   "crank": 2,
-   "trank": 2,
+   "crank": 5,
+   "trank": 5,
    "form": "Mega Tyranitar",
    "base": "Tyranitar",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Bite / Brutal Swing"
   },
   {
    "fam": "darkrai",
-   "rank": 3,
+   "rank": 6,
    "dex": 491,
    "crank": null,
    "trank": null,
    "form": "Shadow Darkrai",
    "base": "Darkrai",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Snarl / Foul Play"
   },
   {
-   "fam": "FAMILY_GASTLY",
-   "rank": 4,
-   "dex": 94,
-   "crank": 3,
-   "trank": 3,
-   "form": "Mega Gengar",
-   "base": "Gengar",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_DEINO",
-   "rank": 5,
-   "dex": 635,
-   "crank": 4,
-   "trank": null,
-   "form": "Shadow Hydreigon",
-   "base": "Hydreigon",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "FAMILY_LARVITAR",
-   "rank": 6,
-   "dex": 248,
-   "crank": 5,
-   "trank": null,
-   "form": "Shadow Tyranitar",
-   "base": "Tyranitar",
-   "locked": false,
-   "shadow": true
-  },
-  {
-   "fam": "absol",
+   "fam": "FAMILY_CARVANHA",
    "rank": 7,
-   "dex": 359,
+   "dex": 319,
    "crank": 6,
-   "trank": 4,
-   "form": "Mega Absol",
-   "base": "Absol",
+   "trank": 6,
+   "form": "Mega Sharpedo",
+   "base": "Sharpedo",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_FROAKIE",
-   "rank": 8,
-   "dex": 658,
-   "crank": 7,
-   "trank": 5,
-   "form": "Mega Greninja",
-   "base": "Greninja",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Bite / Crunch+"
   },
   {
    "fam": "darkrai",
-   "rank": 9,
+   "rank": 11,
    "dex": 491,
    "crank": null,
    "trank": null,
    "form": "Darkrai",
    "base": "Darkrai",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_BAGON",
-   "rank": 10,
-   "dex": 373,
-   "crank": 8,
-   "trank": 6,
-   "form": "Mega Salamence",
-   "base": "Salamence",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Snarl / Foul Play"
   }
  ],
  "steel": [
@@ -2637,7 +2705,8 @@
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Metal Claw / Behemoth Blade"
   },
   {
    "fam": "zamazenta_hero",
@@ -2648,7 +2717,8 @@
    "form": "Crowned Shield Zamazenta",
    "base": "Zamazenta",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Metal Claw / Behemoth Bash"
   },
   {
    "fam": "necrozma",
@@ -2659,7 +2729,8 @@
    "form": "Dusk Mane Necrozma",
    "base": "Necrozma",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Metal Claw / Sunsteel Strike"
   },
   {
    "fam": "FAMILY_BELDUM",
@@ -2670,7 +2741,8 @@
    "form": "Mega Metagross",
    "base": "Metagross",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fury Cutter / Meteor Mash+"
   },
   {
    "fam": "FAMILY_LUCARIO",
@@ -2681,7 +2753,8 @@
    "form": "Mega Lucario",
    "base": "Lucario",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Force Palm / Meteor Mash"
   },
   {
    "fam": "FAMILY_BELDUM",
@@ -2692,117 +2765,92 @@
    "form": "Shadow Metagross",
    "base": "Metagross",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Bullet Punch / Meteor Mash"
+  },
+  {
+   "fam": "FAMILY_ARON",
+   "rank": 7,
+   "dex": 306,
+   "crank": 4,
+   "trank": 3,
+   "form": "Mega Aggron",
+   "base": "Aggron",
+   "locked": false,
+   "shadow": false,
+   "moves": "Iron Tail / Heavy Slam+"
+  },
+  {
+   "fam": "FAMILY_LARVITAR",
+   "rank": 8,
+   "dex": 248,
+   "crank": 5,
+   "trank": 4,
+   "form": "Mega Tyranitar",
+   "base": "Tyranitar",
+   "locked": false,
+   "shadow": false,
+   "moves": "Iron Tail / Stone Edge+"
   },
   {
    "fam": "dialga",
-   "rank": 7,
+   "rank": 9,
    "dex": 483,
    "crank": null,
    "trank": null,
    "form": "Shadow Dialga",
    "base": "Dialga",
    "locked": true,
-   "shadow": true
+   "shadow": true,
+   "moves": "Metal Claw / Iron Head"
   },
   {
    "fam": "skarmory",
-   "rank": 9,
+   "rank": 11,
    "dex": 227,
-   "crank": 4,
-   "trank": 3,
+   "crank": 6,
+   "trank": 5,
    "form": "Mega Skarmory",
    "base": "Skarmory",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_DRILBUR",
-   "rank": 10,
-   "dex": 530,
-   "crank": 5,
-   "trank": null,
-   "form": "Shadow Excadrill",
-   "base": "Excadrill",
-   "locked": false,
-   "shadow": true
+   "shadow": false,
+   "moves": "Steel Wing / Drill Peck+"
   },
   {
    "fam": "FAMILY_TINKATINK",
-   "rank": 12,
+   "rank": 14,
    "dex": 959,
-   "crank": 6,
-   "trank": 4,
+   "crank": 8,
+   "trank": 6,
    "form": "Tinkaton",
    "base": "Tinkaton",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fairy Wind / Gigaton Hammer"
   },
   {
    "fam": "kyurem",
-   "rank": 13,
+   "rank": 16,
    "dex": 646,
    "crank": null,
    "trank": null,
    "form": "White Kyurem",
    "base": "Kyurem",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Steel Wing / Ice Burn"
   },
   {
    "fam": "dialga",
-   "rank": 14,
+   "rank": 17,
    "dex": 483,
    "crank": null,
    "trank": null,
    "form": "Dialga",
    "base": "Dialga",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_ARON",
-   "rank": 17,
-   "dex": 306,
-   "crank": 7,
-   "trank": 5,
-   "form": "Mega Aggron",
-   "base": "Aggron",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_MELTAN",
-   "rank": 18,
-   "dex": 809,
-   "crank": null,
-   "trank": null,
-   "form": "Melmetal",
-   "base": "Melmetal",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "genesect",
-   "rank": 19,
-   "dex": 649,
-   "crank": null,
-   "trank": null,
-   "form": "Normal Genesect",
-   "base": "Genesect",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_DRATINI",
-   "rank": 20,
-   "dex": 149,
-   "crank": 8,
-   "trank": 6,
-   "form": "Mega Dragonite",
-   "base": "Dragonite",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Metal Claw / Iron Head"
   }
  ],
  "fairy": [
@@ -2815,7 +2863,8 @@
    "form": "Mega Gardevoir",
    "base": "Gardevoir",
    "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charm / Dazzling Gleam+"
   },
   {
    "fam": "zacian_hero",
@@ -2826,7 +2875,8 @@
    "form": "Crowned Sword Zacian",
    "base": "Zacian",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Metal Claw / Play Rough"
   },
   {
    "fam": "FAMILY_RALTS",
@@ -2837,7 +2887,8 @@
    "form": "Shadow Gardevoir",
    "base": "Gardevoir",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Charm / Dazzling Gleam"
   },
   {
    "fam": "enamorus_therian",
@@ -2848,150 +2899,152 @@
    "form": "Incarnate Enamorus",
    "base": "Enamorus",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Fairy Wind / Dazzling Gleam"
+  },
+  {
+   "fam": "FAMILY_SWABLU",
+   "rank": 5,
+   "dex": 334,
+   "crank": 3,
+   "trank": 2,
+   "form": "Mega Altaria",
+   "base": "Altaria",
+   "locked": false,
+   "shadow": false,
+   "moves": "Dragon Breath / Disarming Voice+"
   },
   {
    "fam": "FAMILY_ABRA",
-   "rank": 5,
+   "rank": 6,
    "dex": 65,
-   "crank": 3,
-   "trank": 2,
+   "crank": 4,
+   "trank": 3,
    "form": "Mega Alakazam",
    "base": "Alakazam",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "tapu_lele",
-   "rank": 7,
-   "dex": 786,
-   "crank": null,
-   "trank": null,
-   "form": "Tapu Lele",
-   "base": "Tapu Lele",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "tapu_koko",
-   "rank": 8,
-   "dex": 785,
-   "crank": null,
-   "trank": null,
-   "form": "Tapu Koko",
-   "base": "Tapu Koko",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "xerneas",
-   "rank": 9,
-   "dex": 716,
-   "crank": null,
-   "trank": null,
-   "form": "Xerneas",
-   "base": "Xerneas",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "tapu_bulu",
-   "rank": 10,
-   "dex": 787,
-   "crank": null,
-   "trank": null,
-   "form": "Tapu Bulu",
-   "base": "Tapu Bulu",
-   "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Psycho Cut / Dazzling Gleam"
   },
   {
    "fam": "latias",
-   "rank": 11,
+   "rank": 7,
    "dex": 380,
    "crank": null,
    "trank": null,
    "form": "Mega Latias",
    "base": "Latias",
    "locked": true,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charm / Mist Ball+"
+  },
+  {
+   "fam": "tapu_lele",
+   "rank": 9,
+   "dex": 786,
+   "crank": null,
+   "trank": null,
+   "form": "Tapu Lele",
+   "base": "Tapu Lele",
+   "locked": true,
+   "shadow": false,
+   "moves": "Astonish / Nature's Madness"
+  },
+  {
+   "fam": "tapu_koko",
+   "rank": 10,
+   "dex": 785,
+   "crank": null,
+   "trank": null,
+   "form": "Tapu Koko",
+   "base": "Tapu Koko",
+   "locked": true,
+   "shadow": false,
+   "moves": "Quick Attack / Nature's Madness"
+  },
+  {
+   "fam": "xerneas",
+   "rank": 11,
+   "dex": 716,
+   "crank": null,
+   "trank": null,
+   "form": "Xerneas",
+   "base": "Xerneas",
+   "locked": true,
+   "shadow": false,
+   "moves": "Geomancy / Moonblast"
+  },
+  {
+   "fam": "mawile",
+   "rank": 12,
+   "dex": 303,
+   "crank": 5,
+   "trank": 4,
+   "form": "Mega Mawile",
+   "base": "Mawile",
+   "locked": false,
+   "shadow": false,
+   "moves": "Fairy Wind / Play Rough+"
+  },
+  {
+   "fam": "tapu_bulu",
+   "rank": 13,
+   "dex": 787,
+   "crank": null,
+   "trank": null,
+   "form": "Tapu Bulu",
+   "base": "Tapu Bulu",
+   "locked": true,
+   "shadow": false,
+   "moves": "Bullet Seed / Nature's Madness"
   },
   {
    "fam": "FAMILY_SNUBBULL",
-   "rank": 13,
+   "rank": 15,
    "dex": 210,
-   "crank": 4,
+   "crank": 6,
    "trank": null,
    "form": "Shadow Granbull",
    "base": "Granbull",
    "locked": false,
-   "shadow": true
+   "shadow": true,
+   "moves": "Charm / Play Rough"
+  },
+  {
+   "fam": "FAMILY_TOGEPI",
+   "rank": 17,
+   "dex": 468,
+   "crank": 7,
+   "trank": 5,
+   "form": "Togekiss",
+   "base": "Togekiss",
+   "locked": false,
+   "shadow": false,
+   "moves": "Charm / Dazzling Gleam"
   },
   {
    "fam": "xurkitree",
-   "rank": 15,
+   "rank": 18,
    "dex": 796,
    "crank": null,
    "trank": null,
    "form": "Xurkitree",
    "base": "Xurkitree",
    "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_TOGEPI",
-   "rank": 16,
-   "dex": 468,
-   "crank": 5,
-   "trank": 3,
-   "form": "Togekiss",
-   "base": "Togekiss",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Thunder Shock / Dazzling Gleam"
   },
   {
    "fam": "FAMILY_PIKACHU",
-   "rank": 18,
+   "rank": 20,
    "dex": 26,
-   "crank": 6,
-   "trank": 4,
+   "crank": 8,
+   "trank": 6,
    "form": "Mega Y Raichu",
    "base": "Raichu",
    "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_HATENNA",
-   "rank": 19,
-   "dex": 858,
-   "crank": 7,
-   "trank": 5,
-   "form": "Hatterene",
-   "base": "Hatterene",
-   "locked": false,
-   "shadow": false
-  },
-  {
-   "fam": "diancie",
-   "rank": 20,
-   "dex": 719,
-   "crank": null,
-   "trank": null,
-   "form": "Mega Diancie",
-   "base": "Diancie",
-   "locked": true,
-   "shadow": false
-  },
-  {
-   "fam": "FAMILY_SHUPPET",
-   "rank": 23,
-   "dex": 354,
-   "crank": 9,
-   "trank": 6,
-   "form": "Mega Banette",
-   "base": "Banette",
-   "locked": false,
-   "shadow": false
+   "shadow": false,
+   "moves": "Charm / Zap Cannon+"
   }
  ]
 }

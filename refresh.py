@@ -60,6 +60,9 @@ PVE_TYPES = [
 ]
 CHANGELOG = os.path.join(DATA, "CHANGELOG.md")
 PVE_RAW = "pve_type_ranks_raw.json"
+PVE_MOVES = "pve_type_moves.json"       # type -> {token: [fast, charged]} from the same raid boards
+MAX_RAW = "max_type_ranks.json"         # type -> ordered Max Battle attackers (Dynamax / G-Max)
+PGHUB_MAX_BOARD = "https://db.pokemongohub.net/pokemon-list/best-dynamax-per-type/{type}"
 PVE_KEEP_TOP = 50  # entries kept per type (the file's existing convention)
 
 # local filename -> (upstream url, quick sanity predicate on the parsed JSON)
@@ -95,6 +98,7 @@ BUILDERS = [
     "build_rankings.py",
     "build_tables.py",
     "build_max.py",
+    "build_types.py",
 ]
 
 
@@ -260,23 +264,32 @@ def top_species_of(parsed):
     return None
 
 
-def fetch_pve_board(page, tp):
-    """Render one PGHub best-per-type board and return its ordered token list.
+ROWS_JS = """() => [...document.querySelectorAll('tbody tr')].map(tr => {
+  const o = {};
+  tr.querySelectorAll('td').forEach(td => { o[td.getAttribute('data-column-id')] =
+    td.innerText.trim().replace(/\\s+/g, ' '); });
+  const a = tr.querySelector('a[href*="/pokemon/"]');
+  o._href = a && a.getAttribute('href');
+  return o; }).filter(o => o._href)"""
 
-    The board is client-rendered, so we load the page, wait for the ranking anchors
-    to hydrate, and read the "<dex>[-<Form>]" suffix off each /pokemon/<token> href
-    (top -> bottom = best -> worst). Returns [] if the list never populated."""
-    page.goto(PGHUB_BOARD.format(type=tp), wait_until="domcontentloaded", timeout=60_000)
-    # wait until the list has hydrated (>= 40 attacker links) rather than a fixed sleep
+
+def fetch_board_rows(page, url, min_rows):
+    """Render one PGHub board and return its rows, top -> bottom, as dicts keyed by the
+    table's data-column-id (attacker_name, qm_name, cm_name, ... plus _href).
+
+    The boards are client-rendered, so we load the page and wait until at least
+    `min_rows` attacker rows have hydrated rather than sleeping a fixed time."""
+    page.goto(url, wait_until="domcontentloaded", timeout=60_000)
     page.wait_for_function(
-        "() => document.querySelectorAll('a[href*=\"/pokemon/\"]').length >= 40",
-        timeout=30_000,
+        "n => document.querySelectorAll('tbody tr a[href*=\"/pokemon/\"]').length >= n",
+        arg=min_rows, timeout=40_000,
     )
-    hrefs = page.eval_on_selector_all(
-        'a[href*="/pokemon/"]',
-        "els => els.map(e => e.getAttribute('href').replace('/pokemon/',''))",
-    )
-    return hrefs[:PVE_KEEP_TOP]
+    return page.evaluate(ROWS_JS)
+
+
+def token_of(row):
+    """'<dex>[-<Form>]' suffix of the row's /pokemon/<token> href."""
+    return row["_href"].replace("/pokemon/", "")
 
 
 def refresh_pve_boards(check_only):
@@ -300,14 +313,15 @@ def refresh_pve_boards(check_only):
     except (OSError, ValueError):
         before = {}
 
-    boards, failures = {}, []
+    boards, moves, failures = {}, {}, []
     try:
         with sync_playwright() as pw:
             browser = pw.chromium.launch()
             page = browser.new_page()
             for tp in PVE_TYPES:
                 try:
-                    arr = fetch_pve_board(page, tp)
+                    rows = fetch_board_rows(page, PGHUB_BOARD.format(type=tp), 40)[:PVE_KEEP_TOP]
+                    arr = [token_of(r) for r in rows]
                 except Exception as e:  # noqa: BLE001 - one type failing shouldn't sink the rest
                     print(f"  ! {tp}: PGHub fetch failed ({type(e).__name__}) — keeping existing")
                     failures.append(tp)
@@ -317,6 +331,7 @@ def refresh_pve_boards(check_only):
                     failures.append(tp)
                     continue
                 boards[tp] = arr
+                moves[tp] = {token_of(r): [r.get("qm_name", ""), r.get("cm_name", "")] for r in rows}
                 b0 = (before.get(tp) or [None])[0]
                 mark = "" if b0 == arr[0] else f"   [#1: {b0} -> {arr[0]}]"
                 print(f"  - {tp}: {len(arr)} attackers{mark}" if check_only
@@ -349,7 +364,72 @@ def refresh_pve_boards(check_only):
         fh.write("\n")
     os.replace(tmp, dest)
     print(f"  * {PVE_RAW}: updated (18 types)")
+    if moves and all(tp in moves for tp in PVE_TYPES):
+        write_json_atomic(os.path.join(DATA, PVE_MOVES), {tp: moves[tp] for tp in PVE_TYPES})
+        print(f"  * {PVE_MOVES}: updated (best fast/charged move per board entry)")
     return [PVE_RAW]
+
+
+def write_json_atomic(dest, obj):
+    fd, tmp = tempfile.mkstemp(dir=os.path.dirname(dest), prefix=os.path.basename(dest) + ".", suffix=".tmp")
+    with os.fdopen(fd, "w") as fh:
+        json.dump(obj, fh, indent=1)
+        fh.write("\n")
+    os.replace(tmp, dest)
+
+
+def refresh_max_boards(check_only):
+    """Refresh data/max_type_ranks.json (PGHub best Max Battle attackers per type).
+
+    Same fail-soft contract as the PvE step. Boards are short (Dynamax/G-Max only), so the
+    hydration threshold is low; a type is kept only if >= 3 rows rendered."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  ! Playwright not installed — skipping Max Battle refresh (keeping existing file)")
+        return []
+    dest = os.path.join(DATA, MAX_RAW)
+    try:
+        before = json.load(open(dest))
+    except (OSError, ValueError):
+        before = {}
+    boards = {}
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch()
+            page = browser.new_page()
+            for tp in PVE_TYPES:
+                try:
+                    rows = fetch_board_rows(page, PGHUB_MAX_BOARD.format(type=tp), 3)
+                except Exception as e:  # noqa: BLE001
+                    print(f"  ! {tp}: Max board fetch failed ({type(e).__name__}) — keeping existing")
+                    continue
+                boards[tp] = [{"token": token_of(r), "name": r.get("attacker_name", ""),
+                               "tier": r.get("tier", ""), "fast": r.get("qm_name", ""),
+                               "max": r.get("cm_name", ""), "dmg": r.get("dynamax_maxMoveDamage", "")}
+                              for r in rows]
+                # tier is only printed on the first row of each tier group -> carry it down
+                last = ""
+                for e in boards[tp]:
+                    last = e["tier"] or last
+                    e["tier"] = last
+                b0 = (before.get(tp) or [{}])[0].get("token")
+                mark = "" if b0 == boards[tp][0]["token"] else f"   [#1: {b0} -> {boards[tp][0]['token']}]"
+                print(f"  {'-' if check_only else '*'} {tp}: {len(rows)} max attackers{mark}")
+            browser.close()
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! Max Battle refresh unavailable ({type(e).__name__}: {e}) — keeping existing file")
+        return []
+    for tp in PVE_TYPES:  # fill any type we couldn't re-fetch from the old file
+        if tp not in boards and tp in before:
+            boards[tp] = before[tp]
+    if check_only or len(boards) < len(PVE_TYPES):
+        if len(boards) < len(PVE_TYPES):
+            print("  ! incomplete Max Battle refresh — file left unchanged")
+        return []
+    write_json_atomic(dest, {tp: boards[tp] for tp in PVE_TYPES})
+    print(f"  * {MAX_RAW}: updated")
+    return [MAX_RAW]
 
 
 def rebuild():
@@ -373,6 +453,8 @@ def main(argv):
         refresh_sources(check_only)
         print("\n== 2. Refresh PGHub PvE per-type raid boards ==")
         refresh_pve_boards(check_only)
+        print("\n== 2b. Refresh PGHub Max Battle (Dynamax) per-type boards ==")
+        refresh_max_boards(check_only)
         if check_only:
             print("\n(--check: nothing written, nothing rebuilt.)")
             return
