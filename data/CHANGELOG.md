@@ -2,6 +2,17 @@
 
 What each `refresh.py` run changed in the pvpoke sources, newest first.
 
+## 2026-11-02
+
+### Gamemaster (moves / species)
+- New moves: NIGHT_SHADE_PLUS
+- Species chandelure_mega: stats {'atk': 335, 'def': 182, 'hp': 155}->{'atk': 335, 'def': 227, 'hp': 155}
+
+### Great League (CP 1500)
+- Top 10: melmetal, altaria, ninetales_shadow, cramorant, mimikyu, tinkaton, altaria_shadow, corsola_galarian, corviknight, florges  ->  melmetal, altaria, ninetales_shadow, mimikyu, cramorant, tinkaton, altaria_shadow, corviknight, corsola_galarian, florges
+- Top 30 in: rillaboom; out: electrode_hisuian
+- Biggest top-50 movers: feraligatr #38->#44, carbink #36->#31
+
 ## 2026-10-30
 
 ### Gamemaster (moves / species)
